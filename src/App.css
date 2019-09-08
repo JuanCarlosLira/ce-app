@@ -1,3 +1,5 @@
+/* Check: https://divtable.com/table-styler/ */
+
 #hello {
   border: 1px solid #000;
 }
@@ -13,6 +15,30 @@ padding: 10px;
 }
 body#tinymce {
 background: #FFFFFF
+}
+
+#textBoxCrg {
+  width: 8px;
+}
+
+table.crg {
+  border: 4px solid #555555;
+  background-color: #555555;
+  width: 500px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.crg td, table.crg th {
+  border: 1px solid #555555;
+  padding: 5px 10px;
+}
+table.crg tbody td {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+#bckgClass {
+  background: #398AA4;
 }
 
 table.wordBank {

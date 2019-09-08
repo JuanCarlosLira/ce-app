@@ -25,7 +25,7 @@ class Crucigrama2 extends React.Component {
         <div id="crucigramaWrap">
           <h2 align="center">Ejercicio AUMENTATIVO de las palabras</h2>
           <p>Completa los espacios en blanco, a partir de ensayar el aumentativo de la siguiente lista de palabras:</p>
-          <table class="wordBank" align="center">
+          <table className="wordBank" align="center">
             <tbody>
               <tr>
                 <td>puerta</td>
@@ -53,10 +53,10 @@ class Crucigrama2 extends React.Component {
            <li>La respuesta se te marcará con rojo, en caso de errar; esto, sí y sólo sí,  hasta completar la palabra</li>
           </ul>
 
-          <table class="wordBank" align="center">
+          <table className="crg" align="center">
             <tbody>
-              <tr>
-                <td>1</td>
+              {/*<tr>
+                <td id="bckgClass">1</td>
                 <td>2</td>
                 <td>3</td>
                 <td>4</td>
@@ -74,129 +74,232 @@ class Crucigrama2 extends React.Component {
                 <td>16</td>
                 <td>17</td>
                 <td>18</td>
+              </tr>*/}
+              <tr>
+                <td colSpan="15" > </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="2"></td>
               </tr>
               <tr>
-                <td colspan="15"> </td>
-                <td>x</td>
-                <td colspan="2"></td>
+                <td colSpan="2"></td>
+                <td id="bckgClass">p</td>
+                <td colSpan="3"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td></td>
+                <td id="bckgClass">g</td>
+                <td></td>
+                <td id="bckgClass">p</td>
+                <td colSpan="3"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="3"></td>
               </tr>
               <tr>
-                <td colspan="2"></td>
-                <td>x</td>
-                <td colspan="3"></td>
-                <td>x</td>
+                <td colSpan="3"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="2"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
-                <td colspan="3"></td>
-                <td>x</td>
-                <td colspan="3"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="2"></td>
+                <td id="bckgClass">n</td>
+                <td colSpan="4"></td>
               </tr>
               <tr>
-                <td colspan="3"></td>
-                <td>x</td>
-                <td colspan="2"></td>
-                <td>x</td>
+                <td colSpan="4"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
+                 <td id="bckgClass">r</td>
                 <td></td>
-                <td>x</td>
-                <td colspan="2"></td>
-                <td>x</td>
-                <td colspan="4"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="5"></td>
               </tr>
               <tr>
-                <td colspan="4"></td>
-                <td>x</td>
+                <td colSpan="5"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td colspan="5"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="6"></td>
               </tr>
               <tr>
-                <td colspan="5"></td>
-                <td>x</td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td>x</td>
-                <td colspan="6"></td>
+                <td colSpan="6"></td>
+                <td colSpan="5" rowSpan="3" id="bckgClass"> a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o</td>
+                <td colSpan="7"></td>
               </tr>
               <tr>
-                <td colspan="6"></td>
-                <td colspan="5" rowspan="3"> a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o</td>
-                <td colspan="7"></td>
+                {/*<td colSpan="6"></td>*/}
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">t</td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                {/*<td colSpan="7"></td>*/}
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">ü</td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
               </tr>
               <tr>
-                <td colspan="6"></td>
-                <td colspan="7"></td>
+                <td colSpan="6"></td>
+                <td colSpan="7"></td>
               </tr>
               <tr>
-                <td colspan="6"></td>
-                <td colspan="7"></td>
+                <td colSpan="5"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="6"></td>
               </tr>
               <tr>
-                <td colspan="5"></td>
-                <td>x</td>
-                <td>x</td>
+                <td colSpan="4"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
+                 <td id="bckgClass">a</td>
                 <td></td>
-                <td>x</td>
-                <td>x</td>
-                <td colspan="6"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td></td>
+                 <td id="bckgClass">b</td>
+                <td></td>
+                 <td id="bckgClass">o</td>
+                <td colSpan="5"></td>
               </tr>
               <tr>
-                <td colspan="4"></td>
-                <td>x</td>
+                <td colSpan="3"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="2"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td colspan="5"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="2"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="4"></td>
               </tr>
               <tr>
-                <td colspan="3"></td>
-                <td>x</td>
-                <td colspan="2"></td>
-                <td>x</td>
+                <td colSpan="2"></td>
+                <td id="bckgClass">s</td>
+                <td colSpan="5"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
                 <td></td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td colspan="2"></td>
-                <td>x</td>
-                <td colspan="4"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="3"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="3"></td>
               </tr>
               <tr>
-                <td colspan="2"></td>
-                <td>x</td>
-                <td colspan="3"></td>
-                <td>x</td>
+                <td colSpan="8"></td>
+                <td id="bckgClass">c</td>
                 <td></td>
-                <td>x</td>
-                <td></td>
-                <td>x</td>
-                <td colspan="3"></td>
-                <td>x</td>
-                <td colspan="3"></td>
-              </tr>
-              <tr>
-                <td colspan="15"></td>
-                <td>x</td>
-                <td colspan="2"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="4"></td>
+                <td id="bckgClass">
+                  <input type="text" id="textBoxCrg" maxlength="1" />
+                </td>
+                <td colSpan="2"></td>
               </tr>
             </tbody>
           </table>
