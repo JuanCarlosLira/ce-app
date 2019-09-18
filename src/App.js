@@ -47,11 +47,11 @@ function App() {
       <h1 align="center">Centro de Escritura</h1>
       <br/>
       {/*<p>This is my component</p>*/}
-      {/*<Crucigrama2/>*/}
+      <Migala/>
+      <br/>
+      <br/>
       <Crucigrama2/>
       <br/>
-      <br/>
-      <Migala/>
       <br/>
       <HelloWorld myText="Hello World !!" title="Title"/>
     </div>
