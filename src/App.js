@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Migala from './Migala'
 
 /*function HelloWorld(props) {
   return (
@@ -8,6 +9,10 @@ import './App.css';
       {props.myText}
     </div>
   );
+}*/
+
+/*class Migala extends React.Component {
+  //
 }*/
 
 class Crucigrama2 extends React.Component {
@@ -73,13 +78,13 @@ class Crucigrama2 extends React.Component {
   }
 
   checkWin() {
-    /*if (this.state.manotazo === true && this.state.perrazo === true
+    if (this.state.manotazo === true && this.state.perrazo === true
         && this.state.golpazo === true && this.state.porrazo === true
         && this.state.portazo === true && this.state.botellazo === true
         && this.state.arguendazo === true && this.state.sablazo === true
         && this.state.manazo === true && this.state.cabezazo === true
-        && this.state.timbrazo === true && this.state.canonazo === true) {*/
-      if (this.state.manazo) {
+        && this.state.timbrazo === true && this.state.canonazo === true) {
+      //if (this.state.manazo) {
       this.setState({
         win: true
       }, () => {console.log("YOU WIN")});
@@ -560,6 +565,7 @@ class Crucigrama2 extends React.Component {
                   <td colSpan="15" > </td>
                   <td id="bckgClass">
                     <input type="text" id="textBoxCrg" maxLength="1" onChange={evt => this.updC1(evt)}/>
+                    {/*<input type="text" id={(this.props.c1 === "m") ? 'textBoxCrgIn':'textBoxCrgCo'} maxLength="1" onChange={evt => this.updC1(evt)}/>*/}
                   </td>
                   <td colSpan="2"></td>
                 </tr>
@@ -834,7 +840,11 @@ function App() {
       <h1 align="center">Centro de Escritura</h1>
       <br/>
       {/*<p>This is my component</p>*/}
+      {/*<Crucigrama2/>*/}
       <Crucigrama2/>
+      <br/>
+      <br/>
+      <Migala/>
       <br/>
       <HelloWorld myText="Hello World !!" title="Title"/>
     </div>
