@@ -21,13 +21,15 @@ background: #FFFFFF
   padding: 0;
   border: none;
   font: inherit;
+  font-size: 16pt;
   color: inherit;
   background-color: transparent;
   /* show a hand cursor on hover; some argue that we
   should keep the default arrow cursor for buttons */
   cursor: pointer;
   /* size comes from text & padding (no width/height) */
-  padding: 1px 2px;
+  /*padding: 1px 2px;*/
+  height: 25px;
   /*animation : none;
   animation-delay : 0;
   animation-direction : normal;
