@@ -43,8 +43,20 @@ class HelloWorld extends React.Component {
 
 function App() {
   return (
-    <div >
-      <h1 align="center">Centro de Escritura</h1>
+    <div style={{backgroundImage:"url(../img/Libros.PNG)"}}>
+      <table style={{width:"100%"}}>
+        <tr>
+          <td>
+            <img src="../img/titulob.PNG" height="100" width="300"/>
+          </td>
+          <td>
+            <h1 align="center">Centro de Escritura</h1>
+          </td>
+          <td>
+            <img src="../img/logob.PNG" height="100" width="200"/>
+          </td>
+        </tr>
+      </table>
       <br/>
       {/*<p>This is my component</p>*/}
       <Migala/>

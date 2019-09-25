@@ -1157,6 +1157,165 @@ p122() {
   if (this.state.p122 === "¿ ") {this.setState({p122: "? "});}
   if (this.state.p122 === "? ") {this.setState({p122: " "});}
 }
+p123() {
+  if (this.state.p123 === "unos") {
+    this.setState({p123: "Unos"});
+  } else {
+    this.setState({p123: "unos"});
+  }
+}
+p124() {
+  if (this.state.p124 === " ") {this.setState({p124: ", "});}
+  if (this.state.p124 === ", ") {this.setState({p124: "; "});}
+  if (this.state.p124 === "; ") {this.setState({p124: ": "});}
+  if (this.state.p124 === ": ") {this.setState({p124: "( "});}
+  if (this.state.p124 === "( ") {this.setState({p124: ") "});}
+  if (this.state.p124 === ") ") {this.setState({p124: "¡ "});}
+  if (this.state.p124 === "¡ ") {this.setState({p124: "! "});}
+  if (this.state.p124 === "! ") {this.setState({p124: "¿ "});}
+  if (this.state.p124 === "¿ ") {this.setState({p124: "? "});}
+  if (this.state.p124 === "? ") {this.setState({p124: " "});}
+}
+p125() {
+  if (this.state.p125 === "días") {
+    this.setState({p125: "Días"});
+  } else {
+    this.setState({p125: "días"});
+  }
+}
+p126() {
+  if (this.state.p126 === " ") {this.setState({p126: ", "});}
+  if (this.state.p126 === ", ") {this.setState({p126: "; "});}
+  if (this.state.p126 === "; ") {this.setState({p126: ": "});}
+  if (this.state.p126 === ": ") {this.setState({p126: "( "});}
+  if (this.state.p126 === "( ") {this.setState({p126: ") "});}
+  if (this.state.p126 === ") ") {this.setState({p126: "¡ "});}
+  if (this.state.p126 === "¡ ") {this.setState({p126: "! "});}
+  if (this.state.p126 === "! ") {this.setState({p126: "¿ "});}
+  if (this.state.p126 === "¿ ") {this.setState({p126: "? "});}
+  if (this.state.p126 === "? ") {this.setState({p126: " "});}
+}
+p127() {
+  if (this.state.p127 === "más") {
+    this.setState({p127: "Más"});
+  } else {
+    this.setState({p127: "más"});
+  }
+}
+p128() {
+  if (this.state.p128 === " ") {this.setState({p128: ", "});}
+  if (this.state.p128 === ", ") {this.setState({p128: "; "});}
+  if (this.state.p128 === "; ") {this.setState({p128: ": "});}
+  if (this.state.p128 === ": ") {this.setState({p128: "( "});}
+  if (this.state.p128 === "( ") {this.setState({p128: ") "});}
+  if (this.state.p128 === ") ") {this.setState({p128: "¡ "});}
+  if (this.state.p128 === "¡ ") {this.setState({p128: "! "});}
+  if (this.state.p128 === "! ") {this.setState({p128: "¿ "});}
+  if (this.state.p128 === "¿ ") {this.setState({p128: "? "});}
+  if (this.state.p128 === "? ") {this.setState({p128: " "});}
+}
+p129() {
+  if (this.state.p129 === "tarde") {
+    this.setState({p129: "Tarde"});
+  } else {
+    this.setState({p129: "tarde"});
+  }
+}
+p130() {
+  if (this.state.p130 === " ") {this.setState({p130: ", "});}
+  if (this.state.p130 === ", ") {this.setState({p130: "; "});}
+  if (this.state.p130 === "; ") {this.setState({p130: ": "});}
+  if (this.state.p130 === ": ") {this.setState({p130: "( "});}
+  if (this.state.p130 === "( ") {this.setState({p130: ") "});}
+  if (this.state.p130 === ") ") {this.setState({p130: "¡ "});}
+  if (this.state.p130 === "¡ ") {this.setState({p130: "! "});}
+  if (this.state.p130 === "! ") {this.setState({p130: "¿ "});}
+  if (this.state.p130 === "¿ ") {this.setState({p130: "? "});}
+  if (this.state.p130 === "? ") {this.setState({p130: " "});}
+}
+p131() {
+  if (this.state.p131 === "volví") {
+    this.setState({p131: "Volví"});
+  } else {
+    this.setState({p131: "volví"});
+  }
+}
+p132() {
+  if (this.state.p132 === " ") {this.setState({p132: ", "});}
+  if (this.state.p132 === ", ") {this.setState({p132: "; "});}
+  if (this.state.p132 === "; ") {this.setState({p132: ": "});}
+  if (this.state.p132 === ": ") {this.setState({p132: "( "});}
+  if (this.state.p132 === "( ") {this.setState({p132: ") "});}
+  if (this.state.p132 === ") ") {this.setState({p132: "¡ "});}
+  if (this.state.p132 === "¡ ") {this.setState({p132: "! "});}
+  if (this.state.p132 === "! ") {this.setState({p132: "¿ "});}
+  if (this.state.p132 === "¿ ") {this.setState({p132: "? "});}
+  if (this.state.p132 === "? ") {this.setState({p132: " "});}
+}
+p133() {
+  if (this.state.p133 === "para") {
+    this.setState({p133: "Para"});
+  } else {
+    this.setState({p133: "para"});
+  }
+}
+p134() {
+  if (this.state.p134 === " ") {this.setState({p134: ", "});}
+  if (this.state.p134 === ", ") {this.setState({p134: "; "});}
+  if (this.state.p134 === "; ") {this.setState({p134: ": "});}
+  if (this.state.p134 === ": ") {this.setState({p134: "( "});}
+  if (this.state.p134 === "( ") {this.setState({p134: ") "});}
+  if (this.state.p134 === ") ") {this.setState({p134: "¡ "});}
+  if (this.state.p134 === "¡ ") {this.setState({p134: "! "});}
+  if (this.state.p134 === "! ") {this.setState({p134: "¿ "});}
+  if (this.state.p134 === "¿ ") {this.setState({p134: "? "});}
+  if (this.state.p134 === "? ") {this.setState({p134: " "});}
+}
+p135() {
+  if (this.state.p135 === "comprar") {
+    this.setState({p135: "Comprar"});
+  } else {
+    this.setState({p135: "comprar"});
+  }
+}
+p136() {
+  if (this.state.p136 === " ") {this.setState({p136: ", "});}
+  if (this.state.p136 === ", ") {this.setState({p136: "; "});}
+  if (this.state.p136 === "; ") {this.setState({p136: ": "});}
+  if (this.state.p136 === ": ") {this.setState({p136: "( "});}
+  if (this.state.p136 === "( ") {this.setState({p136: ") "});}
+  if (this.state.p136 === ") ") {this.setState({p136: "¡ "});}
+  if (this.state.p136 === "¡ ") {this.setState({p136: "! "});}
+  if (this.state.p136 === "! ") {this.setState({p136: "¿ "});}
+  if (this.state.p136 === "¿ ") {this.setState({p136: "? "});}
+  if (this.state.p136 === "? ") {this.setState({p136: " "});}
+}
+p137() {
+  if (this.state.p137 === "la") {
+    this.setState({p137: "La"});
+  } else {
+    this.setState({p137: "la"});
+  }
+}
+p138() {
+  if (this.state.p138 === " ") {this.setState({p138: ", "});}
+  if (this.state.p138 === ", ") {this.setState({p138: "; "});}
+  if (this.state.p138 === "; ") {this.setState({p138: ": "});}
+  if (this.state.p138 === ": ") {this.setState({p138: "( "});}
+  if (this.state.p138 === "( ") {this.setState({p138: ") "});}
+  if (this.state.p138 === ") ") {this.setState({p138: "¡ "});}
+  if (this.state.p138 === "¡ ") {this.setState({p138: "! "});}
+  if (this.state.p138 === "! ") {this.setState({p138: "¿ "});}
+  if (this.state.p138 === "¿ ") {this.setState({p138: "? "});}
+  if (this.state.p138 === "? ") {this.setState({p138: " "});}
+}
+p139() {
+  if (this.state.p139 === "migala") {
+    this.setState({p139: "Migala"});
+  } else {
+    this.setState({p139: "migala"});
+  }
+}
 
 /*****************************************
 ******************************************
@@ -5341,4 +5500,561 @@ p122() {
 }
 {this.state.p122 === "? " && this.state.compare === true &&
   <button id="txtBut" onClick={this.p122.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p123 === "unos" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p123.bind(this)}>unos</button>
+}
+{this.state.p123 === "Unos" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p123.bind(this)}>Unos</button>
+}
+{this.state.p123 === "unos" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p123.bind(this)}><span style={{color:"red"}}>u</span>nos</button>
+}
+{this.state.p123 === "Unos" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p123.bind(this)}><span style={{color:"green"}}>U</span>nos</button>
+}
+
+{this.state.p124 === " " &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>&nbsp;</button>
+}
+{this.state.p124 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>,&nbsp;</button>
+}
+{this.state.p124 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>;&nbsp;</button>
+}
+{this.state.p124 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>:&nbsp;</button>
+}
+{this.state.p124 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>(&nbsp;</button>
+}
+{this.state.p124 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>)&nbsp;</button>
+}
+{this.state.p124 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p124 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>!&nbsp;</button>
+}
+{this.state.p124 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p124 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p124.bind(this)}>?&nbsp;</button>
+}
+{this.state.p124 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p124 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p124 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p124 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p124 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p124 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p124 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p124 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p124 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p124.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p125 === "días" &&
+  <button id="txtBut" onClick={this.p125.bind(this)}>días</button>
+}
+{this.state.p125 === "Días" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p125.bind(this)}>Días</button>
+}
+{this.state.p125 === "Días" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p125.bind(this)}><span style={{color:"red"}}>D</span>ías</button>
+}
+
+{this.state.p126 === " " &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>&nbsp;</button>
+}
+{this.state.p126 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>,&nbsp;</button>
+}
+{this.state.p126 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>;&nbsp;</button>
+}
+{this.state.p126 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>:&nbsp;</button>
+}
+{this.state.p126 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>(&nbsp;</button>
+}
+{this.state.p126 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>)&nbsp;</button>
+}
+{this.state.p126 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p126 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>!&nbsp;</button>
+}
+{this.state.p126 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p126 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p126.bind(this)}>?&nbsp;</button>
+}
+{this.state.p126 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p126 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p126 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p126 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p126 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p126 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p126 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p126 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p126 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p126.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p127 === "más" &&
+  <button id="txtBut" onClick={this.p127.bind(this)}>más</button>
+}
+{this.state.p127 === "Más" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p127.bind(this)}>Más</button>
+}
+{this.state.p127 === "Más" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p127.bind(this)}><span style={{color:"red"}}>M</span>ás</button>
+}
+
+{this.state.p128 === " " &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>&nbsp;</button>
+}
+{this.state.p128 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>,&nbsp;</button>
+}
+{this.state.p128 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>;&nbsp;</button>
+}
+{this.state.p128 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>:&nbsp;</button>
+}
+{this.state.p128 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>(&nbsp;</button>
+}
+{this.state.p128 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>)&nbsp;</button>
+}
+{this.state.p128 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p128 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>!&nbsp;</button>
+}
+{this.state.p128 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p128 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p128.bind(this)}>?&nbsp;</button>
+}
+{this.state.p128 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p128 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p128 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p128 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p128 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p128 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p128 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p128 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p128 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p128.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p129 === "tarde" &&
+  <button id="txtBut" onClick={this.p129.bind(this)}>tarde</button>
+}
+{this.state.p129 === "Tarde" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p129.bind(this)}>Tarde</button>
+}
+{this.state.p129 === "Tarde" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p129.bind(this)}><span style={{color:"red"}}>T</span>arde</button>
+}
+
+{this.state.p130 === " " &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>&nbsp;</button>
+}
+{this.state.p130 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>,&nbsp;</button>
+}
+{this.state.p130 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>;&nbsp;</button>
+}
+{this.state.p130 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>:&nbsp;</button>
+}
+{this.state.p130 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>(&nbsp;</button>
+}
+{this.state.p130 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>)&nbsp;</button>
+}
+{this.state.p130 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p130 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>!&nbsp;</button>
+}
+{this.state.p130 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p130 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p130.bind(this)}>?&nbsp;</button>
+}
+{this.state.p130 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p130 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p130 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p130 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p130 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p130 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p130 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p130 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p130 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p130.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p131 === "volví" &&
+  <button id="txtBut" onClick={this.p131.bind(this)}>volví</button>
+}
+{this.state.p131 === "Volví" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p131.bind(this)}>Volví</button>
+}
+{this.state.p131 === "Volví" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p131.bind(this)}><span style={{color:"red"}}>V</span>olví</button>
+}
+
+{this.state.p132 === " " &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>&nbsp;</button>
+}
+{this.state.p132 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>,&nbsp;</button>
+}
+{this.state.p132 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>;&nbsp;</button>
+}
+{this.state.p132 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>:&nbsp;</button>
+}
+{this.state.p132 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>(&nbsp;</button>
+}
+{this.state.p132 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>)&nbsp;</button>
+}
+{this.state.p132 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p132 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>!&nbsp;</button>
+}
+{this.state.p132 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p132 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p132.bind(this)}>?&nbsp;</button>
+}
+{this.state.p132 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p132 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p132 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p132 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p132 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p132 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p132 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p132 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p132 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p132.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p133 === "para" &&
+  <button id="txtBut" onClick={this.p133.bind(this)}>para</button>
+}
+{this.state.p133 === "Para" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p133.bind(this)}>Para</button>
+}
+{this.state.p133 === "Para" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p133.bind(this)}><span style={{color:"red"}}>P</span>ara</button>
+}
+
+{this.state.p134 === " " &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>&nbsp;</button>
+}
+{this.state.p134 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>,&nbsp;</button>
+}
+{this.state.p134 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>;&nbsp;</button>
+}
+{this.state.p134 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>:&nbsp;</button>
+}
+{this.state.p134 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>(&nbsp;</button>
+}
+{this.state.p134 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>)&nbsp;</button>
+}
+{this.state.p134 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p134 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>!&nbsp;</button>
+}
+{this.state.p134 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p134 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p134.bind(this)}>?&nbsp;</button>
+}
+{this.state.p134 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p134 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p134 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p134 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p134 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p134 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p134 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p134 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p134 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p134.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p135 === "comprar" &&
+  <button id="txtBut" onClick={this.p135.bind(this)}>comprar</button>
+}
+{this.state.p135 === "Comprar" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p135.bind(this)}>Comprar</button>
+}
+{this.state.p135 === "Comprar" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p135.bind(this)}><span style={{color:"red"}}>C</span>omprar</button>
+}
+
+{this.state.p136 === " " &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>&nbsp;</button>
+}
+{this.state.p136 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>,&nbsp;</button>
+}
+{this.state.p136 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>;&nbsp;</button>
+}
+{this.state.p136 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>:&nbsp;</button>
+}
+{this.state.p136 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>(&nbsp;</button>
+}
+{this.state.p136 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>)&nbsp;</button>
+}
+{this.state.p136 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p136 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>!&nbsp;</button>
+}
+{this.state.p136 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p136 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p136.bind(this)}>?&nbsp;</button>
+}
+{this.state.p136 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p136 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p136 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p136 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p136 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p136 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p136 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p136 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p136 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p136.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p137 === "la" &&
+  <button id="txtBut" onClick={this.p137.bind(this)}>la</button>
+}
+{this.state.p137 === "La" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p137.bind(this)}>La</button>
+}
+{this.state.p137 === "La" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p137.bind(this)}><span style={{color:"red"}}>L</span>a</button>
+}
+
+{this.state.p138 === " " &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>&nbsp;</button>
+}
+{this.state.p138 === ", " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>,&nbsp;</button>
+}
+{this.state.p138 === "; " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>;&nbsp;</button>
+}
+{this.state.p138 === ": " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>:&nbsp;</button>
+}
+{this.state.p138 === "( " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>(&nbsp;</button>
+}
+{this.state.p138 === ") " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>)&nbsp;</button>
+}
+{this.state.p138 === "¡ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>¡&nbsp;</button>
+}
+{this.state.p138 === "! " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>!&nbsp;</button>
+}
+{this.state.p138 === "¿ " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>¿&nbsp;</button>
+}
+{this.state.p138 === "? " && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p138.bind(this)}>?&nbsp;</button>
+}
+{this.state.p138 === ", " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
+}
+{this.state.p138 === "; " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
+}
+{this.state.p138 === ": " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
+}
+{this.state.p138 === "( " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
+}
+{this.state.p138 === ") " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
+}
+{this.state.p138 === "¡ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
+}
+{this.state.p138 === "! " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
+}
+{this.state.p138 === "¿ " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
+}
+{this.state.p138 === "? " && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p138.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
+}
+
+{this.state.p139 === "migala" &&
+  <button id="txtBut" onClick={this.p139.bind(this)}>migala</button>
+}
+{this.state.p139 === "Migala" && this.state.compare === false &&
+  <button id="txtBut" onClick={this.p139.bind(this)}>Migala</button>
+}
+{this.state.p139 === "Migala" && this.state.compare === true &&
+  <button id="txtBut" onClick={this.p139.bind(this)}><span style={{color:"red"}}>M</span>igala</button>
 }
