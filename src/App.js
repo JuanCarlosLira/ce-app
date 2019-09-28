@@ -47,13 +47,13 @@ function App() {
       <table style={{width:"100%"}}>
         <tr>
           <td>
-            <img src="../img/titulob.PNG" height="100" width="300"/>
+            <img src="../img/titulob.PNG" alt="" height="100" width="300"/>
           </td>
           <td>
             <h1 align="center">Centro de Escritura</h1>
           </td>
           <td>
-            <img src="../img/logob.PNG" height="100" width="200"/>
+            <img src="../img/logob.PNG" alt="" height="100" width="200"/>
           </td>
         </tr>
       </table>
