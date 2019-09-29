@@ -7,9 +7,11 @@ public class MyClass {
             i++;
         }*/
 
-        /*int cont = 124;
+        //
 
-        String s = "días más tarde volví para comprar la migala";
+        /*int cont = 390;
+
+        String s = "el descomunal infierno de los hombres";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
@@ -39,9 +41,11 @@ public class MyClass {
             cont++;
         }*/
 
-        int cont = 132;
+        // otro, el descomunal infierno de los hombres.
 
-        String s = "para comprar la migala";
+        int cont = 396;
+
+        String s = "de los hombres";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
@@ -103,7 +107,6 @@ public class MyClass {
             System.out.println("\t<button id=\"txtBut\" onClick={this.p"+cont+".bind(this)}><span style={{color:\"red\"}}>?</span>&nbsp;</button>");
             System.out.println("}");
             System.out.println("");
-            System.out.println("");
             cont++;
 
             String cap = ss.substring(0, 1).toUpperCase() + ss.substring(1);
@@ -117,7 +120,6 @@ public class MyClass {
             System.out.println("{this.state.p"+cont+" === \""+cap+"\" && this.state.compare === true &&");
             System.out.println("\t<button id=\"txtBut\" onClick={this.p"+cont+".bind(this)}><span style={{color:\"red\"}}>"+ss.substring(0, 1).toUpperCase()+"</span>"+ss.substring(1)+"</button>");
             System.out.println("}");
-            System.out.println("");
             System.out.println("");
             cont++;
         }
