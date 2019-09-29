@@ -8003,6 +8003,8 @@ p402() {
   <button id="txtBut" onClick={this.p122.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
 }
 
+<br/><br/>
+
 {this.state.p123 === "unos" && this.state.compare === false &&
   <button id="txtBut" onClick={this.p123.bind(this)}>unos</button>
 }

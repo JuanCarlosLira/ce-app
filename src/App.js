@@ -43,17 +43,20 @@ class HelloWorld extends React.Component {
 
 function App() {
   return (
-    <div style={{backgroundImage:"url(../img/Libros.PNG)"}}>
+    <div>
       <table style={{width:"100%"}}>
         <tr>
-          <td>
-            <img src="../img/titulob.PNG" alt="" height="100" width="300"/>
+          <td style={{backgroundImage:"url(../img/titulob.PNG)", backgroundPosition: 'center',backgroundSize: 'contain',backgroundRepeat:"no-repeat"}}>
+            <h2>&nbsp;&nbsp;&nbsp;Signos de Puntuación</h2>
           </td>
-          <td>
-            <h1 align="center">Centro de Escritura</h1>
+          {/*<td style={{width:"40%"}}>
+            <img src="../img/titulob.PNG" alt="" height="150" width="100%"/>
+          </td>*/}
+          <td style={{width:"30%"}}>
+            &nbsp;
           </td>
-          <td>
-            <img src="../img/logob.PNG" alt="" height="100" width="200"/>
+          <td style={{width:"30%"}}>
+            <img src="../img/logob.PNG" alt="" height="150" width="70%"/>
           </td>
         </tr>
       </table>
