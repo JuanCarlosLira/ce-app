@@ -494,8 +494,26 @@ class Crucigrama2 extends Component{
       } else {
         return(
           <div id="crucigramaWrap">
-            <h2 align="center">Ejercicio AUMENTATIVO de las palabras</h2>
-            <p>Completa los espacios en blanco, a partir de ensayar el aumentativo de la siguiente lista de palabras:</p>
+            {/*<h2 align="center">Ejercicio AUMENTATIVO de las palabras</h2>*/}
+            <div className="instruction-box" style={{width: '90%', height: 120}}>
+              <p style={{width: '70%', textAlign: 'center'}}>
+                Completa los espacios en blanco, a partir de ensayar el aumentativo de la siguiente lista de palabras:
+              </p>
+            </div>
+            <br/>
+
+            <div className="instruction-box" style={{width: '90%', height: 180}}>
+              <p style={{width: '70%', textAlign: 'left'}}>
+                <ul>
+                 <li>Completa los espacios con las grafías correspondientes</li>
+                 <li>Si la palabra lleva acento ortográfico o tilde, debes colocarlo sobre la letra correspondiente</li>
+                 <li>Debes contestar con minúsculas</li>
+                 <li>La respuesta se te marcará con rojo, en caso de errar; esto, sí y sólo sí,  hasta completar la palabra</li>
+                </ul>
+              </p>
+            </div>
+            <br/>
+
             <table className="wordBank" align="center">
               <tbody>
                 <tr>
@@ -517,12 +535,7 @@ class Crucigrama2 extends Component{
               </tbody>
             </table>
 
-            <ul>
-             <li>Completa los espacios con las grafías correspondientes</li>
-             <li>Si la palabra lleva acento ortográfico o tilde, debes colocarlo sobre la letra correspondiente</li>
-             <li>Debes contestar con minúsculas</li>
-             <li>La respuesta se te marcará con rojo, en caso de errar; esto, sí y sólo sí,  hasta completar la palabra</li>
-            </ul>
+            <br/>
 
             <table className="crg" align="center">
               <tbody>

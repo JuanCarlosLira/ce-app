@@ -1,13 +1,41 @@
 /* Check: https://divtable.com/table-styler/ */
 
+.title-box{
+  background: url(img/titlebox.PNG) no-repeat;
+  transform: translateY(-5px);
+  background-size: cover;
+  width: 38%;
+  height: 180px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 25px;
+}
+
+.instruction-box{
+  background: url(img/instructionbox.PNG) no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 120px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 20px;
+}
+
 #hello {
   border: 1px solid #000;
 }
 
 
 #crucigramaWrap {
--webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(47,92,255,0);
+/*-webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(47,92,255,0);
 box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(47,92,255,0);
+*/
 /*background: #FFFFFF;*/
 margin: auto;
 width: 90%;

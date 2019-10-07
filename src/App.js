@@ -46,17 +46,15 @@ function App() {
     <div>
       <table style={{width:"100%"}}>
         <tr>
-          <td style={{backgroundImage:"url(../img/titulob.PNG)", backgroundPosition: 'center',backgroundSize: 'contain',backgroundRepeat:"no-repeat"}}>
-            <h2>&nbsp;&nbsp;&nbsp;Signos de Puntuación</h2>
+          <td style={{backgroundImage:"url(../img/titlebox.PNG)", backgroundPosition: 'center',backgroundSize: 'contain',backgroundRepeat:"no-repeat"}}>
+            {/*<h2>&nbsp;&nbsp;&nbsp;Signos de Puntuación</h2>*/}
+            <h2>&nbsp;&nbsp;&nbsp;Ejercicio Aumentativo</h2>
           </td>
-          {/*<td style={{width:"40%"}}>
-            <img src="../img/titulob.PNG" alt="" height="150" width="100%"/>
-          </td>*/}
           <td style={{width:"30%"}}>
             &nbsp;
           </td>
           <td style={{width:"30%"}}>
-            <img src="../img/logob.PNG" alt="" height="150" width="70%"/>
+            <img src="../img/logo.PNG" alt="" height="150" width="70%"/>
           </td>
         </tr>
       </table>
@@ -65,10 +63,10 @@ function App() {
       <Migala/>
       <br/>
       <br/>
-      <Crucigrama2/>
+      {/*<Crucigrama2/>*/}
       <br/>
       <br/>
-      <HelloWorld myText="Hello World !!" title="Title"/>
+      {/*<HelloWorld myText="Hello World !!" title="Title"/>*/}
     </div>
   );
 }

@@ -1,17 +1,23 @@
 public class MyClass {
     public static void main(String args[]) {
-        /*int i=301;
+        /*int i=521;
 
-        while (i<501) {
+        while (i<801) {
             System.out.println("p"+i+": \"\",");
             i++;
         }*/
 
         //
 
-        /*int cont = 390;
+        /*
+        todas las noches tiemblo en espera de la picadura mortal. muchas veces despierto con el cuerpo helado, tenso, inmóvil,
+        porque el sueño ha creado para mí, con precisión, el paso cosquilleante de la aralia sobre mi piel, su peso indefinible,
+        su consistencia de entraña. Sin embargo, siempre amanece. estoy vivo y mi alma inútilmente se apresta y se perfecciona.
+        */
 
-        String s = "el descomunal infierno de los hombres";
+        /*int cont = 616;
+
+        String s = "estoy vivo y mi alma inútilmente se apresta y se perfecciona";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
@@ -41,11 +47,15 @@ public class MyClass {
             cont++;
         }*/
 
-        // otro, el descomunal infierno de los hombres.
+        /*
+        todas las noches tiemblo en espera de la picadura mortal. muchas veces despierto con el cuerpo helado, tenso, inmóvil,
+        porque el sueño ha creado para mí, con precisión, el paso cosquilleante de la aralia sobre mi piel, su peso indefinible,
+        su consistencia de entraña. Sin embargo, siempre amanece. estoy vivo y mi alma inútilmente se apresta y se perfecciona.
+        */
 
-        int cont = 396;
+        int cont = 526;
 
-        String s = "de los hombres";
+        String s = "tiemblo en espera";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
