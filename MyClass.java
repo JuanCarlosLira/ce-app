@@ -53,9 +53,9 @@ public class MyClass {
         su consistencia de entraña. Sin embargo, siempre amanece. estoy vivo y mi alma inútilmente se apresta y se perfecciona.
         */
 
-        int cont = 526;
+        int cont = 636;
 
-        String s = "tiemblo en espera";
+        String s = "perfecciona remove";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
