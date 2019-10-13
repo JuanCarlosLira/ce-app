@@ -1,11 +1,11 @@
 public class MyClass {
     public static void main(String args[]) {
-        /*int i=521;
+        int i=1001;
 
-        while (i<801) {
+        while (i<1201) {
             System.out.println("p"+i+": \"\",");
             i++;
-        }*/
+        }
 
         //
 
@@ -53,7 +53,7 @@ public class MyClass {
         su consistencia de entraña. Sin embargo, siempre amanece. estoy vivo y mi alma inútilmente se apresta y se perfecciona.
         */
 
-        int cont = 636;
+        /*int cont = 636;
 
         String s = "perfecciona remove";
         String[] arr = s.split(" ");
@@ -132,6 +132,6 @@ public class MyClass {
             System.out.println("}");
             System.out.println("");
             cont++;
-        }
+        }*/
     }
 }
