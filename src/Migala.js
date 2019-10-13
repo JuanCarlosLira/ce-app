@@ -1124,1108 +1124,6 @@ class Migala extends Component{
     this.setState({compare: !this.state.compare});
     //console.log(this.state.compare);
   }
-  p521() {
-          if (this.state.p521 === "todas") {
-                  this.setState({p521: "Todas"});
-          } else {
-                  this.setState({p521: "todas"});
-          }
-  }
-  p522() {
-          if (this.state.p522 === " ") {this.setState({p522: ", "});}
-          if (this.state.p522 === ", ") {this.setState({p522: "; "});}
-          if (this.state.p522 === "; ") {this.setState({p522: ": "});}
-          if (this.state.p522 === ": ") {this.setState({p522: "( "});}
-          if (this.state.p522 === "( ") {this.setState({p522: ") "});}
-          if (this.state.p522 === ") ") {this.setState({p522: "¡ "});}
-          if (this.state.p522 === "¡ ") {this.setState({p522: "! "});}
-          if (this.state.p522 === "! ") {this.setState({p522: "¿ "});}
-          if (this.state.p522 === "¿ ") {this.setState({p522: "? "});}
-          if (this.state.p522 === "? ") {this.setState({p522: " "});}
-  }
-  p523() {
-          if (this.state.p523 === "las") {
-                  this.setState({p523: "Las"});
-          } else {
-                  this.setState({p523: "las"});
-          }
-  }
-  p524() {
-          if (this.state.p524 === " ") {this.setState({p524: ", "});}
-          if (this.state.p524 === ", ") {this.setState({p524: "; "});}
-          if (this.state.p524 === "; ") {this.setState({p524: ": "});}
-          if (this.state.p524 === ": ") {this.setState({p524: "( "});}
-          if (this.state.p524 === "( ") {this.setState({p524: ") "});}
-          if (this.state.p524 === ") ") {this.setState({p524: "¡ "});}
-          if (this.state.p524 === "¡ ") {this.setState({p524: "! "});}
-          if (this.state.p524 === "! ") {this.setState({p524: "¿ "});}
-          if (this.state.p524 === "¿ ") {this.setState({p524: "? "});}
-          if (this.state.p524 === "? ") {this.setState({p524: " "});}
-  }
-  p525() {
-          if (this.state.p525 === "noches") {
-                  this.setState({p525: "Noches"});
-          } else {
-                  this.setState({p525: "noches"});
-          }
-  }
-  p526() {
-          if (this.state.p526 === " ") {this.setState({p526: ", "});}
-          if (this.state.p526 === ", ") {this.setState({p526: "; "});}
-          if (this.state.p526 === "; ") {this.setState({p526: ": "});}
-          if (this.state.p526 === ": ") {this.setState({p526: "( "});}
-          if (this.state.p526 === "( ") {this.setState({p526: ") "});}
-          if (this.state.p526 === ") ") {this.setState({p526: "¡ "});}
-          if (this.state.p526 === "¡ ") {this.setState({p526: "! "});}
-          if (this.state.p526 === "! ") {this.setState({p526: "¿ "});}
-          if (this.state.p526 === "¿ ") {this.setState({p526: "? "});}
-          if (this.state.p526 === "? ") {this.setState({p526: " "});}
-  }
-  p527() {
-          if (this.state.p527 === "tiemblo") {
-                  this.setState({p527: "Tiemblo"});
-          } else {
-                  this.setState({p527: "tiemblo"});
-          }
-  }
-  p528() {
-          if (this.state.p528 === " ") {this.setState({p528: ", "});}
-          if (this.state.p528 === ", ") {this.setState({p528: "; "});}
-          if (this.state.p528 === "; ") {this.setState({p528: ": "});}
-          if (this.state.p528 === ": ") {this.setState({p528: "( "});}
-          if (this.state.p528 === "( ") {this.setState({p528: ") "});}
-          if (this.state.p528 === ") ") {this.setState({p528: "¡ "});}
-          if (this.state.p528 === "¡ ") {this.setState({p528: "! "});}
-          if (this.state.p528 === "! ") {this.setState({p528: "¿ "});}
-          if (this.state.p528 === "¿ ") {this.setState({p528: "? "});}
-          if (this.state.p528 === "? ") {this.setState({p528: " "});}
-  }
-  p529() {
-          if (this.state.p529 === "en") {
-                  this.setState({p529: "En"});
-          } else {
-                  this.setState({p529: "en"});
-          }
-  }
-  p530() {
-          if (this.state.p530 === " ") {this.setState({p530: ", "});}
-          if (this.state.p530 === ", ") {this.setState({p530: "; "});}
-          if (this.state.p530 === "; ") {this.setState({p530: ": "});}
-          if (this.state.p530 === ": ") {this.setState({p530: "( "});}
-          if (this.state.p530 === "( ") {this.setState({p530: ") "});}
-          if (this.state.p530 === ") ") {this.setState({p530: "¡ "});}
-          if (this.state.p530 === "¡ ") {this.setState({p530: "! "});}
-          if (this.state.p530 === "! ") {this.setState({p530: "¿ "});}
-          if (this.state.p530 === "¿ ") {this.setState({p530: "? "});}
-          if (this.state.p530 === "? ") {this.setState({p530: " "});}
-  }
-  p531() {
-          if (this.state.p531 === "espera") {
-                  this.setState({p531: "Espera"});
-          } else {
-                  this.setState({p531: "espera"});
-          }
-  }
-  p532() {
-          if (this.state.p532 === " ") {this.setState({p532: ", "});}
-          if (this.state.p532 === ", ") {this.setState({p532: "; "});}
-          if (this.state.p532 === "; ") {this.setState({p532: ": "});}
-          if (this.state.p532 === ": ") {this.setState({p532: "( "});}
-          if (this.state.p532 === "( ") {this.setState({p532: ") "});}
-          if (this.state.p532 === ") ") {this.setState({p532: "¡ "});}
-          if (this.state.p532 === "¡ ") {this.setState({p532: "! "});}
-          if (this.state.p532 === "! ") {this.setState({p532: "¿ "});}
-          if (this.state.p532 === "¿ ") {this.setState({p532: "? "});}
-          if (this.state.p532 === "? ") {this.setState({p532: " "});}
-  }
-  p533() {
-          if (this.state.p533 === "de") {
-                  this.setState({p533: "De"});
-          } else {
-                  this.setState({p533: "de"});
-          }
-  }
-  p534() {
-          if (this.state.p534 === " ") {this.setState({p534: ", "});}
-          if (this.state.p534 === ", ") {this.setState({p534: "; "});}
-          if (this.state.p534 === "; ") {this.setState({p534: ": "});}
-          if (this.state.p534 === ": ") {this.setState({p534: "( "});}
-          if (this.state.p534 === "( ") {this.setState({p534: ") "});}
-          if (this.state.p534 === ") ") {this.setState({p534: "¡ "});}
-          if (this.state.p534 === "¡ ") {this.setState({p534: "! "});}
-          if (this.state.p534 === "! ") {this.setState({p534: "¿ "});}
-          if (this.state.p534 === "¿ ") {this.setState({p534: "? "});}
-          if (this.state.p534 === "? ") {this.setState({p534: " "});}
-  }
-  p535() {
-          if (this.state.p535 === "la") {
-                  this.setState({p535: "La"});
-          } else {
-                  this.setState({p535: "la"});
-          }
-  }
-  p536() {
-          if (this.state.p536 === " ") {this.setState({p536: ", "});}
-          if (this.state.p536 === ", ") {this.setState({p536: "; "});}
-          if (this.state.p536 === "; ") {this.setState({p536: ": "});}
-          if (this.state.p536 === ": ") {this.setState({p536: "( "});}
-          if (this.state.p536 === "( ") {this.setState({p536: ") "});}
-          if (this.state.p536 === ") ") {this.setState({p536: "¡ "});}
-          if (this.state.p536 === "¡ ") {this.setState({p536: "! "});}
-          if (this.state.p536 === "! ") {this.setState({p536: "¿ "});}
-          if (this.state.p536 === "¿ ") {this.setState({p536: "? "});}
-          if (this.state.p536 === "? ") {this.setState({p536: " "});}
-  }
-  p537() {
-          if (this.state.p537 === "picadura") {
-                  this.setState({p537: "Picadura"});
-          } else {
-                  this.setState({p537: "picadura"});
-          }
-  }
-  p538() {
-          if (this.state.p538 === " ") {this.setState({p538: ", "});}
-          if (this.state.p538 === ", ") {this.setState({p538: "; "});}
-          if (this.state.p538 === "; ") {this.setState({p538: ": "});}
-          if (this.state.p538 === ": ") {this.setState({p538: "( "});}
-          if (this.state.p538 === "( ") {this.setState({p538: ") "});}
-          if (this.state.p538 === ") ") {this.setState({p538: "¡ "});}
-          if (this.state.p538 === "¡ ") {this.setState({p538: "! "});}
-          if (this.state.p538 === "! ") {this.setState({p538: "¿ "});}
-          if (this.state.p538 === "¿ ") {this.setState({p538: "? "});}
-          if (this.state.p538 === "? ") {this.setState({p538: " "});}
-  }
-  p539() {
-          if (this.state.p539 === "mortal") {
-                  this.setState({p539: "Mortal"});
-          } else {
-                  this.setState({p539: "mortal"});
-          }
-  }
-  p540() {
-          if (this.state.p540 === " ") {this.setState({p540: ", "});}
-          if (this.state.p540 === ", ") {this.setState({p540: "; "});}
-          if (this.state.p540 === "; ") {this.setState({p540: ". "});}
-          if (this.state.p540 === ". ") {this.setState({p540: "( "});}
-          if (this.state.p540 === "( ") {this.setState({p540: ") "});}
-          if (this.state.p540 === ") ") {this.setState({p540: "¡ "});}
-          if (this.state.p540 === "¡ ") {this.setState({p540: "! "});}
-          if (this.state.p540 === "! ") {this.setState({p540: "¿ "});}
-          if (this.state.p540 === "¿ ") {this.setState({p540: "? "});}
-          if (this.state.p540 === "? ") {this.setState({p540: " "});}
-  }
-  p541() {
-          if (this.state.p541 === "muchas") {
-                  this.setState({p541: "Muchas"});
-          } else {
-                  this.setState({p541: "muchas"});
-          }
-  }
-  p542() {
-          if (this.state.p542 === " ") {this.setState({p542: ", "});}
-          if (this.state.p542 === ", ") {this.setState({p542: "; "});}
-          if (this.state.p542 === "; ") {this.setState({p542: ": "});}
-          if (this.state.p542 === ": ") {this.setState({p542: "( "});}
-          if (this.state.p542 === "( ") {this.setState({p542: ") "});}
-          if (this.state.p542 === ") ") {this.setState({p542: "¡ "});}
-          if (this.state.p542 === "¡ ") {this.setState({p542: "! "});}
-          if (this.state.p542 === "! ") {this.setState({p542: "¿ "});}
-          if (this.state.p542 === "¿ ") {this.setState({p542: "? "});}
-          if (this.state.p542 === "? ") {this.setState({p542: " "});}
-  }
-  p543() {
-          if (this.state.p543 === "veces") {
-                  this.setState({p543: "Veces"});
-          } else {
-                  this.setState({p543: "veces"});
-          }
-  }
-  p544() {
-          if (this.state.p544 === " ") {this.setState({p544: ", "});}
-          if (this.state.p544 === ", ") {this.setState({p544: "; "});}
-          if (this.state.p544 === "; ") {this.setState({p544: ": "});}
-          if (this.state.p544 === ": ") {this.setState({p544: "( "});}
-          if (this.state.p544 === "( ") {this.setState({p544: ") "});}
-          if (this.state.p544 === ") ") {this.setState({p544: "¡ "});}
-          if (this.state.p544 === "¡ ") {this.setState({p544: "! "});}
-          if (this.state.p544 === "! ") {this.setState({p544: "¿ "});}
-          if (this.state.p544 === "¿ ") {this.setState({p544: "? "});}
-          if (this.state.p544 === "? ") {this.setState({p544: " "});}
-  }
-  p545() {
-          if (this.state.p545 === "despierto") {
-                  this.setState({p545: "Despierto"});
-          } else {
-                  this.setState({p545: "despierto"});
-          }
-  }
-  p546() {
-          if (this.state.p546 === " ") {this.setState({p546: ", "});}
-          if (this.state.p546 === ", ") {this.setState({p546: "; "});}
-          if (this.state.p546 === "; ") {this.setState({p546: ": "});}
-          if (this.state.p546 === ": ") {this.setState({p546: "( "});}
-          if (this.state.p546 === "( ") {this.setState({p546: ") "});}
-          if (this.state.p546 === ") ") {this.setState({p546: "¡ "});}
-          if (this.state.p546 === "¡ ") {this.setState({p546: "! "});}
-          if (this.state.p546 === "! ") {this.setState({p546: "¿ "});}
-          if (this.state.p546 === "¿ ") {this.setState({p546: "? "});}
-          if (this.state.p546 === "? ") {this.setState({p546: " "});}
-  }
-  p547() {
-          if (this.state.p547 === "con") {
-                  this.setState({p547: "Con"});
-          } else {
-                  this.setState({p547: "con"});
-          }
-  }
-  p548() {
-          if (this.state.p548 === " ") {this.setState({p548: ", "});}
-          if (this.state.p548 === ", ") {this.setState({p548: "; "});}
-          if (this.state.p548 === "; ") {this.setState({p548: ": "});}
-          if (this.state.p548 === ": ") {this.setState({p548: "( "});}
-          if (this.state.p548 === "( ") {this.setState({p548: ") "});}
-          if (this.state.p548 === ") ") {this.setState({p548: "¡ "});}
-          if (this.state.p548 === "¡ ") {this.setState({p548: "! "});}
-          if (this.state.p548 === "! ") {this.setState({p548: "¿ "});}
-          if (this.state.p548 === "¿ ") {this.setState({p548: "? "});}
-          if (this.state.p548 === "? ") {this.setState({p548: " "});}
-  }
-  p549() {
-          if (this.state.p549 === "el") {
-                  this.setState({p549: "El"});
-          } else {
-                  this.setState({p549: "el"});
-          }
-  }
-  p550() {
-          if (this.state.p550 === " ") {this.setState({p550: ", "});}
-          if (this.state.p550 === ", ") {this.setState({p550: "; "});}
-          if (this.state.p550 === "; ") {this.setState({p550: ": "});}
-          if (this.state.p550 === ": ") {this.setState({p550: "( "});}
-          if (this.state.p550 === "( ") {this.setState({p550: ") "});}
-          if (this.state.p550 === ") ") {this.setState({p550: "¡ "});}
-          if (this.state.p550 === "¡ ") {this.setState({p550: "! "});}
-          if (this.state.p550 === "! ") {this.setState({p550: "¿ "});}
-          if (this.state.p550 === "¿ ") {this.setState({p550: "? "});}
-          if (this.state.p550 === "? ") {this.setState({p550: " "});}
-  }
-  p551() {
-          if (this.state.p551 === "cuerpo") {
-                  this.setState({p551: "Cuerpo"});
-          } else {
-                  this.setState({p551: "cuerpo"});
-          }
-  }
-  p552() {
-          if (this.state.p552 === " ") {this.setState({p552: ", "});}
-          if (this.state.p552 === ", ") {this.setState({p552: "; "});}
-          if (this.state.p552 === "; ") {this.setState({p552: ": "});}
-          if (this.state.p552 === ": ") {this.setState({p552: "( "});}
-          if (this.state.p552 === "( ") {this.setState({p552: ") "});}
-          if (this.state.p552 === ") ") {this.setState({p552: "¡ "});}
-          if (this.state.p552 === "¡ ") {this.setState({p552: "! "});}
-          if (this.state.p552 === "! ") {this.setState({p552: "¿ "});}
-          if (this.state.p552 === "¿ ") {this.setState({p552: "? "});}
-          if (this.state.p552 === "? ") {this.setState({p552: " "});}
-  }
-  p553() {
-          if (this.state.p553 === "helado") {
-                  this.setState({p553: "Helado"});
-          } else {
-                  this.setState({p553: "helado"});
-          }
-  }
-  p554() {
-          if (this.state.p554 === " ") {this.setState({p554: ", "});}
-          if (this.state.p554 === ", ") {this.setState({p554: "; "});}
-          if (this.state.p554 === "; ") {this.setState({p554: ": "});}
-          if (this.state.p554 === ": ") {this.setState({p554: "( "});}
-          if (this.state.p554 === "( ") {this.setState({p554: ") "});}
-          if (this.state.p554 === ") ") {this.setState({p554: "¡ "});}
-          if (this.state.p554 === "¡ ") {this.setState({p554: "! "});}
-          if (this.state.p554 === "! ") {this.setState({p554: "¿ "});}
-          if (this.state.p554 === "¿ ") {this.setState({p554: "? "});}
-          if (this.state.p554 === "? ") {this.setState({p554: " "});}
-  }
-  p555() {
-          if (this.state.p555 === "tenso") {
-                  this.setState({p555: "Tenso"});
-          } else {
-                  this.setState({p555: "tenso"});
-          }
-  }
-  p556() {
-          if (this.state.p556 === " ") {this.setState({p556: ", "});}
-          if (this.state.p556 === ", ") {this.setState({p556: "; "});}
-          if (this.state.p556 === "; ") {this.setState({p556: ": "});}
-          if (this.state.p556 === ": ") {this.setState({p556: "( "});}
-          if (this.state.p556 === "( ") {this.setState({p556: ") "});}
-          if (this.state.p556 === ") ") {this.setState({p556: "¡ "});}
-          if (this.state.p556 === "¡ ") {this.setState({p556: "! "});}
-          if (this.state.p556 === "! ") {this.setState({p556: "¿ "});}
-          if (this.state.p556 === "¿ ") {this.setState({p556: "? "});}
-          if (this.state.p556 === "? ") {this.setState({p556: " "});}
-  }
-  p557() {
-          if (this.state.p557 === "inmóvil") {
-                  this.setState({p557: "Inmóvil"});
-          } else {
-                  this.setState({p557: "inmóvil"});
-          }
-  }
-  p558() {
-          if (this.state.p558 === " ") {this.setState({p558: ", "});}
-          if (this.state.p558 === ", ") {this.setState({p558: "; "});}
-          if (this.state.p558 === "; ") {this.setState({p558: ": "});}
-          if (this.state.p558 === ": ") {this.setState({p558: "( "});}
-          if (this.state.p558 === "( ") {this.setState({p558: ") "});}
-          if (this.state.p558 === ") ") {this.setState({p558: "¡ "});}
-          if (this.state.p558 === "¡ ") {this.setState({p558: "! "});}
-          if (this.state.p558 === "! ") {this.setState({p558: "¿ "});}
-          if (this.state.p558 === "¿ ") {this.setState({p558: "? "});}
-          if (this.state.p558 === "? ") {this.setState({p558: " "});}
-  }
-  p559() {
-          if (this.state.p559 === "porque") {
-                  this.setState({p559: "Porque"});
-          } else {
-                  this.setState({p559: "porque"});
-          }
-  }
-  p560() {
-          if (this.state.p560 === " ") {this.setState({p560: ", "});}
-          if (this.state.p560 === ", ") {this.setState({p560: "; "});}
-          if (this.state.p560 === "; ") {this.setState({p560: ": "});}
-          if (this.state.p560 === ": ") {this.setState({p560: "( "});}
-          if (this.state.p560 === "( ") {this.setState({p560: ") "});}
-          if (this.state.p560 === ") ") {this.setState({p560: "¡ "});}
-          if (this.state.p560 === "¡ ") {this.setState({p560: "! "});}
-          if (this.state.p560 === "! ") {this.setState({p560: "¿ "});}
-          if (this.state.p560 === "¿ ") {this.setState({p560: "? "});}
-          if (this.state.p560 === "? ") {this.setState({p560: " "});}
-  }
-  p561() {
-          if (this.state.p561 === "el") {
-                  this.setState({p561: "El"});
-          } else {
-                  this.setState({p561: "el"});
-          }
-  }
-  p562() {
-          if (this.state.p562 === " ") {this.setState({p562: ", "});}
-          if (this.state.p562 === ", ") {this.setState({p562: "; "});}
-          if (this.state.p562 === "; ") {this.setState({p562: ": "});}
-          if (this.state.p562 === ": ") {this.setState({p562: "( "});}
-          if (this.state.p562 === "( ") {this.setState({p562: ") "});}
-          if (this.state.p562 === ") ") {this.setState({p562: "¡ "});}
-          if (this.state.p562 === "¡ ") {this.setState({p562: "! "});}
-          if (this.state.p562 === "! ") {this.setState({p562: "¿ "});}
-          if (this.state.p562 === "¿ ") {this.setState({p562: "? "});}
-          if (this.state.p562 === "? ") {this.setState({p562: " "});}
-  }
-  p563() {
-          if (this.state.p563 === "sueño") {
-                  this.setState({p563: "Sueño"});
-          } else {
-                  this.setState({p563: "sueño"});
-          }
-  }
-  p564() {
-          if (this.state.p564 === " ") {this.setState({p564: ", "});}
-          if (this.state.p564 === ", ") {this.setState({p564: "; "});}
-          if (this.state.p564 === "; ") {this.setState({p564: ": "});}
-          if (this.state.p564 === ": ") {this.setState({p564: "( "});}
-          if (this.state.p564 === "( ") {this.setState({p564: ") "});}
-          if (this.state.p564 === ") ") {this.setState({p564: "¡ "});}
-          if (this.state.p564 === "¡ ") {this.setState({p564: "! "});}
-          if (this.state.p564 === "! ") {this.setState({p564: "¿ "});}
-          if (this.state.p564 === "¿ ") {this.setState({p564: "? "});}
-          if (this.state.p564 === "? ") {this.setState({p564: " "});}
-  }
-  p565() {
-          if (this.state.p565 === "ha") {
-                  this.setState({p565: "Ha"});
-          } else {
-                  this.setState({p565: "ha"});
-          }
-  }
-  p566() {
-          if (this.state.p566 === " ") {this.setState({p566: ", "});}
-          if (this.state.p566 === ", ") {this.setState({p566: "; "});}
-          if (this.state.p566 === "; ") {this.setState({p566: ": "});}
-          if (this.state.p566 === ": ") {this.setState({p566: "( "});}
-          if (this.state.p566 === "( ") {this.setState({p566: ") "});}
-          if (this.state.p566 === ") ") {this.setState({p566: "¡ "});}
-          if (this.state.p566 === "¡ ") {this.setState({p566: "! "});}
-          if (this.state.p566 === "! ") {this.setState({p566: "¿ "});}
-          if (this.state.p566 === "¿ ") {this.setState({p566: "? "});}
-          if (this.state.p566 === "? ") {this.setState({p566: " "});}
-  }
-  p567() {
-          if (this.state.p567 === "creado") {
-                  this.setState({p567: "Creado"});
-          } else {
-                  this.setState({p567: "creado"});
-          }
-  }
-  p568() {
-          if (this.state.p568 === " ") {this.setState({p568: ", "});}
-          if (this.state.p568 === ", ") {this.setState({p568: "; "});}
-          if (this.state.p568 === "; ") {this.setState({p568: ": "});}
-          if (this.state.p568 === ": ") {this.setState({p568: "( "});}
-          if (this.state.p568 === "( ") {this.setState({p568: ") "});}
-          if (this.state.p568 === ") ") {this.setState({p568: "¡ "});}
-          if (this.state.p568 === "¡ ") {this.setState({p568: "! "});}
-          if (this.state.p568 === "! ") {this.setState({p568: "¿ "});}
-          if (this.state.p568 === "¿ ") {this.setState({p568: "? "});}
-          if (this.state.p568 === "? ") {this.setState({p568: " "});}
-  }
-  p569() {
-          if (this.state.p569 === "para") {
-                  this.setState({p569: "Para"});
-          } else {
-                  this.setState({p569: "para"});
-          }
-  }
-  p570() {
-          if (this.state.p570 === " ") {this.setState({p570: ", "});}
-          if (this.state.p570 === ", ") {this.setState({p570: "; "});}
-          if (this.state.p570 === "; ") {this.setState({p570: ": "});}
-          if (this.state.p570 === ": ") {this.setState({p570: "( "});}
-          if (this.state.p570 === "( ") {this.setState({p570: ") "});}
-          if (this.state.p570 === ") ") {this.setState({p570: "¡ "});}
-          if (this.state.p570 === "¡ ") {this.setState({p570: "! "});}
-          if (this.state.p570 === "! ") {this.setState({p570: "¿ "});}
-          if (this.state.p570 === "¿ ") {this.setState({p570: "? "});}
-          if (this.state.p570 === "? ") {this.setState({p570: " "});}
-  }
-  p571() {
-          if (this.state.p571 === "mí") {
-                  this.setState({p571: "Mí"});
-          } else {
-                  this.setState({p571: "mí"});
-          }
-  }
-  p572() {
-          if (this.state.p572 === " ") {this.setState({p572: ", "});}
-          if (this.state.p572 === ", ") {this.setState({p572: "; "});}
-          if (this.state.p572 === "; ") {this.setState({p572: ": "});}
-          if (this.state.p572 === ": ") {this.setState({p572: "( "});}
-          if (this.state.p572 === "( ") {this.setState({p572: ") "});}
-          if (this.state.p572 === ") ") {this.setState({p572: "¡ "});}
-          if (this.state.p572 === "¡ ") {this.setState({p572: "! "});}
-          if (this.state.p572 === "! ") {this.setState({p572: "¿ "});}
-          if (this.state.p572 === "¿ ") {this.setState({p572: "? "});}
-          if (this.state.p572 === "? ") {this.setState({p572: " "});}
-  }
-  p573() {
-          if (this.state.p573 === "con") {
-                  this.setState({p573: "Con"});
-          } else {
-                  this.setState({p573: "con"});
-          }
-  }
-  p574() {
-          if (this.state.p574 === " ") {this.setState({p574: ", "});}
-          if (this.state.p574 === ", ") {this.setState({p574: "; "});}
-          if (this.state.p574 === "; ") {this.setState({p574: ": "});}
-          if (this.state.p574 === ": ") {this.setState({p574: "( "});}
-          if (this.state.p574 === "( ") {this.setState({p574: ") "});}
-          if (this.state.p574 === ") ") {this.setState({p574: "¡ "});}
-          if (this.state.p574 === "¡ ") {this.setState({p574: "! "});}
-          if (this.state.p574 === "! ") {this.setState({p574: "¿ "});}
-          if (this.state.p574 === "¿ ") {this.setState({p574: "? "});}
-          if (this.state.p574 === "? ") {this.setState({p574: " "});}
-  }
-  p575() {
-          if (this.state.p575 === "precisión") {
-                  this.setState({p575: "Precisión"});
-          } else {
-                  this.setState({p575: "precisión"});
-          }
-  }
-  p576() {
-          if (this.state.p576 === " ") {this.setState({p576: ", "});}
-          if (this.state.p576 === ", ") {this.setState({p576: "; "});}
-          if (this.state.p576 === "; ") {this.setState({p576: ": "});}
-          if (this.state.p576 === ": ") {this.setState({p576: "( "});}
-          if (this.state.p576 === "( ") {this.setState({p576: ") "});}
-          if (this.state.p576 === ") ") {this.setState({p576: "¡ "});}
-          if (this.state.p576 === "¡ ") {this.setState({p576: "! "});}
-          if (this.state.p576 === "! ") {this.setState({p576: "¿ "});}
-          if (this.state.p576 === "¿ ") {this.setState({p576: "? "});}
-          if (this.state.p576 === "? ") {this.setState({p576: " "});}
-  }
-  p577() {
-          if (this.state.p577 === "el") {
-                  this.setState({p577: "El"});
-          } else {
-                  this.setState({p577: "el"});
-          }
-  }
-  p578() {
-          if (this.state.p578 === " ") {this.setState({p578: ", "});}
-          if (this.state.p578 === ", ") {this.setState({p578: "; "});}
-          if (this.state.p578 === "; ") {this.setState({p578: ": "});}
-          if (this.state.p578 === ": ") {this.setState({p578: "( "});}
-          if (this.state.p578 === "( ") {this.setState({p578: ") "});}
-          if (this.state.p578 === ") ") {this.setState({p578: "¡ "});}
-          if (this.state.p578 === "¡ ") {this.setState({p578: "! "});}
-          if (this.state.p578 === "! ") {this.setState({p578: "¿ "});}
-          if (this.state.p578 === "¿ ") {this.setState({p578: "? "});}
-          if (this.state.p578 === "? ") {this.setState({p578: " "});}
-  }
-  p579() {
-          if (this.state.p579 === "paso") {
-                  this.setState({p579: "Paso"});
-          } else {
-                  this.setState({p579: "paso"});
-          }
-  }
-  p580() {
-          if (this.state.p580 === " ") {this.setState({p580: ", "});}
-          if (this.state.p580 === ", ") {this.setState({p580: "; "});}
-          if (this.state.p580 === "; ") {this.setState({p580: ": "});}
-          if (this.state.p580 === ": ") {this.setState({p580: "( "});}
-          if (this.state.p580 === "( ") {this.setState({p580: ") "});}
-          if (this.state.p580 === ") ") {this.setState({p580: "¡ "});}
-          if (this.state.p580 === "¡ ") {this.setState({p580: "! "});}
-          if (this.state.p580 === "! ") {this.setState({p580: "¿ "});}
-          if (this.state.p580 === "¿ ") {this.setState({p580: "? "});}
-          if (this.state.p580 === "? ") {this.setState({p580: " "});}
-  }
-  p581() {
-          if (this.state.p581 === "cosquilleante") {
-                  this.setState({p581: "Cosquilleante"});
-          } else {
-                  this.setState({p581: "cosquilleante"});
-          }
-  }
-  p582() {
-          if (this.state.p582 === " ") {this.setState({p582: ", "});}
-          if (this.state.p582 === ", ") {this.setState({p582: "; "});}
-          if (this.state.p582 === "; ") {this.setState({p582: ": "});}
-          if (this.state.p582 === ": ") {this.setState({p582: "( "});}
-          if (this.state.p582 === "( ") {this.setState({p582: ") "});}
-          if (this.state.p582 === ") ") {this.setState({p582: "¡ "});}
-          if (this.state.p582 === "¡ ") {this.setState({p582: "! "});}
-          if (this.state.p582 === "! ") {this.setState({p582: "¿ "});}
-          if (this.state.p582 === "¿ ") {this.setState({p582: "? "});}
-          if (this.state.p582 === "? ") {this.setState({p582: " "});}
-  }
-  p583() {
-          if (this.state.p583 === "de") {
-                  this.setState({p583: "De"});
-          } else {
-                  this.setState({p583: "de"});
-          }
-  }
-  p584() {
-          if (this.state.p584 === " ") {this.setState({p584: ", "});}
-          if (this.state.p584 === ", ") {this.setState({p584: "; "});}
-          if (this.state.p584 === "; ") {this.setState({p584: ": "});}
-          if (this.state.p584 === ": ") {this.setState({p584: "( "});}
-          if (this.state.p584 === "( ") {this.setState({p584: ") "});}
-          if (this.state.p584 === ") ") {this.setState({p584: "¡ "});}
-          if (this.state.p584 === "¡ ") {this.setState({p584: "! "});}
-          if (this.state.p584 === "! ") {this.setState({p584: "¿ "});}
-          if (this.state.p584 === "¿ ") {this.setState({p584: "? "});}
-          if (this.state.p584 === "? ") {this.setState({p584: " "});}
-  }
-  p585() {
-          if (this.state.p585 === "la") {
-                  this.setState({p585: "La"});
-          } else {
-                  this.setState({p585: "la"});
-          }
-  }
-  p586() {
-          if (this.state.p586 === " ") {this.setState({p586: ", "});}
-          if (this.state.p586 === ", ") {this.setState({p586: "; "});}
-          if (this.state.p586 === "; ") {this.setState({p586: ": "});}
-          if (this.state.p586 === ": ") {this.setState({p586: "( "});}
-          if (this.state.p586 === "( ") {this.setState({p586: ") "});}
-          if (this.state.p586 === ") ") {this.setState({p586: "¡ "});}
-          if (this.state.p586 === "¡ ") {this.setState({p586: "! "});}
-          if (this.state.p586 === "! ") {this.setState({p586: "¿ "});}
-          if (this.state.p586 === "¿ ") {this.setState({p586: "? "});}
-          if (this.state.p586 === "? ") {this.setState({p586: " "});}
-  }
-  p587() {
-          if (this.state.p587 === "aralia") {
-                  this.setState({p587: "Aralia"});
-          } else {
-                  this.setState({p587: "aralia"});
-          }
-  }
-  p588() {
-          if (this.state.p588 === " ") {this.setState({p588: ", "});}
-          if (this.state.p588 === ", ") {this.setState({p588: "; "});}
-          if (this.state.p588 === "; ") {this.setState({p588: ": "});}
-          if (this.state.p588 === ": ") {this.setState({p588: "( "});}
-          if (this.state.p588 === "( ") {this.setState({p588: ") "});}
-          if (this.state.p588 === ") ") {this.setState({p588: "¡ "});}
-          if (this.state.p588 === "¡ ") {this.setState({p588: "! "});}
-          if (this.state.p588 === "! ") {this.setState({p588: "¿ "});}
-          if (this.state.p588 === "¿ ") {this.setState({p588: "? "});}
-          if (this.state.p588 === "? ") {this.setState({p588: " "});}
-  }
-  p589() {
-          if (this.state.p589 === "sobre") {
-                  this.setState({p589: "Sobre"});
-          } else {
-                  this.setState({p589: "sobre"});
-          }
-  }
-  p590() {
-          if (this.state.p590 === " ") {this.setState({p590: ", "});}
-          if (this.state.p590 === ", ") {this.setState({p590: "; "});}
-          if (this.state.p590 === "; ") {this.setState({p590: ": "});}
-          if (this.state.p590 === ": ") {this.setState({p590: "( "});}
-          if (this.state.p590 === "( ") {this.setState({p590: ") "});}
-          if (this.state.p590 === ") ") {this.setState({p590: "¡ "});}
-          if (this.state.p590 === "¡ ") {this.setState({p590: "! "});}
-          if (this.state.p590 === "! ") {this.setState({p590: "¿ "});}
-          if (this.state.p590 === "¿ ") {this.setState({p590: "? "});}
-          if (this.state.p590 === "? ") {this.setState({p590: " "});}
-  }
-  p591() {
-          if (this.state.p591 === "mi") {
-                  this.setState({p591: "Mi"});
-          } else {
-                  this.setState({p591: "mi"});
-          }
-  }
-  p592() {
-          if (this.state.p592 === " ") {this.setState({p592: ", "});}
-          if (this.state.p592 === ", ") {this.setState({p592: "; "});}
-          if (this.state.p592 === "; ") {this.setState({p592: ": "});}
-          if (this.state.p592 === ": ") {this.setState({p592: "( "});}
-          if (this.state.p592 === "( ") {this.setState({p592: ") "});}
-          if (this.state.p592 === ") ") {this.setState({p592: "¡ "});}
-          if (this.state.p592 === "¡ ") {this.setState({p592: "! "});}
-          if (this.state.p592 === "! ") {this.setState({p592: "¿ "});}
-          if (this.state.p592 === "¿ ") {this.setState({p592: "? "});}
-          if (this.state.p592 === "? ") {this.setState({p592: " "});}
-  }
-  p593() {
-          if (this.state.p593 === "piel") {
-                  this.setState({p593: "Piel"});
-          } else {
-                  this.setState({p593: "piel"});
-          }
-  }
-  p594() {
-          if (this.state.p594 === " ") {this.setState({p594: ", "});}
-          if (this.state.p594 === ", ") {this.setState({p594: "; "});}
-          if (this.state.p594 === "; ") {this.setState({p594: ": "});}
-          if (this.state.p594 === ": ") {this.setState({p594: "( "});}
-          if (this.state.p594 === "( ") {this.setState({p594: ") "});}
-          if (this.state.p594 === ") ") {this.setState({p594: "¡ "});}
-          if (this.state.p594 === "¡ ") {this.setState({p594: "! "});}
-          if (this.state.p594 === "! ") {this.setState({p594: "¿ "});}
-          if (this.state.p594 === "¿ ") {this.setState({p594: "? "});}
-          if (this.state.p594 === "? ") {this.setState({p594: " "});}
-  }
-  p595() {
-          if (this.state.p595 === "su") {
-                  this.setState({p595: "Su"});
-          } else {
-                  this.setState({p595: "su"});
-          }
-  }
-  p596() {
-          if (this.state.p596 === " ") {this.setState({p596: ", "});}
-          if (this.state.p596 === ", ") {this.setState({p596: "; "});}
-          if (this.state.p596 === "; ") {this.setState({p596: ": "});}
-          if (this.state.p596 === ": ") {this.setState({p596: "( "});}
-          if (this.state.p596 === "( ") {this.setState({p596: ") "});}
-          if (this.state.p596 === ") ") {this.setState({p596: "¡ "});}
-          if (this.state.p596 === "¡ ") {this.setState({p596: "! "});}
-          if (this.state.p596 === "! ") {this.setState({p596: "¿ "});}
-          if (this.state.p596 === "¿ ") {this.setState({p596: "? "});}
-          if (this.state.p596 === "? ") {this.setState({p596: " "});}
-  }
-  p597() {
-          if (this.state.p597 === "peso") {
-                  this.setState({p597: "Peso"});
-          } else {
-                  this.setState({p597: "peso"});
-          }
-  }
-  p598() {
-          if (this.state.p598 === " ") {this.setState({p598: ", "});}
-          if (this.state.p598 === ", ") {this.setState({p598: "; "});}
-          if (this.state.p598 === "; ") {this.setState({p598: ": "});}
-          if (this.state.p598 === ": ") {this.setState({p598: "( "});}
-          if (this.state.p598 === "( ") {this.setState({p598: ") "});}
-          if (this.state.p598 === ") ") {this.setState({p598: "¡ "});}
-          if (this.state.p598 === "¡ ") {this.setState({p598: "! "});}
-          if (this.state.p598 === "! ") {this.setState({p598: "¿ "});}
-          if (this.state.p598 === "¿ ") {this.setState({p598: "? "});}
-          if (this.state.p598 === "? ") {this.setState({p598: " "});}
-  }
-  p599() {
-          if (this.state.p599 === "indefinible") {
-                  this.setState({p599: "Indefinible"});
-          } else {
-                  this.setState({p599: "indefinible"});
-          }
-  }
-  p600() {
-          if (this.state.p600 === " ") {this.setState({p600: ", "});}
-          if (this.state.p600 === ", ") {this.setState({p600: "; "});}
-          if (this.state.p600 === "; ") {this.setState({p600: ": "});}
-          if (this.state.p600 === ": ") {this.setState({p600: "( "});}
-          if (this.state.p600 === "( ") {this.setState({p600: ") "});}
-          if (this.state.p600 === ") ") {this.setState({p600: "¡ "});}
-          if (this.state.p600 === "¡ ") {this.setState({p600: "! "});}
-          if (this.state.p600 === "! ") {this.setState({p600: "¿ "});}
-          if (this.state.p600 === "¿ ") {this.setState({p600: "? "});}
-          if (this.state.p600 === "? ") {this.setState({p600: " "});}
-  }
-  p601() {
-          if (this.state.p601 === "su") {
-                  this.setState({p601: "Su"});
-          } else {
-                  this.setState({p601: "su"});
-          }
-  }
-  p602() {
-          if (this.state.p602 === " ") {this.setState({p602: ", "});}
-          if (this.state.p602 === ", ") {this.setState({p602: "; "});}
-          if (this.state.p602 === "; ") {this.setState({p602: ": "});}
-          if (this.state.p602 === ": ") {this.setState({p602: "( "});}
-          if (this.state.p602 === "( ") {this.setState({p602: ") "});}
-          if (this.state.p602 === ") ") {this.setState({p602: "¡ "});}
-          if (this.state.p602 === "¡ ") {this.setState({p602: "! "});}
-          if (this.state.p602 === "! ") {this.setState({p602: "¿ "});}
-          if (this.state.p602 === "¿ ") {this.setState({p602: "? "});}
-          if (this.state.p602 === "? ") {this.setState({p602: " "});}
-  }
-  p603() {
-          if (this.state.p603 === "consistencia") {
-                  this.setState({p603: "Consistencia"});
-          } else {
-                  this.setState({p603: "consistencia"});
-          }
-  }
-  p604() {
-          if (this.state.p604 === " ") {this.setState({p604: ", "});}
-          if (this.state.p604 === ", ") {this.setState({p604: "; "});}
-          if (this.state.p604 === "; ") {this.setState({p604: ": "});}
-          if (this.state.p604 === ": ") {this.setState({p604: "( "});}
-          if (this.state.p604 === "( ") {this.setState({p604: ") "});}
-          if (this.state.p604 === ") ") {this.setState({p604: "¡ "});}
-          if (this.state.p604 === "¡ ") {this.setState({p604: "! "});}
-          if (this.state.p604 === "! ") {this.setState({p604: "¿ "});}
-          if (this.state.p604 === "¿ ") {this.setState({p604: "? "});}
-          if (this.state.p604 === "? ") {this.setState({p604: " "});}
-  }
-  p605() {
-          if (this.state.p605 === "de") {
-                  this.setState({p605: "De"});
-          } else {
-                  this.setState({p605: "de"});
-          }
-  }
-  p606() {
-          if (this.state.p606 === " ") {this.setState({p606: ", "});}
-          if (this.state.p606 === ", ") {this.setState({p606: "; "});}
-          if (this.state.p606 === "; ") {this.setState({p606: ": "});}
-          if (this.state.p606 === ": ") {this.setState({p606: "( "});}
-          if (this.state.p606 === "( ") {this.setState({p606: ") "});}
-          if (this.state.p606 === ") ") {this.setState({p606: "¡ "});}
-          if (this.state.p606 === "¡ ") {this.setState({p606: "! "});}
-          if (this.state.p606 === "! ") {this.setState({p606: "¿ "});}
-          if (this.state.p606 === "¿ ") {this.setState({p606: "? "});}
-          if (this.state.p606 === "? ") {this.setState({p606: " "});}
-  }
-  p607() {
-          if (this.state.p607 === "entraña") {
-                  this.setState({p607: "Entraña"});
-          } else {
-                  this.setState({p607: "entraña"});
-          }
-  }
-  p608() {
-          if (this.state.p608 === " ") {this.setState({p608: ", "});}
-          if (this.state.p608 === ", ") {this.setState({p608: "; "});}
-          if (this.state.p608 === "; ") {this.setState({p608: ". "});}
-          if (this.state.p608 === ". ") {this.setState({p608: "( "});}
-          if (this.state.p608 === "( ") {this.setState({p608: ") "});}
-          if (this.state.p608 === ") ") {this.setState({p608: "¡ "});}
-          if (this.state.p608 === "¡ ") {this.setState({p608: "! "});}
-          if (this.state.p608 === "! ") {this.setState({p608: "¿ "});}
-          if (this.state.p608 === "¿ ") {this.setState({p608: "? "});}
-          if (this.state.p608 === "? ") {this.setState({p608: " "});}
-  }
-  p609() {
-          if (this.state.p609 === "sin") {
-                  this.setState({p609: "Sin"});
-          } else {
-                  this.setState({p609: "sin"});
-          }
-  }
-  p610() {
-          if (this.state.p610 === " ") {this.setState({p610: ", "});}
-          if (this.state.p610 === ", ") {this.setState({p610: "; "});}
-          if (this.state.p610 === "; ") {this.setState({p610: ": "});}
-          if (this.state.p610 === ": ") {this.setState({p610: "( "});}
-          if (this.state.p610 === "( ") {this.setState({p610: ") "});}
-          if (this.state.p610 === ") ") {this.setState({p610: "¡ "});}
-          if (this.state.p610 === "¡ ") {this.setState({p610: "! "});}
-          if (this.state.p610 === "! ") {this.setState({p610: "¿ "});}
-          if (this.state.p610 === "¿ ") {this.setState({p610: "? "});}
-          if (this.state.p610 === "? ") {this.setState({p610: " "});}
-  }
-  p611() {
-          if (this.state.p611 === "embargo") {
-                  this.setState({p611: "Embargo"});
-          } else {
-                  this.setState({p611: "embargo"});
-          }
-  }
-  p612() {
-          if (this.state.p612 === " ") {this.setState({p612: ", "});}
-          if (this.state.p612 === ", ") {this.setState({p612: "; "});}
-          if (this.state.p612 === "; ") {this.setState({p612: ": "});}
-          if (this.state.p612 === ": ") {this.setState({p612: "( "});}
-          if (this.state.p612 === "( ") {this.setState({p612: ") "});}
-          if (this.state.p612 === ") ") {this.setState({p612: "¡ "});}
-          if (this.state.p612 === "¡ ") {this.setState({p612: "! "});}
-          if (this.state.p612 === "! ") {this.setState({p612: "¿ "});}
-          if (this.state.p612 === "¿ ") {this.setState({p612: "? "});}
-          if (this.state.p612 === "? ") {this.setState({p612: " "});}
-  }
-  p613() {
-          if (this.state.p613 === "siempre") {
-                  this.setState({p613: "Siempre"});
-          } else {
-                  this.setState({p613: "siempre"});
-          }
-  }
-  p614() {
-          if (this.state.p614 === " ") {this.setState({p614: ", "});}
-          if (this.state.p614 === ", ") {this.setState({p614: "; "});}
-          if (this.state.p614 === "; ") {this.setState({p614: ": "});}
-          if (this.state.p614 === ": ") {this.setState({p614: "( "});}
-          if (this.state.p614 === "( ") {this.setState({p614: ") "});}
-          if (this.state.p614 === ") ") {this.setState({p614: "¡ "});}
-          if (this.state.p614 === "¡ ") {this.setState({p614: "! "});}
-          if (this.state.p614 === "! ") {this.setState({p614: "¿ "});}
-          if (this.state.p614 === "¿ ") {this.setState({p614: "? "});}
-          if (this.state.p614 === "? ") {this.setState({p614: " "});}
-  }
-  p615() {
-          if (this.state.p615 === "amanece") {
-                  this.setState({p615: "Amanece"});
-          } else {
-                  this.setState({p615: "amanece"});
-          }
-  }
-  p616() {
-          if (this.state.p616 === " ") {this.setState({p616: ", "});}
-          if (this.state.p616 === ", ") {this.setState({p616: "; "});}
-          if (this.state.p616 === "; ") {this.setState({p616: ". "});}
-          if (this.state.p616 === ". ") {this.setState({p616: "( "});}
-          if (this.state.p616 === "( ") {this.setState({p616: ") "});}
-          if (this.state.p616 === ") ") {this.setState({p616: "¡ "});}
-          if (this.state.p616 === "¡ ") {this.setState({p616: "! "});}
-          if (this.state.p616 === "! ") {this.setState({p616: "¿ "});}
-          if (this.state.p616 === "¿ ") {this.setState({p616: "? "});}
-          if (this.state.p616 === "? ") {this.setState({p616: " "});}
-  }
-  p617() {
-          if (this.state.p617 === "estoy") {
-                  this.setState({p617: "Estoy"});
-          } else {
-                  this.setState({p617: "estoy"});
-          }
-  }
-  p618() {
-          if (this.state.p618 === " ") {this.setState({p618: ", "});}
-          if (this.state.p618 === ", ") {this.setState({p618: "; "});}
-          if (this.state.p618 === "; ") {this.setState({p618: ": "});}
-          if (this.state.p618 === ": ") {this.setState({p618: "( "});}
-          if (this.state.p618 === "( ") {this.setState({p618: ") "});}
-          if (this.state.p618 === ") ") {this.setState({p618: "¡ "});}
-          if (this.state.p618 === "¡ ") {this.setState({p618: "! "});}
-          if (this.state.p618 === "! ") {this.setState({p618: "¿ "});}
-          if (this.state.p618 === "¿ ") {this.setState({p618: "? "});}
-          if (this.state.p618 === "? ") {this.setState({p618: " "});}
-  }
-  p619() {
-          if (this.state.p619 === "vivo") {
-                  this.setState({p619: "Vivo"});
-          } else {
-                  this.setState({p619: "vivo"});
-          }
-  }
-  p620() {
-          if (this.state.p620 === " ") {this.setState({p620: ", "});}
-          if (this.state.p620 === ", ") {this.setState({p620: "; "});}
-          if (this.state.p620 === "; ") {this.setState({p620: ": "});}
-          if (this.state.p620 === ": ") {this.setState({p620: "( "});}
-          if (this.state.p620 === "( ") {this.setState({p620: ") "});}
-          if (this.state.p620 === ") ") {this.setState({p620: "¡ "});}
-          if (this.state.p620 === "¡ ") {this.setState({p620: "! "});}
-          if (this.state.p620 === "! ") {this.setState({p620: "¿ "});}
-          if (this.state.p620 === "¿ ") {this.setState({p620: "? "});}
-          if (this.state.p620 === "? ") {this.setState({p620: " "});}
-  }
-  p621() {
-          if (this.state.p621 === "y") {
-                  this.setState({p621: "Y"});
-          } else {
-                  this.setState({p621: "y"});
-          }
-  }
-  p622() {
-          if (this.state.p622 === " ") {this.setState({p622: ", "});}
-          if (this.state.p622 === ", ") {this.setState({p622: "; "});}
-          if (this.state.p622 === "; ") {this.setState({p622: ": "});}
-          if (this.state.p622 === ": ") {this.setState({p622: "( "});}
-          if (this.state.p622 === "( ") {this.setState({p622: ") "});}
-          if (this.state.p622 === ") ") {this.setState({p622: "¡ "});}
-          if (this.state.p622 === "¡ ") {this.setState({p622: "! "});}
-          if (this.state.p622 === "! ") {this.setState({p622: "¿ "});}
-          if (this.state.p622 === "¿ ") {this.setState({p622: "? "});}
-          if (this.state.p622 === "? ") {this.setState({p622: " "});}
-  }
-  p623() {
-          if (this.state.p623 === "mi") {
-                  this.setState({p623: "Mi"});
-          } else {
-                  this.setState({p623: "mi"});
-          }
-  }
-  p624() {
-          if (this.state.p624 === " ") {this.setState({p624: ", "});}
-          if (this.state.p624 === ", ") {this.setState({p624: "; "});}
-          if (this.state.p624 === "; ") {this.setState({p624: ": "});}
-          if (this.state.p624 === ": ") {this.setState({p624: "( "});}
-          if (this.state.p624 === "( ") {this.setState({p624: ") "});}
-          if (this.state.p624 === ") ") {this.setState({p624: "¡ "});}
-          if (this.state.p624 === "¡ ") {this.setState({p624: "! "});}
-          if (this.state.p624 === "! ") {this.setState({p624: "¿ "});}
-          if (this.state.p624 === "¿ ") {this.setState({p624: "? "});}
-          if (this.state.p624 === "? ") {this.setState({p624: " "});}
-  }
-  p625() {
-          if (this.state.p625 === "alma") {
-                  this.setState({p625: "Alma"});
-          } else {
-                  this.setState({p625: "alma"});
-          }
-  }
-  p626() {
-          if (this.state.p626 === " ") {this.setState({p626: ", "});}
-          if (this.state.p626 === ", ") {this.setState({p626: "; "});}
-          if (this.state.p626 === "; ") {this.setState({p626: ": "});}
-          if (this.state.p626 === ": ") {this.setState({p626: "( "});}
-          if (this.state.p626 === "( ") {this.setState({p626: ") "});}
-          if (this.state.p626 === ") ") {this.setState({p626: "¡ "});}
-          if (this.state.p626 === "¡ ") {this.setState({p626: "! "});}
-          if (this.state.p626 === "! ") {this.setState({p626: "¿ "});}
-          if (this.state.p626 === "¿ ") {this.setState({p626: "? "});}
-          if (this.state.p626 === "? ") {this.setState({p626: " "});}
-  }
-  p627() {
-          if (this.state.p627 === "inútilmente") {
-                  this.setState({p627: "Inútilmente"});
-          } else {
-                  this.setState({p627: "inútilmente"});
-          }
-  }
-  p628() {
-          if (this.state.p628 === " ") {this.setState({p628: ", "});}
-          if (this.state.p628 === ", ") {this.setState({p628: "; "});}
-          if (this.state.p628 === "; ") {this.setState({p628: ": "});}
-          if (this.state.p628 === ": ") {this.setState({p628: "( "});}
-          if (this.state.p628 === "( ") {this.setState({p628: ") "});}
-          if (this.state.p628 === ") ") {this.setState({p628: "¡ "});}
-          if (this.state.p628 === "¡ ") {this.setState({p628: "! "});}
-          if (this.state.p628 === "! ") {this.setState({p628: "¿ "});}
-          if (this.state.p628 === "¿ ") {this.setState({p628: "? "});}
-          if (this.state.p628 === "? ") {this.setState({p628: " "});}
-  }
-  p629() {
-          if (this.state.p629 === "se") {
-                  this.setState({p629: "Se"});
-          } else {
-                  this.setState({p629: "se"});
-          }
-  }
-  p630() {
-          if (this.state.p630 === " ") {this.setState({p630: ", "});}
-          if (this.state.p630 === ", ") {this.setState({p630: "; "});}
-          if (this.state.p630 === "; ") {this.setState({p630: ": "});}
-          if (this.state.p630 === ": ") {this.setState({p630: "( "});}
-          if (this.state.p630 === "( ") {this.setState({p630: ") "});}
-          if (this.state.p630 === ") ") {this.setState({p630: "¡ "});}
-          if (this.state.p630 === "¡ ") {this.setState({p630: "! "});}
-          if (this.state.p630 === "! ") {this.setState({p630: "¿ "});}
-          if (this.state.p630 === "¿ ") {this.setState({p630: "? "});}
-          if (this.state.p630 === "? ") {this.setState({p630: " "});}
-  }
-  p631() {
-          if (this.state.p631 === "apresta") {
-                  this.setState({p631: "Apresta"});
-          } else {
-                  this.setState({p631: "apresta"});
-          }
-  }
-  p632() {
-          if (this.state.p632 === " ") {this.setState({p632: ", "});}
-          if (this.state.p632 === ", ") {this.setState({p632: "; "});}
-          if (this.state.p632 === "; ") {this.setState({p632: ": "});}
-          if (this.state.p632 === ": ") {this.setState({p632: "( "});}
-          if (this.state.p632 === "( ") {this.setState({p632: ") "});}
-          if (this.state.p632 === ") ") {this.setState({p632: "¡ "});}
-          if (this.state.p632 === "¡ ") {this.setState({p632: "! "});}
-          if (this.state.p632 === "! ") {this.setState({p632: "¿ "});}
-          if (this.state.p632 === "¿ ") {this.setState({p632: "? "});}
-          if (this.state.p632 === "? ") {this.setState({p632: " "});}
-  }
-  p633() {
-          if (this.state.p633 === "y") {
-                  this.setState({p633: "Y"});
-          } else {
-                  this.setState({p633: "y"});
-          }
-  }
-  p634() {
-          if (this.state.p634 === " ") {this.setState({p634: ", "});}
-          if (this.state.p634 === ", ") {this.setState({p634: "; "});}
-          if (this.state.p634 === "; ") {this.setState({p634: ": "});}
-          if (this.state.p634 === ": ") {this.setState({p634: "( "});}
-          if (this.state.p634 === "( ") {this.setState({p634: ") "});}
-          if (this.state.p634 === ") ") {this.setState({p634: "¡ "});}
-          if (this.state.p634 === "¡ ") {this.setState({p634: "! "});}
-          if (this.state.p634 === "! ") {this.setState({p634: "¿ "});}
-          if (this.state.p634 === "¿ ") {this.setState({p634: "? "});}
-          if (this.state.p634 === "? ") {this.setState({p634: " "});}
-  }
-  p635() {
-          if (this.state.p635 === "se") {
-                  this.setState({p635: "Se"});
-          } else {
-                  this.setState({p635: "se"});
-          }
-  }
-  p636() {
-          if (this.state.p636 === " ") {this.setState({p636: ", "});}
-          if (this.state.p636 === ", ") {this.setState({p636: "; "});}
-          if (this.state.p636 === "; ") {this.setState({p636: ": "});}
-          if (this.state.p636 === ": ") {this.setState({p636: "( "});}
-          if (this.state.p636 === "( ") {this.setState({p636: ") "});}
-          if (this.state.p636 === ") ") {this.setState({p636: "¡ "});}
-          if (this.state.p636 === "¡ ") {this.setState({p636: "! "});}
-          if (this.state.p636 === "! ") {this.setState({p636: "¿ "});}
-          if (this.state.p636 === "¿ ") {this.setState({p636: "? "});}
-          if (this.state.p636 === "? ") {this.setState({p636: " "});}
-  }
   p637() {
           if (this.state.p637 === "perfecciona") {
                   this.setState({p637: "Perfecciona"});
@@ -2245,6 +1143,4540 @@ class Migala extends Component{
           if (this.state.p638 === "¿ ") {this.setState({p638: "? "});}
           if (this.state.p638 === "? ") {this.setState({p638: " "});}
   }
+  p639() {
+          if (this.state.p639 === "hay") {
+                  this.setState({p639: "Hay"});
+          } else {
+                  this.setState({p639: "hay"});
+          }
+  }
+  p640() {
+          if (this.state.p640 === " ") {this.setState({p640: ", "});}
+          if (this.state.p640 === ", ") {this.setState({p640: "; "});}
+          if (this.state.p640 === "; ") {this.setState({p640: ": "});}
+          if (this.state.p640 === ": ") {this.setState({p640: "( "});}
+          if (this.state.p640 === "( ") {this.setState({p640: ") "});}
+          if (this.state.p640 === ") ") {this.setState({p640: "¡ "});}
+          if (this.state.p640 === "¡ ") {this.setState({p640: "! "});}
+          if (this.state.p640 === "! ") {this.setState({p640: "¿ "});}
+          if (this.state.p640 === "¿ ") {this.setState({p640: "? "});}
+          if (this.state.p640 === "? ") {this.setState({p640: " "});}
+  }
+  p641() {
+          if (this.state.p641 === "dí­as") {
+                  this.setState({p641: "Dí­as"});
+          } else {
+                  this.setState({p641: "dí­as"});
+          }
+  }
+  p642() {
+          if (this.state.p642 === " ") {this.setState({p642: ", "});}
+          if (this.state.p642 === ", ") {this.setState({p642: "; "});}
+          if (this.state.p642 === "; ") {this.setState({p642: ": "});}
+          if (this.state.p642 === ": ") {this.setState({p642: "( "});}
+          if (this.state.p642 === "( ") {this.setState({p642: ") "});}
+          if (this.state.p642 === ") ") {this.setState({p642: "¡ "});}
+          if (this.state.p642 === "¡ ") {this.setState({p642: "! "});}
+          if (this.state.p642 === "! ") {this.setState({p642: "¿ "});}
+          if (this.state.p642 === "¿ ") {this.setState({p642: "? "});}
+          if (this.state.p642 === "? ") {this.setState({p642: " "});}
+  }
+  p643() {
+          if (this.state.p643 === "en") {
+                  this.setState({p643: "En"});
+          } else {
+                  this.setState({p643: "en"});
+          }
+  }
+  p644() {
+          if (this.state.p644 === " ") {this.setState({p644: ", "});}
+          if (this.state.p644 === ", ") {this.setState({p644: "; "});}
+          if (this.state.p644 === "; ") {this.setState({p644: ": "});}
+          if (this.state.p644 === ": ") {this.setState({p644: "( "});}
+          if (this.state.p644 === "( ") {this.setState({p644: ") "});}
+          if (this.state.p644 === ") ") {this.setState({p644: "¡ "});}
+          if (this.state.p644 === "¡ ") {this.setState({p644: "! "});}
+          if (this.state.p644 === "! ") {this.setState({p644: "¿ "});}
+          if (this.state.p644 === "¿ ") {this.setState({p644: "? "});}
+          if (this.state.p644 === "? ") {this.setState({p644: " "});}
+  }
+  p645() {
+          if (this.state.p645 === "que") {
+                  this.setState({p645: "Que"});
+          } else {
+                  this.setState({p645: "que"});
+          }
+  }
+  p646() {
+          if (this.state.p646 === " ") {this.setState({p646: ", "});}
+          if (this.state.p646 === ", ") {this.setState({p646: "; "});}
+          if (this.state.p646 === "; ") {this.setState({p646: ": "});}
+          if (this.state.p646 === ": ") {this.setState({p646: "( "});}
+          if (this.state.p646 === "( ") {this.setState({p646: ") "});}
+          if (this.state.p646 === ") ") {this.setState({p646: "¡ "});}
+          if (this.state.p646 === "¡ ") {this.setState({p646: "! "});}
+          if (this.state.p646 === "! ") {this.setState({p646: "¿ "});}
+          if (this.state.p646 === "¿ ") {this.setState({p646: "? "});}
+          if (this.state.p646 === "? ") {this.setState({p646: " "});}
+  }
+  p647() {
+          if (this.state.p647 === "pienso") {
+                  this.setState({p647: "Pienso"});
+          } else {
+                  this.setState({p647: "pienso"});
+          }
+  }
+  p648() {
+          if (this.state.p648 === " ") {this.setState({p648: ", "});}
+          if (this.state.p648 === ", ") {this.setState({p648: "; "});}
+          if (this.state.p648 === "; ") {this.setState({p648: ": "});}
+          if (this.state.p648 === ": ") {this.setState({p648: "( "});}
+          if (this.state.p648 === "( ") {this.setState({p648: ") "});}
+          if (this.state.p648 === ") ") {this.setState({p648: "¡ "});}
+          if (this.state.p648 === "¡ ") {this.setState({p648: "! "});}
+          if (this.state.p648 === "! ") {this.setState({p648: "¿ "});}
+          if (this.state.p648 === "¿ ") {this.setState({p648: "? "});}
+          if (this.state.p648 === "? ") {this.setState({p648: " "});}
+  }
+  p649() {
+          if (this.state.p649 === "que") {
+                  this.setState({p649: "Que"});
+          } else {
+                  this.setState({p649: "que"});
+          }
+  }
+  p650() {
+          if (this.state.p650 === " ") {this.setState({p650: ", "});}
+          if (this.state.p650 === ", ") {this.setState({p650: "; "});}
+          if (this.state.p650 === "; ") {this.setState({p650: ": "});}
+          if (this.state.p650 === ": ") {this.setState({p650: "( "});}
+          if (this.state.p650 === "( ") {this.setState({p650: ") "});}
+          if (this.state.p650 === ") ") {this.setState({p650: "¡ "});}
+          if (this.state.p650 === "¡ ") {this.setState({p650: "! "});}
+          if (this.state.p650 === "! ") {this.setState({p650: "¿ "});}
+          if (this.state.p650 === "¿ ") {this.setState({p650: "? "});}
+          if (this.state.p650 === "? ") {this.setState({p650: " "});}
+  }
+  p651() {
+          if (this.state.p651 === "la") {
+                  this.setState({p651: "La"});
+          } else {
+                  this.setState({p651: "la"});
+          }
+  }
+  p652() {
+          if (this.state.p652 === " ") {this.setState({p652: ", "});}
+          if (this.state.p652 === ", ") {this.setState({p652: "; "});}
+          if (this.state.p652 === "; ") {this.setState({p652: ": "});}
+          if (this.state.p652 === ": ") {this.setState({p652: "( "});}
+          if (this.state.p652 === "( ") {this.setState({p652: ") "});}
+          if (this.state.p652 === ") ") {this.setState({p652: "¡ "});}
+          if (this.state.p652 === "¡ ") {this.setState({p652: "! "});}
+          if (this.state.p652 === "! ") {this.setState({p652: "¿ "});}
+          if (this.state.p652 === "¿ ") {this.setState({p652: "? "});}
+          if (this.state.p652 === "? ") {this.setState({p652: " "});}
+  }
+  p653() {
+          if (this.state.p653 === "migala") {
+                  this.setState({p653: "Migala"});
+          } else {
+                  this.setState({p653: "migala"});
+          }
+  }
+  p654() {
+          if (this.state.p654 === " ") {this.setState({p654: ", "});}
+          if (this.state.p654 === ", ") {this.setState({p654: "; "});}
+          if (this.state.p654 === "; ") {this.setState({p654: ": "});}
+          if (this.state.p654 === ": ") {this.setState({p654: "( "});}
+          if (this.state.p654 === "( ") {this.setState({p654: ") "});}
+          if (this.state.p654 === ") ") {this.setState({p654: "¡ "});}
+          if (this.state.p654 === "¡ ") {this.setState({p654: "! "});}
+          if (this.state.p654 === "! ") {this.setState({p654: "¿ "});}
+          if (this.state.p654 === "¿ ") {this.setState({p654: "? "});}
+          if (this.state.p654 === "? ") {this.setState({p654: " "});}
+  }
+  p655() {
+          if (this.state.p655 === "ha") {
+                  this.setState({p655: "Ha"});
+          } else {
+                  this.setState({p655: "ha"});
+          }
+  }
+  p656() {
+          if (this.state.p656 === " ") {this.setState({p656: ", "});}
+          if (this.state.p656 === ", ") {this.setState({p656: "; "});}
+          if (this.state.p656 === "; ") {this.setState({p656: ": "});}
+          if (this.state.p656 === ": ") {this.setState({p656: "( "});}
+          if (this.state.p656 === "( ") {this.setState({p656: ") "});}
+          if (this.state.p656 === ") ") {this.setState({p656: "¡ "});}
+          if (this.state.p656 === "¡ ") {this.setState({p656: "! "});}
+          if (this.state.p656 === "! ") {this.setState({p656: "¿ "});}
+          if (this.state.p656 === "¿ ") {this.setState({p656: "? "});}
+          if (this.state.p656 === "? ") {this.setState({p656: " "});}
+  }
+  p657() {
+          if (this.state.p657 === "desaparecido") {
+                  this.setState({p657: "Desaparecido"});
+          } else {
+                  this.setState({p657: "desaparecido"});
+          }
+  }
+  p658() {
+          if (this.state.p658 === " ") {this.setState({p658: ", "});}
+          if (this.state.p658 === ", ") {this.setState({p658: "; "});}
+          if (this.state.p658 === "; ") {this.setState({p658: ": "});}
+          if (this.state.p658 === ": ") {this.setState({p658: "( "});}
+          if (this.state.p658 === "( ") {this.setState({p658: ") "});}
+          if (this.state.p658 === ") ") {this.setState({p658: "¡ "});}
+          if (this.state.p658 === "¡ ") {this.setState({p658: "! "});}
+          if (this.state.p658 === "! ") {this.setState({p658: "¿ "});}
+          if (this.state.p658 === "¿ ") {this.setState({p658: "? "});}
+          if (this.state.p658 === "? ") {this.setState({p658: " "});}
+  }
+  p659() {
+          if (this.state.p659 === "que") {
+                  this.setState({p659: "Que"});
+          } else {
+                  this.setState({p659: "que"});
+          }
+  }
+  p660() {
+          if (this.state.p660 === " ") {this.setState({p660: ", "});}
+          if (this.state.p660 === ", ") {this.setState({p660: "; "});}
+          if (this.state.p660 === "; ") {this.setState({p660: ": "});}
+          if (this.state.p660 === ": ") {this.setState({p660: "( "});}
+          if (this.state.p660 === "( ") {this.setState({p660: ") "});}
+          if (this.state.p660 === ") ") {this.setState({p660: "¡ "});}
+          if (this.state.p660 === "¡ ") {this.setState({p660: "! "});}
+          if (this.state.p660 === "! ") {this.setState({p660: "¿ "});}
+          if (this.state.p660 === "¿ ") {this.setState({p660: "? "});}
+          if (this.state.p660 === "? ") {this.setState({p660: " "});}
+  }
+  p661() {
+          if (this.state.p661 === "se") {
+                  this.setState({p661: "Se"});
+          } else {
+                  this.setState({p661: "se"});
+          }
+  }
+  p662() {
+          if (this.state.p662 === " ") {this.setState({p662: ", "});}
+          if (this.state.p662 === ", ") {this.setState({p662: "; "});}
+          if (this.state.p662 === "; ") {this.setState({p662: ": "});}
+          if (this.state.p662 === ": ") {this.setState({p662: "( "});}
+          if (this.state.p662 === "( ") {this.setState({p662: ") "});}
+          if (this.state.p662 === ") ") {this.setState({p662: "¡ "});}
+          if (this.state.p662 === "¡ ") {this.setState({p662: "! "});}
+          if (this.state.p662 === "! ") {this.setState({p662: "¿ "});}
+          if (this.state.p662 === "¿ ") {this.setState({p662: "? "});}
+          if (this.state.p662 === "? ") {this.setState({p662: " "});}
+  }
+  p663() {
+          if (this.state.p663 === "ha") {
+                  this.setState({p663: "Ha"});
+          } else {
+                  this.setState({p663: "ha"});
+          }
+  }
+  p664() {
+          if (this.state.p664 === " ") {this.setState({p664: ", "});}
+          if (this.state.p664 === ", ") {this.setState({p664: "; "});}
+          if (this.state.p664 === "; ") {this.setState({p664: ": "});}
+          if (this.state.p664 === ": ") {this.setState({p664: "( "});}
+          if (this.state.p664 === "( ") {this.setState({p664: ") "});}
+          if (this.state.p664 === ") ") {this.setState({p664: "¡ "});}
+          if (this.state.p664 === "¡ ") {this.setState({p664: "! "});}
+          if (this.state.p664 === "! ") {this.setState({p664: "¿ "});}
+          if (this.state.p664 === "¿ ") {this.setState({p664: "? "});}
+          if (this.state.p664 === "? ") {this.setState({p664: " "});}
+  }
+  p665() {
+          if (this.state.p665 === "extraviado") {
+                  this.setState({p665: "Extraviado"});
+          } else {
+                  this.setState({p665: "extraviado"});
+          }
+  }
+  p666() {
+          if (this.state.p666 === " ") {this.setState({p666: ", "});}
+          if (this.state.p666 === ", ") {this.setState({p666: "; "});}
+          if (this.state.p666 === "; ") {this.setState({p666: ": "});}
+          if (this.state.p666 === ": ") {this.setState({p666: "( "});}
+          if (this.state.p666 === "( ") {this.setState({p666: ") "});}
+          if (this.state.p666 === ") ") {this.setState({p666: "¡ "});}
+          if (this.state.p666 === "¡ ") {this.setState({p666: "! "});}
+          if (this.state.p666 === "! ") {this.setState({p666: "¿ "});}
+          if (this.state.p666 === "¿ ") {this.setState({p666: "? "});}
+          if (this.state.p666 === "? ") {this.setState({p666: " "});}
+  }
+  p667() {
+          if (this.state.p667 === "o") {
+                  this.setState({p667: "O"});
+          } else {
+                  this.setState({p667: "o"});
+          }
+  }
+  p668() {
+          if (this.state.p668 === " ") {this.setState({p668: ", "});}
+          if (this.state.p668 === ", ") {this.setState({p668: "; "});}
+          if (this.state.p668 === "; ") {this.setState({p668: ": "});}
+          if (this.state.p668 === ": ") {this.setState({p668: "( "});}
+          if (this.state.p668 === "( ") {this.setState({p668: ") "});}
+          if (this.state.p668 === ") ") {this.setState({p668: "¡ "});}
+          if (this.state.p668 === "¡ ") {this.setState({p668: "! "});}
+          if (this.state.p668 === "! ") {this.setState({p668: "¿ "});}
+          if (this.state.p668 === "¿ ") {this.setState({p668: "? "});}
+          if (this.state.p668 === "? ") {this.setState({p668: " "});}
+  }
+  p669() {
+          if (this.state.p669 === "que") {
+                  this.setState({p669: "Que"});
+          } else {
+                  this.setState({p669: "que"});
+          }
+  }
+  p670() {
+          if (this.state.p670 === " ") {this.setState({p670: ", "});}
+          if (this.state.p670 === ", ") {this.setState({p670: "; "});}
+          if (this.state.p670 === "; ") {this.setState({p670: ": "});}
+          if (this.state.p670 === ": ") {this.setState({p670: "( "});}
+          if (this.state.p670 === "( ") {this.setState({p670: ") "});}
+          if (this.state.p670 === ") ") {this.setState({p670: "¡ "});}
+          if (this.state.p670 === "¡ ") {this.setState({p670: "! "});}
+          if (this.state.p670 === "! ") {this.setState({p670: "¿ "});}
+          if (this.state.p670 === "¿ ") {this.setState({p670: "? "});}
+          if (this.state.p670 === "? ") {this.setState({p670: " "});}
+  }
+  p671() {
+          if (this.state.p671 === "ha") {
+                  this.setState({p671: "Ha"});
+          } else {
+                  this.setState({p671: "ha"});
+          }
+  }
+  p672() {
+          if (this.state.p672 === " ") {this.setState({p672: ", "});}
+          if (this.state.p672 === ", ") {this.setState({p672: "; "});}
+          if (this.state.p672 === "; ") {this.setState({p672: ": "});}
+          if (this.state.p672 === ": ") {this.setState({p672: "( "});}
+          if (this.state.p672 === "( ") {this.setState({p672: ") "});}
+          if (this.state.p672 === ") ") {this.setState({p672: "¡ "});}
+          if (this.state.p672 === "¡ ") {this.setState({p672: "! "});}
+          if (this.state.p672 === "! ") {this.setState({p672: "¿ "});}
+          if (this.state.p672 === "¿ ") {this.setState({p672: "? "});}
+          if (this.state.p672 === "? ") {this.setState({p672: " "});}
+  }
+  p673() {
+          if (this.state.p673 === "muerto") {
+                  this.setState({p673: "Muerto"});
+          } else {
+                  this.setState({p673: "muerto"});
+          }
+  }
+  p674() {
+          if (this.state.p674 === " ") {this.setState({p674: ", "});}
+          if (this.state.p674 === ", ") {this.setState({p674: "; "});}
+          if (this.state.p674 === "; ") {this.setState({p674: ". "});}
+          if (this.state.p674 === ". ") {this.setState({p674: "( "});}
+          if (this.state.p674 === "( ") {this.setState({p674: ") "});}
+          if (this.state.p674 === ") ") {this.setState({p674: "¡ "});}
+          if (this.state.p674 === "¡ ") {this.setState({p674: "! "});}
+          if (this.state.p674 === "! ") {this.setState({p674: "¿ "});}
+          if (this.state.p674 === "¿ ") {this.setState({p674: "? "});}
+          if (this.state.p674 === "? ") {this.setState({p674: " "});}
+  }
+  p675() {
+          if (this.state.p675 === "pero") {
+                  this.setState({p675: "Pero"});
+          } else {
+                  this.setState({p675: "pero"});
+          }
+  }
+  p676() {
+          if (this.state.p676 === " ") {this.setState({p676: ", "});}
+          if (this.state.p676 === ", ") {this.setState({p676: "; "});}
+          if (this.state.p676 === "; ") {this.setState({p676: ": "});}
+          if (this.state.p676 === ": ") {this.setState({p676: "( "});}
+          if (this.state.p676 === "( ") {this.setState({p676: ") "});}
+          if (this.state.p676 === ") ") {this.setState({p676: "¡ "});}
+          if (this.state.p676 === "¡ ") {this.setState({p676: "! "});}
+          if (this.state.p676 === "! ") {this.setState({p676: "¿ "});}
+          if (this.state.p676 === "¿ ") {this.setState({p676: "? "});}
+          if (this.state.p676 === "? ") {this.setState({p676: " "});}
+  }
+  p677() {
+          if (this.state.p677 === "no") {
+                  this.setState({p677: "No"});
+          } else {
+                  this.setState({p677: "no"});
+          }
+  }
+  p678() {
+          if (this.state.p678 === " ") {this.setState({p678: ", "});}
+          if (this.state.p678 === ", ") {this.setState({p678: "; "});}
+          if (this.state.p678 === "; ") {this.setState({p678: ": "});}
+          if (this.state.p678 === ": ") {this.setState({p678: "( "});}
+          if (this.state.p678 === "( ") {this.setState({p678: ") "});}
+          if (this.state.p678 === ") ") {this.setState({p678: "¡ "});}
+          if (this.state.p678 === "¡ ") {this.setState({p678: "! "});}
+          if (this.state.p678 === "! ") {this.setState({p678: "¿ "});}
+          if (this.state.p678 === "¿ ") {this.setState({p678: "? "});}
+          if (this.state.p678 === "? ") {this.setState({p678: " "});}
+  }
+  p679() {
+          if (this.state.p679 === "hago") {
+                  this.setState({p679: "Hago"});
+          } else {
+                  this.setState({p679: "hago"});
+          }
+  }
+  p680() {
+          if (this.state.p680 === " ") {this.setState({p680: ", "});}
+          if (this.state.p680 === ", ") {this.setState({p680: "; "});}
+          if (this.state.p680 === "; ") {this.setState({p680: ": "});}
+          if (this.state.p680 === ": ") {this.setState({p680: "( "});}
+          if (this.state.p680 === "( ") {this.setState({p680: ") "});}
+          if (this.state.p680 === ") ") {this.setState({p680: "¡ "});}
+          if (this.state.p680 === "¡ ") {this.setState({p680: "! "});}
+          if (this.state.p680 === "! ") {this.setState({p680: "¿ "});}
+          if (this.state.p680 === "¿ ") {this.setState({p680: "? "});}
+          if (this.state.p680 === "? ") {this.setState({p680: " "});}
+  }
+  p681() {
+          if (this.state.p681 === "nada") {
+                  this.setState({p681: "Nada"});
+          } else {
+                  this.setState({p681: "nada"});
+          }
+  }
+  p682() {
+          if (this.state.p682 === " ") {this.setState({p682: ", "});}
+          if (this.state.p682 === ", ") {this.setState({p682: "; "});}
+          if (this.state.p682 === "; ") {this.setState({p682: ": "});}
+          if (this.state.p682 === ": ") {this.setState({p682: "( "});}
+          if (this.state.p682 === "( ") {this.setState({p682: ") "});}
+          if (this.state.p682 === ") ") {this.setState({p682: "¡ "});}
+          if (this.state.p682 === "¡ ") {this.setState({p682: "! "});}
+          if (this.state.p682 === "! ") {this.setState({p682: "¿ "});}
+          if (this.state.p682 === "¿ ") {this.setState({p682: "? "});}
+          if (this.state.p682 === "? ") {this.setState({p682: " "});}
+  }
+  p683() {
+          if (this.state.p683 === "para") {
+                  this.setState({p683: "Para"});
+          } else {
+                  this.setState({p683: "para"});
+          }
+  }
+  p684() {
+          if (this.state.p684 === " ") {this.setState({p684: ", "});}
+          if (this.state.p684 === ", ") {this.setState({p684: "; "});}
+          if (this.state.p684 === "; ") {this.setState({p684: ": "});}
+          if (this.state.p684 === ": ") {this.setState({p684: "( "});}
+          if (this.state.p684 === "( ") {this.setState({p684: ") "});}
+          if (this.state.p684 === ") ") {this.setState({p684: "¡ "});}
+          if (this.state.p684 === "¡ ") {this.setState({p684: "! "});}
+          if (this.state.p684 === "! ") {this.setState({p684: "¿ "});}
+          if (this.state.p684 === "¿ ") {this.setState({p684: "? "});}
+          if (this.state.p684 === "? ") {this.setState({p684: " "});}
+  }
+  p685() {
+          if (this.state.p685 === "comprobarlo") {
+                  this.setState({p685: "Comprobarlo"});
+          } else {
+                  this.setState({p685: "comprobarlo"});
+          }
+  }
+  p686() {
+          if (this.state.p686 === " ") {this.setState({p686: ", "});}
+          if (this.state.p686 === ", ") {this.setState({p686: "; "});}
+          if (this.state.p686 === "; ") {this.setState({p686: ". "});}
+          if (this.state.p686 === ". ") {this.setState({p686: "( "});}
+          if (this.state.p686 === "( ") {this.setState({p686: ") "});}
+          if (this.state.p686 === ") ") {this.setState({p686: "¡ "});}
+          if (this.state.p686 === "¡ ") {this.setState({p686: "! "});}
+          if (this.state.p686 === "! ") {this.setState({p686: "¿ "});}
+          if (this.state.p686 === "¿ ") {this.setState({p686: "? "});}
+          if (this.state.p686 === "? ") {this.setState({p686: " "});}
+  }
+  p687() {
+          if (this.state.p687 === "dejo") {
+                  this.setState({p687: "Dejo"});
+          } else {
+                  this.setState({p687: "dejo"});
+          }
+  }
+  p688() {
+          if (this.state.p688 === " ") {this.setState({p688: ", "});}
+          if (this.state.p688 === ", ") {this.setState({p688: "; "});}
+          if (this.state.p688 === "; ") {this.setState({p688: ": "});}
+          if (this.state.p688 === ": ") {this.setState({p688: "( "});}
+          if (this.state.p688 === "( ") {this.setState({p688: ") "});}
+          if (this.state.p688 === ") ") {this.setState({p688: "¡ "});}
+          if (this.state.p688 === "¡ ") {this.setState({p688: "! "});}
+          if (this.state.p688 === "! ") {this.setState({p688: "¿ "});}
+          if (this.state.p688 === "¿ ") {this.setState({p688: "? "});}
+          if (this.state.p688 === "? ") {this.setState({p688: " "});}
+  }
+  p689() {
+          if (this.state.p689 === "siempre") {
+                  this.setState({p689: "Siempre"});
+          } else {
+                  this.setState({p689: "siempre"});
+          }
+  }
+  p690() {
+          if (this.state.p690 === " ") {this.setState({p690: ", "});}
+          if (this.state.p690 === ", ") {this.setState({p690: "; "});}
+          if (this.state.p690 === "; ") {this.setState({p690: ": "});}
+          if (this.state.p690 === ": ") {this.setState({p690: "( "});}
+          if (this.state.p690 === "( ") {this.setState({p690: ") "});}
+          if (this.state.p690 === ") ") {this.setState({p690: "¡ "});}
+          if (this.state.p690 === "¡ ") {this.setState({p690: "! "});}
+          if (this.state.p690 === "! ") {this.setState({p690: "¿ "});}
+          if (this.state.p690 === "¿ ") {this.setState({p690: "? "});}
+          if (this.state.p690 === "? ") {this.setState({p690: " "});}
+  }
+  p691() {
+          if (this.state.p691 === "que") {
+                  this.setState({p691: "Que"});
+          } else {
+                  this.setState({p691: "que"});
+          }
+  }
+  p692() {
+          if (this.state.p692 === " ") {this.setState({p692: ", "});}
+          if (this.state.p692 === ", ") {this.setState({p692: "; "});}
+          if (this.state.p692 === "; ") {this.setState({p692: ": "});}
+          if (this.state.p692 === ": ") {this.setState({p692: "( "});}
+          if (this.state.p692 === "( ") {this.setState({p692: ") "});}
+          if (this.state.p692 === ") ") {this.setState({p692: "¡ "});}
+          if (this.state.p692 === "¡ ") {this.setState({p692: "! "});}
+          if (this.state.p692 === "! ") {this.setState({p692: "¿ "});}
+          if (this.state.p692 === "¿ ") {this.setState({p692: "? "});}
+          if (this.state.p692 === "? ") {this.setState({p692: " "});}
+  }
+  p693() {
+          if (this.state.p693 === "el") {
+                  this.setState({p693: "El"});
+          } else {
+                  this.setState({p693: "el"});
+          }
+  }
+  p694() {
+          if (this.state.p694 === " ") {this.setState({p694: ", "});}
+          if (this.state.p694 === ", ") {this.setState({p694: "; "});}
+          if (this.state.p694 === "; ") {this.setState({p694: ": "});}
+          if (this.state.p694 === ": ") {this.setState({p694: "( "});}
+          if (this.state.p694 === "( ") {this.setState({p694: ") "});}
+          if (this.state.p694 === ") ") {this.setState({p694: "¡ "});}
+          if (this.state.p694 === "¡ ") {this.setState({p694: "! "});}
+          if (this.state.p694 === "! ") {this.setState({p694: "¿ "});}
+          if (this.state.p694 === "¿ ") {this.setState({p694: "? "});}
+          if (this.state.p694 === "? ") {this.setState({p694: " "});}
+  }
+  p695() {
+          if (this.state.p695 === "azar") {
+                  this.setState({p695: "Azar"});
+          } else {
+                  this.setState({p695: "azar"});
+          }
+  }
+  p696() {
+          if (this.state.p696 === " ") {this.setState({p696: ", "});}
+          if (this.state.p696 === ", ") {this.setState({p696: "; "});}
+          if (this.state.p696 === "; ") {this.setState({p696: ": "});}
+          if (this.state.p696 === ": ") {this.setState({p696: "( "});}
+          if (this.state.p696 === "( ") {this.setState({p696: ") "});}
+          if (this.state.p696 === ") ") {this.setState({p696: "¡ "});}
+          if (this.state.p696 === "¡ ") {this.setState({p696: "! "});}
+          if (this.state.p696 === "! ") {this.setState({p696: "¿ "});}
+          if (this.state.p696 === "¿ ") {this.setState({p696: "? "});}
+          if (this.state.p696 === "? ") {this.setState({p696: " "});}
+  }
+  p697() {
+          if (this.state.p697 === "me") {
+                  this.setState({p697: "Me"});
+          } else {
+                  this.setState({p697: "me"});
+          }
+  }
+  p698() {
+          if (this.state.p698 === " ") {this.setState({p698: ", "});}
+          if (this.state.p698 === ", ") {this.setState({p698: "; "});}
+          if (this.state.p698 === "; ") {this.setState({p698: ": "});}
+          if (this.state.p698 === ": ") {this.setState({p698: "( "});}
+          if (this.state.p698 === "( ") {this.setState({p698: ") "});}
+          if (this.state.p698 === ") ") {this.setState({p698: "¡ "});}
+          if (this.state.p698 === "¡ ") {this.setState({p698: "! "});}
+          if (this.state.p698 === "! ") {this.setState({p698: "¿ "});}
+          if (this.state.p698 === "¿ ") {this.setState({p698: "? "});}
+          if (this.state.p698 === "? ") {this.setState({p698: " "});}
+  }
+  p699() {
+          if (this.state.p699 === "vuelva") {
+                  this.setState({p699: "Vuelva"});
+          } else {
+                  this.setState({p699: "vuelva"});
+          }
+  }
+  p700() {
+          if (this.state.p700 === " ") {this.setState({p700: ", "});}
+          if (this.state.p700 === ", ") {this.setState({p700: "; "});}
+          if (this.state.p700 === "; ") {this.setState({p700: ": "});}
+          if (this.state.p700 === ": ") {this.setState({p700: "( "});}
+          if (this.state.p700 === "( ") {this.setState({p700: ") "});}
+          if (this.state.p700 === ") ") {this.setState({p700: "¡ "});}
+          if (this.state.p700 === "¡ ") {this.setState({p700: "! "});}
+          if (this.state.p700 === "! ") {this.setState({p700: "¿ "});}
+          if (this.state.p700 === "¿ ") {this.setState({p700: "? "});}
+          if (this.state.p700 === "? ") {this.setState({p700: " "});}
+  }
+  p701() {
+          if (this.state.p701 === "a") {
+                  this.setState({p701: "A"});
+          } else {
+                  this.setState({p701: "a"});
+          }
+  }
+  p702() {
+          if (this.state.p702 === " ") {this.setState({p702: ", "});}
+          if (this.state.p702 === ", ") {this.setState({p702: "; "});}
+          if (this.state.p702 === "; ") {this.setState({p702: ": "});}
+          if (this.state.p702 === ": ") {this.setState({p702: "( "});}
+          if (this.state.p702 === "( ") {this.setState({p702: ") "});}
+          if (this.state.p702 === ") ") {this.setState({p702: "¡ "});}
+          if (this.state.p702 === "¡ ") {this.setState({p702: "! "});}
+          if (this.state.p702 === "! ") {this.setState({p702: "¿ "});}
+          if (this.state.p702 === "¿ ") {this.setState({p702: "? "});}
+          if (this.state.p702 === "? ") {this.setState({p702: " "});}
+  }
+  p703() {
+          if (this.state.p703 === "poner") {
+                  this.setState({p703: "Poner"});
+          } else {
+                  this.setState({p703: "poner"});
+          }
+  }
+  p704() {
+          if (this.state.p704 === " ") {this.setState({p704: ", "});}
+          if (this.state.p704 === ", ") {this.setState({p704: "; "});}
+          if (this.state.p704 === "; ") {this.setState({p704: ": "});}
+          if (this.state.p704 === ": ") {this.setState({p704: "( "});}
+          if (this.state.p704 === "( ") {this.setState({p704: ") "});}
+          if (this.state.p704 === ") ") {this.setState({p704: "¡ "});}
+          if (this.state.p704 === "¡ ") {this.setState({p704: "! "});}
+          if (this.state.p704 === "! ") {this.setState({p704: "¿ "});}
+          if (this.state.p704 === "¿ ") {this.setState({p704: "? "});}
+          if (this.state.p704 === "? ") {this.setState({p704: " "});}
+  }
+  p705() {
+          if (this.state.p705 === "frente") {
+                  this.setState({p705: "Frente"});
+          } else {
+                  this.setState({p705: "frente"});
+          }
+  }
+  p706() {
+          if (this.state.p706 === " ") {this.setState({p706: ", "});}
+          if (this.state.p706 === ", ") {this.setState({p706: "; "});}
+          if (this.state.p706 === "; ") {this.setState({p706: ": "});}
+          if (this.state.p706 === ": ") {this.setState({p706: "( "});}
+          if (this.state.p706 === "( ") {this.setState({p706: ") "});}
+          if (this.state.p706 === ") ") {this.setState({p706: "¡ "});}
+          if (this.state.p706 === "¡ ") {this.setState({p706: "! "});}
+          if (this.state.p706 === "! ") {this.setState({p706: "¿ "});}
+          if (this.state.p706 === "¿ ") {this.setState({p706: "? "});}
+          if (this.state.p706 === "? ") {this.setState({p706: " "});}
+  }
+  p707() {
+          if (this.state.p707 === "a") {
+                  this.setState({p707: "A"});
+          } else {
+                  this.setState({p707: "a"});
+          }
+  }
+  p708() {
+          if (this.state.p708 === " ") {this.setState({p708: ", "});}
+          if (this.state.p708 === ", ") {this.setState({p708: "; "});}
+          if (this.state.p708 === "; ") {this.setState({p708: ": "});}
+          if (this.state.p708 === ": ") {this.setState({p708: "( "});}
+          if (this.state.p708 === "( ") {this.setState({p708: ") "});}
+          if (this.state.p708 === ") ") {this.setState({p708: "¡ "});}
+          if (this.state.p708 === "¡ ") {this.setState({p708: "! "});}
+          if (this.state.p708 === "! ") {this.setState({p708: "¿ "});}
+          if (this.state.p708 === "¿ ") {this.setState({p708: "? "});}
+          if (this.state.p708 === "? ") {this.setState({p708: " "});}
+  }
+  p709() {
+          if (this.state.p709 === "ella") {
+                  this.setState({p709: "Ella"});
+          } else {
+                  this.setState({p709: "ella"});
+          }
+  }
+  p710() {
+          if (this.state.p710 === " ") {this.setState({p710: ", "});}
+          if (this.state.p710 === ", ") {this.setState({p710: "; "});}
+          if (this.state.p710 === "; ") {this.setState({p710: ": "});}
+          if (this.state.p710 === ": ") {this.setState({p710: "( "});}
+          if (this.state.p710 === "( ") {this.setState({p710: ") "});}
+          if (this.state.p710 === ") ") {this.setState({p710: "¡ "});}
+          if (this.state.p710 === "¡ ") {this.setState({p710: "! "});}
+          if (this.state.p710 === "! ") {this.setState({p710: "¿ "});}
+          if (this.state.p710 === "¿ ") {this.setState({p710: "? "});}
+          if (this.state.p710 === "? ") {this.setState({p710: " "});}
+  }
+  p711() {
+          if (this.state.p711 === "al") {
+                  this.setState({p711: "Al"});
+          } else {
+                  this.setState({p711: "al"});
+          }
+  }
+  p712() {
+          if (this.state.p712 === " ") {this.setState({p712: ", "});}
+          if (this.state.p712 === ", ") {this.setState({p712: "; "});}
+          if (this.state.p712 === "; ") {this.setState({p712: ": "});}
+          if (this.state.p712 === ": ") {this.setState({p712: "( "});}
+          if (this.state.p712 === "( ") {this.setState({p712: ") "});}
+          if (this.state.p712 === ") ") {this.setState({p712: "¡ "});}
+          if (this.state.p712 === "¡ ") {this.setState({p712: "! "});}
+          if (this.state.p712 === "! ") {this.setState({p712: "¿ "});}
+          if (this.state.p712 === "¿ ") {this.setState({p712: "? "});}
+          if (this.state.p712 === "? ") {this.setState({p712: " "});}
+  }
+  p713() {
+          if (this.state.p713 === "salir") {
+                  this.setState({p713: "Salir"});
+          } else {
+                  this.setState({p713: "salir"});
+          }
+  }
+  p714() {
+          if (this.state.p714 === " ") {this.setState({p714: ", "});}
+          if (this.state.p714 === ", ") {this.setState({p714: "; "});}
+          if (this.state.p714 === "; ") {this.setState({p714: ": "});}
+          if (this.state.p714 === ": ") {this.setState({p714: "( "});}
+          if (this.state.p714 === "( ") {this.setState({p714: ") "});}
+          if (this.state.p714 === ") ") {this.setState({p714: "¡ "});}
+          if (this.state.p714 === "¡ ") {this.setState({p714: "! "});}
+          if (this.state.p714 === "! ") {this.setState({p714: "¿ "});}
+          if (this.state.p714 === "¿ ") {this.setState({p714: "? "});}
+          if (this.state.p714 === "? ") {this.setState({p714: " "});}
+  }
+  p715() {
+          if (this.state.p715 === "del") {
+                  this.setState({p715: "Del"});
+          } else {
+                  this.setState({p715: "del"});
+          }
+  }
+  p716() {
+          if (this.state.p716 === " ") {this.setState({p716: ", "});}
+          if (this.state.p716 === ", ") {this.setState({p716: "; "});}
+          if (this.state.p716 === "; ") {this.setState({p716: ": "});}
+          if (this.state.p716 === ": ") {this.setState({p716: "( "});}
+          if (this.state.p716 === "( ") {this.setState({p716: ") "});}
+          if (this.state.p716 === ") ") {this.setState({p716: "¡ "});}
+          if (this.state.p716 === "¡ ") {this.setState({p716: "! "});}
+          if (this.state.p716 === "! ") {this.setState({p716: "¿ "});}
+          if (this.state.p716 === "¿ ") {this.setState({p716: "? "});}
+          if (this.state.p716 === "? ") {this.setState({p716: " "});}
+  }
+  p717() {
+          if (this.state.p717 === "baño") {
+                  this.setState({p717: "Baño"});
+          } else {
+                  this.setState({p717: "baño"});
+          }
+  }
+  p718() {
+          if (this.state.p718 === " ") {this.setState({p718: ", "});}
+          if (this.state.p718 === ", ") {this.setState({p718: "; "});}
+          if (this.state.p718 === "; ") {this.setState({p718: ": "});}
+          if (this.state.p718 === ": ") {this.setState({p718: "( "});}
+          if (this.state.p718 === "( ") {this.setState({p718: ") "});}
+          if (this.state.p718 === ") ") {this.setState({p718: "¡ "});}
+          if (this.state.p718 === "¡ ") {this.setState({p718: "! "});}
+          if (this.state.p718 === "! ") {this.setState({p718: "¿ "});}
+          if (this.state.p718 === "¿ ") {this.setState({p718: "? "});}
+          if (this.state.p718 === "? ") {this.setState({p718: " "});}
+  }
+  p719() {
+          if (this.state.p719 === "o") {
+                  this.setState({p719: "O"});
+          } else {
+                  this.setState({p719: "o"});
+          }
+  }
+  p720() {
+          if (this.state.p720 === " ") {this.setState({p720: ", "});}
+          if (this.state.p720 === ", ") {this.setState({p720: "; "});}
+          if (this.state.p720 === "; ") {this.setState({p720: ": "});}
+          if (this.state.p720 === ": ") {this.setState({p720: "( "});}
+          if (this.state.p720 === "( ") {this.setState({p720: ") "});}
+          if (this.state.p720 === ") ") {this.setState({p720: "¡ "});}
+          if (this.state.p720 === "¡ ") {this.setState({p720: "! "});}
+          if (this.state.p720 === "! ") {this.setState({p720: "¿ "});}
+          if (this.state.p720 === "¿ ") {this.setState({p720: "? "});}
+          if (this.state.p720 === "? ") {this.setState({p720: " "});}
+  }
+  p721() {
+          if (this.state.p721 === "mientras") {
+                  this.setState({p721: "Mientras"});
+          } else {
+                  this.setState({p721: "mientras"});
+          }
+  }
+  p722() {
+          if (this.state.p722 === " ") {this.setState({p722: ", "});}
+          if (this.state.p722 === ", ") {this.setState({p722: "; "});}
+          if (this.state.p722 === "; ") {this.setState({p722: ": "});}
+          if (this.state.p722 === ": ") {this.setState({p722: "( "});}
+          if (this.state.p722 === "( ") {this.setState({p722: ") "});}
+          if (this.state.p722 === ") ") {this.setState({p722: "¡ "});}
+          if (this.state.p722 === "¡ ") {this.setState({p722: "! "});}
+          if (this.state.p722 === "! ") {this.setState({p722: "¿ "});}
+          if (this.state.p722 === "¿ ") {this.setState({p722: "? "});}
+          if (this.state.p722 === "? ") {this.setState({p722: " "});}
+  }
+  p723() {
+          if (this.state.p723 === "me") {
+                  this.setState({p723: "Me"});
+          } else {
+                  this.setState({p723: "me"});
+          }
+  }
+  p724() {
+          if (this.state.p724 === " ") {this.setState({p724: ", "});}
+          if (this.state.p724 === ", ") {this.setState({p724: "; "});}
+          if (this.state.p724 === "; ") {this.setState({p724: ": "});}
+          if (this.state.p724 === ": ") {this.setState({p724: "( "});}
+          if (this.state.p724 === "( ") {this.setState({p724: ") "});}
+          if (this.state.p724 === ") ") {this.setState({p724: "¡ "});}
+          if (this.state.p724 === "¡ ") {this.setState({p724: "! "});}
+          if (this.state.p724 === "! ") {this.setState({p724: "¿ "});}
+          if (this.state.p724 === "¿ ") {this.setState({p724: "? "});}
+          if (this.state.p724 === "? ") {this.setState({p724: " "});}
+  }
+  p725() {
+          if (this.state.p725 === "desvisto") {
+                  this.setState({p725: "Desvisto"});
+          } else {
+                  this.setState({p725: "desvisto"});
+          }
+  }
+  p726() {
+          if (this.state.p726 === " ") {this.setState({p726: ", "});}
+          if (this.state.p726 === ", ") {this.setState({p726: "; "});}
+          if (this.state.p726 === "; ") {this.setState({p726: ": "});}
+          if (this.state.p726 === ": ") {this.setState({p726: "( "});}
+          if (this.state.p726 === "( ") {this.setState({p726: ") "});}
+          if (this.state.p726 === ") ") {this.setState({p726: "¡ "});}
+          if (this.state.p726 === "¡ ") {this.setState({p726: "! "});}
+          if (this.state.p726 === "! ") {this.setState({p726: "¿ "});}
+          if (this.state.p726 === "¿ ") {this.setState({p726: "? "});}
+          if (this.state.p726 === "? ") {this.setState({p726: " "});}
+  }
+  p727() {
+          if (this.state.p727 === "para") {
+                  this.setState({p727: "Para"});
+          } else {
+                  this.setState({p727: "para"});
+          }
+  }
+  p728() {
+          if (this.state.p728 === " ") {this.setState({p728: ", "});}
+          if (this.state.p728 === ", ") {this.setState({p728: "; "});}
+          if (this.state.p728 === "; ") {this.setState({p728: ": "});}
+          if (this.state.p728 === ": ") {this.setState({p728: "( "});}
+          if (this.state.p728 === "( ") {this.setState({p728: ") "});}
+          if (this.state.p728 === ") ") {this.setState({p728: "¡ "});}
+          if (this.state.p728 === "¡ ") {this.setState({p728: "! "});}
+          if (this.state.p728 === "! ") {this.setState({p728: "¿ "});}
+          if (this.state.p728 === "¿ ") {this.setState({p728: "? "});}
+          if (this.state.p728 === "? ") {this.setState({p728: " "});}
+  }
+  p729() {
+          if (this.state.p729 === "echarme") {
+                  this.setState({p729: "Echarme"});
+          } else {
+                  this.setState({p729: "echarme"});
+          }
+  }
+  p730() {
+          if (this.state.p730 === " ") {this.setState({p730: ", "});}
+          if (this.state.p730 === ", ") {this.setState({p730: "; "});}
+          if (this.state.p730 === "; ") {this.setState({p730: ": "});}
+          if (this.state.p730 === ": ") {this.setState({p730: "( "});}
+          if (this.state.p730 === "( ") {this.setState({p730: ") "});}
+          if (this.state.p730 === ") ") {this.setState({p730: "¡ "});}
+          if (this.state.p730 === "¡ ") {this.setState({p730: "! "});}
+          if (this.state.p730 === "! ") {this.setState({p730: "¿ "});}
+          if (this.state.p730 === "¿ ") {this.setState({p730: "? "});}
+          if (this.state.p730 === "? ") {this.setState({p730: " "});}
+  }
+  p731() {
+          if (this.state.p731 === "en") {
+                  this.setState({p731: "En"});
+          } else {
+                  this.setState({p731: "en"});
+          }
+  }
+  p732() {
+          if (this.state.p732 === " ") {this.setState({p732: ", "});}
+          if (this.state.p732 === ", ") {this.setState({p732: "; "});}
+          if (this.state.p732 === "; ") {this.setState({p732: ": "});}
+          if (this.state.p732 === ": ") {this.setState({p732: "( "});}
+          if (this.state.p732 === "( ") {this.setState({p732: ") "});}
+          if (this.state.p732 === ") ") {this.setState({p732: "¡ "});}
+          if (this.state.p732 === "¡ ") {this.setState({p732: "! "});}
+          if (this.state.p732 === "! ") {this.setState({p732: "¿ "});}
+          if (this.state.p732 === "¿ ") {this.setState({p732: "? "});}
+          if (this.state.p732 === "? ") {this.setState({p732: " "});}
+  }
+  p733() {
+          if (this.state.p733 === "la") {
+                  this.setState({p733: "La"});
+          } else {
+                  this.setState({p733: "la"});
+          }
+  }
+  p734() {
+          if (this.state.p734 === " ") {this.setState({p734: ", "});}
+          if (this.state.p734 === ", ") {this.setState({p734: "; "});}
+          if (this.state.p734 === "; ") {this.setState({p734: ": "});}
+          if (this.state.p734 === ": ") {this.setState({p734: "( "});}
+          if (this.state.p734 === "( ") {this.setState({p734: ") "});}
+          if (this.state.p734 === ") ") {this.setState({p734: "¡ "});}
+          if (this.state.p734 === "¡ ") {this.setState({p734: "! "});}
+          if (this.state.p734 === "! ") {this.setState({p734: "¿ "});}
+          if (this.state.p734 === "¿ ") {this.setState({p734: "? "});}
+          if (this.state.p734 === "? ") {this.setState({p734: " "});}
+  }
+  p735() {
+          if (this.state.p735 === "cama") {
+                  this.setState({p735: "Cama"});
+          } else {
+                  this.setState({p735: "cama"});
+          }
+  }
+  p736() {
+          if (this.state.p736 === " ") {this.setState({p736: ", "});}
+          if (this.state.p736 === ", ") {this.setState({p736: "; "});}
+          if (this.state.p736 === "; ") {this.setState({p736: ". "});}
+          if (this.state.p736 === ". ") {this.setState({p736: "( "});}
+          if (this.state.p736 === "( ") {this.setState({p736: ") "});}
+          if (this.state.p736 === ") ") {this.setState({p736: "¡ "});}
+          if (this.state.p736 === "¡ ") {this.setState({p736: "! "});}
+          if (this.state.p736 === "! ") {this.setState({p736: "¿ "});}
+          if (this.state.p736 === "¿ ") {this.setState({p736: "? "});}
+          if (this.state.p736 === "? ") {this.setState({p736: " "});}
+  }
+  p737() {
+          if (this.state.p737 === "a") {
+                  this.setState({p737: "A"});
+          } else {
+                  this.setState({p737: "a"});
+          }
+  }
+  p738() {
+          if (this.state.p738 === " ") {this.setState({p738: ", "});}
+          if (this.state.p738 === ", ") {this.setState({p738: "; "});}
+          if (this.state.p738 === "; ") {this.setState({p738: ": "});}
+          if (this.state.p738 === ": ") {this.setState({p738: "( "});}
+          if (this.state.p738 === "( ") {this.setState({p738: ") "});}
+          if (this.state.p738 === ") ") {this.setState({p738: "¡ "});}
+          if (this.state.p738 === "¡ ") {this.setState({p738: "! "});}
+          if (this.state.p738 === "! ") {this.setState({p738: "¿ "});}
+          if (this.state.p738 === "¿ ") {this.setState({p738: "? "});}
+          if (this.state.p738 === "? ") {this.setState({p738: " "});}
+  }
+  p739() {
+          if (this.state.p739 === "veces") {
+                  this.setState({p739: "Veces"});
+          } else {
+                  this.setState({p739: "veces"});
+          }
+  }
+  p740() {
+          if (this.state.p740 === " ") {this.setState({p740: ", "});}
+          if (this.state.p740 === ", ") {this.setState({p740: "; "});}
+          if (this.state.p740 === "; ") {this.setState({p740: ": "});}
+          if (this.state.p740 === ": ") {this.setState({p740: "( "});}
+          if (this.state.p740 === "( ") {this.setState({p740: ") "});}
+          if (this.state.p740 === ") ") {this.setState({p740: "¡ "});}
+          if (this.state.p740 === "¡ ") {this.setState({p740: "! "});}
+          if (this.state.p740 === "! ") {this.setState({p740: "¿ "});}
+          if (this.state.p740 === "¿ ") {this.setState({p740: "? "});}
+          if (this.state.p740 === "? ") {this.setState({p740: " "});}
+  }
+  p741() {
+          if (this.state.p741 === "el") {
+                  this.setState({p741: "El"});
+          } else {
+                  this.setState({p741: "el"});
+          }
+  }
+  p742() {
+          if (this.state.p742 === " ") {this.setState({p742: ", "});}
+          if (this.state.p742 === ", ") {this.setState({p742: "; "});}
+          if (this.state.p742 === "; ") {this.setState({p742: ": "});}
+          if (this.state.p742 === ": ") {this.setState({p742: "( "});}
+          if (this.state.p742 === "( ") {this.setState({p742: ") "});}
+          if (this.state.p742 === ") ") {this.setState({p742: "¡ "});}
+          if (this.state.p742 === "¡ ") {this.setState({p742: "! "});}
+          if (this.state.p742 === "! ") {this.setState({p742: "¿ "});}
+          if (this.state.p742 === "¿ ") {this.setState({p742: "? "});}
+          if (this.state.p742 === "? ") {this.setState({p742: " "});}
+  }
+  p743() {
+          if (this.state.p743 === "silencio") {
+                  this.setState({p743: "Silencio"});
+          } else {
+                  this.setState({p743: "silencio"});
+          }
+  }
+  p744() {
+          if (this.state.p744 === " ") {this.setState({p744: ", "});}
+          if (this.state.p744 === ", ") {this.setState({p744: "; "});}
+          if (this.state.p744 === "; ") {this.setState({p744: ": "});}
+          if (this.state.p744 === ": ") {this.setState({p744: "( "});}
+          if (this.state.p744 === "( ") {this.setState({p744: ") "});}
+          if (this.state.p744 === ") ") {this.setState({p744: "¡ "});}
+          if (this.state.p744 === "¡ ") {this.setState({p744: "! "});}
+          if (this.state.p744 === "! ") {this.setState({p744: "¿ "});}
+          if (this.state.p744 === "¿ ") {this.setState({p744: "? "});}
+          if (this.state.p744 === "? ") {this.setState({p744: " "});}
+  }
+  p745() {
+          if (this.state.p745 === "de") {
+                  this.setState({p745: "De"});
+          } else {
+                  this.setState({p745: "de"});
+          }
+  }
+  p746() {
+          if (this.state.p746 === " ") {this.setState({p746: ", "});}
+          if (this.state.p746 === ", ") {this.setState({p746: "; "});}
+          if (this.state.p746 === "; ") {this.setState({p746: ": "});}
+          if (this.state.p746 === ": ") {this.setState({p746: "( "});}
+          if (this.state.p746 === "( ") {this.setState({p746: ") "});}
+          if (this.state.p746 === ") ") {this.setState({p746: "¡ "});}
+          if (this.state.p746 === "¡ ") {this.setState({p746: "! "});}
+          if (this.state.p746 === "! ") {this.setState({p746: "¿ "});}
+          if (this.state.p746 === "¿ ") {this.setState({p746: "? "});}
+          if (this.state.p746 === "? ") {this.setState({p746: " "});}
+  }
+  p747() {
+          if (this.state.p747 === "la") {
+                  this.setState({p747: "La"});
+          } else {
+                  this.setState({p747: "la"});
+          }
+  }
+  p748() {
+          if (this.state.p748 === " ") {this.setState({p748: ", "});}
+          if (this.state.p748 === ", ") {this.setState({p748: "; "});}
+          if (this.state.p748 === "; ") {this.setState({p748: ": "});}
+          if (this.state.p748 === ": ") {this.setState({p748: "( "});}
+          if (this.state.p748 === "( ") {this.setState({p748: ") "});}
+          if (this.state.p748 === ") ") {this.setState({p748: "¡ "});}
+          if (this.state.p748 === "¡ ") {this.setState({p748: "! "});}
+          if (this.state.p748 === "! ") {this.setState({p748: "¿ "});}
+          if (this.state.p748 === "¿ ") {this.setState({p748: "? "});}
+          if (this.state.p748 === "? ") {this.setState({p748: " "});}
+  }
+  p749() {
+          if (this.state.p749 === "noche") {
+                  this.setState({p749: "Noche"});
+          } else {
+                  this.setState({p749: "noche"});
+          }
+  }
+  p750() {
+          if (this.state.p750 === " ") {this.setState({p750: ", "});}
+          if (this.state.p750 === ", ") {this.setState({p750: "; "});}
+          if (this.state.p750 === "; ") {this.setState({p750: ": "});}
+          if (this.state.p750 === ": ") {this.setState({p750: "( "});}
+          if (this.state.p750 === "( ") {this.setState({p750: ") "});}
+          if (this.state.p750 === ") ") {this.setState({p750: "¡ "});}
+          if (this.state.p750 === "¡ ") {this.setState({p750: "! "});}
+          if (this.state.p750 === "! ") {this.setState({p750: "¿ "});}
+          if (this.state.p750 === "¿ ") {this.setState({p750: "? "});}
+          if (this.state.p750 === "? ") {this.setState({p750: " "});}
+  }
+  p751() {
+          if (this.state.p751 === "me") {
+                  this.setState({p751: "Me"});
+          } else {
+                  this.setState({p751: "me"});
+          }
+  }
+  p752() {
+          if (this.state.p752 === " ") {this.setState({p752: ", "});}
+          if (this.state.p752 === ", ") {this.setState({p752: "; "});}
+          if (this.state.p752 === "; ") {this.setState({p752: ": "});}
+          if (this.state.p752 === ": ") {this.setState({p752: "( "});}
+          if (this.state.p752 === "( ") {this.setState({p752: ") "});}
+          if (this.state.p752 === ") ") {this.setState({p752: "¡ "});}
+          if (this.state.p752 === "¡ ") {this.setState({p752: "! "});}
+          if (this.state.p752 === "! ") {this.setState({p752: "¿ "});}
+          if (this.state.p752 === "¿ ") {this.setState({p752: "? "});}
+          if (this.state.p752 === "? ") {this.setState({p752: " "});}
+  }
+  p753() {
+          if (this.state.p753 === "trae") {
+                  this.setState({p753: "Trae"});
+          } else {
+                  this.setState({p753: "trae"});
+          }
+  }
+  p754() {
+          if (this.state.p754 === " ") {this.setState({p754: ", "});}
+          if (this.state.p754 === ", ") {this.setState({p754: "; "});}
+          if (this.state.p754 === "; ") {this.setState({p754: ": "});}
+          if (this.state.p754 === ": ") {this.setState({p754: "( "});}
+          if (this.state.p754 === "( ") {this.setState({p754: ") "});}
+          if (this.state.p754 === ") ") {this.setState({p754: "¡ "});}
+          if (this.state.p754 === "¡ ") {this.setState({p754: "! "});}
+          if (this.state.p754 === "! ") {this.setState({p754: "¿ "});}
+          if (this.state.p754 === "¿ ") {this.setState({p754: "? "});}
+          if (this.state.p754 === "? ") {this.setState({p754: " "});}
+  }
+  p755() {
+          if (this.state.p755 === "el") {
+                  this.setState({p755: "El"});
+          } else {
+                  this.setState({p755: "el"});
+          }
+  }
+  p756() {
+          if (this.state.p756 === " ") {this.setState({p756: ", "});}
+          if (this.state.p756 === ", ") {this.setState({p756: "; "});}
+          if (this.state.p756 === "; ") {this.setState({p756: ": "});}
+          if (this.state.p756 === ": ") {this.setState({p756: "( "});}
+          if (this.state.p756 === "( ") {this.setState({p756: ") "});}
+          if (this.state.p756 === ") ") {this.setState({p756: "¡ "});}
+          if (this.state.p756 === "¡ ") {this.setState({p756: "! "});}
+          if (this.state.p756 === "! ") {this.setState({p756: "¿ "});}
+          if (this.state.p756 === "¿ ") {this.setState({p756: "? "});}
+          if (this.state.p756 === "? ") {this.setState({p756: " "});}
+  }
+  p757() {
+          if (this.state.p757 === "eco") {
+                  this.setState({p757: "Eco"});
+          } else {
+                  this.setState({p757: "eco"});
+          }
+  }
+  p758() {
+          if (this.state.p758 === " ") {this.setState({p758: ", "});}
+          if (this.state.p758 === ", ") {this.setState({p758: "; "});}
+          if (this.state.p758 === "; ") {this.setState({p758: ": "});}
+          if (this.state.p758 === ": ") {this.setState({p758: "( "});}
+          if (this.state.p758 === "( ") {this.setState({p758: ") "});}
+          if (this.state.p758 === ") ") {this.setState({p758: "¡ "});}
+          if (this.state.p758 === "¡ ") {this.setState({p758: "! "});}
+          if (this.state.p758 === "! ") {this.setState({p758: "¿ "});}
+          if (this.state.p758 === "¿ ") {this.setState({p758: "? "});}
+          if (this.state.p758 === "? ") {this.setState({p758: " "});}
+  }
+  p759() {
+          if (this.state.p759 === "de") {
+                  this.setState({p759: "De"});
+          } else {
+                  this.setState({p759: "de"});
+          }
+  }
+  p760() {
+          if (this.state.p760 === " ") {this.setState({p760: ", "});}
+          if (this.state.p760 === ", ") {this.setState({p760: "; "});}
+          if (this.state.p760 === "; ") {this.setState({p760: ": "});}
+          if (this.state.p760 === ": ") {this.setState({p760: "( "});}
+          if (this.state.p760 === "( ") {this.setState({p760: ") "});}
+          if (this.state.p760 === ") ") {this.setState({p760: "¡ "});}
+          if (this.state.p760 === "¡ ") {this.setState({p760: "! "});}
+          if (this.state.p760 === "! ") {this.setState({p760: "¿ "});}
+          if (this.state.p760 === "¿ ") {this.setState({p760: "? "});}
+          if (this.state.p760 === "? ") {this.setState({p760: " "});}
+  }
+  p761() {
+          if (this.state.p761 === "sus") {
+                  this.setState({p761: "Sus"});
+          } else {
+                  this.setState({p761: "sus"});
+          }
+  }
+  p762() {
+          if (this.state.p762 === " ") {this.setState({p762: ", "});}
+          if (this.state.p762 === ", ") {this.setState({p762: "; "});}
+          if (this.state.p762 === "; ") {this.setState({p762: ": "});}
+          if (this.state.p762 === ": ") {this.setState({p762: "( "});}
+          if (this.state.p762 === "( ") {this.setState({p762: ") "});}
+          if (this.state.p762 === ") ") {this.setState({p762: "¡ "});}
+          if (this.state.p762 === "¡ ") {this.setState({p762: "! "});}
+          if (this.state.p762 === "! ") {this.setState({p762: "¿ "});}
+          if (this.state.p762 === "¿ ") {this.setState({p762: "? "});}
+          if (this.state.p762 === "? ") {this.setState({p762: " "});}
+  }
+  p763() {
+          if (this.state.p763 === "pasos") {
+                  this.setState({p763: "Pasos"});
+          } else {
+                  this.setState({p763: "pasos"});
+          }
+  }
+  p764() {
+          if (this.state.p764 === " ") {this.setState({p764: ", "});}
+          if (this.state.p764 === ", ") {this.setState({p764: "; "});}
+          if (this.state.p764 === "; ") {this.setState({p764: ": "});}
+          if (this.state.p764 === ": ") {this.setState({p764: "( "});}
+          if (this.state.p764 === "( ") {this.setState({p764: ") "});}
+          if (this.state.p764 === ") ") {this.setState({p764: "¡ "});}
+          if (this.state.p764 === "¡ ") {this.setState({p764: "! "});}
+          if (this.state.p764 === "! ") {this.setState({p764: "¿ "});}
+          if (this.state.p764 === "¿ ") {this.setState({p764: "? "});}
+          if (this.state.p764 === "? ") {this.setState({p764: " "});}
+  }
+  p765() {
+          if (this.state.p765 === "que") {
+                  this.setState({p765: "Que"});
+          } else {
+                  this.setState({p765: "que"});
+          }
+  }
+  p766() {
+          if (this.state.p766 === " ") {this.setState({p766: ", "});}
+          if (this.state.p766 === ", ") {this.setState({p766: "; "});}
+          if (this.state.p766 === "; ") {this.setState({p766: ": "});}
+          if (this.state.p766 === ": ") {this.setState({p766: "( "});}
+          if (this.state.p766 === "( ") {this.setState({p766: ") "});}
+          if (this.state.p766 === ") ") {this.setState({p766: "¡ "});}
+          if (this.state.p766 === "¡ ") {this.setState({p766: "! "});}
+          if (this.state.p766 === "! ") {this.setState({p766: "¿ "});}
+          if (this.state.p766 === "¿ ") {this.setState({p766: "? "});}
+          if (this.state.p766 === "? ") {this.setState({p766: " "});}
+  }
+  p767() {
+          if (this.state.p767 === "he") {
+                  this.setState({p767: "He"});
+          } else {
+                  this.setState({p767: "he"});
+          }
+  }
+  p768() {
+          if (this.state.p768 === " ") {this.setState({p768: ", "});}
+          if (this.state.p768 === ", ") {this.setState({p768: "; "});}
+          if (this.state.p768 === "; ") {this.setState({p768: ": "});}
+          if (this.state.p768 === ": ") {this.setState({p768: "( "});}
+          if (this.state.p768 === "( ") {this.setState({p768: ") "});}
+          if (this.state.p768 === ") ") {this.setState({p768: "¡ "});}
+          if (this.state.p768 === "¡ ") {this.setState({p768: "! "});}
+          if (this.state.p768 === "! ") {this.setState({p768: "¿ "});}
+          if (this.state.p768 === "¿ ") {this.setState({p768: "? "});}
+          if (this.state.p768 === "? ") {this.setState({p768: " "});}
+  }
+  p769() {
+          if (this.state.p769 === "aprendido") {
+                  this.setState({p769: "Aprendido"});
+          } else {
+                  this.setState({p769: "aprendido"});
+          }
+  }
+  p770() {
+          if (this.state.p770 === " ") {this.setState({p770: ", "});}
+          if (this.state.p770 === ", ") {this.setState({p770: "; "});}
+          if (this.state.p770 === "; ") {this.setState({p770: ": "});}
+          if (this.state.p770 === ": ") {this.setState({p770: "( "});}
+          if (this.state.p770 === "( ") {this.setState({p770: ") "});}
+          if (this.state.p770 === ") ") {this.setState({p770: "¡ "});}
+          if (this.state.p770 === "¡ ") {this.setState({p770: "! "});}
+          if (this.state.p770 === "! ") {this.setState({p770: "¿ "});}
+          if (this.state.p770 === "¿ ") {this.setState({p770: "? "});}
+          if (this.state.p770 === "? ") {this.setState({p770: " "});}
+  }
+  p771() {
+          if (this.state.p771 === "a") {
+                  this.setState({p771: "A"});
+          } else {
+                  this.setState({p771: "a"});
+          }
+  }
+  p772() {
+          if (this.state.p772 === " ") {this.setState({p772: ", "});}
+          if (this.state.p772 === ", ") {this.setState({p772: "; "});}
+          if (this.state.p772 === "; ") {this.setState({p772: ": "});}
+          if (this.state.p772 === ": ") {this.setState({p772: "( "});}
+          if (this.state.p772 === "( ") {this.setState({p772: ") "});}
+          if (this.state.p772 === ") ") {this.setState({p772: "¡ "});}
+          if (this.state.p772 === "¡ ") {this.setState({p772: "! "});}
+          if (this.state.p772 === "! ") {this.setState({p772: "¿ "});}
+          if (this.state.p772 === "¿ ") {this.setState({p772: "? "});}
+          if (this.state.p772 === "? ") {this.setState({p772: " "});}
+  }
+  p773() {
+          if (this.state.p773 === "oí­r") {
+                  this.setState({p773: "Oí­r"});
+          } else {
+                  this.setState({p773: "oí­r"});
+          }
+  }
+  p774() {
+          if (this.state.p774 === " ") {this.setState({p774: ", "});}
+          if (this.state.p774 === ", ") {this.setState({p774: "; "});}
+          if (this.state.p774 === "; ") {this.setState({p774: ": "});}
+          if (this.state.p774 === ": ") {this.setState({p774: "( "});}
+          if (this.state.p774 === "( ") {this.setState({p774: ") "});}
+          if (this.state.p774 === ") ") {this.setState({p774: "¡ "});}
+          if (this.state.p774 === "¡ ") {this.setState({p774: "! "});}
+          if (this.state.p774 === "! ") {this.setState({p774: "¿ "});}
+          if (this.state.p774 === "¿ ") {this.setState({p774: "? "});}
+          if (this.state.p774 === "? ") {this.setState({p774: " "});}
+  }
+  p775() {
+          if (this.state.p775 === "aunque") {
+                  this.setState({p775: "Aunque"});
+          } else {
+                  this.setState({p775: "aunque"});
+          }
+  }
+  p776() {
+          if (this.state.p776 === " ") {this.setState({p776: ", "});}
+          if (this.state.p776 === ", ") {this.setState({p776: "; "});}
+          if (this.state.p776 === "; ") {this.setState({p776: ": "});}
+          if (this.state.p776 === ": ") {this.setState({p776: "( "});}
+          if (this.state.p776 === "( ") {this.setState({p776: ") "});}
+          if (this.state.p776 === ") ") {this.setState({p776: "¡ "});}
+          if (this.state.p776 === "¡ ") {this.setState({p776: "! "});}
+          if (this.state.p776 === "! ") {this.setState({p776: "¿ "});}
+          if (this.state.p776 === "¿ ") {this.setState({p776: "? "});}
+          if (this.state.p776 === "? ") {this.setState({p776: " "});}
+  }
+  p777() {
+          if (this.state.p777 === "sé") {
+                  this.setState({p777: "Sé"});
+          } else {
+                  this.setState({p777: "sé"});
+          }
+  }
+  p778() {
+          if (this.state.p778 === " ") {this.setState({p778: ", "});}
+          if (this.state.p778 === ", ") {this.setState({p778: "; "});}
+          if (this.state.p778 === "; ") {this.setState({p778: ": "});}
+          if (this.state.p778 === ": ") {this.setState({p778: "( "});}
+          if (this.state.p778 === "( ") {this.setState({p778: ") "});}
+          if (this.state.p778 === ") ") {this.setState({p778: "¡ "});}
+          if (this.state.p778 === "¡ ") {this.setState({p778: "! "});}
+          if (this.state.p778 === "! ") {this.setState({p778: "¿ "});}
+          if (this.state.p778 === "¿ ") {this.setState({p778: "? "});}
+          if (this.state.p778 === "? ") {this.setState({p778: " "});}
+  }
+  p779() {
+          if (this.state.p779 === "que") {
+                  this.setState({p779: "Que"});
+          } else {
+                  this.setState({p779: "que"});
+          }
+  }
+  p780() {
+          if (this.state.p780 === " ") {this.setState({p780: ", "});}
+          if (this.state.p780 === ", ") {this.setState({p780: "; "});}
+          if (this.state.p780 === "; ") {this.setState({p780: ": "});}
+          if (this.state.p780 === ": ") {this.setState({p780: "( "});}
+          if (this.state.p780 === "( ") {this.setState({p780: ") "});}
+          if (this.state.p780 === ") ") {this.setState({p780: "¡ "});}
+          if (this.state.p780 === "¡ ") {this.setState({p780: "! "});}
+          if (this.state.p780 === "! ") {this.setState({p780: "¿ "});}
+          if (this.state.p780 === "¿ ") {this.setState({p780: "? "});}
+          if (this.state.p780 === "? ") {this.setState({p780: " "});}
+  }
+  p781() {
+          if (this.state.p781 === "son") {
+                  this.setState({p781: "Son"});
+          } else {
+                  this.setState({p781: "son"});
+          }
+  }
+  p782() {
+          if (this.state.p782 === " ") {this.setState({p782: ", "});}
+          if (this.state.p782 === ", ") {this.setState({p782: "; "});}
+          if (this.state.p782 === "; ") {this.setState({p782: ": "});}
+          if (this.state.p782 === ": ") {this.setState({p782: "( "});}
+          if (this.state.p782 === "( ") {this.setState({p782: ") "});}
+          if (this.state.p782 === ") ") {this.setState({p782: "¡ "});}
+          if (this.state.p782 === "¡ ") {this.setState({p782: "! "});}
+          if (this.state.p782 === "! ") {this.setState({p782: "¿ "});}
+          if (this.state.p782 === "¿ ") {this.setState({p782: "? "});}
+          if (this.state.p782 === "? ") {this.setState({p782: " "});}
+  }
+  p783() {
+          if (this.state.p783 === "imperceptibles") {
+                  this.setState({p783: "Imperceptibles"});
+          } else {
+                  this.setState({p783: "imperceptibles"});
+          }
+  }
+  p784() {
+          if (this.state.p784 === " ") {this.setState({p784: ", "});}
+          if (this.state.p784 === ", ") {this.setState({p784: "; "});}
+          if (this.state.p784 === "; ") {this.setState({p784: ". "});}
+          if (this.state.p784 === ". ") {this.setState({p784: "( "});}
+          if (this.state.p784 === "( ") {this.setState({p784: ") "});}
+          if (this.state.p784 === ") ") {this.setState({p784: "¡ "});}
+          if (this.state.p784 === "¡ ") {this.setState({p784: "! "});}
+          if (this.state.p784 === "! ") {this.setState({p784: "¿ "});}
+          if (this.state.p784 === "¿ ") {this.setState({p784: "? "});}
+          if (this.state.p784 === "? ") {this.setState({p784: " "});}
+  }
+  p784() {
+          if (this.state.p784 === " ") {this.setState({p784: ", "});}
+          if (this.state.p784 === ", ") {this.setState({p784: "; "});}
+          if (this.state.p784 === "; ") {this.setState({p784: ": "});}
+          if (this.state.p784 === ": ") {this.setState({p784: "( "});}
+          if (this.state.p784 === "( ") {this.setState({p784: ") "});}
+          if (this.state.p784 === ") ") {this.setState({p784: "¡ "});}
+          if (this.state.p784 === "¡ ") {this.setState({p784: "! "});}
+          if (this.state.p784 === "! ") {this.setState({p784: "¿ "});}
+          if (this.state.p784 === "¿ ") {this.setState({p784: "? "});}
+          if (this.state.p784 === "? ") {this.setState({p784: " "});}
+  }
+  p785() {
+          if (this.state.p785 === "muchos") {
+                  this.setState({p785: "Muchos"});
+          } else {
+                  this.setState({p785: "muchos"});
+          }
+  }
+  p786() {
+          if (this.state.p786 === " ") {this.setState({p786: ", "});}
+          if (this.state.p786 === ", ") {this.setState({p786: "; "});}
+          if (this.state.p786 === "; ") {this.setState({p786: ": "});}
+          if (this.state.p786 === ": ") {this.setState({p786: "( "});}
+          if (this.state.p786 === "( ") {this.setState({p786: ") "});}
+          if (this.state.p786 === ") ") {this.setState({p786: "¡ "});}
+          if (this.state.p786 === "¡ ") {this.setState({p786: "! "});}
+          if (this.state.p786 === "! ") {this.setState({p786: "¿ "});}
+          if (this.state.p786 === "¿ ") {this.setState({p786: "? "});}
+          if (this.state.p786 === "? ") {this.setState({p786: " "});}
+  }
+  p787() {
+          if (this.state.p787 === "dí­as") {
+                  this.setState({p787: "Dí­as"});
+          } else {
+                  this.setState({p787: "dí­as"});
+          }
+  }
+  p788() {
+          if (this.state.p788 === " ") {this.setState({p788: ", "});}
+          if (this.state.p788 === ", ") {this.setState({p788: "; "});}
+          if (this.state.p788 === "; ") {this.setState({p788: ": "});}
+          if (this.state.p788 === ": ") {this.setState({p788: "( "});}
+          if (this.state.p788 === "( ") {this.setState({p788: ") "});}
+          if (this.state.p788 === ") ") {this.setState({p788: "¡ "});}
+          if (this.state.p788 === "¡ ") {this.setState({p788: "! "});}
+          if (this.state.p788 === "! ") {this.setState({p788: "¿ "});}
+          if (this.state.p788 === "¿ ") {this.setState({p788: "? "});}
+          if (this.state.p788 === "? ") {this.setState({p788: " "});}
+  }
+  p789() {
+          if (this.state.p789 === "encuentro") {
+                  this.setState({p789: "Encuentro"});
+          } else {
+                  this.setState({p789: "encuentro"});
+          }
+  }
+  p790() {
+          if (this.state.p790 === " ") {this.setState({p790: ", "});}
+          if (this.state.p790 === ", ") {this.setState({p790: "; "});}
+          if (this.state.p790 === "; ") {this.setState({p790: ": "});}
+          if (this.state.p790 === ": ") {this.setState({p790: "( "});}
+          if (this.state.p790 === "( ") {this.setState({p790: ") "});}
+          if (this.state.p790 === ") ") {this.setState({p790: "¡ "});}
+          if (this.state.p790 === "¡ ") {this.setState({p790: "! "});}
+          if (this.state.p790 === "! ") {this.setState({p790: "¿ "});}
+          if (this.state.p790 === "¿ ") {this.setState({p790: "? "});}
+          if (this.state.p790 === "? ") {this.setState({p790: " "});}
+  }
+  p791() {
+          if (this.state.p791 === "intacto") {
+                  this.setState({p791: "Intacto"});
+          } else {
+                  this.setState({p791: "intacto"});
+          }
+  }
+  p792() {
+          if (this.state.p792 === " ") {this.setState({p792: ", "});}
+          if (this.state.p792 === ", ") {this.setState({p792: "; "});}
+          if (this.state.p792 === "; ") {this.setState({p792: ": "});}
+          if (this.state.p792 === ": ") {this.setState({p792: "( "});}
+          if (this.state.p792 === "( ") {this.setState({p792: ") "});}
+          if (this.state.p792 === ") ") {this.setState({p792: "¡ "});}
+          if (this.state.p792 === "¡ ") {this.setState({p792: "! "});}
+          if (this.state.p792 === "! ") {this.setState({p792: "¿ "});}
+          if (this.state.p792 === "¿ ") {this.setState({p792: "? "});}
+          if (this.state.p792 === "? ") {this.setState({p792: " "});}
+  }
+  p793() {
+          if (this.state.p793 === "el") {
+                  this.setState({p793: "El"});
+          } else {
+                  this.setState({p793: "el"});
+          }
+  }
+  p794() {
+          if (this.state.p794 === " ") {this.setState({p794: ", "});}
+          if (this.state.p794 === ", ") {this.setState({p794: "; "});}
+          if (this.state.p794 === "; ") {this.setState({p794: ": "});}
+          if (this.state.p794 === ": ") {this.setState({p794: "( "});}
+          if (this.state.p794 === "( ") {this.setState({p794: ") "});}
+          if (this.state.p794 === ") ") {this.setState({p794: "¡ "});}
+          if (this.state.p794 === "¡ ") {this.setState({p794: "! "});}
+          if (this.state.p794 === "! ") {this.setState({p794: "¿ "});}
+          if (this.state.p794 === "¿ ") {this.setState({p794: "? "});}
+          if (this.state.p794 === "? ") {this.setState({p794: " "});}
+  }
+  p795() {
+          if (this.state.p795 === "alimento") {
+                  this.setState({p795: "Alimento"});
+          } else {
+                  this.setState({p795: "alimento"});
+          }
+  }
+  p796() {
+          if (this.state.p796 === " ") {this.setState({p796: ", "});}
+          if (this.state.p796 === ", ") {this.setState({p796: "; "});}
+          if (this.state.p796 === "; ") {this.setState({p796: ": "});}
+          if (this.state.p796 === ": ") {this.setState({p796: "( "});}
+          if (this.state.p796 === "( ") {this.setState({p796: ") "});}
+          if (this.state.p796 === ") ") {this.setState({p796: "¡ "});}
+          if (this.state.p796 === "¡ ") {this.setState({p796: "! "});}
+          if (this.state.p796 === "! ") {this.setState({p796: "¿ "});}
+          if (this.state.p796 === "¿ ") {this.setState({p796: "? "});}
+          if (this.state.p796 === "? ") {this.setState({p796: " "});}
+  }
+  p797() {
+          if (this.state.p797 === "que") {
+                  this.setState({p797: "Que"});
+          } else {
+                  this.setState({p797: "que"});
+          }
+  }
+  p798() {
+          if (this.state.p798 === " ") {this.setState({p798: ", "});}
+          if (this.state.p798 === ", ") {this.setState({p798: "; "});}
+          if (this.state.p798 === "; ") {this.setState({p798: ": "});}
+          if (this.state.p798 === ": ") {this.setState({p798: "( "});}
+          if (this.state.p798 === "( ") {this.setState({p798: ") "});}
+          if (this.state.p798 === ") ") {this.setState({p798: "¡ "});}
+          if (this.state.p798 === "¡ ") {this.setState({p798: "! "});}
+          if (this.state.p798 === "! ") {this.setState({p798: "¿ "});}
+          if (this.state.p798 === "¿ ") {this.setState({p798: "? "});}
+          if (this.state.p798 === "? ") {this.setState({p798: " "});}
+  }
+  p799() {
+          if (this.state.p799 === "he") {
+                  this.setState({p799: "He"});
+          } else {
+                  this.setState({p799: "he"});
+          }
+  }
+  p800() {
+          if (this.state.p800 === " ") {this.setState({p800: ", "});}
+          if (this.state.p800 === ", ") {this.setState({p800: "; "});}
+          if (this.state.p800 === "; ") {this.setState({p800: ": "});}
+          if (this.state.p800 === ": ") {this.setState({p800: "( "});}
+          if (this.state.p800 === "( ") {this.setState({p800: ") "});}
+          if (this.state.p800 === ") ") {this.setState({p800: "¡ "});}
+          if (this.state.p800 === "¡ ") {this.setState({p800: "! "});}
+          if (this.state.p800 === "! ") {this.setState({p800: "¿ "});}
+          if (this.state.p800 === "¿ ") {this.setState({p800: "? "});}
+          if (this.state.p800 === "? ") {this.setState({p800: " "});}
+  }
+  p801() {
+          if (this.state.p801 === "dejado") {
+                  this.setState({p801: "Dejado"});
+          } else {
+                  this.setState({p801: "dejado"});
+          }
+  }
+  p802() {
+          if (this.state.p802 === " ") {this.setState({p802: ", "});}
+          if (this.state.p802 === ", ") {this.setState({p802: "; "});}
+          if (this.state.p802 === "; ") {this.setState({p802: ": "});}
+          if (this.state.p802 === ": ") {this.setState({p802: "( "});}
+          if (this.state.p802 === "( ") {this.setState({p802: ") "});}
+          if (this.state.p802 === ") ") {this.setState({p802: "¡ "});}
+          if (this.state.p802 === "¡ ") {this.setState({p802: "! "});}
+          if (this.state.p802 === "! ") {this.setState({p802: "¿ "});}
+          if (this.state.p802 === "¿ ") {this.setState({p802: "? "});}
+          if (this.state.p802 === "? ") {this.setState({p802: " "});}
+  }
+  p803() {
+          if (this.state.p803 === "la") {
+                  this.setState({p803: "La"});
+          } else {
+                  this.setState({p803: "la"});
+          }
+  }
+  p804() {
+          if (this.state.p804 === " ") {this.setState({p804: ", "});}
+          if (this.state.p804 === ", ") {this.setState({p804: "; "});}
+          if (this.state.p804 === "; ") {this.setState({p804: ": "});}
+          if (this.state.p804 === ": ") {this.setState({p804: "( "});}
+          if (this.state.p804 === "( ") {this.setState({p804: ") "});}
+          if (this.state.p804 === ") ") {this.setState({p804: "¡ "});}
+          if (this.state.p804 === "¡ ") {this.setState({p804: "! "});}
+          if (this.state.p804 === "! ") {this.setState({p804: "¿ "});}
+          if (this.state.p804 === "¿ ") {this.setState({p804: "? "});}
+          if (this.state.p804 === "? ") {this.setState({p804: " "});}
+  }
+  p805() {
+          if (this.state.p805 === "ví­spera") {
+                  this.setState({p805: "Ví­spera"});
+          } else {
+                  this.setState({p805: "ví­spera"});
+          }
+  }
+  p806() {
+          if (this.state.p806 === " ") {this.setState({p806: ", "});}
+          if (this.state.p806 === ", ") {this.setState({p806: "; "});}
+          if (this.state.p806 === "; ") {this.setState({p806: ". "});}
+          if (this.state.p806 === ". ") {this.setState({p806: "( "});}
+          if (this.state.p806 === "( ") {this.setState({p806: ") "});}
+          if (this.state.p806 === ") ") {this.setState({p806: "¡ "});}
+          if (this.state.p806 === "¡ ") {this.setState({p806: "! "});}
+          if (this.state.p806 === "! ") {this.setState({p806: "¿ "});}
+          if (this.state.p806 === "¿ ") {this.setState({p806: "? "});}
+          if (this.state.p806 === "? ") {this.setState({p806: " "});}
+  }
+  p807() {
+          if (this.state.p807 === "cuando") {
+                  this.setState({p807: "Cuando"});
+          } else {
+                  this.setState({p807: "cuando"});
+          }
+  }
+  p808() {
+          if (this.state.p808 === " ") {this.setState({p808: ", "});}
+          if (this.state.p808 === ", ") {this.setState({p808: "; "});}
+          if (this.state.p808 === "; ") {this.setState({p808: ": "});}
+          if (this.state.p808 === ": ") {this.setState({p808: "( "});}
+          if (this.state.p808 === "( ") {this.setState({p808: ") "});}
+          if (this.state.p808 === ") ") {this.setState({p808: "¡ "});}
+          if (this.state.p808 === "¡ ") {this.setState({p808: "! "});}
+          if (this.state.p808 === "! ") {this.setState({p808: "¿ "});}
+          if (this.state.p808 === "¿ ") {this.setState({p808: "? "});}
+          if (this.state.p808 === "? ") {this.setState({p808: " "});}
+  }
+  p809() {
+          if (this.state.p809 === "desaparece") {
+                  this.setState({p809: "Desaparece"});
+          } else {
+                  this.setState({p809: "desaparece"});
+          }
+  }
+  p810() {
+          if (this.state.p810 === " ") {this.setState({p810: ", "});}
+          if (this.state.p810 === ", ") {this.setState({p810: "; "});}
+          if (this.state.p810 === "; ") {this.setState({p810: ": "});}
+          if (this.state.p810 === ": ") {this.setState({p810: "( "});}
+          if (this.state.p810 === "( ") {this.setState({p810: ") "});}
+          if (this.state.p810 === ") ") {this.setState({p810: "¡ "});}
+          if (this.state.p810 === "¡ ") {this.setState({p810: "! "});}
+          if (this.state.p810 === "! ") {this.setState({p810: "¿ "});}
+          if (this.state.p810 === "¿ ") {this.setState({p810: "? "});}
+          if (this.state.p810 === "? ") {this.setState({p810: " "});}
+  }
+  p811() {
+          if (this.state.p811 === "no") {
+                  this.setState({p811: "No"});
+          } else {
+                  this.setState({p811: "no"});
+          }
+  }
+  p812() {
+          if (this.state.p812 === " ") {this.setState({p812: ", "});}
+          if (this.state.p812 === ", ") {this.setState({p812: "; "});}
+          if (this.state.p812 === "; ") {this.setState({p812: ": "});}
+          if (this.state.p812 === ": ") {this.setState({p812: "( "});}
+          if (this.state.p812 === "( ") {this.setState({p812: ") "});}
+          if (this.state.p812 === ") ") {this.setState({p812: "¡ "});}
+          if (this.state.p812 === "¡ ") {this.setState({p812: "! "});}
+          if (this.state.p812 === "! ") {this.setState({p812: "¿ "});}
+          if (this.state.p812 === "¿ ") {this.setState({p812: "? "});}
+          if (this.state.p812 === "? ") {this.setState({p812: " "});}
+  }
+  p813() {
+          if (this.state.p813 === "sé") {
+                  this.setState({p813: "Sé"});
+          } else {
+                  this.setState({p813: "sé"});
+          }
+  }
+  p814() {
+          if (this.state.p814 === " ") {this.setState({p814: ", "});}
+          if (this.state.p814 === ", ") {this.setState({p814: "; "});}
+          if (this.state.p814 === "; ") {this.setState({p814: ": "});}
+          if (this.state.p814 === ": ") {this.setState({p814: "( "});}
+          if (this.state.p814 === "( ") {this.setState({p814: ") "});}
+          if (this.state.p814 === ") ") {this.setState({p814: "¡ "});}
+          if (this.state.p814 === "¡ ") {this.setState({p814: "! "});}
+          if (this.state.p814 === "! ") {this.setState({p814: "¿ "});}
+          if (this.state.p814 === "¿ ") {this.setState({p814: "? "});}
+          if (this.state.p814 === "? ") {this.setState({p814: " "});}
+  }
+  p815() {
+          if (this.state.p815 === "si") {
+                  this.setState({p815: "Si"});
+          } else {
+                  this.setState({p815: "si"});
+          }
+  }
+  p816() {
+          if (this.state.p816 === " ") {this.setState({p816: ", "});}
+          if (this.state.p816 === ", ") {this.setState({p816: "; "});}
+          if (this.state.p816 === "; ") {this.setState({p816: ": "});}
+          if (this.state.p816 === ": ") {this.setState({p816: "( "});}
+          if (this.state.p816 === "( ") {this.setState({p816: ") "});}
+          if (this.state.p816 === ") ") {this.setState({p816: "¡ "});}
+          if (this.state.p816 === "¡ ") {this.setState({p816: "! "});}
+          if (this.state.p816 === "! ") {this.setState({p816: "¿ "});}
+          if (this.state.p816 === "¿ ") {this.setState({p816: "? "});}
+          if (this.state.p816 === "? ") {this.setState({p816: " "});}
+  }
+  p817() {
+          if (this.state.p817 === "lo") {
+                  this.setState({p817: "Lo"});
+          } else {
+                  this.setState({p817: "lo"});
+          }
+  }
+  p818() {
+          if (this.state.p818 === " ") {this.setState({p818: ", "});}
+          if (this.state.p818 === ", ") {this.setState({p818: "; "});}
+          if (this.state.p818 === "; ") {this.setState({p818: ": "});}
+          if (this.state.p818 === ": ") {this.setState({p818: "( "});}
+          if (this.state.p818 === "( ") {this.setState({p818: ") "});}
+          if (this.state.p818 === ") ") {this.setState({p818: "¡ "});}
+          if (this.state.p818 === "¡ ") {this.setState({p818: "! "});}
+          if (this.state.p818 === "! ") {this.setState({p818: "¿ "});}
+          if (this.state.p818 === "¿ ") {this.setState({p818: "? "});}
+          if (this.state.p818 === "? ") {this.setState({p818: " "});}
+  }
+  p819() {
+          if (this.state.p819 === "ha") {
+                  this.setState({p819: "Ha"});
+          } else {
+                  this.setState({p819: "ha"});
+          }
+  }
+  p820() {
+          if (this.state.p820 === " ") {this.setState({p820: ", "});}
+          if (this.state.p820 === ", ") {this.setState({p820: "; "});}
+          if (this.state.p820 === "; ") {this.setState({p820: ": "});}
+          if (this.state.p820 === ": ") {this.setState({p820: "( "});}
+          if (this.state.p820 === "( ") {this.setState({p820: ") "});}
+          if (this.state.p820 === ") ") {this.setState({p820: "¡ "});}
+          if (this.state.p820 === "¡ ") {this.setState({p820: "! "});}
+          if (this.state.p820 === "! ") {this.setState({p820: "¿ "});}
+          if (this.state.p820 === "¿ ") {this.setState({p820: "? "});}
+          if (this.state.p820 === "? ") {this.setState({p820: " "});}
+  }
+  p821() {
+          if (this.state.p821 === "devorado") {
+                  this.setState({p821: "Devorado"});
+          } else {
+                  this.setState({p821: "devorado"});
+          }
+  }
+  p822() {
+          if (this.state.p822 === " ") {this.setState({p822: ", "});}
+          if (this.state.p822 === ", ") {this.setState({p822: "; "});}
+          if (this.state.p822 === "; ") {this.setState({p822: ": "});}
+          if (this.state.p822 === ": ") {this.setState({p822: "( "});}
+          if (this.state.p822 === "( ") {this.setState({p822: ") "});}
+          if (this.state.p822 === ") ") {this.setState({p822: "¡ "});}
+          if (this.state.p822 === "¡ ") {this.setState({p822: "! "});}
+          if (this.state.p822 === "! ") {this.setState({p822: "¿ "});}
+          if (this.state.p822 === "¿ ") {this.setState({p822: "? "});}
+          if (this.state.p822 === "? ") {this.setState({p822: " "});}
+  }
+  p823() {
+          if (this.state.p823 === "la") {
+                  this.setState({p823: "La"});
+          } else {
+                  this.setState({p823: "la"});
+          }
+  }
+  p824() {
+          if (this.state.p824 === " ") {this.setState({p824: ", "});}
+          if (this.state.p824 === ", ") {this.setState({p824: "; "});}
+          if (this.state.p824 === "; ") {this.setState({p824: ": "});}
+          if (this.state.p824 === ": ") {this.setState({p824: "( "});}
+          if (this.state.p824 === "( ") {this.setState({p824: ") "});}
+          if (this.state.p824 === ") ") {this.setState({p824: "¡ "});}
+          if (this.state.p824 === "¡ ") {this.setState({p824: "! "});}
+          if (this.state.p824 === "! ") {this.setState({p824: "¿ "});}
+          if (this.state.p824 === "¿ ") {this.setState({p824: "? "});}
+          if (this.state.p824 === "? ") {this.setState({p824: " "});}
+  }
+  p825() {
+          if (this.state.p825 === "migala") {
+                  this.setState({p825: "Migala"});
+          } else {
+                  this.setState({p825: "migala"});
+          }
+  }
+  p826() {
+          if (this.state.p826 === " ") {this.setState({p826: ", "});}
+          if (this.state.p826 === ", ") {this.setState({p826: "; "});}
+          if (this.state.p826 === "; ") {this.setState({p826: ": "});}
+          if (this.state.p826 === ": ") {this.setState({p826: "( "});}
+          if (this.state.p826 === "( ") {this.setState({p826: ") "});}
+          if (this.state.p826 === ") ") {this.setState({p826: "¡ "});}
+          if (this.state.p826 === "¡ ") {this.setState({p826: "! "});}
+          if (this.state.p826 === "! ") {this.setState({p826: "¿ "});}
+          if (this.state.p826 === "¿ ") {this.setState({p826: "? "});}
+          if (this.state.p826 === "? ") {this.setState({p826: " "});}
+  }
+  p827() {
+          if (this.state.p827 === "o") {
+                  this.setState({p827: "O"});
+          } else {
+                  this.setState({p827: "o"});
+          }
+  }
+  p828() {
+          if (this.state.p828 === " ") {this.setState({p828: ", "});}
+          if (this.state.p828 === ", ") {this.setState({p828: "; "});}
+          if (this.state.p828 === "; ") {this.setState({p828: ": "});}
+          if (this.state.p828 === ": ") {this.setState({p828: "( "});}
+          if (this.state.p828 === "( ") {this.setState({p828: ") "});}
+          if (this.state.p828 === ") ") {this.setState({p828: "¡ "});}
+          if (this.state.p828 === "¡ ") {this.setState({p828: "! "});}
+          if (this.state.p828 === "! ") {this.setState({p828: "¿ "});}
+          if (this.state.p828 === "¿ ") {this.setState({p828: "? "});}
+          if (this.state.p828 === "? ") {this.setState({p828: " "});}
+  }
+  p829() {
+          if (this.state.p829 === "algún") {
+                  this.setState({p829: "Algún"});
+          } else {
+                  this.setState({p829: "algún"});
+          }
+  }
+  p830() {
+          if (this.state.p830 === " ") {this.setState({p830: ", "});}
+          if (this.state.p830 === ", ") {this.setState({p830: "; "});}
+          if (this.state.p830 === "; ") {this.setState({p830: ": "});}
+          if (this.state.p830 === ": ") {this.setState({p830: "( "});}
+          if (this.state.p830 === "( ") {this.setState({p830: ") "});}
+          if (this.state.p830 === ") ") {this.setState({p830: "¡ "});}
+          if (this.state.p830 === "¡ ") {this.setState({p830: "! "});}
+          if (this.state.p830 === "! ") {this.setState({p830: "¿ "});}
+          if (this.state.p830 === "¿ ") {this.setState({p830: "? "});}
+          if (this.state.p830 === "? ") {this.setState({p830: " "});}
+  }
+  p831() {
+          if (this.state.p831 === "otro") {
+                  this.setState({p831: "Otro"});
+          } else {
+                  this.setState({p831: "otro"});
+          }
+  }
+  p832() {
+          if (this.state.p832 === " ") {this.setState({p832: ", "});}
+          if (this.state.p832 === ", ") {this.setState({p832: "; "});}
+          if (this.state.p832 === "; ") {this.setState({p832: ": "});}
+          if (this.state.p832 === ": ") {this.setState({p832: "( "});}
+          if (this.state.p832 === "( ") {this.setState({p832: ") "});}
+          if (this.state.p832 === ") ") {this.setState({p832: "¡ "});}
+          if (this.state.p832 === "¡ ") {this.setState({p832: "! "});}
+          if (this.state.p832 === "! ") {this.setState({p832: "¿ "});}
+          if (this.state.p832 === "¿ ") {this.setState({p832: "? "});}
+          if (this.state.p832 === "? ") {this.setState({p832: " "});}
+  }
+  p833() {
+          if (this.state.p833 === "inocente") {
+                  this.setState({p833: "Inocente"});
+          } else {
+                  this.setState({p833: "inocente"});
+          }
+  }
+  p834() {
+          if (this.state.p834 === " ") {this.setState({p834: ", "});}
+          if (this.state.p834 === ", ") {this.setState({p834: "; "});}
+          if (this.state.p834 === "; ") {this.setState({p834: ": "});}
+          if (this.state.p834 === ": ") {this.setState({p834: "( "});}
+          if (this.state.p834 === "( ") {this.setState({p834: ") "});}
+          if (this.state.p834 === ") ") {this.setState({p834: "¡ "});}
+          if (this.state.p834 === "¡ ") {this.setState({p834: "! "});}
+          if (this.state.p834 === "! ") {this.setState({p834: "¿ "});}
+          if (this.state.p834 === "¿ ") {this.setState({p834: "? "});}
+          if (this.state.p834 === "? ") {this.setState({p834: " "});}
+  }
+  p835() {
+          if (this.state.p835 === "huésped") {
+                  this.setState({p835: "Huésped"});
+          } else {
+                  this.setState({p835: "huésped"});
+          }
+  }
+  p836() {
+          if (this.state.p836 === " ") {this.setState({p836: ", "});}
+          if (this.state.p836 === ", ") {this.setState({p836: "; "});}
+          if (this.state.p836 === "; ") {this.setState({p836: ": "});}
+          if (this.state.p836 === ": ") {this.setState({p836: "( "});}
+          if (this.state.p836 === "( ") {this.setState({p836: ") "});}
+          if (this.state.p836 === ") ") {this.setState({p836: "¡ "});}
+          if (this.state.p836 === "¡ ") {this.setState({p836: "! "});}
+          if (this.state.p836 === "! ") {this.setState({p836: "¿ "});}
+          if (this.state.p836 === "¿ ") {this.setState({p836: "? "});}
+          if (this.state.p836 === "? ") {this.setState({p836: " "});}
+  }
+  p837() {
+          if (this.state.p837 === "de") {
+                  this.setState({p837: "De"});
+          } else {
+                  this.setState({p837: "de"});
+          }
+  }
+  p838() {
+          if (this.state.p838 === " ") {this.setState({p838: ", "});}
+          if (this.state.p838 === ", ") {this.setState({p838: "; "});}
+          if (this.state.p838 === "; ") {this.setState({p838: ": "});}
+          if (this.state.p838 === ": ") {this.setState({p838: "( "});}
+          if (this.state.p838 === "( ") {this.setState({p838: ") "});}
+          if (this.state.p838 === ") ") {this.setState({p838: "¡ "});}
+          if (this.state.p838 === "¡ ") {this.setState({p838: "! "});}
+          if (this.state.p838 === "! ") {this.setState({p838: "¿ "});}
+          if (this.state.p838 === "¿ ") {this.setState({p838: "? "});}
+          if (this.state.p838 === "? ") {this.setState({p838: " "});}
+  }
+  p839() {
+          if (this.state.p839 === "la") {
+                  this.setState({p839: "La"});
+          } else {
+                  this.setState({p839: "la"});
+          }
+  }
+  p840() {
+          if (this.state.p840 === " ") {this.setState({p840: ", "});}
+          if (this.state.p840 === ", ") {this.setState({p840: "; "});}
+          if (this.state.p840 === "; ") {this.setState({p840: ": "});}
+          if (this.state.p840 === ": ") {this.setState({p840: "( "});}
+          if (this.state.p840 === "( ") {this.setState({p840: ") "});}
+          if (this.state.p840 === ") ") {this.setState({p840: "¡ "});}
+          if (this.state.p840 === "¡ ") {this.setState({p840: "! "});}
+          if (this.state.p840 === "! ") {this.setState({p840: "¿ "});}
+          if (this.state.p840 === "¿ ") {this.setState({p840: "? "});}
+          if (this.state.p840 === "? ") {this.setState({p840: " "});}
+  }
+  p841() {
+          if (this.state.p841 === "casa") {
+                  this.setState({p841: "Casa"});
+          } else {
+                  this.setState({p841: "casa"});
+          }
+  }
+  p842() {
+          if (this.state.p842 === " ") {this.setState({p842: ", "});}
+          if (this.state.p842 === ", ") {this.setState({p842: "; "});}
+          if (this.state.p842 === "; ") {this.setState({p842: ". "});}
+          if (this.state.p842 === ". ") {this.setState({p842: "( "});}
+          if (this.state.p842 === "( ") {this.setState({p842: ") "});}
+          if (this.state.p842 === ") ") {this.setState({p842: "¡ "});}
+          if (this.state.p842 === "¡ ") {this.setState({p842: "! "});}
+          if (this.state.p842 === "! ") {this.setState({p842: "¿ "});}
+          if (this.state.p842 === "¿ ") {this.setState({p842: "? "});}
+          if (this.state.p842 === "? ") {this.setState({p842: " "});}
+  }
+  p843() {
+          if (this.state.p843 === "he") {
+                  this.setState({p843: "He"});
+          } else {
+                  this.setState({p843: "he"});
+          }
+  }
+  p844() {
+          if (this.state.p844 === " ") {this.setState({p844: ", "});}
+          if (this.state.p844 === ", ") {this.setState({p844: "; "});}
+          if (this.state.p844 === "; ") {this.setState({p844: ": "});}
+          if (this.state.p844 === ": ") {this.setState({p844: "( "});}
+          if (this.state.p844 === "( ") {this.setState({p844: ") "});}
+          if (this.state.p844 === ") ") {this.setState({p844: "¡ "});}
+          if (this.state.p844 === "¡ ") {this.setState({p844: "! "});}
+          if (this.state.p844 === "! ") {this.setState({p844: "¿ "});}
+          if (this.state.p844 === "¿ ") {this.setState({p844: "? "});}
+          if (this.state.p844 === "? ") {this.setState({p844: " "});}
+  }
+  p845() {
+          if (this.state.p845 === "llegado") {
+                  this.setState({p845: "Llegado"});
+          } else {
+                  this.setState({p845: "llegado"});
+          }
+  }
+  p846() {
+          if (this.state.p846 === " ") {this.setState({p846: ", "});}
+          if (this.state.p846 === ", ") {this.setState({p846: "; "});}
+          if (this.state.p846 === "; ") {this.setState({p846: ": "});}
+          if (this.state.p846 === ": ") {this.setState({p846: "( "});}
+          if (this.state.p846 === "( ") {this.setState({p846: ") "});}
+          if (this.state.p846 === ") ") {this.setState({p846: "¡ "});}
+          if (this.state.p846 === "¡ ") {this.setState({p846: "! "});}
+          if (this.state.p846 === "! ") {this.setState({p846: "¿ "});}
+          if (this.state.p846 === "¿ ") {this.setState({p846: "? "});}
+          if (this.state.p846 === "? ") {this.setState({p846: " "});}
+  }
+  p847() {
+          if (this.state.p847 === "a") {
+                  this.setState({p847: "A"});
+          } else {
+                  this.setState({p847: "a"});
+          }
+  }
+  p848() {
+          if (this.state.p848 === " ") {this.setState({p848: ", "});}
+          if (this.state.p848 === ", ") {this.setState({p848: "; "});}
+          if (this.state.p848 === "; ") {this.setState({p848: ": "});}
+          if (this.state.p848 === ": ") {this.setState({p848: "( "});}
+          if (this.state.p848 === "( ") {this.setState({p848: ") "});}
+          if (this.state.p848 === ") ") {this.setState({p848: "¡ "});}
+          if (this.state.p848 === "¡ ") {this.setState({p848: "! "});}
+          if (this.state.p848 === "! ") {this.setState({p848: "¿ "});}
+          if (this.state.p848 === "¿ ") {this.setState({p848: "? "});}
+          if (this.state.p848 === "? ") {this.setState({p848: " "});}
+  }
+  p849() {
+          if (this.state.p849 === "pensar") {
+                  this.setState({p849: "Pensar"});
+          } else {
+                  this.setState({p849: "pensar"});
+          }
+  }
+  p850() {
+          if (this.state.p850 === " ") {this.setState({p850: ", "});}
+          if (this.state.p850 === ", ") {this.setState({p850: "; "});}
+          if (this.state.p850 === "; ") {this.setState({p850: ": "});}
+          if (this.state.p850 === ": ") {this.setState({p850: "( "});}
+          if (this.state.p850 === "( ") {this.setState({p850: ") "});}
+          if (this.state.p850 === ") ") {this.setState({p850: "¡ "});}
+          if (this.state.p850 === "¡ ") {this.setState({p850: "! "});}
+          if (this.state.p850 === "! ") {this.setState({p850: "¿ "});}
+          if (this.state.p850 === "¿ ") {this.setState({p850: "? "});}
+          if (this.state.p850 === "? ") {this.setState({p850: " "});}
+  }
+  p851() {
+          if (this.state.p851 === "también") {
+                  this.setState({p851: "También"});
+          } else {
+                  this.setState({p851: "también"});
+          }
+  }
+  p852() {
+          if (this.state.p852 === " ") {this.setState({p852: ", "});}
+          if (this.state.p852 === ", ") {this.setState({p852: "; "});}
+          if (this.state.p852 === "; ") {this.setState({p852: ": "});}
+          if (this.state.p852 === ": ") {this.setState({p852: "( "});}
+          if (this.state.p852 === "( ") {this.setState({p852: ") "});}
+          if (this.state.p852 === ") ") {this.setState({p852: "¡ "});}
+          if (this.state.p852 === "¡ ") {this.setState({p852: "! "});}
+          if (this.state.p852 === "! ") {this.setState({p852: "¿ "});}
+          if (this.state.p852 === "¿ ") {this.setState({p852: "? "});}
+          if (this.state.p852 === "? ") {this.setState({p852: " "});}
+  }
+  p853() {
+          if (this.state.p853 === "que") {
+                  this.setState({p853: "Que"});
+          } else {
+                  this.setState({p853: "que"});
+          }
+  }
+  p854() {
+          if (this.state.p854 === " ") {this.setState({p854: ", "});}
+          if (this.state.p854 === ", ") {this.setState({p854: "; "});}
+          if (this.state.p854 === "; ") {this.setState({p854: ": "});}
+          if (this.state.p854 === ": ") {this.setState({p854: "( "});}
+          if (this.state.p854 === "( ") {this.setState({p854: ") "});}
+          if (this.state.p854 === ") ") {this.setState({p854: "¡ "});}
+          if (this.state.p854 === "¡ ") {this.setState({p854: "! "});}
+          if (this.state.p854 === "! ") {this.setState({p854: "¿ "});}
+          if (this.state.p854 === "¿ ") {this.setState({p854: "? "});}
+          if (this.state.p854 === "? ") {this.setState({p854: " "});}
+  }
+  p855() {
+          if (this.state.p855 === "acaso") {
+                  this.setState({p855: "Acaso"});
+          } else {
+                  this.setState({p855: "acaso"});
+          }
+  }
+  p856() {
+          if (this.state.p856 === " ") {this.setState({p856: ", "});}
+          if (this.state.p856 === ", ") {this.setState({p856: "; "});}
+          if (this.state.p856 === "; ") {this.setState({p856: ": "});}
+          if (this.state.p856 === ": ") {this.setState({p856: "( "});}
+          if (this.state.p856 === "( ") {this.setState({p856: ") "});}
+          if (this.state.p856 === ") ") {this.setState({p856: "¡ "});}
+          if (this.state.p856 === "¡ ") {this.setState({p856: "! "});}
+          if (this.state.p856 === "! ") {this.setState({p856: "¿ "});}
+          if (this.state.p856 === "¿ ") {this.setState({p856: "? "});}
+          if (this.state.p856 === "? ") {this.setState({p856: " "});}
+  }
+  p857() {
+          if (this.state.p857 === "estoy") {
+                  this.setState({p857: "Estoy"});
+          } else {
+                  this.setState({p857: "estoy"});
+          }
+  }
+  p858() {
+          if (this.state.p858 === " ") {this.setState({p858: ", "});}
+          if (this.state.p858 === ", ") {this.setState({p858: "; "});}
+          if (this.state.p858 === "; ") {this.setState({p858: ": "});}
+          if (this.state.p858 === ": ") {this.setState({p858: "( "});}
+          if (this.state.p858 === "( ") {this.setState({p858: ") "});}
+          if (this.state.p858 === ") ") {this.setState({p858: "¡ "});}
+          if (this.state.p858 === "¡ ") {this.setState({p858: "! "});}
+          if (this.state.p858 === "! ") {this.setState({p858: "¿ "});}
+          if (this.state.p858 === "¿ ") {this.setState({p858: "? "});}
+          if (this.state.p858 === "? ") {this.setState({p858: " "});}
+  }
+  p859() {
+          if (this.state.p859 === "siendo") {
+                  this.setState({p859: "Siendo"});
+          } else {
+                  this.setState({p859: "siendo"});
+          }
+  }
+  p860() {
+          if (this.state.p860 === " ") {this.setState({p860: ", "});}
+          if (this.state.p860 === ", ") {this.setState({p860: "; "});}
+          if (this.state.p860 === "; ") {this.setState({p860: ": "});}
+          if (this.state.p860 === ": ") {this.setState({p860: "( "});}
+          if (this.state.p860 === "( ") {this.setState({p860: ") "});}
+          if (this.state.p860 === ") ") {this.setState({p860: "¡ "});}
+          if (this.state.p860 === "¡ ") {this.setState({p860: "! "});}
+          if (this.state.p860 === "! ") {this.setState({p860: "¿ "});}
+          if (this.state.p860 === "¿ ") {this.setState({p860: "? "});}
+          if (this.state.p860 === "? ") {this.setState({p860: " "});}
+  }
+  p861() {
+          if (this.state.p861 === "ví­ctima") {
+                  this.setState({p861: "Ví­ctima"});
+          } else {
+                  this.setState({p861: "ví­ctima"});
+          }
+  }
+  p862() {
+          if (this.state.p862 === " ") {this.setState({p862: ", "});}
+          if (this.state.p862 === ", ") {this.setState({p862: "; "});}
+          if (this.state.p862 === "; ") {this.setState({p862: ": "});}
+          if (this.state.p862 === ": ") {this.setState({p862: "( "});}
+          if (this.state.p862 === "( ") {this.setState({p862: ") "});}
+          if (this.state.p862 === ") ") {this.setState({p862: "¡ "});}
+          if (this.state.p862 === "¡ ") {this.setState({p862: "! "});}
+          if (this.state.p862 === "! ") {this.setState({p862: "¿ "});}
+          if (this.state.p862 === "¿ ") {this.setState({p862: "? "});}
+          if (this.state.p862 === "? ") {this.setState({p862: " "});}
+  }
+  p863() {
+          if (this.state.p863 === "de") {
+                  this.setState({p863: "De"});
+          } else {
+                  this.setState({p863: "de"});
+          }
+  }
+  p864() {
+          if (this.state.p864 === " ") {this.setState({p864: ", "});}
+          if (this.state.p864 === ", ") {this.setState({p864: "; "});}
+          if (this.state.p864 === "; ") {this.setState({p864: ": "});}
+          if (this.state.p864 === ": ") {this.setState({p864: "( "});}
+          if (this.state.p864 === "( ") {this.setState({p864: ") "});}
+          if (this.state.p864 === ") ") {this.setState({p864: "¡ "});}
+          if (this.state.p864 === "¡ ") {this.setState({p864: "! "});}
+          if (this.state.p864 === "! ") {this.setState({p864: "¿ "});}
+          if (this.state.p864 === "¿ ") {this.setState({p864: "? "});}
+          if (this.state.p864 === "? ") {this.setState({p864: " "});}
+  }
+  p865() {
+          if (this.state.p865 === "una") {
+                  this.setState({p865: "Una"});
+          } else {
+                  this.setState({p865: "una"});
+          }
+  }
+  p866() {
+          if (this.state.p866 === " ") {this.setState({p866: ", "});}
+          if (this.state.p866 === ", ") {this.setState({p866: "; "});}
+          if (this.state.p866 === "; ") {this.setState({p866: ": "});}
+          if (this.state.p866 === ": ") {this.setState({p866: "( "});}
+          if (this.state.p866 === "( ") {this.setState({p866: ") "});}
+          if (this.state.p866 === ") ") {this.setState({p866: "¡ "});}
+          if (this.state.p866 === "¡ ") {this.setState({p866: "! "});}
+          if (this.state.p866 === "! ") {this.setState({p866: "¿ "});}
+          if (this.state.p866 === "¿ ") {this.setState({p866: "? "});}
+          if (this.state.p866 === "? ") {this.setState({p866: " "});}
+  }
+  p867() {
+          if (this.state.p867 === "supercherí­a") {
+                  this.setState({p867: "Supercherí­a"});
+          } else {
+                  this.setState({p867: "supercherí­a"});
+          }
+  }
+  p868() {
+          if (this.state.p868 === " ") {this.setState({p868: ", "});}
+          if (this.state.p868 === ", ") {this.setState({p868: "; "});}
+          if (this.state.p868 === "; ") {this.setState({p868: ": "});}
+          if (this.state.p868 === ": ") {this.setState({p868: "( "});}
+          if (this.state.p868 === "( ") {this.setState({p868: ") "});}
+          if (this.state.p868 === ") ") {this.setState({p868: "¡ "});}
+          if (this.state.p868 === "¡ ") {this.setState({p868: "! "});}
+          if (this.state.p868 === "! ") {this.setState({p868: "¿ "});}
+          if (this.state.p868 === "¿ ") {this.setState({p868: "? "});}
+          if (this.state.p868 === "? ") {this.setState({p868: " "});}
+  }
+  p869() {
+          if (this.state.p869 === "y") {
+                  this.setState({p869: "Y"});
+          } else {
+                  this.setState({p869: "y"});
+          }
+  }
+  p870() {
+          if (this.state.p870 === " ") {this.setState({p870: ", "});}
+          if (this.state.p870 === ", ") {this.setState({p870: "; "});}
+          if (this.state.p870 === "; ") {this.setState({p870: ": "});}
+          if (this.state.p870 === ": ") {this.setState({p870: "( "});}
+          if (this.state.p870 === "( ") {this.setState({p870: ") "});}
+          if (this.state.p870 === ") ") {this.setState({p870: "¡ "});}
+          if (this.state.p870 === "¡ ") {this.setState({p870: "! "});}
+          if (this.state.p870 === "! ") {this.setState({p870: "¿ "});}
+          if (this.state.p870 === "¿ ") {this.setState({p870: "? "});}
+          if (this.state.p870 === "? ") {this.setState({p870: " "});}
+  }
+  p871() {
+          if (this.state.p871 === "que") {
+                  this.setState({p871: "Que"});
+          } else {
+                  this.setState({p871: "que"});
+          }
+  }
+  p872() {
+          if (this.state.p872 === " ") {this.setState({p872: ", "});}
+          if (this.state.p872 === ", ") {this.setState({p872: "; "});}
+          if (this.state.p872 === "; ") {this.setState({p872: ": "});}
+          if (this.state.p872 === ": ") {this.setState({p872: "( "});}
+          if (this.state.p872 === "( ") {this.setState({p872: ") "});}
+          if (this.state.p872 === ") ") {this.setState({p872: "¡ "});}
+          if (this.state.p872 === "¡ ") {this.setState({p872: "! "});}
+          if (this.state.p872 === "! ") {this.setState({p872: "¿ "});}
+          if (this.state.p872 === "¿ ") {this.setState({p872: "? "});}
+          if (this.state.p872 === "? ") {this.setState({p872: " "});}
+  }
+  p873() {
+          if (this.state.p873 === "me") {
+                  this.setState({p873: "Me"});
+          } else {
+                  this.setState({p873: "me"});
+          }
+  }
+  p874() {
+          if (this.state.p874 === " ") {this.setState({p874: ", "});}
+          if (this.state.p874 === ", ") {this.setState({p874: "; "});}
+          if (this.state.p874 === "; ") {this.setState({p874: ": "});}
+          if (this.state.p874 === ": ") {this.setState({p874: "( "});}
+          if (this.state.p874 === "( ") {this.setState({p874: ") "});}
+          if (this.state.p874 === ") ") {this.setState({p874: "¡ "});}
+          if (this.state.p874 === "¡ ") {this.setState({p874: "! "});}
+          if (this.state.p874 === "! ") {this.setState({p874: "¿ "});}
+          if (this.state.p874 === "¿ ") {this.setState({p874: "? "});}
+          if (this.state.p874 === "? ") {this.setState({p874: " "});}
+  }
+  p875() {
+          if (this.state.p875 === "hallo") {
+                  this.setState({p875: "Hallo"});
+          } else {
+                  this.setState({p875: "hallo"});
+          }
+  }
+  p876() {
+          if (this.state.p876 === " ") {this.setState({p876: ", "});}
+          if (this.state.p876 === ", ") {this.setState({p876: "; "});}
+          if (this.state.p876 === "; ") {this.setState({p876: ": "});}
+          if (this.state.p876 === ": ") {this.setState({p876: "( "});}
+          if (this.state.p876 === "( ") {this.setState({p876: ") "});}
+          if (this.state.p876 === ") ") {this.setState({p876: "¡ "});}
+          if (this.state.p876 === "¡ ") {this.setState({p876: "! "});}
+          if (this.state.p876 === "! ") {this.setState({p876: "¿ "});}
+          if (this.state.p876 === "¿ ") {this.setState({p876: "? "});}
+          if (this.state.p876 === "? ") {this.setState({p876: " "});}
+  }
+  p877() {
+          if (this.state.p877 === "a") {
+                  this.setState({p877: "A"});
+          } else {
+                  this.setState({p877: "a"});
+          }
+  }
+  p878() {
+          if (this.state.p878 === " ") {this.setState({p878: ", "});}
+          if (this.state.p878 === ", ") {this.setState({p878: "; "});}
+          if (this.state.p878 === "; ") {this.setState({p878: ": "});}
+          if (this.state.p878 === ": ") {this.setState({p878: "( "});}
+          if (this.state.p878 === "( ") {this.setState({p878: ") "});}
+          if (this.state.p878 === ") ") {this.setState({p878: "¡ "});}
+          if (this.state.p878 === "¡ ") {this.setState({p878: "! "});}
+          if (this.state.p878 === "! ") {this.setState({p878: "¿ "});}
+          if (this.state.p878 === "¿ ") {this.setState({p878: "? "});}
+          if (this.state.p878 === "? ") {this.setState({p878: " "});}
+  }
+  p879() {
+          if (this.state.p879 === "merced") {
+                  this.setState({p879: "Merced"});
+          } else {
+                  this.setState({p879: "merced"});
+          }
+  }
+  p880() {
+          if (this.state.p880 === " ") {this.setState({p880: ", "});}
+          if (this.state.p880 === ", ") {this.setState({p880: "; "});}
+          if (this.state.p880 === "; ") {this.setState({p880: ": "});}
+          if (this.state.p880 === ": ") {this.setState({p880: "( "});}
+          if (this.state.p880 === "( ") {this.setState({p880: ") "});}
+          if (this.state.p880 === ") ") {this.setState({p880: "¡ "});}
+          if (this.state.p880 === "¡ ") {this.setState({p880: "! "});}
+          if (this.state.p880 === "! ") {this.setState({p880: "¿ "});}
+          if (this.state.p880 === "¿ ") {this.setState({p880: "? "});}
+          if (this.state.p880 === "? ") {this.setState({p880: " "});}
+  }
+  p881() {
+          if (this.state.p881 === "de") {
+                  this.setState({p881: "De"});
+          } else {
+                  this.setState({p881: "de"});
+          }
+  }
+  p882() {
+          if (this.state.p882 === " ") {this.setState({p882: ", "});}
+          if (this.state.p882 === ", ") {this.setState({p882: "; "});}
+          if (this.state.p882 === "; ") {this.setState({p882: ": "});}
+          if (this.state.p882 === ": ") {this.setState({p882: "( "});}
+          if (this.state.p882 === "( ") {this.setState({p882: ") "});}
+          if (this.state.p882 === ") ") {this.setState({p882: "¡ "});}
+          if (this.state.p882 === "¡ ") {this.setState({p882: "! "});}
+          if (this.state.p882 === "! ") {this.setState({p882: "¿ "});}
+          if (this.state.p882 === "¿ ") {this.setState({p882: "? "});}
+          if (this.state.p882 === "? ") {this.setState({p882: " "});}
+  }
+  p883() {
+          if (this.state.p883 === "una") {
+                  this.setState({p883: "Una"});
+          } else {
+                  this.setState({p883: "una"});
+          }
+  }
+  p884() {
+          if (this.state.p884 === " ") {this.setState({p884: ", "});}
+          if (this.state.p884 === ", ") {this.setState({p884: "; "});}
+          if (this.state.p884 === "; ") {this.setState({p884: ": "});}
+          if (this.state.p884 === ": ") {this.setState({p884: "( "});}
+          if (this.state.p884 === "( ") {this.setState({p884: ") "});}
+          if (this.state.p884 === ") ") {this.setState({p884: "¡ "});}
+          if (this.state.p884 === "¡ ") {this.setState({p884: "! "});}
+          if (this.state.p884 === "! ") {this.setState({p884: "¿ "});}
+          if (this.state.p884 === "¿ ") {this.setState({p884: "? "});}
+          if (this.state.p884 === "? ") {this.setState({p884: " "});}
+  }
+  p885() {
+          if (this.state.p885 === "falsa") {
+                  this.setState({p885: "Falsa"});
+          } else {
+                  this.setState({p885: "falsa"});
+          }
+  }
+  p886() {
+          if (this.state.p886 === " ") {this.setState({p886: ", "});}
+          if (this.state.p886 === ", ") {this.setState({p886: "; "});}
+          if (this.state.p886 === "; ") {this.setState({p886: ": "});}
+          if (this.state.p886 === ": ") {this.setState({p886: "( "});}
+          if (this.state.p886 === "( ") {this.setState({p886: ") "});}
+          if (this.state.p886 === ") ") {this.setState({p886: "¡ "});}
+          if (this.state.p886 === "¡ ") {this.setState({p886: "! "});}
+          if (this.state.p886 === "! ") {this.setState({p886: "¿ "});}
+          if (this.state.p886 === "¿ ") {this.setState({p886: "? "});}
+          if (this.state.p886 === "? ") {this.setState({p886: " "});}
+  }
+  p887() {
+          if (this.state.p887 === "migala") {
+                  this.setState({p887: "Migala"});
+          } else {
+                  this.setState({p887: "migala"});
+          }
+  }
+  p888() {
+          if (this.state.p888 === " ") {this.setState({p888: ", "});}
+          if (this.state.p888 === ", ") {this.setState({p888: ". "});}
+          if (this.state.p888 === ". ") {this.setState({p888: ": "});}
+          if (this.state.p888 === ": ") {this.setState({p888: "( "});}
+          if (this.state.p888 === "( ") {this.setState({p888: ") "});}
+          if (this.state.p888 === ") ") {this.setState({p888: "¡ "});}
+          if (this.state.p888 === "¡ ") {this.setState({p888: "! "});}
+          if (this.state.p888 === "! ") {this.setState({p888: "¿ "});}
+          if (this.state.p888 === "¿ ") {this.setState({p888: "? "});}
+          if (this.state.p888 === "? ") {this.setState({p888: " "});}
+  }
+  p889() {
+          if (this.state.p889 === "tal") {
+                  this.setState({p889: "Tal"});
+          } else {
+                  this.setState({p889: "tal"});
+          }
+  }
+  p890() {
+          if (this.state.p890 === " ") {this.setState({p890: ", "});}
+          if (this.state.p890 === ", ") {this.setState({p890: "; "});}
+          if (this.state.p890 === "; ") {this.setState({p890: ": "});}
+          if (this.state.p890 === ": ") {this.setState({p890: "( "});}
+          if (this.state.p890 === "( ") {this.setState({p890: ") "});}
+          if (this.state.p890 === ") ") {this.setState({p890: "¡ "});}
+          if (this.state.p890 === "¡ ") {this.setState({p890: "! "});}
+          if (this.state.p890 === "! ") {this.setState({p890: "¿ "});}
+          if (this.state.p890 === "¿ ") {this.setState({p890: "? "});}
+          if (this.state.p890 === "? ") {this.setState({p890: " "});}
+  }
+  p891() {
+          if (this.state.p891 === "vez") {
+                  this.setState({p891: "Vez"});
+          } else {
+                  this.setState({p891: "vez"});
+          }
+  }
+  p892() {
+          if (this.state.p892 === " ") {this.setState({p892: ", "});}
+          if (this.state.p892 === ", ") {this.setState({p892: "; "});}
+          if (this.state.p892 === "; ") {this.setState({p892: ": "});}
+          if (this.state.p892 === ": ") {this.setState({p892: "( "});}
+          if (this.state.p892 === "( ") {this.setState({p892: ") "});}
+          if (this.state.p892 === ") ") {this.setState({p892: "¡ "});}
+          if (this.state.p892 === "¡ ") {this.setState({p892: "! "});}
+          if (this.state.p892 === "! ") {this.setState({p892: "¿ "});}
+          if (this.state.p892 === "¿ ") {this.setState({p892: "? "});}
+          if (this.state.p892 === "? ") {this.setState({p892: " "});}
+  }
+  p893() {
+          if (this.state.p893 === "el") {
+                  this.setState({p893: "El"});
+          } else {
+                  this.setState({p893: "el"});
+          }
+  }
+  p894() {
+          if (this.state.p894 === " ") {this.setState({p894: ", "});}
+          if (this.state.p894 === ", ") {this.setState({p894: "; "});}
+          if (this.state.p894 === "; ") {this.setState({p894: ": "});}
+          if (this.state.p894 === ": ") {this.setState({p894: "( "});}
+          if (this.state.p894 === "( ") {this.setState({p894: ") "});}
+          if (this.state.p894 === ") ") {this.setState({p894: "¡ "});}
+          if (this.state.p894 === "¡ ") {this.setState({p894: "! "});}
+          if (this.state.p894 === "! ") {this.setState({p894: "¿ "});}
+          if (this.state.p894 === "¿ ") {this.setState({p894: "? "});}
+          if (this.state.p894 === "? ") {this.setState({p894: " "});}
+  }
+  p895() {
+          if (this.state.p895 === "saltimbanqui") {
+                  this.setState({p895: "Saltimbanqui"});
+          } else {
+                  this.setState({p895: "saltimbanqui"});
+          }
+  }
+  p896() {
+          if (this.state.p896 === " ") {this.setState({p896: ", "});}
+          if (this.state.p896 === ", ") {this.setState({p896: "; "});}
+          if (this.state.p896 === "; ") {this.setState({p896: ": "});}
+          if (this.state.p896 === ": ") {this.setState({p896: "( "});}
+          if (this.state.p896 === "( ") {this.setState({p896: ") "});}
+          if (this.state.p896 === ") ") {this.setState({p896: "¡ "});}
+          if (this.state.p896 === "¡ ") {this.setState({p896: "! "});}
+          if (this.state.p896 === "! ") {this.setState({p896: "¿ "});}
+          if (this.state.p896 === "¿ ") {this.setState({p896: "? "});}
+          if (this.state.p896 === "? ") {this.setState({p896: " "});}
+  }
+  p897() {
+          if (this.state.p897 === "me") {
+                  this.setState({p897: "Me"});
+          } else {
+                  this.setState({p897: "me"});
+          }
+  }
+  p898() {
+          if (this.state.p898 === " ") {this.setState({p898: ", "});}
+          if (this.state.p898 === ", ") {this.setState({p898: "; "});}
+          if (this.state.p898 === "; ") {this.setState({p898: ": "});}
+          if (this.state.p898 === ": ") {this.setState({p898: "( "});}
+          if (this.state.p898 === "( ") {this.setState({p898: ") "});}
+          if (this.state.p898 === ") ") {this.setState({p898: "¡ "});}
+          if (this.state.p898 === "¡ ") {this.setState({p898: "! "});}
+          if (this.state.p898 === "! ") {this.setState({p898: "¿ "});}
+          if (this.state.p898 === "¿ ") {this.setState({p898: "? "});}
+          if (this.state.p898 === "? ") {this.setState({p898: " "});}
+  }
+  p899() {
+          if (this.state.p899 === "ha") {
+                  this.setState({p899: "Ha"});
+          } else {
+                  this.setState({p899: "ha"});
+          }
+  }
+  p900() {
+          if (this.state.p900 === " ") {this.setState({p900: ", "});}
+          if (this.state.p900 === ", ") {this.setState({p900: "; "});}
+          if (this.state.p900 === "; ") {this.setState({p900: ": "});}
+          if (this.state.p900 === ": ") {this.setState({p900: "( "});}
+          if (this.state.p900 === "( ") {this.setState({p900: ") "});}
+          if (this.state.p900 === ") ") {this.setState({p900: "¡ "});}
+          if (this.state.p900 === "¡ ") {this.setState({p900: "! "});}
+          if (this.state.p900 === "! ") {this.setState({p900: "¿ "});}
+          if (this.state.p900 === "¿ ") {this.setState({p900: "? "});}
+          if (this.state.p900 === "? ") {this.setState({p900: " "});}
+  }
+  p901() {
+          if (this.state.p901 === "engañado") {
+                  this.setState({p901: "Engañado"});
+          } else {
+                  this.setState({p901: "engañado"});
+          }
+  }
+  p902() {
+          if (this.state.p902 === " ") {this.setState({p902: ", "});}
+          if (this.state.p902 === ", ") {this.setState({p902: "; "});}
+          if (this.state.p902 === "; ") {this.setState({p902: ": "});}
+          if (this.state.p902 === ": ") {this.setState({p902: "( "});}
+          if (this.state.p902 === "( ") {this.setState({p902: ") "});}
+          if (this.state.p902 === ") ") {this.setState({p902: "¡ "});}
+          if (this.state.p902 === "¡ ") {this.setState({p902: "! "});}
+          if (this.state.p902 === "! ") {this.setState({p902: "¿ "});}
+          if (this.state.p902 === "¿ ") {this.setState({p902: "? "});}
+          if (this.state.p902 === "? ") {this.setState({p902: " "});}
+  }
+  p903() {
+          if (this.state.p903 === "haciéndome") {
+                  this.setState({p903: "Haciéndome"});
+          } else {
+                  this.setState({p903: "haciéndome"});
+          }
+  }
+  p904() {
+          if (this.state.p904 === " ") {this.setState({p904: ", "});}
+          if (this.state.p904 === ", ") {this.setState({p904: "; "});}
+          if (this.state.p904 === "; ") {this.setState({p904: ": "});}
+          if (this.state.p904 === ": ") {this.setState({p904: "( "});}
+          if (this.state.p904 === "( ") {this.setState({p904: ") "});}
+          if (this.state.p904 === ") ") {this.setState({p904: "¡ "});}
+          if (this.state.p904 === "¡ ") {this.setState({p904: "! "});}
+          if (this.state.p904 === "! ") {this.setState({p904: "¿ "});}
+          if (this.state.p904 === "¿ ") {this.setState({p904: "? "});}
+          if (this.state.p904 === "? ") {this.setState({p904: " "});}
+  }
+  p905() {
+          if (this.state.p905 === "pagar") {
+                  this.setState({p905: "Pagar"});
+          } else {
+                  this.setState({p905: "pagar"});
+          }
+  }
+  p906() {
+          if (this.state.p906 === " ") {this.setState({p906: ", "});}
+          if (this.state.p906 === ", ") {this.setState({p906: "; "});}
+          if (this.state.p906 === "; ") {this.setState({p906: ": "});}
+          if (this.state.p906 === ": ") {this.setState({p906: "( "});}
+          if (this.state.p906 === "( ") {this.setState({p906: ") "});}
+          if (this.state.p906 === ") ") {this.setState({p906: "¡ "});}
+          if (this.state.p906 === "¡ ") {this.setState({p906: "! "});}
+          if (this.state.p906 === "! ") {this.setState({p906: "¿ "});}
+          if (this.state.p906 === "¿ ") {this.setState({p906: "? "});}
+          if (this.state.p906 === "? ") {this.setState({p906: " "});}
+  }
+  p907() {
+          if (this.state.p907 === "un") {
+                  this.setState({p907: "Un"});
+          } else {
+                  this.setState({p907: "un"});
+          }
+  }
+  p908() {
+          if (this.state.p908 === " ") {this.setState({p908: ", "});}
+          if (this.state.p908 === ", ") {this.setState({p908: "; "});}
+          if (this.state.p908 === "; ") {this.setState({p908: ": "});}
+          if (this.state.p908 === ": ") {this.setState({p908: "( "});}
+          if (this.state.p908 === "( ") {this.setState({p908: ") "});}
+          if (this.state.p908 === ") ") {this.setState({p908: "¡ "});}
+          if (this.state.p908 === "¡ ") {this.setState({p908: "! "});}
+          if (this.state.p908 === "! ") {this.setState({p908: "¿ "});}
+          if (this.state.p908 === "¿ ") {this.setState({p908: "? "});}
+          if (this.state.p908 === "? ") {this.setState({p908: " "});}
+  }
+  p909() {
+          if (this.state.p909 === "alto") {
+                  this.setState({p909: "Alto"});
+          } else {
+                  this.setState({p909: "alto"});
+          }
+  }
+  p910() {
+          if (this.state.p910 === " ") {this.setState({p910: ", "});}
+          if (this.state.p910 === ", ") {this.setState({p910: "; "});}
+          if (this.state.p910 === "; ") {this.setState({p910: ": "});}
+          if (this.state.p910 === ": ") {this.setState({p910: "( "});}
+          if (this.state.p910 === "( ") {this.setState({p910: ") "});}
+          if (this.state.p910 === ") ") {this.setState({p910: "¡ "});}
+          if (this.state.p910 === "¡ ") {this.setState({p910: "! "});}
+          if (this.state.p910 === "! ") {this.setState({p910: "¿ "});}
+          if (this.state.p910 === "¿ ") {this.setState({p910: "? "});}
+          if (this.state.p910 === "? ") {this.setState({p910: " "});}
+  }
+  p911() {
+          if (this.state.p911 === "precio") {
+                  this.setState({p911: "Precio"});
+          } else {
+                  this.setState({p911: "precio"});
+          }
+  }
+  p912() {
+          if (this.state.p912 === " ") {this.setState({p912: ", "});}
+          if (this.state.p912 === ", ") {this.setState({p912: "; "});}
+          if (this.state.p912 === "; ") {this.setState({p912: ": "});}
+          if (this.state.p912 === ": ") {this.setState({p912: "( "});}
+          if (this.state.p912 === "( ") {this.setState({p912: ") "});}
+          if (this.state.p912 === ") ") {this.setState({p912: "¡ "});}
+          if (this.state.p912 === "¡ ") {this.setState({p912: "! "});}
+          if (this.state.p912 === "! ") {this.setState({p912: "¿ "});}
+          if (this.state.p912 === "¿ ") {this.setState({p912: "? "});}
+          if (this.state.p912 === "? ") {this.setState({p912: " "});}
+  }
+  p913() {
+          if (this.state.p913 === "por") {
+                  this.setState({p913: "Por"});
+          } else {
+                  this.setState({p913: "por"});
+          }
+  }
+  p914() {
+          if (this.state.p914 === " ") {this.setState({p914: ", "});}
+          if (this.state.p914 === ", ") {this.setState({p914: "; "});}
+          if (this.state.p914 === "; ") {this.setState({p914: ": "});}
+          if (this.state.p914 === ": ") {this.setState({p914: "( "});}
+          if (this.state.p914 === "( ") {this.setState({p914: ") "});}
+          if (this.state.p914 === ") ") {this.setState({p914: "¡ "});}
+          if (this.state.p914 === "¡ ") {this.setState({p914: "! "});}
+          if (this.state.p914 === "! ") {this.setState({p914: "¿ "});}
+          if (this.state.p914 === "¿ ") {this.setState({p914: "? "});}
+          if (this.state.p914 === "? ") {this.setState({p914: " "});}
+  }
+  p915() {
+          if (this.state.p915 === "un") {
+                  this.setState({p915: "Un"});
+          } else {
+                  this.setState({p915: "un"});
+          }
+  }
+  p916() {
+          if (this.state.p916 === " ") {this.setState({p916: ", "});}
+          if (this.state.p916 === ", ") {this.setState({p916: "; "});}
+          if (this.state.p916 === "; ") {this.setState({p916: ": "});}
+          if (this.state.p916 === ": ") {this.setState({p916: "( "});}
+          if (this.state.p916 === "( ") {this.setState({p916: ") "});}
+          if (this.state.p916 === ") ") {this.setState({p916: "¡ "});}
+          if (this.state.p916 === "¡ ") {this.setState({p916: "! "});}
+          if (this.state.p916 === "! ") {this.setState({p916: "¿ "});}
+          if (this.state.p916 === "¿ ") {this.setState({p916: "? "});}
+          if (this.state.p916 === "? ") {this.setState({p916: " "});}
+  }
+  p917() {
+          if (this.state.p917 === "inofensivo") {
+                  this.setState({p917: "Inofensivo"});
+          } else {
+                  this.setState({p917: "inofensivo"});
+          }
+  }
+  p918() {
+          if (this.state.p918 === " ") {this.setState({p918: ", "});}
+          if (this.state.p918 === ", ") {this.setState({p918: "; "});}
+          if (this.state.p918 === "; ") {this.setState({p918: ": "});}
+          if (this.state.p918 === ": ") {this.setState({p918: "( "});}
+          if (this.state.p918 === "( ") {this.setState({p918: ") "});}
+          if (this.state.p918 === ") ") {this.setState({p918: "¡ "});}
+          if (this.state.p918 === "¡ ") {this.setState({p918: "! "});}
+          if (this.state.p918 === "! ") {this.setState({p918: "¿ "});}
+          if (this.state.p918 === "¿ ") {this.setState({p918: "? "});}
+          if (this.state.p918 === "? ") {this.setState({p918: " "});}
+  }
+  p919() {
+          if (this.state.p919 === "y") {
+                  this.setState({p919: "Y"});
+          } else {
+                  this.setState({p919: "y"});
+          }
+  }
+  p920() {
+          if (this.state.p920 === " ") {this.setState({p920: ", "});}
+          if (this.state.p920 === ", ") {this.setState({p920: "; "});}
+          if (this.state.p920 === "; ") {this.setState({p920: ": "});}
+          if (this.state.p920 === ": ") {this.setState({p920: "( "});}
+          if (this.state.p920 === "( ") {this.setState({p920: ") "});}
+          if (this.state.p920 === ") ") {this.setState({p920: "¡ "});}
+          if (this.state.p920 === "¡ ") {this.setState({p920: "! "});}
+          if (this.state.p920 === "! ") {this.setState({p920: "¿ "});}
+          if (this.state.p920 === "¿ ") {this.setState({p920: "? "});}
+          if (this.state.p920 === "? ") {this.setState({p920: " "});}
+  }
+  p921() {
+          if (this.state.p921 === "repugnante") {
+                  this.setState({p921: "Repugnante"});
+          } else {
+                  this.setState({p921: "repugnante"});
+          }
+  }
+  p922() {
+          if (this.state.p922 === " ") {this.setState({p922: ", "});}
+          if (this.state.p922 === ", ") {this.setState({p922: "; "});}
+          if (this.state.p922 === "; ") {this.setState({p922: ": "});}
+          if (this.state.p922 === ": ") {this.setState({p922: "( "});}
+          if (this.state.p922 === "( ") {this.setState({p922: ") "});}
+          if (this.state.p922 === ") ") {this.setState({p922: "¡ "});}
+          if (this.state.p922 === "¡ ") {this.setState({p922: "! "});}
+          if (this.state.p922 === "! ") {this.setState({p922: "¿ "});}
+          if (this.state.p922 === "¿ ") {this.setState({p922: "? "});}
+          if (this.state.p922 === "? ") {this.setState({p922: " "});}
+  }
+  p923() {
+          if (this.state.p923 === "escarabajo") {
+                  this.setState({p923: "Escarabajo"});
+          } else {
+                  this.setState({p923: "escarabajo"});
+          }
+  }
+  p924() {
+          if (this.state.p924 === " ") {this.setState({p924: ", "});}
+          if (this.state.p924 === ", ") {this.setState({p924: "; "});}
+          if (this.state.p924 === "; ") {this.setState({p924: ". "});}
+          if (this.state.p924 === ". ") {this.setState({p924: "( "});}
+          if (this.state.p924 === "( ") {this.setState({p924: ") "});}
+          if (this.state.p924 === ") ") {this.setState({p924: "¡ "});}
+          if (this.state.p924 === "¡ ") {this.setState({p924: "! "});}
+          if (this.state.p924 === "! ") {this.setState({p924: "¿ "});}
+          if (this.state.p924 === "¿ ") {this.setState({p924: "? "});}
+          if (this.state.p924 === "? ") {this.setState({p924: " "});}
+  }
+  p925() {
+          if (this.state.p925 === "pero") {
+                  this.setState({p925: "Pero"});
+          } else {
+                  this.setState({p925: "pero"});
+          }
+  }
+  p926() {
+          if (this.state.p926 === " ") {this.setState({p926: ", "});}
+          if (this.state.p926 === ", ") {this.setState({p926: "; "});}
+          if (this.state.p926 === "; ") {this.setState({p926: ": "});}
+          if (this.state.p926 === ": ") {this.setState({p926: "( "});}
+          if (this.state.p926 === "( ") {this.setState({p926: ") "});}
+          if (this.state.p926 === ") ") {this.setState({p926: "¡ "});}
+          if (this.state.p926 === "¡ ") {this.setState({p926: "! "});}
+          if (this.state.p926 === "! ") {this.setState({p926: "¿ "});}
+          if (this.state.p926 === "¿ ") {this.setState({p926: "? "});}
+          if (this.state.p926 === "? ") {this.setState({p926: " "});}
+  }
+  p927() {
+          if (this.state.p927 === "en") {
+                  this.setState({p927: "En"});
+          } else {
+                  this.setState({p927: "en"});
+          }
+  }
+  p928() {
+          if (this.state.p928 === " ") {this.setState({p928: ", "});}
+          if (this.state.p928 === ", ") {this.setState({p928: "; "});}
+          if (this.state.p928 === "; ") {this.setState({p928: ": "});}
+          if (this.state.p928 === ": ") {this.setState({p928: "( "});}
+          if (this.state.p928 === "( ") {this.setState({p928: ") "});}
+          if (this.state.p928 === ") ") {this.setState({p928: "¡ "});}
+          if (this.state.p928 === "¡ ") {this.setState({p928: "! "});}
+          if (this.state.p928 === "! ") {this.setState({p928: "¿ "});}
+          if (this.state.p928 === "¿ ") {this.setState({p928: "? "});}
+          if (this.state.p928 === "? ") {this.setState({p928: " "});}
+  }
+  p929() {
+          if (this.state.p929 === "realidad") {
+                  this.setState({p929: "Realidad"});
+          } else {
+                  this.setState({p929: "realidad"});
+          }
+  }
+  p930() {
+          if (this.state.p930 === " ") {this.setState({p930: ", "});}
+          if (this.state.p930 === ", ") {this.setState({p930: "; "});}
+          if (this.state.p930 === "; ") {this.setState({p930: ": "});}
+          if (this.state.p930 === ": ") {this.setState({p930: "( "});}
+          if (this.state.p930 === "( ") {this.setState({p930: ") "});}
+          if (this.state.p930 === ") ") {this.setState({p930: "¡ "});}
+          if (this.state.p930 === "¡ ") {this.setState({p930: "! "});}
+          if (this.state.p930 === "! ") {this.setState({p930: "¿ "});}
+          if (this.state.p930 === "¿ ") {this.setState({p930: "? "});}
+          if (this.state.p930 === "? ") {this.setState({p930: " "});}
+  }
+  p931() {
+          if (this.state.p931 === "esto") {
+                  this.setState({p931: "Esto"});
+          } else {
+                  this.setState({p931: "esto"});
+          }
+  }
+  p932() {
+          if (this.state.p932 === " ") {this.setState({p932: ", "});}
+          if (this.state.p932 === ", ") {this.setState({p932: "; "});}
+          if (this.state.p932 === "; ") {this.setState({p932: ": "});}
+          if (this.state.p932 === ": ") {this.setState({p932: "( "});}
+          if (this.state.p932 === "( ") {this.setState({p932: ") "});}
+          if (this.state.p932 === ") ") {this.setState({p932: "¡ "});}
+          if (this.state.p932 === "¡ ") {this.setState({p932: "! "});}
+          if (this.state.p932 === "! ") {this.setState({p932: "¿ "});}
+          if (this.state.p932 === "¿ ") {this.setState({p932: "? "});}
+          if (this.state.p932 === "? ") {this.setState({p932: " "});}
+  }
+  p933() {
+          if (this.state.p933 === "no") {
+                  this.setState({p933: "No"});
+          } else {
+                  this.setState({p933: "no"});
+          }
+  }
+  p934() {
+          if (this.state.p934 === " ") {this.setState({p934: ", "});}
+          if (this.state.p934 === ", ") {this.setState({p934: "; "});}
+          if (this.state.p934 === "; ") {this.setState({p934: ": "});}
+          if (this.state.p934 === ": ") {this.setState({p934: "( "});}
+          if (this.state.p934 === "( ") {this.setState({p934: ") "});}
+          if (this.state.p934 === ") ") {this.setState({p934: "¡ "});}
+          if (this.state.p934 === "¡ ") {this.setState({p934: "! "});}
+          if (this.state.p934 === "! ") {this.setState({p934: "¿ "});}
+          if (this.state.p934 === "¿ ") {this.setState({p934: "? "});}
+          if (this.state.p934 === "? ") {this.setState({p934: " "});}
+  }
+  p935() {
+          if (this.state.p935 === "tiene") {
+                  this.setState({p935: "Tiene"});
+          } else {
+                  this.setState({p935: "tiene"});
+          }
+  }
+  p936() {
+          if (this.state.p936 === " ") {this.setState({p936: ", "});}
+          if (this.state.p936 === ", ") {this.setState({p936: "; "});}
+          if (this.state.p936 === "; ") {this.setState({p936: ": "});}
+          if (this.state.p936 === ": ") {this.setState({p936: "( "});}
+          if (this.state.p936 === "( ") {this.setState({p936: ") "});}
+          if (this.state.p936 === ") ") {this.setState({p936: "¡ "});}
+          if (this.state.p936 === "¡ ") {this.setState({p936: "! "});}
+          if (this.state.p936 === "! ") {this.setState({p936: "¿ "});}
+          if (this.state.p936 === "¿ ") {this.setState({p936: "? "});}
+          if (this.state.p936 === "? ") {this.setState({p936: " "});}
+  }
+  p937() {
+          if (this.state.p937 === "importancia") {
+                  this.setState({p937: "Importancia"});
+          } else {
+                  this.setState({p937: "importancia"});
+          }
+  }
+  p938() {
+          if (this.state.p938 === " ") {this.setState({p938: ", "});}
+          if (this.state.p938 === ", ") {this.setState({p938: "; "});}
+          if (this.state.p938 === "; ") {this.setState({p938: ": "});}
+          if (this.state.p938 === ": ") {this.setState({p938: "( "});}
+          if (this.state.p938 === "( ") {this.setState({p938: ") "});}
+          if (this.state.p938 === ") ") {this.setState({p938: "¡ "});}
+          if (this.state.p938 === "¡ ") {this.setState({p938: "! "});}
+          if (this.state.p938 === "! ") {this.setState({p938: "¿ "});}
+          if (this.state.p938 === "¿ ") {this.setState({p938: "? "});}
+          if (this.state.p938 === "? ") {this.setState({p938: " "});}
+  }
+  p939() {
+          if (this.state.p939 === "porque") {
+                  this.setState({p939: "Porque"});
+          } else {
+                  this.setState({p939: "porque"});
+          }
+  }
+  p940() {
+          if (this.state.p940 === " ") {this.setState({p940: ", "});}
+          if (this.state.p940 === ", ") {this.setState({p940: "; "});}
+          if (this.state.p940 === "; ") {this.setState({p940: ": "});}
+          if (this.state.p940 === ": ") {this.setState({p940: "( "});}
+          if (this.state.p940 === "( ") {this.setState({p940: ") "});}
+          if (this.state.p940 === ") ") {this.setState({p940: "¡ "});}
+          if (this.state.p940 === "¡ ") {this.setState({p940: "! "});}
+          if (this.state.p940 === "! ") {this.setState({p940: "¿ "});}
+          if (this.state.p940 === "¿ ") {this.setState({p940: "? "});}
+          if (this.state.p940 === "? ") {this.setState({p940: " "});}
+  }
+  p941() {
+          if (this.state.p941 === "yo") {
+                  this.setState({p941: "Yo"});
+          } else {
+                  this.setState({p941: "yo"});
+          }
+  }
+  p942() {
+          if (this.state.p942 === " ") {this.setState({p942: ", "});}
+          if (this.state.p942 === ", ") {this.setState({p942: "; "});}
+          if (this.state.p942 === "; ") {this.setState({p942: ": "});}
+          if (this.state.p942 === ": ") {this.setState({p942: "( "});}
+          if (this.state.p942 === "( ") {this.setState({p942: ") "});}
+          if (this.state.p942 === ") ") {this.setState({p942: "¡ "});}
+          if (this.state.p942 === "¡ ") {this.setState({p942: "! "});}
+          if (this.state.p942 === "! ") {this.setState({p942: "¿ "});}
+          if (this.state.p942 === "¿ ") {this.setState({p942: "? "});}
+          if (this.state.p942 === "? ") {this.setState({p942: " "});}
+  }
+  p943() {
+          if (this.state.p943 === "he") {
+                  this.setState({p943: "He"});
+          } else {
+                  this.setState({p943: "he"});
+          }
+  }
+  p944() {
+          if (this.state.p944 === " ") {this.setState({p944: ", "});}
+          if (this.state.p944 === ", ") {this.setState({p944: "; "});}
+          if (this.state.p944 === "; ") {this.setState({p944: ": "});}
+          if (this.state.p944 === ": ") {this.setState({p944: "( "});}
+          if (this.state.p944 === "( ") {this.setState({p944: ") "});}
+          if (this.state.p944 === ") ") {this.setState({p944: "¡ "});}
+          if (this.state.p944 === "¡ ") {this.setState({p944: "! "});}
+          if (this.state.p944 === "! ") {this.setState({p944: "¿ "});}
+          if (this.state.p944 === "¿ ") {this.setState({p944: "? "});}
+          if (this.state.p944 === "? ") {this.setState({p944: " "});}
+  }
+  p945() {
+          if (this.state.p945 === "consagrado") {
+                  this.setState({p945: "Consagrado"});
+          } else {
+                  this.setState({p945: "consagrado"});
+          }
+  }
+  p946() {
+          if (this.state.p946 === " ") {this.setState({p946: ", "});}
+          if (this.state.p946 === ", ") {this.setState({p946: "; "});}
+          if (this.state.p946 === "; ") {this.setState({p946: ": "});}
+          if (this.state.p946 === ": ") {this.setState({p946: "( "});}
+          if (this.state.p946 === "( ") {this.setState({p946: ") "});}
+          if (this.state.p946 === ") ") {this.setState({p946: "¡ "});}
+          if (this.state.p946 === "¡ ") {this.setState({p946: "! "});}
+          if (this.state.p946 === "! ") {this.setState({p946: "¿ "});}
+          if (this.state.p946 === "¿ ") {this.setState({p946: "? "});}
+          if (this.state.p946 === "? ") {this.setState({p946: " "});}
+  }
+  p947() {
+          if (this.state.p947 === "a") {
+                  this.setState({p947: "A"});
+          } else {
+                  this.setState({p947: "a"});
+          }
+  }
+  p948() {
+          if (this.state.p948 === " ") {this.setState({p948: ", "});}
+          if (this.state.p948 === ", ") {this.setState({p948: "; "});}
+          if (this.state.p948 === "; ") {this.setState({p948: ": "});}
+          if (this.state.p948 === ": ") {this.setState({p948: "( "});}
+          if (this.state.p948 === "( ") {this.setState({p948: ") "});}
+          if (this.state.p948 === ") ") {this.setState({p948: "¡ "});}
+          if (this.state.p948 === "¡ ") {this.setState({p948: "! "});}
+          if (this.state.p948 === "! ") {this.setState({p948: "¿ "});}
+          if (this.state.p948 === "¿ ") {this.setState({p948: "? "});}
+          if (this.state.p948 === "? ") {this.setState({p948: " "});}
+  }
+  p949() {
+          if (this.state.p949 === "la") {
+                  this.setState({p949: "La"});
+          } else {
+                  this.setState({p949: "la"});
+          }
+  }
+  p950() {
+          if (this.state.p950 === " ") {this.setState({p950: ", "});}
+          if (this.state.p950 === ", ") {this.setState({p950: "; "});}
+          if (this.state.p950 === "; ") {this.setState({p950: ": "});}
+          if (this.state.p950 === ": ") {this.setState({p950: "( "});}
+          if (this.state.p950 === "( ") {this.setState({p950: ") "});}
+          if (this.state.p950 === ") ") {this.setState({p950: "¡ "});}
+          if (this.state.p950 === "¡ ") {this.setState({p950: "! "});}
+          if (this.state.p950 === "! ") {this.setState({p950: "¿ "});}
+          if (this.state.p950 === "¿ ") {this.setState({p950: "? "});}
+          if (this.state.p950 === "? ") {this.setState({p950: " "});}
+  }
+  p951() {
+          if (this.state.p951 === "migala") {
+                  this.setState({p951: "Migala"});
+          } else {
+                  this.setState({p951: "migala"});
+          }
+  }
+  p952() {
+          if (this.state.p952 === " ") {this.setState({p952: ", "});}
+          if (this.state.p952 === ", ") {this.setState({p952: "; "});}
+          if (this.state.p952 === "; ") {this.setState({p952: ": "});}
+          if (this.state.p952 === ": ") {this.setState({p952: "( "});}
+          if (this.state.p952 === "( ") {this.setState({p952: ") "});}
+          if (this.state.p952 === ") ") {this.setState({p952: "¡ "});}
+          if (this.state.p952 === "¡ ") {this.setState({p952: "! "});}
+          if (this.state.p952 === "! ") {this.setState({p952: "¿ "});}
+          if (this.state.p952 === "¿ ") {this.setState({p952: "? "});}
+          if (this.state.p952 === "? ") {this.setState({p952: " "});}
+  }
+  p953() {
+          if (this.state.p953 === "con") {
+                  this.setState({p953: "Con"});
+          } else {
+                  this.setState({p953: "con"});
+          }
+  }
+  p954() {
+          if (this.state.p954 === " ") {this.setState({p954: ", "});}
+          if (this.state.p954 === ", ") {this.setState({p954: "; "});}
+          if (this.state.p954 === "; ") {this.setState({p954: ": "});}
+          if (this.state.p954 === ": ") {this.setState({p954: "( "});}
+          if (this.state.p954 === "( ") {this.setState({p954: ") "});}
+          if (this.state.p954 === ") ") {this.setState({p954: "¡ "});}
+          if (this.state.p954 === "¡ ") {this.setState({p954: "! "});}
+          if (this.state.p954 === "! ") {this.setState({p954: "¿ "});}
+          if (this.state.p954 === "¿ ") {this.setState({p954: "? "});}
+          if (this.state.p954 === "? ") {this.setState({p954: " "});}
+  }
+  p955() {
+          if (this.state.p955 === "la") {
+                  this.setState({p955: "La"});
+          } else {
+                  this.setState({p955: "la"});
+          }
+  }
+  p956() {
+          if (this.state.p956 === " ") {this.setState({p956: ", "});}
+          if (this.state.p956 === ", ") {this.setState({p956: "; "});}
+          if (this.state.p956 === "; ") {this.setState({p956: ": "});}
+          if (this.state.p956 === ": ") {this.setState({p956: "( "});}
+          if (this.state.p956 === "( ") {this.setState({p956: ") "});}
+          if (this.state.p956 === ") ") {this.setState({p956: "¡ "});}
+          if (this.state.p956 === "¡ ") {this.setState({p956: "! "});}
+          if (this.state.p956 === "! ") {this.setState({p956: "¿ "});}
+          if (this.state.p956 === "¿ ") {this.setState({p956: "? "});}
+          if (this.state.p956 === "? ") {this.setState({p956: " "});}
+  }
+  p957() {
+          if (this.state.p957 === "certeza") {
+                  this.setState({p957: "Certeza"});
+          } else {
+                  this.setState({p957: "certeza"});
+          }
+  }
+  p958() {
+          if (this.state.p958 === " ") {this.setState({p958: ", "});}
+          if (this.state.p958 === ", ") {this.setState({p958: "; "});}
+          if (this.state.p958 === "; ") {this.setState({p958: ": "});}
+          if (this.state.p958 === ": ") {this.setState({p958: "( "});}
+          if (this.state.p958 === "( ") {this.setState({p958: ") "});}
+          if (this.state.p958 === ") ") {this.setState({p958: "¡ "});}
+          if (this.state.p958 === "¡ ") {this.setState({p958: "! "});}
+          if (this.state.p958 === "! ") {this.setState({p958: "¿ "});}
+          if (this.state.p958 === "¿ ") {this.setState({p958: "? "});}
+          if (this.state.p958 === "? ") {this.setState({p958: " "});}
+  }
+  p959() {
+          if (this.state.p959 === "de") {
+                  this.setState({p959: "De"});
+          } else {
+                  this.setState({p959: "de"});
+          }
+  }
+  p960() {
+          if (this.state.p960 === " ") {this.setState({p960: ", "});}
+          if (this.state.p960 === ", ") {this.setState({p960: "; "});}
+          if (this.state.p960 === "; ") {this.setState({p960: ": "});}
+          if (this.state.p960 === ": ") {this.setState({p960: "( "});}
+          if (this.state.p960 === "( ") {this.setState({p960: ") "});}
+          if (this.state.p960 === ") ") {this.setState({p960: "¡ "});}
+          if (this.state.p960 === "¡ ") {this.setState({p960: "! "});}
+          if (this.state.p960 === "! ") {this.setState({p960: "¿ "});}
+          if (this.state.p960 === "¿ ") {this.setState({p960: "? "});}
+          if (this.state.p960 === "? ") {this.setState({p960: " "});}
+  }
+  p961() {
+          if (this.state.p961 === "mi") {
+                  this.setState({p961: "Mi"});
+          } else {
+                  this.setState({p961: "mi"});
+          }
+  }
+  p962() {
+          if (this.state.p962 === " ") {this.setState({p962: ", "});}
+          if (this.state.p962 === ", ") {this.setState({p962: "; "});}
+          if (this.state.p962 === "; ") {this.setState({p962: ": "});}
+          if (this.state.p962 === ": ") {this.setState({p962: "( "});}
+          if (this.state.p962 === "( ") {this.setState({p962: ") "});}
+          if (this.state.p962 === ") ") {this.setState({p962: "¡ "});}
+          if (this.state.p962 === "¡ ") {this.setState({p962: "! "});}
+          if (this.state.p962 === "! ") {this.setState({p962: "¿ "});}
+          if (this.state.p962 === "¿ ") {this.setState({p962: "? "});}
+          if (this.state.p962 === "? ") {this.setState({p962: " "});}
+  }
+  p963() {
+          if (this.state.p963 === "muerte") {
+                  this.setState({p963: "Muerte"});
+          } else {
+                  this.setState({p963: "muerte"});
+          }
+  }
+  p964() {
+          if (this.state.p964 === " ") {this.setState({p964: ", "});}
+          if (this.state.p964 === ", ") {this.setState({p964: "; "});}
+          if (this.state.p964 === "; ") {this.setState({p964: ": "});}
+          if (this.state.p964 === ": ") {this.setState({p964: "( "});}
+          if (this.state.p964 === "( ") {this.setState({p964: ") "});}
+          if (this.state.p964 === ") ") {this.setState({p964: "¡ "});}
+          if (this.state.p964 === "¡ ") {this.setState({p964: "! "});}
+          if (this.state.p964 === "! ") {this.setState({p964: "¿ "});}
+          if (this.state.p964 === "¿ ") {this.setState({p964: "? "});}
+          if (this.state.p964 === "? ") {this.setState({p964: " "});}
+  }
+  p965() {
+          if (this.state.p965 === "aplazada") {
+                  this.setState({p965: "Aplazada"});
+          } else {
+                  this.setState({p965: "aplazada"});
+          }
+  }
+  p966() {
+          if (this.state.p966 === " ") {this.setState({p966: ", "});}
+          if (this.state.p966 === ", ") {this.setState({p966: "; "});}
+          if (this.state.p966 === "; ") {this.setState({p966: ". "});}
+          if (this.state.p966 === ". ") {this.setState({p966: "( "});}
+          if (this.state.p966 === "( ") {this.setState({p966: ") "});}
+          if (this.state.p966 === ") ") {this.setState({p966: "¡ "});}
+          if (this.state.p966 === "¡ ") {this.setState({p966: "! "});}
+          if (this.state.p966 === "! ") {this.setState({p966: "¿ "});}
+          if (this.state.p966 === "¿ ") {this.setState({p966: "? "});}
+          if (this.state.p966 === "? ") {this.setState({p966: " "});}
+  }
+  p967() {
+          if (this.state.p967 === "en") {
+                  this.setState({p967: "En"});
+          } else {
+                  this.setState({p967: "en"});
+          }
+  }
+  p968() {
+          if (this.state.p968 === " ") {this.setState({p968: ", "});}
+          if (this.state.p968 === ", ") {this.setState({p968: "; "});}
+          if (this.state.p968 === "; ") {this.setState({p968: ": "});}
+          if (this.state.p968 === ": ") {this.setState({p968: "( "});}
+          if (this.state.p968 === "( ") {this.setState({p968: ") "});}
+          if (this.state.p968 === ") ") {this.setState({p968: "¡ "});}
+          if (this.state.p968 === "¡ ") {this.setState({p968: "! "});}
+          if (this.state.p968 === "! ") {this.setState({p968: "¿ "});}
+          if (this.state.p968 === "¿ ") {this.setState({p968: "? "});}
+          if (this.state.p968 === "? ") {this.setState({p968: " "});}
+  }
+  p969() {
+          if (this.state.p969 === "las") {
+                  this.setState({p969: "Las"});
+          } else {
+                  this.setState({p969: "las"});
+          }
+  }
+  p970() {
+          if (this.state.p970 === " ") {this.setState({p970: ", "});}
+          if (this.state.p970 === ", ") {this.setState({p970: "; "});}
+          if (this.state.p970 === "; ") {this.setState({p970: ": "});}
+          if (this.state.p970 === ": ") {this.setState({p970: "( "});}
+          if (this.state.p970 === "( ") {this.setState({p970: ") "});}
+          if (this.state.p970 === ") ") {this.setState({p970: "¡ "});}
+          if (this.state.p970 === "¡ ") {this.setState({p970: "! "});}
+          if (this.state.p970 === "! ") {this.setState({p970: "¿ "});}
+          if (this.state.p970 === "¿ ") {this.setState({p970: "? "});}
+          if (this.state.p970 === "? ") {this.setState({p970: " "});}
+  }
+  p971() {
+          if (this.state.p971 === "horas") {
+                  this.setState({p971: "Horas"});
+          } else {
+                  this.setState({p971: "horas"});
+          }
+  }
+  p972() {
+          if (this.state.p972 === " ") {this.setState({p972: ", "});}
+          if (this.state.p972 === ", ") {this.setState({p972: "; "});}
+          if (this.state.p972 === "; ") {this.setState({p972: ": "});}
+          if (this.state.p972 === ": ") {this.setState({p972: "( "});}
+          if (this.state.p972 === "( ") {this.setState({p972: ") "});}
+          if (this.state.p972 === ") ") {this.setState({p972: "¡ "});}
+          if (this.state.p972 === "¡ ") {this.setState({p972: "! "});}
+          if (this.state.p972 === "! ") {this.setState({p972: "¿ "});}
+          if (this.state.p972 === "¿ ") {this.setState({p972: "? "});}
+          if (this.state.p972 === "? ") {this.setState({p972: " "});}
+  }
+  p973() {
+          if (this.state.p973 === "más") {
+                  this.setState({p973: "Más"});
+          } else {
+                  this.setState({p973: "más"});
+          }
+  }
+  p974() {
+          if (this.state.p974 === " ") {this.setState({p974: ", "});}
+          if (this.state.p974 === ", ") {this.setState({p974: "; "});}
+          if (this.state.p974 === "; ") {this.setState({p974: ": "});}
+          if (this.state.p974 === ": ") {this.setState({p974: "( "});}
+          if (this.state.p974 === "( ") {this.setState({p974: ") "});}
+          if (this.state.p974 === ") ") {this.setState({p974: "¡ "});}
+          if (this.state.p974 === "¡ ") {this.setState({p974: "! "});}
+          if (this.state.p974 === "! ") {this.setState({p974: "¿ "});}
+          if (this.state.p974 === "¿ ") {this.setState({p974: "? "});}
+          if (this.state.p974 === "? ") {this.setState({p974: " "});}
+  }
+  p975() {
+          if (this.state.p975 === "agudas") {
+                  this.setState({p975: "Agudas"});
+          } else {
+                  this.setState({p975: "agudas"});
+          }
+  }
+  p976() {
+          if (this.state.p976 === " ") {this.setState({p976: ", "});}
+          if (this.state.p976 === ", ") {this.setState({p976: "; "});}
+          if (this.state.p976 === "; ") {this.setState({p976: ": "});}
+          if (this.state.p976 === ": ") {this.setState({p976: "( "});}
+          if (this.state.p976 === "( ") {this.setState({p976: ") "});}
+          if (this.state.p976 === ") ") {this.setState({p976: "¡ "});}
+          if (this.state.p976 === "¡ ") {this.setState({p976: "! "});}
+          if (this.state.p976 === "! ") {this.setState({p976: "¿ "});}
+          if (this.state.p976 === "¿ ") {this.setState({p976: "? "});}
+          if (this.state.p976 === "? ") {this.setState({p976: " "});}
+  }
+  p977() {
+          if (this.state.p977 === "del") {
+                  this.setState({p977: "Del"});
+          } else {
+                  this.setState({p977: "del"});
+          }
+  }
+  p978() {
+          if (this.state.p978 === " ") {this.setState({p978: ", "});}
+          if (this.state.p978 === ", ") {this.setState({p978: "; "});}
+          if (this.state.p978 === "; ") {this.setState({p978: ": "});}
+          if (this.state.p978 === ": ") {this.setState({p978: "( "});}
+          if (this.state.p978 === "( ") {this.setState({p978: ") "});}
+          if (this.state.p978 === ") ") {this.setState({p978: "¡ "});}
+          if (this.state.p978 === "¡ ") {this.setState({p978: "! "});}
+          if (this.state.p978 === "! ") {this.setState({p978: "¿ "});}
+          if (this.state.p978 === "¿ ") {this.setState({p978: "? "});}
+          if (this.state.p978 === "? ") {this.setState({p978: " "});}
+  }
+  p979() {
+          if (this.state.p979 === "insomnio") {
+                  this.setState({p979: "Insomnio"});
+          } else {
+                  this.setState({p979: "insomnio"});
+          }
+  }
+  p980() {
+          if (this.state.p980 === " ") {this.setState({p980: ", "});}
+          if (this.state.p980 === ", ") {this.setState({p980: "; "});}
+          if (this.state.p980 === "; ") {this.setState({p980: ": "});}
+          if (this.state.p980 === ": ") {this.setState({p980: "( "});}
+          if (this.state.p980 === "( ") {this.setState({p980: ") "});}
+          if (this.state.p980 === ") ") {this.setState({p980: "¡ "});}
+          if (this.state.p980 === "¡ ") {this.setState({p980: "! "});}
+          if (this.state.p980 === "! ") {this.setState({p980: "¿ "});}
+          if (this.state.p980 === "¿ ") {this.setState({p980: "? "});}
+          if (this.state.p980 === "? ") {this.setState({p980: " "});}
+  }
+  p981() {
+          if (this.state.p981 === "cuando") {
+                  this.setState({p981: "Cuando"});
+          } else {
+                  this.setState({p981: "cuando"});
+          }
+  }
+  p982() {
+          if (this.state.p982 === " ") {this.setState({p982: ", "});}
+          if (this.state.p982 === ", ") {this.setState({p982: "; "});}
+          if (this.state.p982 === "; ") {this.setState({p982: ": "});}
+          if (this.state.p982 === ": ") {this.setState({p982: "( "});}
+          if (this.state.p982 === "( ") {this.setState({p982: ") "});}
+          if (this.state.p982 === ") ") {this.setState({p982: "¡ "});}
+          if (this.state.p982 === "¡ ") {this.setState({p982: "! "});}
+          if (this.state.p982 === "! ") {this.setState({p982: "¿ "});}
+          if (this.state.p982 === "¿ ") {this.setState({p982: "? "});}
+          if (this.state.p982 === "? ") {this.setState({p982: " "});}
+  }
+  p983() {
+          if (this.state.p983 === "me") {
+                  this.setState({p983: "Me"});
+          } else {
+                  this.setState({p983: "me"});
+          }
+  }
+  p984() {
+          if (this.state.p984 === " ") {this.setState({p984: ", "});}
+          if (this.state.p984 === ", ") {this.setState({p984: "; "});}
+          if (this.state.p984 === "; ") {this.setState({p984: ": "});}
+          if (this.state.p984 === ": ") {this.setState({p984: "( "});}
+          if (this.state.p984 === "( ") {this.setState({p984: ") "});}
+          if (this.state.p984 === ") ") {this.setState({p984: "¡ "});}
+          if (this.state.p984 === "¡ ") {this.setState({p984: "! "});}
+          if (this.state.p984 === "! ") {this.setState({p984: "¿ "});}
+          if (this.state.p984 === "¿ ") {this.setState({p984: "? "});}
+          if (this.state.p984 === "? ") {this.setState({p984: " "});}
+  }
+  p985() {
+          if (this.state.p985 === "pierdo") {
+                  this.setState({p985: "Pierdo"});
+          } else {
+                  this.setState({p985: "pierdo"});
+          }
+  }
+  p986() {
+          if (this.state.p986 === " ") {this.setState({p986: ", "});}
+          if (this.state.p986 === ", ") {this.setState({p986: "; "});}
+          if (this.state.p986 === "; ") {this.setState({p986: ": "});}
+          if (this.state.p986 === ": ") {this.setState({p986: "( "});}
+          if (this.state.p986 === "( ") {this.setState({p986: ") "});}
+          if (this.state.p986 === ") ") {this.setState({p986: "¡ "});}
+          if (this.state.p986 === "¡ ") {this.setState({p986: "! "});}
+          if (this.state.p986 === "! ") {this.setState({p986: "¿ "});}
+          if (this.state.p986 === "¿ ") {this.setState({p986: "? "});}
+          if (this.state.p986 === "? ") {this.setState({p986: " "});}
+  }
+  p987() {
+          if (this.state.p987 === "en") {
+                  this.setState({p987: "En"});
+          } else {
+                  this.setState({p987: "en"});
+          }
+  }
+  p988() {
+          if (this.state.p988 === " ") {this.setState({p988: ", "});}
+          if (this.state.p988 === ", ") {this.setState({p988: "; "});}
+          if (this.state.p988 === "; ") {this.setState({p988: ": "});}
+          if (this.state.p988 === ": ") {this.setState({p988: "( "});}
+          if (this.state.p988 === "( ") {this.setState({p988: ") "});}
+          if (this.state.p988 === ") ") {this.setState({p988: "¡ "});}
+          if (this.state.p988 === "¡ ") {this.setState({p988: "! "});}
+          if (this.state.p988 === "! ") {this.setState({p988: "¿ "});}
+          if (this.state.p988 === "¿ ") {this.setState({p988: "? "});}
+          if (this.state.p988 === "? ") {this.setState({p988: " "});}
+  }
+  p989() {
+          if (this.state.p989 === "conjeturas") {
+                  this.setState({p989: "Conjeturas"});
+          } else {
+                  this.setState({p989: "conjeturas"});
+          }
+  }
+  p990() {
+          if (this.state.p990 === " ") {this.setState({p990: ", "});}
+          if (this.state.p990 === ", ") {this.setState({p990: "; "});}
+          if (this.state.p990 === "; ") {this.setState({p990: ": "});}
+          if (this.state.p990 === ": ") {this.setState({p990: "( "});}
+          if (this.state.p990 === "( ") {this.setState({p990: ") "});}
+          if (this.state.p990 === ") ") {this.setState({p990: "¡ "});}
+          if (this.state.p990 === "¡ ") {this.setState({p990: "! "});}
+          if (this.state.p990 === "! ") {this.setState({p990: "¿ "});}
+          if (this.state.p990 === "¿ ") {this.setState({p990: "? "});}
+          if (this.state.p990 === "? ") {this.setState({p990: " "});}
+  }
+  p991() {
+          if (this.state.p991 === "y") {
+                  this.setState({p991: "Y"});
+          } else {
+                  this.setState({p991: "y"});
+          }
+  }
+  p992() {
+          if (this.state.p992 === " ") {this.setState({p992: ", "});}
+          if (this.state.p992 === ", ") {this.setState({p992: "; "});}
+          if (this.state.p992 === "; ") {this.setState({p992: ": "});}
+          if (this.state.p992 === ": ") {this.setState({p992: "( "});}
+          if (this.state.p992 === "( ") {this.setState({p992: ") "});}
+          if (this.state.p992 === ") ") {this.setState({p992: "¡ "});}
+          if (this.state.p992 === "¡ ") {this.setState({p992: "! "});}
+          if (this.state.p992 === "! ") {this.setState({p992: "¿ "});}
+          if (this.state.p992 === "¿ ") {this.setState({p992: "? "});}
+          if (this.state.p992 === "? ") {this.setState({p992: " "});}
+  }
+  p993() {
+          if (this.state.p993 === "nada") {
+                  this.setState({p993: "Nada"});
+          } else {
+                  this.setState({p993: "nada"});
+          }
+  }
+  p994() {
+          if (this.state.p994 === " ") {this.setState({p994: ", "});}
+          if (this.state.p994 === ", ") {this.setState({p994: "; "});}
+          if (this.state.p994 === "; ") {this.setState({p994: ": "});}
+          if (this.state.p994 === ": ") {this.setState({p994: "( "});}
+          if (this.state.p994 === "( ") {this.setState({p994: ") "});}
+          if (this.state.p994 === ") ") {this.setState({p994: "¡ "});}
+          if (this.state.p994 === "¡ ") {this.setState({p994: "! "});}
+          if (this.state.p994 === "! ") {this.setState({p994: "¿ "});}
+          if (this.state.p994 === "¿ ") {this.setState({p994: "? "});}
+          if (this.state.p994 === "? ") {this.setState({p994: " "});}
+  }
+  p995() {
+          if (this.state.p995 === "me") {
+                  this.setState({p995: "Me"});
+          } else {
+                  this.setState({p995: "me"});
+          }
+  }
+  p996() {
+          if (this.state.p996 === " ") {this.setState({p996: ", "});}
+          if (this.state.p996 === ", ") {this.setState({p996: "; "});}
+          if (this.state.p996 === "; ") {this.setState({p996: ": "});}
+          if (this.state.p996 === ": ") {this.setState({p996: "( "});}
+          if (this.state.p996 === "( ") {this.setState({p996: ") "});}
+          if (this.state.p996 === ") ") {this.setState({p996: "¡ "});}
+          if (this.state.p996 === "¡ ") {this.setState({p996: "! "});}
+          if (this.state.p996 === "! ") {this.setState({p996: "¿ "});}
+          if (this.state.p996 === "¿ ") {this.setState({p996: "? "});}
+          if (this.state.p996 === "? ") {this.setState({p996: " "});}
+  }
+  p997() {
+          if (this.state.p997 === "tranquiliza") {
+                  this.setState({p997: "Tranquiliza"});
+          } else {
+                  this.setState({p997: "tranquiliza"});
+          }
+  }
+  p998() {
+          if (this.state.p998 === " ") {this.setState({p998: ", "});}
+          if (this.state.p998 === ", ") {this.setState({p998: "; "});}
+          if (this.state.p998 === "; ") {this.setState({p998: ": "});}
+          if (this.state.p998 === ": ") {this.setState({p998: "( "});}
+          if (this.state.p998 === "( ") {this.setState({p998: ") "});}
+          if (this.state.p998 === ") ") {this.setState({p998: "¡ "});}
+          if (this.state.p998 === "¡ ") {this.setState({p998: "! "});}
+          if (this.state.p998 === "! ") {this.setState({p998: "¿ "});}
+          if (this.state.p998 === "¿ ") {this.setState({p998: "? "});}
+          if (this.state.p998 === "? ") {this.setState({p998: " "});}
+  }
+  p999() {
+          if (this.state.p999 === "suele") {
+                  this.setState({p999: "Suele"});
+          } else {
+                  this.setState({p999: "suele"});
+          }
+  }
+  p1000() {
+          if (this.state.p1000 === " ") {this.setState({p1000: ", "});}
+          if (this.state.p1000 === ", ") {this.setState({p1000: "; "});}
+          if (this.state.p1000 === "; ") {this.setState({p1000: ": "});}
+          if (this.state.p1000 === ": ") {this.setState({p1000: "( "});}
+          if (this.state.p1000 === "( ") {this.setState({p1000: ") "});}
+          if (this.state.p1000 === ") ") {this.setState({p1000: "¡ "});}
+          if (this.state.p1000 === "¡ ") {this.setState({p1000: "! "});}
+          if (this.state.p1000 === "! ") {this.setState({p1000: "¿ "});}
+          if (this.state.p1000 === "¿ ") {this.setState({p1000: "? "});}
+          if (this.state.p1000 === "? ") {this.setState({p1000: " "});}
+  }
+  p1001() {
+          if (this.state.p1001 === "visitarme") {
+                  this.setState({p1001: "Visitarme"});
+          } else {
+                  this.setState({p1001: "visitarme"});
+          }
+  }
+  p1002() {
+          if (this.state.p1002 === " ") {this.setState({p1002: ", "});}
+          if (this.state.p1002 === ", ") {this.setState({p1002: "; "});}
+          if (this.state.p1002 === "; ") {this.setState({p1002: ": "});}
+          if (this.state.p1002 === ": ") {this.setState({p1002: "( "});}
+          if (this.state.p1002 === "( ") {this.setState({p1002: ") "});}
+          if (this.state.p1002 === ") ") {this.setState({p1002: "¡ "});}
+          if (this.state.p1002 === "¡ ") {this.setState({p1002: "! "});}
+          if (this.state.p1002 === "! ") {this.setState({p1002: "¿ "});}
+          if (this.state.p1002 === "¿ ") {this.setState({p1002: "? "});}
+          if (this.state.p1002 === "? ") {this.setState({p1002: " "});}
+  }
+  p1003() {
+          if (this.state.p1003 === "la") {
+                  this.setState({p1003: "La"});
+          } else {
+                  this.setState({p1003: "la"});
+          }
+  }
+  p1004() {
+          if (this.state.p1004 === " ") {this.setState({p1004: ", "});}
+          if (this.state.p1004 === ", ") {this.setState({p1004: "; "});}
+          if (this.state.p1004 === "; ") {this.setState({p1004: ": "});}
+          if (this.state.p1004 === ": ") {this.setState({p1004: "( "});}
+          if (this.state.p1004 === "( ") {this.setState({p1004: ") "});}
+          if (this.state.p1004 === ") ") {this.setState({p1004: "¡ "});}
+          if (this.state.p1004 === "¡ ") {this.setState({p1004: "! "});}
+          if (this.state.p1004 === "! ") {this.setState({p1004: "¿ "});}
+          if (this.state.p1004 === "¿ ") {this.setState({p1004: "? "});}
+          if (this.state.p1004 === "? ") {this.setState({p1004: " "});}
+  }
+  p1005() {
+          if (this.state.p1005 === "migala") {
+                  this.setState({p1005: "Migala"});
+          } else {
+                  this.setState({p1005: "migala"});
+          }
+  }
+  p1006() {
+          if (this.state.p1006 === " ") {this.setState({p1006: ", "});}
+          if (this.state.p1006 === ", ") {this.setState({p1006: "; "});}
+          if (this.state.p1006 === "; ") {this.setState({p1006: ". "});}
+          if (this.state.p1006 === ". ") {this.setState({p1006: "( "});}
+          if (this.state.p1006 === "( ") {this.setState({p1006: ") "});}
+          if (this.state.p1006 === ") ") {this.setState({p1006: "¡ "});}
+          if (this.state.p1006 === "¡ ") {this.setState({p1006: "! "});}
+          if (this.state.p1006 === "! ") {this.setState({p1006: "¿ "});}
+          if (this.state.p1006 === "¿ ") {this.setState({p1006: "? "});}
+          if (this.state.p1006 === "? ") {this.setState({p1006: " "});}
+  }
+  p1007() {
+          if (this.state.p1007 === "se") {
+                  this.setState({p1007: "Se"});
+          } else {
+                  this.setState({p1007: "se"});
+          }
+  }
+  p1008() {
+          if (this.state.p1008 === " ") {this.setState({p1008: ", "});}
+          if (this.state.p1008 === ", ") {this.setState({p1008: "; "});}
+          if (this.state.p1008 === "; ") {this.setState({p1008: ": "});}
+          if (this.state.p1008 === ": ") {this.setState({p1008: "( "});}
+          if (this.state.p1008 === "( ") {this.setState({p1008: ") "});}
+          if (this.state.p1008 === ") ") {this.setState({p1008: "¡ "});}
+          if (this.state.p1008 === "¡ ") {this.setState({p1008: "! "});}
+          if (this.state.p1008 === "! ") {this.setState({p1008: "¿ "});}
+          if (this.state.p1008 === "¿ ") {this.setState({p1008: "? "});}
+          if (this.state.p1008 === "? ") {this.setState({p1008: " "});}
+  }
+  p1009() {
+          if (this.state.p1009 === "pasea") {
+                  this.setState({p1009: "Pasea"});
+          } else {
+                  this.setState({p1009: "pasea"});
+          }
+  }
+  p1010() {
+          if (this.state.p1010 === " ") {this.setState({p1010: ", "});}
+          if (this.state.p1010 === ", ") {this.setState({p1010: "; "});}
+          if (this.state.p1010 === "; ") {this.setState({p1010: ": "});}
+          if (this.state.p1010 === ": ") {this.setState({p1010: "( "});}
+          if (this.state.p1010 === "( ") {this.setState({p1010: ") "});}
+          if (this.state.p1010 === ") ") {this.setState({p1010: "¡ "});}
+          if (this.state.p1010 === "¡ ") {this.setState({p1010: "! "});}
+          if (this.state.p1010 === "! ") {this.setState({p1010: "¿ "});}
+          if (this.state.p1010 === "¿ ") {this.setState({p1010: "? "});}
+          if (this.state.p1010 === "? ") {this.setState({p1010: " "});}
+  }
+  p1011() {
+          if (this.state.p1011 === "embrolladamente") {
+                  this.setState({p1011: "Embrolladamente"});
+          } else {
+                  this.setState({p1011: "embrolladamente"});
+          }
+  }
+  p1012() {
+          if (this.state.p1012 === " ") {this.setState({p1012: ", "});}
+          if (this.state.p1012 === ", ") {this.setState({p1012: "; "});}
+          if (this.state.p1012 === "; ") {this.setState({p1012: ": "});}
+          if (this.state.p1012 === ": ") {this.setState({p1012: "( "});}
+          if (this.state.p1012 === "( ") {this.setState({p1012: ") "});}
+          if (this.state.p1012 === ") ") {this.setState({p1012: "¡ "});}
+          if (this.state.p1012 === "¡ ") {this.setState({p1012: "! "});}
+          if (this.state.p1012 === "! ") {this.setState({p1012: "¿ "});}
+          if (this.state.p1012 === "¿ ") {this.setState({p1012: "? "});}
+          if (this.state.p1012 === "? ") {this.setState({p1012: " "});}
+  }
+  p1013() {
+          if (this.state.p1013 === "por") {
+                  this.setState({p1013: "Por"});
+          } else {
+                  this.setState({p1013: "por"});
+          }
+  }
+  p1014() {
+          if (this.state.p1014 === " ") {this.setState({p1014: ", "});}
+          if (this.state.p1014 === ", ") {this.setState({p1014: "; "});}
+          if (this.state.p1014 === "; ") {this.setState({p1014: ": "});}
+          if (this.state.p1014 === ": ") {this.setState({p1014: "( "});}
+          if (this.state.p1014 === "( ") {this.setState({p1014: ") "});}
+          if (this.state.p1014 === ") ") {this.setState({p1014: "¡ "});}
+          if (this.state.p1014 === "¡ ") {this.setState({p1014: "! "});}
+          if (this.state.p1014 === "! ") {this.setState({p1014: "¿ "});}
+          if (this.state.p1014 === "¿ ") {this.setState({p1014: "? "});}
+          if (this.state.p1014 === "? ") {this.setState({p1014: " "});}
+  }
+  p1015() {
+          if (this.state.p1015 === "el") {
+                  this.setState({p1015: "El"});
+          } else {
+                  this.setState({p1015: "el"});
+          }
+  }
+  p1016() {
+          if (this.state.p1016 === " ") {this.setState({p1016: ", "});}
+          if (this.state.p1016 === ", ") {this.setState({p1016: "; "});}
+          if (this.state.p1016 === "; ") {this.setState({p1016: ": "});}
+          if (this.state.p1016 === ": ") {this.setState({p1016: "( "});}
+          if (this.state.p1016 === "( ") {this.setState({p1016: ") "});}
+          if (this.state.p1016 === ") ") {this.setState({p1016: "¡ "});}
+          if (this.state.p1016 === "¡ ") {this.setState({p1016: "! "});}
+          if (this.state.p1016 === "! ") {this.setState({p1016: "¿ "});}
+          if (this.state.p1016 === "¿ ") {this.setState({p1016: "? "});}
+          if (this.state.p1016 === "? ") {this.setState({p1016: " "});}
+  }
+  p1017() {
+          if (this.state.p1017 === "cuarto") {
+                  this.setState({p1017: "Cuarto"});
+          } else {
+                  this.setState({p1017: "cuarto"});
+          }
+  }
+  p1018() {
+          if (this.state.p1018 === " ") {this.setState({p1018: ", "});}
+          if (this.state.p1018 === ", ") {this.setState({p1018: "; "});}
+          if (this.state.p1018 === "; ") {this.setState({p1018: ": "});}
+          if (this.state.p1018 === ": ") {this.setState({p1018: "( "});}
+          if (this.state.p1018 === "( ") {this.setState({p1018: ") "});}
+          if (this.state.p1018 === ") ") {this.setState({p1018: "¡ "});}
+          if (this.state.p1018 === "¡ ") {this.setState({p1018: "! "});}
+          if (this.state.p1018 === "! ") {this.setState({p1018: "¿ "});}
+          if (this.state.p1018 === "¿ ") {this.setState({p1018: "? "});}
+          if (this.state.p1018 === "? ") {this.setState({p1018: " "});}
+  }
+  p1019() {
+          if (this.state.p1019 === "y") {
+                  this.setState({p1019: "Y"});
+          } else {
+                  this.setState({p1019: "y"});
+          }
+  }
+  p1020() {
+          if (this.state.p1020 === " ") {this.setState({p1020: ", "});}
+          if (this.state.p1020 === ", ") {this.setState({p1020: "; "});}
+          if (this.state.p1020 === "; ") {this.setState({p1020: ": "});}
+          if (this.state.p1020 === ": ") {this.setState({p1020: "( "});}
+          if (this.state.p1020 === "( ") {this.setState({p1020: ") "});}
+          if (this.state.p1020 === ") ") {this.setState({p1020: "¡ "});}
+          if (this.state.p1020 === "¡ ") {this.setState({p1020: "! "});}
+          if (this.state.p1020 === "! ") {this.setState({p1020: "¿ "});}
+          if (this.state.p1020 === "¿ ") {this.setState({p1020: "? "});}
+          if (this.state.p1020 === "? ") {this.setState({p1020: " "});}
+  }
+  p1021() {
+          if (this.state.p1021 === "trata") {
+                  this.setState({p1021: "Trata"});
+          } else {
+                  this.setState({p1021: "trata"});
+          }
+  }
+  p1022() {
+          if (this.state.p1022 === " ") {this.setState({p1022: ", "});}
+          if (this.state.p1022 === ", ") {this.setState({p1022: "; "});}
+          if (this.state.p1022 === "; ") {this.setState({p1022: ": "});}
+          if (this.state.p1022 === ": ") {this.setState({p1022: "( "});}
+          if (this.state.p1022 === "( ") {this.setState({p1022: ") "});}
+          if (this.state.p1022 === ") ") {this.setState({p1022: "¡ "});}
+          if (this.state.p1022 === "¡ ") {this.setState({p1022: "! "});}
+          if (this.state.p1022 === "! ") {this.setState({p1022: "¿ "});}
+          if (this.state.p1022 === "¿ ") {this.setState({p1022: "? "});}
+          if (this.state.p1022 === "? ") {this.setState({p1022: " "});}
+  }
+  p1023() {
+          if (this.state.p1023 === "de") {
+                  this.setState({p1023: "De"});
+          } else {
+                  this.setState({p1023: "de"});
+          }
+  }
+  p1024() {
+          if (this.state.p1024 === " ") {this.setState({p1024: ", "});}
+          if (this.state.p1024 === ", ") {this.setState({p1024: "; "});}
+          if (this.state.p1024 === "; ") {this.setState({p1024: ": "});}
+          if (this.state.p1024 === ": ") {this.setState({p1024: "( "});}
+          if (this.state.p1024 === "( ") {this.setState({p1024: ") "});}
+          if (this.state.p1024 === ") ") {this.setState({p1024: "¡ "});}
+          if (this.state.p1024 === "¡ ") {this.setState({p1024: "! "});}
+          if (this.state.p1024 === "! ") {this.setState({p1024: "¿ "});}
+          if (this.state.p1024 === "¿ ") {this.setState({p1024: "? "});}
+          if (this.state.p1024 === "? ") {this.setState({p1024: " "});}
+  }
+  p1025() {
+          if (this.state.p1025 === "subir") {
+                  this.setState({p1025: "Subir"});
+          } else {
+                  this.setState({p1025: "subir"});
+          }
+  }
+  p1026() {
+          if (this.state.p1026 === " ") {this.setState({p1026: ", "});}
+          if (this.state.p1026 === ", ") {this.setState({p1026: "; "});}
+          if (this.state.p1026 === "; ") {this.setState({p1026: ": "});}
+          if (this.state.p1026 === ": ") {this.setState({p1026: "( "});}
+          if (this.state.p1026 === "( ") {this.setState({p1026: ") "});}
+          if (this.state.p1026 === ") ") {this.setState({p1026: "¡ "});}
+          if (this.state.p1026 === "¡ ") {this.setState({p1026: "! "});}
+          if (this.state.p1026 === "! ") {this.setState({p1026: "¿ "});}
+          if (this.state.p1026 === "¿ ") {this.setState({p1026: "? "});}
+          if (this.state.p1026 === "? ") {this.setState({p1026: " "});}
+  }
+  p1027() {
+          if (this.state.p1027 === "con") {
+                  this.setState({p1027: "Con"});
+          } else {
+                  this.setState({p1027: "con"});
+          }
+  }
+  p1028() {
+          if (this.state.p1028 === " ") {this.setState({p1028: ", "});}
+          if (this.state.p1028 === ", ") {this.setState({p1028: "; "});}
+          if (this.state.p1028 === "; ") {this.setState({p1028: ": "});}
+          if (this.state.p1028 === ": ") {this.setState({p1028: "( "});}
+          if (this.state.p1028 === "( ") {this.setState({p1028: ") "});}
+          if (this.state.p1028 === ") ") {this.setState({p1028: "¡ "});}
+          if (this.state.p1028 === "¡ ") {this.setState({p1028: "! "});}
+          if (this.state.p1028 === "! ") {this.setState({p1028: "¿ "});}
+          if (this.state.p1028 === "¿ ") {this.setState({p1028: "? "});}
+          if (this.state.p1028 === "? ") {this.setState({p1028: " "});}
+  }
+  p1029() {
+          if (this.state.p1029 === "torpeza") {
+                  this.setState({p1029: "Torpeza"});
+          } else {
+                  this.setState({p1029: "torpeza"});
+          }
+  }
+  p1030() {
+          if (this.state.p1030 === " ") {this.setState({p1030: ", "});}
+          if (this.state.p1030 === ", ") {this.setState({p1030: "; "});}
+          if (this.state.p1030 === "; ") {this.setState({p1030: ": "});}
+          if (this.state.p1030 === ": ") {this.setState({p1030: "( "});}
+          if (this.state.p1030 === "( ") {this.setState({p1030: ") "});}
+          if (this.state.p1030 === ") ") {this.setState({p1030: "¡ "});}
+          if (this.state.p1030 === "¡ ") {this.setState({p1030: "! "});}
+          if (this.state.p1030 === "! ") {this.setState({p1030: "¿ "});}
+          if (this.state.p1030 === "¿ ") {this.setState({p1030: "? "});}
+          if (this.state.p1030 === "? ") {this.setState({p1030: " "});}
+  }
+  p1031() {
+          if (this.state.p1031 === "a") {
+                  this.setState({p1031: "A"});
+          } else {
+                  this.setState({p1031: "a"});
+          }
+  }
+  p1032() {
+          if (this.state.p1032 === " ") {this.setState({p1032: ", "});}
+          if (this.state.p1032 === ", ") {this.setState({p1032: "; "});}
+          if (this.state.p1032 === "; ") {this.setState({p1032: ": "});}
+          if (this.state.p1032 === ": ") {this.setState({p1032: "( "});}
+          if (this.state.p1032 === "( ") {this.setState({p1032: ") "});}
+          if (this.state.p1032 === ") ") {this.setState({p1032: "¡ "});}
+          if (this.state.p1032 === "¡ ") {this.setState({p1032: "! "});}
+          if (this.state.p1032 === "! ") {this.setState({p1032: "¿ "});}
+          if (this.state.p1032 === "¿ ") {this.setState({p1032: "? "});}
+          if (this.state.p1032 === "? ") {this.setState({p1032: " "});}
+  }
+  p1033() {
+          if (this.state.p1033 === "las") {
+                  this.setState({p1033: "Las"});
+          } else {
+                  this.setState({p1033: "las"});
+          }
+  }
+  p1034() {
+          if (this.state.p1034 === " ") {this.setState({p1034: ", "});}
+          if (this.state.p1034 === ", ") {this.setState({p1034: "; "});}
+          if (this.state.p1034 === "; ") {this.setState({p1034: ": "});}
+          if (this.state.p1034 === ": ") {this.setState({p1034: "( "});}
+          if (this.state.p1034 === "( ") {this.setState({p1034: ") "});}
+          if (this.state.p1034 === ") ") {this.setState({p1034: "¡ "});}
+          if (this.state.p1034 === "¡ ") {this.setState({p1034: "! "});}
+          if (this.state.p1034 === "! ") {this.setState({p1034: "¿ "});}
+          if (this.state.p1034 === "¿ ") {this.setState({p1034: "? "});}
+          if (this.state.p1034 === "? ") {this.setState({p1034: " "});}
+  }
+  p1035() {
+          if (this.state.p1035 === "paredes") {
+                  this.setState({p1035: "Paredes"});
+          } else {
+                  this.setState({p1035: "paredes"});
+          }
+  }
+  p1036() {
+          if (this.state.p1036 === " ") {this.setState({p1036: ", "});}
+          if (this.state.p1036 === ", ") {this.setState({p1036: "; "});}
+          if (this.state.p1036 === "; ") {this.setState({p1036: ". "});}
+          if (this.state.p1036 === ". ") {this.setState({p1036: "( "});}
+          if (this.state.p1036 === "( ") {this.setState({p1036: ") "});}
+          if (this.state.p1036 === ") ") {this.setState({p1036: "¡ "});}
+          if (this.state.p1036 === "¡ ") {this.setState({p1036: "! "});}
+          if (this.state.p1036 === "! ") {this.setState({p1036: "¿ "});}
+          if (this.state.p1036 === "¿ ") {this.setState({p1036: "? "});}
+          if (this.state.p1036 === "? ") {this.setState({p1036: " "});}
+  }
+  p1037() {
+          if (this.state.p1037 === "se") {
+                  this.setState({p1037: "Se"});
+          } else {
+                  this.setState({p1037: "se"});
+          }
+  }
+  p1038() {
+          if (this.state.p1038 === " ") {this.setState({p1038: ", "});}
+          if (this.state.p1038 === ", ") {this.setState({p1038: "; "});}
+          if (this.state.p1038 === "; ") {this.setState({p1038: ": "});}
+          if (this.state.p1038 === ": ") {this.setState({p1038: "( "});}
+          if (this.state.p1038 === "( ") {this.setState({p1038: ") "});}
+          if (this.state.p1038 === ") ") {this.setState({p1038: "¡ "});}
+          if (this.state.p1038 === "¡ ") {this.setState({p1038: "! "});}
+          if (this.state.p1038 === "! ") {this.setState({p1038: "¿ "});}
+          if (this.state.p1038 === "¿ ") {this.setState({p1038: "? "});}
+          if (this.state.p1038 === "? ") {this.setState({p1038: " "});}
+  }
+  p1039() {
+          if (this.state.p1039 === "detiene") {
+                  this.setState({p1039: "Detiene"});
+          } else {
+                  this.setState({p1039: "detiene"});
+          }
+  }
+  p1040() {
+          if (this.state.p1040 === " ") {this.setState({p1040: ", "});}
+          if (this.state.p1040 === ", ") {this.setState({p1040: "; "});}
+          if (this.state.p1040 === "; ") {this.setState({p1040: ": "});}
+          if (this.state.p1040 === ": ") {this.setState({p1040: "( "});}
+          if (this.state.p1040 === "( ") {this.setState({p1040: ") "});}
+          if (this.state.p1040 === ") ") {this.setState({p1040: "¡ "});}
+          if (this.state.p1040 === "¡ ") {this.setState({p1040: "! "});}
+          if (this.state.p1040 === "! ") {this.setState({p1040: "¿ "});}
+          if (this.state.p1040 === "¿ ") {this.setState({p1040: "? "});}
+          if (this.state.p1040 === "? ") {this.setState({p1040: " "});}
+  }
+  p1041() {
+          if (this.state.p1041 === "levanta") {
+                  this.setState({p1041: "Levanta"});
+          } else {
+                  this.setState({p1041: "levanta"});
+          }
+  }
+  p1042() {
+          if (this.state.p1042 === " ") {this.setState({p1042: ", "});}
+          if (this.state.p1042 === ", ") {this.setState({p1042: "; "});}
+          if (this.state.p1042 === "; ") {this.setState({p1042: ": "});}
+          if (this.state.p1042 === ": ") {this.setState({p1042: "( "});}
+          if (this.state.p1042 === "( ") {this.setState({p1042: ") "});}
+          if (this.state.p1042 === ") ") {this.setState({p1042: "¡ "});}
+          if (this.state.p1042 === "¡ ") {this.setState({p1042: "! "});}
+          if (this.state.p1042 === "! ") {this.setState({p1042: "¿ "});}
+          if (this.state.p1042 === "¿ ") {this.setState({p1042: "? "});}
+          if (this.state.p1042 === "? ") {this.setState({p1042: " "});}
+  }
+  p1043() {
+          if (this.state.p1043 === "su") {
+                  this.setState({p1043: "Su"});
+          } else {
+                  this.setState({p1043: "su"});
+          }
+  }
+  p1044() {
+          if (this.state.p1044 === " ") {this.setState({p1044: ", "});}
+          if (this.state.p1044 === ", ") {this.setState({p1044: "; "});}
+          if (this.state.p1044 === "; ") {this.setState({p1044: ": "});}
+          if (this.state.p1044 === ": ") {this.setState({p1044: "( "});}
+          if (this.state.p1044 === "( ") {this.setState({p1044: ") "});}
+          if (this.state.p1044 === ") ") {this.setState({p1044: "¡ "});}
+          if (this.state.p1044 === "¡ ") {this.setState({p1044: "! "});}
+          if (this.state.p1044 === "! ") {this.setState({p1044: "¿ "});}
+          if (this.state.p1044 === "¿ ") {this.setState({p1044: "? "});}
+          if (this.state.p1044 === "? ") {this.setState({p1044: " "});}
+  }
+  p1045() {
+          if (this.state.p1045 === "cabeza") {
+                  this.setState({p1045: "Cabeza"});
+          } else {
+                  this.setState({p1045: "cabeza"});
+          }
+  }
+  p1046() {
+          if (this.state.p1046 === " ") {this.setState({p1046: ", "});}
+          if (this.state.p1046 === ", ") {this.setState({p1046: "; "});}
+          if (this.state.p1046 === "; ") {this.setState({p1046: ": "});}
+          if (this.state.p1046 === ": ") {this.setState({p1046: "( "});}
+          if (this.state.p1046 === "( ") {this.setState({p1046: ") "});}
+          if (this.state.p1046 === ") ") {this.setState({p1046: "¡ "});}
+          if (this.state.p1046 === "¡ ") {this.setState({p1046: "! "});}
+          if (this.state.p1046 === "! ") {this.setState({p1046: "¿ "});}
+          if (this.state.p1046 === "¿ ") {this.setState({p1046: "? "});}
+          if (this.state.p1046 === "? ") {this.setState({p1046: " "});}
+  }
+  p1047() {
+          if (this.state.p1047 === "y") {
+                  this.setState({p1047: "Y"});
+          } else {
+                  this.setState({p1047: "y"});
+          }
+  }
+  p1048() {
+          if (this.state.p1048 === " ") {this.setState({p1048: ", "});}
+          if (this.state.p1048 === ", ") {this.setState({p1048: "; "});}
+          if (this.state.p1048 === "; ") {this.setState({p1048: ": "});}
+          if (this.state.p1048 === ": ") {this.setState({p1048: "( "});}
+          if (this.state.p1048 === "( ") {this.setState({p1048: ") "});}
+          if (this.state.p1048 === ") ") {this.setState({p1048: "¡ "});}
+          if (this.state.p1048 === "¡ ") {this.setState({p1048: "! "});}
+          if (this.state.p1048 === "! ") {this.setState({p1048: "¿ "});}
+          if (this.state.p1048 === "¿ ") {this.setState({p1048: "? "});}
+          if (this.state.p1048 === "? ") {this.setState({p1048: " "});}
+  }
+  p1049() {
+          if (this.state.p1049 === "mueve") {
+                  this.setState({p1049: "Mueve"});
+          } else {
+                  this.setState({p1049: "mueve"});
+          }
+  }
+  p1050() {
+          if (this.state.p1050 === " ") {this.setState({p1050: ", "});}
+          if (this.state.p1050 === ", ") {this.setState({p1050: "; "});}
+          if (this.state.p1050 === "; ") {this.setState({p1050: ": "});}
+          if (this.state.p1050 === ": ") {this.setState({p1050: "( "});}
+          if (this.state.p1050 === "( ") {this.setState({p1050: ") "});}
+          if (this.state.p1050 === ") ") {this.setState({p1050: "¡ "});}
+          if (this.state.p1050 === "¡ ") {this.setState({p1050: "! "});}
+          if (this.state.p1050 === "! ") {this.setState({p1050: "¿ "});}
+          if (this.state.p1050 === "¿ ") {this.setState({p1050: "? "});}
+          if (this.state.p1050 === "? ") {this.setState({p1050: " "});}
+  }
+  p1051() {
+          if (this.state.p1051 === "los") {
+                  this.setState({p1051: "Los"});
+          } else {
+                  this.setState({p1051: "los"});
+          }
+  }
+  p1052() {
+          if (this.state.p1052 === " ") {this.setState({p1052: ", "});}
+          if (this.state.p1052 === ", ") {this.setState({p1052: "; "});}
+          if (this.state.p1052 === "; ") {this.setState({p1052: ": "});}
+          if (this.state.p1052 === ": ") {this.setState({p1052: "( "});}
+          if (this.state.p1052 === "( ") {this.setState({p1052: ") "});}
+          if (this.state.p1052 === ") ") {this.setState({p1052: "¡ "});}
+          if (this.state.p1052 === "¡ ") {this.setState({p1052: "! "});}
+          if (this.state.p1052 === "! ") {this.setState({p1052: "¿ "});}
+          if (this.state.p1052 === "¿ ") {this.setState({p1052: "? "});}
+          if (this.state.p1052 === "? ") {this.setState({p1052: " "});}
+  }
+  p1053() {
+          if (this.state.p1053 === "palpos") {
+                  this.setState({p1053: "Palpos"});
+          } else {
+                  this.setState({p1053: "palpos"});
+          }
+  }
+  p1054() {
+          if (this.state.p1054 === " ") {this.setState({p1054: ", "});}
+          if (this.state.p1054 === ", ") {this.setState({p1054: "; "});}
+          if (this.state.p1054 === "; ") {this.setState({p1054: ". "});}
+          if (this.state.p1054 === ". ") {this.setState({p1054: "( "});}
+          if (this.state.p1054 === "( ") {this.setState({p1054: ") "});}
+          if (this.state.p1054 === ") ") {this.setState({p1054: "¡ "});}
+          if (this.state.p1054 === "¡ ") {this.setState({p1054: "! "});}
+          if (this.state.p1054 === "! ") {this.setState({p1054: "¿ "});}
+          if (this.state.p1054 === "¿ ") {this.setState({p1054: "? "});}
+          if (this.state.p1054 === "? ") {this.setState({p1054: " "});}
+  }
+  p1055() {
+          if (this.state.p1055 === "parece") {
+                  this.setState({p1055: "Parece"});
+          } else {
+                  this.setState({p1055: "parece"});
+          }
+  }
+  p1056() {
+          if (this.state.p1056 === " ") {this.setState({p1056: ", "});}
+          if (this.state.p1056 === ", ") {this.setState({p1056: "; "});}
+          if (this.state.p1056 === "; ") {this.setState({p1056: ": "});}
+          if (this.state.p1056 === ": ") {this.setState({p1056: "( "});}
+          if (this.state.p1056 === "( ") {this.setState({p1056: ") "});}
+          if (this.state.p1056 === ") ") {this.setState({p1056: "¡ "});}
+          if (this.state.p1056 === "¡ ") {this.setState({p1056: "! "});}
+          if (this.state.p1056 === "! ") {this.setState({p1056: "¿ "});}
+          if (this.state.p1056 === "¿ ") {this.setState({p1056: "? "});}
+          if (this.state.p1056 === "? ") {this.setState({p1056: " "});}
+  }
+  p1057() {
+          if (this.state.p1057 === "husmear") {
+                  this.setState({p1057: "Husmear"});
+          } else {
+                  this.setState({p1057: "husmear"});
+          }
+  }
+  p1058() {
+          if (this.state.p1058 === " ") {this.setState({p1058: ", "});}
+          if (this.state.p1058 === ", ") {this.setState({p1058: "; "});}
+          if (this.state.p1058 === "; ") {this.setState({p1058: ": "});}
+          if (this.state.p1058 === ": ") {this.setState({p1058: "( "});}
+          if (this.state.p1058 === "( ") {this.setState({p1058: ") "});}
+          if (this.state.p1058 === ") ") {this.setState({p1058: "¡ "});}
+          if (this.state.p1058 === "¡ ") {this.setState({p1058: "! "});}
+          if (this.state.p1058 === "! ") {this.setState({p1058: "¿ "});}
+          if (this.state.p1058 === "¿ ") {this.setState({p1058: "? "});}
+          if (this.state.p1058 === "? ") {this.setState({p1058: " "});}
+  }
+  p1059() {
+          if (this.state.p1059 === "agitada,") {
+                  this.setState({p1059: "Agitada,"});
+          } else {
+                  this.setState({p1059: "agitada,"});
+          }
+  }
+  p1060() {
+          if (this.state.p1060 === " ") {this.setState({p1060: ", "});}
+          if (this.state.p1060 === ", ") {this.setState({p1060: "; "});}
+          if (this.state.p1060 === "; ") {this.setState({p1060: ": "});}
+          if (this.state.p1060 === ": ") {this.setState({p1060: "( "});}
+          if (this.state.p1060 === "( ") {this.setState({p1060: ") "});}
+          if (this.state.p1060 === ") ") {this.setState({p1060: "¡ "});}
+          if (this.state.p1060 === "¡ ") {this.setState({p1060: "! "});}
+          if (this.state.p1060 === "! ") {this.setState({p1060: "¿ "});}
+          if (this.state.p1060 === "¿ ") {this.setState({p1060: "? "});}
+          if (this.state.p1060 === "? ") {this.setState({p1060: " "});}
+  }
+  p1061() {
+          if (this.state.p1061 === "un") {
+                  this.setState({p1061: "Un"});
+          } else {
+                  this.setState({p1061: "un"});
+          }
+  }
+  p1062() {
+          if (this.state.p1062 === " ") {this.setState({p1062: ", "});}
+          if (this.state.p1062 === ", ") {this.setState({p1062: "; "});}
+          if (this.state.p1062 === "; ") {this.setState({p1062: ": "});}
+          if (this.state.p1062 === ": ") {this.setState({p1062: "( "});}
+          if (this.state.p1062 === "( ") {this.setState({p1062: ") "});}
+          if (this.state.p1062 === ") ") {this.setState({p1062: "¡ "});}
+          if (this.state.p1062 === "¡ ") {this.setState({p1062: "! "});}
+          if (this.state.p1062 === "! ") {this.setState({p1062: "¿ "});}
+          if (this.state.p1062 === "¿ ") {this.setState({p1062: "? "});}
+          if (this.state.p1062 === "? ") {this.setState({p1062: " "});}
+  }
+  p1063() {
+          if (this.state.p1063 === "invisible") {
+                  this.setState({p1063: "Invisible"});
+          } else {
+                  this.setState({p1063: "invisible"});
+          }
+  }
+  p1064() {
+          if (this.state.p1064 === " ") {this.setState({p1064: ", "});}
+          if (this.state.p1064 === ", ") {this.setState({p1064: "; "});}
+          if (this.state.p1064 === "; ") {this.setState({p1064: ": "});}
+          if (this.state.p1064 === ": ") {this.setState({p1064: "( "});}
+          if (this.state.p1064 === "( ") {this.setState({p1064: ") "});}
+          if (this.state.p1064 === ") ") {this.setState({p1064: "¡ "});}
+          if (this.state.p1064 === "¡ ") {this.setState({p1064: "! "});}
+          if (this.state.p1064 === "! ") {this.setState({p1064: "¿ "});}
+          if (this.state.p1064 === "¿ ") {this.setState({p1064: "? "});}
+          if (this.state.p1064 === "? ") {this.setState({p1064: " "});}
+  }
+  p1065() {
+          if (this.state.p1065 === "compañero") {
+                  this.setState({p1065: "Compañero"});
+          } else {
+                  this.setState({p1065: "compañero"});
+          }
+  }
+  p1066() {
+          if (this.state.p1066 === " ") {this.setState({p1066: ", "});}
+          if (this.state.p1066 === ", ") {this.setState({p1066: "; "});}
+          if (this.state.p1066 === "; ") {this.setState({p1066: ". "});}
+          if (this.state.p1066 === ". ") {this.setState({p1066: "( "});}
+          if (this.state.p1066 === "( ") {this.setState({p1066: ") "});}
+          if (this.state.p1066 === ") ") {this.setState({p1066: "¡ "});}
+          if (this.state.p1066 === "¡ ") {this.setState({p1066: "! "});}
+          if (this.state.p1066 === "! ") {this.setState({p1066: "¿ "});}
+          if (this.state.p1066 === "¿ ") {this.setState({p1066: "? "});}
+          if (this.state.p1066 === "? ") {this.setState({p1066: " "});}
+  }
+  p1067() {
+          if (this.state.p1067 === "entonces") {
+                  this.setState({p1067: "Entonces"});
+          } else {
+                  this.setState({p1067: "entonces"});
+          }
+  }
+  p1068() {
+          if (this.state.p1068 === " ") {this.setState({p1068: ", "});}
+          if (this.state.p1068 === ", ") {this.setState({p1068: "; "});}
+          if (this.state.p1068 === "; ") {this.setState({p1068: ": "});}
+          if (this.state.p1068 === ": ") {this.setState({p1068: "( "});}
+          if (this.state.p1068 === "( ") {this.setState({p1068: ") "});}
+          if (this.state.p1068 === ") ") {this.setState({p1068: "¡ "});}
+          if (this.state.p1068 === "¡ ") {this.setState({p1068: "! "});}
+          if (this.state.p1068 === "! ") {this.setState({p1068: "¿ "});}
+          if (this.state.p1068 === "¿ ") {this.setState({p1068: "? "});}
+          if (this.state.p1068 === "? ") {this.setState({p1068: " "});}
+  }
+  p1069() {
+          if (this.state.p1069 === "estremecido") {
+                  this.setState({p1069: "Estremecido"});
+          } else {
+                  this.setState({p1069: "estremecido"});
+          }
+  }
+  p1070() {
+          if (this.state.p1070 === " ") {this.setState({p1070: ", "});}
+          if (this.state.p1070 === ", ") {this.setState({p1070: "; "});}
+          if (this.state.p1070 === "; ") {this.setState({p1070: ": "});}
+          if (this.state.p1070 === ": ") {this.setState({p1070: "( "});}
+          if (this.state.p1070 === "( ") {this.setState({p1070: ") "});}
+          if (this.state.p1070 === ") ") {this.setState({p1070: "¡ "});}
+          if (this.state.p1070 === "¡ ") {this.setState({p1070: "! "});}
+          if (this.state.p1070 === "! ") {this.setState({p1070: "¿ "});}
+          if (this.state.p1070 === "¿ ") {this.setState({p1070: "? "});}
+          if (this.state.p1070 === "? ") {this.setState({p1070: " "});}
+  }
+  p1071() {
+          if (this.state.p1071 === "en") {
+                  this.setState({p1071: "En"});
+          } else {
+                  this.setState({p1071: "en"});
+          }
+  }
+  p1072() {
+          if (this.state.p1072 === " ") {this.setState({p1072: ", "});}
+          if (this.state.p1072 === ", ") {this.setState({p1072: "; "});}
+          if (this.state.p1072 === "; ") {this.setState({p1072: ": "});}
+          if (this.state.p1072 === ": ") {this.setState({p1072: "( "});}
+          if (this.state.p1072 === "( ") {this.setState({p1072: ") "});}
+          if (this.state.p1072 === ") ") {this.setState({p1072: "¡ "});}
+          if (this.state.p1072 === "¡ ") {this.setState({p1072: "! "});}
+          if (this.state.p1072 === "! ") {this.setState({p1072: "¿ "});}
+          if (this.state.p1072 === "¿ ") {this.setState({p1072: "? "});}
+          if (this.state.p1072 === "? ") {this.setState({p1072: " "});}
+  }
+  p1073() {
+          if (this.state.p1073 === "mi") {
+                  this.setState({p1073: "Mi"});
+          } else {
+                  this.setState({p1073: "mi"});
+          }
+  }
+  p1074() {
+          if (this.state.p1074 === " ") {this.setState({p1074: ", "});}
+          if (this.state.p1074 === ", ") {this.setState({p1074: "; "});}
+          if (this.state.p1074 === "; ") {this.setState({p1074: ": "});}
+          if (this.state.p1074 === ": ") {this.setState({p1074: "( "});}
+          if (this.state.p1074 === "( ") {this.setState({p1074: ") "});}
+          if (this.state.p1074 === ") ") {this.setState({p1074: "¡ "});}
+          if (this.state.p1074 === "¡ ") {this.setState({p1074: "! "});}
+          if (this.state.p1074 === "! ") {this.setState({p1074: "¿ "});}
+          if (this.state.p1074 === "¿ ") {this.setState({p1074: "? "});}
+          if (this.state.p1074 === "? ") {this.setState({p1074: " "});}
+  }
+  p1075() {
+          if (this.state.p1075 === "soledad") {
+                  this.setState({p1075: "Soledad"});
+          } else {
+                  this.setState({p1075: "soledad"});
+          }
+  }
+  p1076() {
+          if (this.state.p1076 === " ") {this.setState({p1076: ", "});}
+          if (this.state.p1076 === ", ") {this.setState({p1076: "; "});}
+          if (this.state.p1076 === "; ") {this.setState({p1076: ": "});}
+          if (this.state.p1076 === ": ") {this.setState({p1076: "( "});}
+          if (this.state.p1076 === "( ") {this.setState({p1076: ") "});}
+          if (this.state.p1076 === ") ") {this.setState({p1076: "¡ "});}
+          if (this.state.p1076 === "¡ ") {this.setState({p1076: "! "});}
+          if (this.state.p1076 === "! ") {this.setState({p1076: "¿ "});}
+          if (this.state.p1076 === "¿ ") {this.setState({p1076: "? "});}
+          if (this.state.p1076 === "? ") {this.setState({p1076: " "});}
+  }
+  p1077() {
+          if (this.state.p1077 === "acorralado") {
+                  this.setState({p1077: "Acorralado"});
+          } else {
+                  this.setState({p1077: "acorralado"});
+          }
+  }
+  p1078() {
+          if (this.state.p1078 === " ") {this.setState({p1078: ", "});}
+          if (this.state.p1078 === ", ") {this.setState({p1078: "; "});}
+          if (this.state.p1078 === "; ") {this.setState({p1078: ": "});}
+          if (this.state.p1078 === ": ") {this.setState({p1078: "( "});}
+          if (this.state.p1078 === "( ") {this.setState({p1078: ") "});}
+          if (this.state.p1078 === ") ") {this.setState({p1078: "¡ "});}
+          if (this.state.p1078 === "¡ ") {this.setState({p1078: "! "});}
+          if (this.state.p1078 === "! ") {this.setState({p1078: "¿ "});}
+          if (this.state.p1078 === "¿ ") {this.setState({p1078: "? "});}
+          if (this.state.p1078 === "? ") {this.setState({p1078: " "});}
+  }
+  p1079() {
+          if (this.state.p1079 === "por") {
+                  this.setState({p1079: "Por"});
+          } else {
+                  this.setState({p1079: "por"});
+          }
+  }
+  p1080() {
+          if (this.state.p1080 === " ") {this.setState({p1080: ", "});}
+          if (this.state.p1080 === ", ") {this.setState({p1080: "; "});}
+          if (this.state.p1080 === "; ") {this.setState({p1080: ": "});}
+          if (this.state.p1080 === ": ") {this.setState({p1080: "( "});}
+          if (this.state.p1080 === "( ") {this.setState({p1080: ") "});}
+          if (this.state.p1080 === ") ") {this.setState({p1080: "¡ "});}
+          if (this.state.p1080 === "¡ ") {this.setState({p1080: "! "});}
+          if (this.state.p1080 === "! ") {this.setState({p1080: "¿ "});}
+          if (this.state.p1080 === "¿ ") {this.setState({p1080: "? "});}
+          if (this.state.p1080 === "? ") {this.setState({p1080: " "});}
+  }
+  p1081() {
+          if (this.state.p1081 === "el") {
+                  this.setState({p1081: "El"});
+          } else {
+                  this.setState({p1081: "el"});
+          }
+  }
+  p1082() {
+          if (this.state.p1082 === " ") {this.setState({p1082: ", "});}
+          if (this.state.p1082 === ", ") {this.setState({p1082: "; "});}
+          if (this.state.p1082 === "; ") {this.setState({p1082: ": "});}
+          if (this.state.p1082 === ": ") {this.setState({p1082: "( "});}
+          if (this.state.p1082 === "( ") {this.setState({p1082: ") "});}
+          if (this.state.p1082 === ") ") {this.setState({p1082: "¡ "});}
+          if (this.state.p1082 === "¡ ") {this.setState({p1082: "! "});}
+          if (this.state.p1082 === "! ") {this.setState({p1082: "¿ "});}
+          if (this.state.p1082 === "¿ ") {this.setState({p1082: "? "});}
+          if (this.state.p1082 === "? ") {this.setState({p1082: " "});}
+  }
+  p1083() {
+          if (this.state.p1083 === "pequeño") {
+                  this.setState({p1083: "Pequeño"});
+          } else {
+                  this.setState({p1083: "pequeño"});
+          }
+  }
+  p1084() {
+          if (this.state.p1084 === " ") {this.setState({p1084: ", "});}
+          if (this.state.p1084 === ", ") {this.setState({p1084: "; "});}
+          if (this.state.p1084 === "; ") {this.setState({p1084: ": "});}
+          if (this.state.p1084 === ": ") {this.setState({p1084: "( "});}
+          if (this.state.p1084 === "( ") {this.setState({p1084: ") "});}
+          if (this.state.p1084 === ") ") {this.setState({p1084: "¡ "});}
+          if (this.state.p1084 === "¡ ") {this.setState({p1084: "! "});}
+          if (this.state.p1084 === "! ") {this.setState({p1084: "¿ "});}
+          if (this.state.p1084 === "¿ ") {this.setState({p1084: "? "});}
+          if (this.state.p1084 === "? ") {this.setState({p1084: " "});}
+  }
+  p1085() {
+          if (this.state.p1085 === "monstruo") {
+                  this.setState({p1085: "Monstruo"});
+          } else {
+                  this.setState({p1085: "monstruo"});
+          }
+  }
+  p1086() {
+          if (this.state.p1086 === " ") {this.setState({p1086: ", "});}
+          if (this.state.p1086 === ", ") {this.setState({p1086: "; "});}
+          if (this.state.p1086 === "; ") {this.setState({p1086: ": "});}
+          if (this.state.p1086 === ": ") {this.setState({p1086: "( "});}
+          if (this.state.p1086 === "( ") {this.setState({p1086: ") "});}
+          if (this.state.p1086 === ") ") {this.setState({p1086: "¡ "});}
+          if (this.state.p1086 === "¡ ") {this.setState({p1086: "! "});}
+          if (this.state.p1086 === "! ") {this.setState({p1086: "¿ "});}
+          if (this.state.p1086 === "¿ ") {this.setState({p1086: "? "});}
+          if (this.state.p1086 === "? ") {this.setState({p1086: " "});}
+  }
+  p1087() {
+          if (this.state.p1087 === "recuerdo") {
+                  this.setState({p1087: "Recuerdo"});
+          } else {
+                  this.setState({p1087: "recuerdo"});
+          }
+  }
+  p1088() {
+          if (this.state.p1088 === " ") {this.setState({p1088: ", "});}
+          if (this.state.p1088 === ", ") {this.setState({p1088: "; "});}
+          if (this.state.p1088 === "; ") {this.setState({p1088: ": "});}
+          if (this.state.p1088 === ": ") {this.setState({p1088: "( "});}
+          if (this.state.p1088 === "( ") {this.setState({p1088: ") "});}
+          if (this.state.p1088 === ") ") {this.setState({p1088: "¡ "});}
+          if (this.state.p1088 === "¡ ") {this.setState({p1088: "! "});}
+          if (this.state.p1088 === "! ") {this.setState({p1088: "¿ "});}
+          if (this.state.p1088 === "¿ ") {this.setState({p1088: "? "});}
+          if (this.state.p1088 === "? ") {this.setState({p1088: " "});}
+  }
+  p1089() {
+          if (this.state.p1089 === "que") {
+                  this.setState({p1089: "Que"});
+          } else {
+                  this.setState({p1089: "que"});
+          }
+  }
+  p1090() {
+          if (this.state.p1090 === " ") {this.setState({p1090: ", "});}
+          if (this.state.p1090 === ", ") {this.setState({p1090: "; "});}
+          if (this.state.p1090 === "; ") {this.setState({p1090: ": "});}
+          if (this.state.p1090 === ": ") {this.setState({p1090: "( "});}
+          if (this.state.p1090 === "( ") {this.setState({p1090: ") "});}
+          if (this.state.p1090 === ") ") {this.setState({p1090: "¡ "});}
+          if (this.state.p1090 === "¡ ") {this.setState({p1090: "! "});}
+          if (this.state.p1090 === "! ") {this.setState({p1090: "¿ "});}
+          if (this.state.p1090 === "¿ ") {this.setState({p1090: "? "});}
+          if (this.state.p1090 === "? ") {this.setState({p1090: " "});}
+  }
+  p1091() {
+          if (this.state.p1091 === "en") {
+                  this.setState({p1091: "En"});
+          } else {
+                  this.setState({p1091: "en"});
+          }
+  }
+  p1092() {
+          if (this.state.p1092 === " ") {this.setState({p1092: ", "});}
+          if (this.state.p1092 === ", ") {this.setState({p1092: "; "});}
+          if (this.state.p1092 === "; ") {this.setState({p1092: ": "});}
+          if (this.state.p1092 === ": ") {this.setState({p1092: "( "});}
+          if (this.state.p1092 === "( ") {this.setState({p1092: ") "});}
+          if (this.state.p1092 === ") ") {this.setState({p1092: "¡ "});}
+          if (this.state.p1092 === "¡ ") {this.setState({p1092: "! "});}
+          if (this.state.p1092 === "! ") {this.setState({p1092: "¿ "});}
+          if (this.state.p1092 === "¿ ") {this.setState({p1092: "? "});}
+          if (this.state.p1092 === "? ") {this.setState({p1092: " "});}
+  }
+  p1093() {
+          if (this.state.p1093 === "otro") {
+                  this.setState({p1093: "Otro"});
+          } else {
+                  this.setState({p1093: "otro"});
+          }
+  }
+  p1094() {
+          if (this.state.p1094 === " ") {this.setState({p1094: ", "});}
+          if (this.state.p1094 === ", ") {this.setState({p1094: "; "});}
+          if (this.state.p1094 === "; ") {this.setState({p1094: ": "});}
+          if (this.state.p1094 === ": ") {this.setState({p1094: "( "});}
+          if (this.state.p1094 === "( ") {this.setState({p1094: ") "});}
+          if (this.state.p1094 === ") ") {this.setState({p1094: "¡ "});}
+          if (this.state.p1094 === "¡ ") {this.setState({p1094: "! "});}
+          if (this.state.p1094 === "! ") {this.setState({p1094: "¿ "});}
+          if (this.state.p1094 === "¿ ") {this.setState({p1094: "? "});}
+          if (this.state.p1094 === "? ") {this.setState({p1094: " "});}
+  }
+  p1095() {
+          if (this.state.p1095 === "tiempo") {
+                  this.setState({p1095: "Tiempo"});
+          } else {
+                  this.setState({p1095: "tiempo"});
+          }
+  }
+  p1096() {
+          if (this.state.p1096 === " ") {this.setState({p1096: ", "});}
+          if (this.state.p1096 === ", ") {this.setState({p1096: "; "});}
+          if (this.state.p1096 === "; ") {this.setState({p1096: ": "});}
+          if (this.state.p1096 === ": ") {this.setState({p1096: "( "});}
+          if (this.state.p1096 === "( ") {this.setState({p1096: ") "});}
+          if (this.state.p1096 === ") ") {this.setState({p1096: "¡ "});}
+          if (this.state.p1096 === "¡ ") {this.setState({p1096: "! "});}
+          if (this.state.p1096 === "! ") {this.setState({p1096: "¿ "});}
+          if (this.state.p1096 === "¿ ") {this.setState({p1096: "? "});}
+          if (this.state.p1096 === "? ") {this.setState({p1096: " "});}
+  }
+  p1097() {
+          if (this.state.p1097 === "yo") {
+                  this.setState({p1097: "Yo"});
+          } else {
+                  this.setState({p1097: "yo"});
+          }
+  }
+  p1098() {
+          if (this.state.p1098 === " ") {this.setState({p1098: ", "});}
+          if (this.state.p1098 === ", ") {this.setState({p1098: "; "});}
+          if (this.state.p1098 === "; ") {this.setState({p1098: ": "});}
+          if (this.state.p1098 === ": ") {this.setState({p1098: "( "});}
+          if (this.state.p1098 === "( ") {this.setState({p1098: ") "});}
+          if (this.state.p1098 === ") ") {this.setState({p1098: "¡ "});}
+          if (this.state.p1098 === "¡ ") {this.setState({p1098: "! "});}
+          if (this.state.p1098 === "! ") {this.setState({p1098: "¿ "});}
+          if (this.state.p1098 === "¿ ") {this.setState({p1098: "? "});}
+          if (this.state.p1098 === "? ") {this.setState({p1098: " "});}
+  }
+  p1099() {
+          if (this.state.p1099 === "soñaba") {
+                  this.setState({p1099: "Soñaba"});
+          } else {
+                  this.setState({p1099: "soñaba"});
+          }
+  }
+  p1100() {
+          if (this.state.p1100 === " ") {this.setState({p1100: ", "});}
+          if (this.state.p1100 === ", ") {this.setState({p1100: "; "});}
+          if (this.state.p1100 === "; ") {this.setState({p1100: ": "});}
+          if (this.state.p1100 === ": ") {this.setState({p1100: "( "});}
+          if (this.state.p1100 === "( ") {this.setState({p1100: ") "});}
+          if (this.state.p1100 === ") ") {this.setState({p1100: "¡ "});}
+          if (this.state.p1100 === "¡ ") {this.setState({p1100: "! "});}
+          if (this.state.p1100 === "! ") {this.setState({p1100: "¿ "});}
+          if (this.state.p1100 === "¿ ") {this.setState({p1100: "? "});}
+          if (this.state.p1100 === "? ") {this.setState({p1100: " "});}
+  }
+  p1101() {
+          if (this.state.p1101 === "en") {
+                  this.setState({p1101: "En"});
+          } else {
+                  this.setState({p1101: "en"});
+          }
+  }
+  p1102() {
+          if (this.state.p1102 === " ") {this.setState({p1102: ", "});}
+          if (this.state.p1102 === ", ") {this.setState({p1102: "; "});}
+          if (this.state.p1102 === "; ") {this.setState({p1102: ": "});}
+          if (this.state.p1102 === ": ") {this.setState({p1102: "( "});}
+          if (this.state.p1102 === "( ") {this.setState({p1102: ") "});}
+          if (this.state.p1102 === ") ") {this.setState({p1102: "¡ "});}
+          if (this.state.p1102 === "¡ ") {this.setState({p1102: "! "});}
+          if (this.state.p1102 === "! ") {this.setState({p1102: "¿ "});}
+          if (this.state.p1102 === "¿ ") {this.setState({p1102: "? "});}
+          if (this.state.p1102 === "? ") {this.setState({p1102: " "});}
+  }
+  p1103() {
+          if (this.state.p1103 === "beatriz") {
+                  this.setState({p1103: "Beatriz"});
+          } else {
+                  this.setState({p1103: "beatriz"});
+          }
+  }
+  p1104() {
+          if (this.state.p1104 === " ") {this.setState({p1104: ", "});}
+          if (this.state.p1104 === ", ") {this.setState({p1104: "; "});}
+          if (this.state.p1104 === "; ") {this.setState({p1104: ": "});}
+          if (this.state.p1104 === ": ") {this.setState({p1104: "( "});}
+          if (this.state.p1104 === "( ") {this.setState({p1104: ") "});}
+          if (this.state.p1104 === ") ") {this.setState({p1104: "¡ "});}
+          if (this.state.p1104 === "¡ ") {this.setState({p1104: "! "});}
+          if (this.state.p1104 === "! ") {this.setState({p1104: "¿ "});}
+          if (this.state.p1104 === "¿ ") {this.setState({p1104: "? "});}
+          if (this.state.p1104 === "? ") {this.setState({p1104: " "});}
+  }
+  p1105() {
+          if (this.state.p1105 === "y") {
+                  this.setState({p1105: "Y"});
+          } else {
+                  this.setState({p1105: "y"});
+          }
+  }
+  p1106() {
+          if (this.state.p1106 === " ") {this.setState({p1106: ", "});}
+          if (this.state.p1106 === ", ") {this.setState({p1106: "; "});}
+          if (this.state.p1106 === "; ") {this.setState({p1106: ": "});}
+          if (this.state.p1106 === ": ") {this.setState({p1106: "( "});}
+          if (this.state.p1106 === "( ") {this.setState({p1106: ") "});}
+          if (this.state.p1106 === ") ") {this.setState({p1106: "¡ "});}
+          if (this.state.p1106 === "¡ ") {this.setState({p1106: "! "});}
+          if (this.state.p1106 === "! ") {this.setState({p1106: "¿ "});}
+          if (this.state.p1106 === "¿ ") {this.setState({p1106: "? "});}
+          if (this.state.p1106 === "? ") {this.setState({p1106: " "});}
+  }
+  p1107() {
+          if (this.state.p1107 === "en") {
+                  this.setState({p1107: "En"});
+          } else {
+                  this.setState({p1107: "en"});
+          }
+  }
+  p1108() {
+          if (this.state.p1108 === " ") {this.setState({p1108: ", "});}
+          if (this.state.p1108 === ", ") {this.setState({p1108: "; "});}
+          if (this.state.p1108 === "; ") {this.setState({p1108: ": "});}
+          if (this.state.p1108 === ": ") {this.setState({p1108: "( "});}
+          if (this.state.p1108 === "( ") {this.setState({p1108: ") "});}
+          if (this.state.p1108 === ") ") {this.setState({p1108: "¡ "});}
+          if (this.state.p1108 === "¡ ") {this.setState({p1108: "! "});}
+          if (this.state.p1108 === "! ") {this.setState({p1108: "¿ "});}
+          if (this.state.p1108 === "¿ ") {this.setState({p1108: "? "});}
+          if (this.state.p1108 === "? ") {this.setState({p1108: " "});}
+  }
+  p1109() {
+          if (this.state.p1109 === "su") {
+                  this.setState({p1109: "Su"});
+          } else {
+                  this.setState({p1109: "su"});
+          }
+  }
+  p1110() {
+          if (this.state.p1110 === " ") {this.setState({p1110: ", "});}
+          if (this.state.p1110 === ", ") {this.setState({p1110: "; "});}
+          if (this.state.p1110 === "; ") {this.setState({p1110: ": "});}
+          if (this.state.p1110 === ": ") {this.setState({p1110: "( "});}
+          if (this.state.p1110 === "( ") {this.setState({p1110: ") "});}
+          if (this.state.p1110 === ") ") {this.setState({p1110: "¡ "});}
+          if (this.state.p1110 === "¡ ") {this.setState({p1110: "! "});}
+          if (this.state.p1110 === "! ") {this.setState({p1110: "¿ "});}
+          if (this.state.p1110 === "¿ ") {this.setState({p1110: "? "});}
+          if (this.state.p1110 === "? ") {this.setState({p1110: " "});}
+  }
+  p1111() {
+          if (this.state.p1111 === "compañí­a") {
+                  this.setState({p1111: "Compañí­a"});
+          } else {
+                  this.setState({p1111: "compañí­a"});
+          }
+  }
+  p1112() {
+          if (this.state.p1112 === " ") {this.setState({p1112: ", "});}
+          if (this.state.p1112 === ", ") {this.setState({p1112: "; "});}
+          if (this.state.p1112 === "; ") {this.setState({p1112: ": "});}
+          if (this.state.p1112 === ": ") {this.setState({p1112: "( "});}
+          if (this.state.p1112 === "( ") {this.setState({p1112: ") "});}
+          if (this.state.p1112 === ") ") {this.setState({p1112: "¡ "});}
+          if (this.state.p1112 === "¡ ") {this.setState({p1112: "! "});}
+          if (this.state.p1112 === "! ") {this.setState({p1112: "¿ "});}
+          if (this.state.p1112 === "¿ ") {this.setState({p1112: "? "});}
+          if (this.state.p1112 === "? ") {this.setState({p1112: " "});}
+  }
+  p1113() {
+          if (this.state.p1113 === "imposible") {
+                  this.setState({p1113: "Imposible"});
+          } else {
+                  this.setState({p1113: "imposible"});
+          }
+  }
+  p1114() {
+          if (this.state.p1114 === " ") {this.setState({p1114: ", "});}
+          if (this.state.p1114 === ", ") {this.setState({p1114: "; "});}
+          if (this.state.p1114 === "; ") {this.setState({p1114: ". "});}
+          if (this.state.p1114 === ". ") {this.setState({p1114: "( "});}
+          if (this.state.p1114 === "( ") {this.setState({p1114: ") "});}
+          if (this.state.p1114 === ") ") {this.setState({p1114: "¡ "});}
+          if (this.state.p1114 === "¡ ") {this.setState({p1114: "! "});}
+          if (this.state.p1114 === "! ") {this.setState({p1114: "¿ "});}
+          if (this.state.p1114 === "¿ ") {this.setState({p1114: "? "});}
+          if (this.state.p1114 === "? ") {this.setState({p1114: " "});}
+  }
 
   render() {
     return(
@@ -2252,3992 +5684,6 @@ class Migala extends Component{
         <p>Escribe en el siguiente texto los signos de puntuación y las mayúsculas correspondientes.</p>
         <h1 align="center">LA MIGALA</h1>
         <h2 align="center">Juan José Arreola</h2>
-
-        {this.state.p521 === "todas" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p521.bind(this)}>todas</button>
-        }
-        {this.state.p521 === "todas" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p521.bind(this)}><span style={{color:"red"}}>t</span>odas</button>
-        }
-        {this.state.p521 === "Todas" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p521.bind(this)}>Todas</button>
-        }
-        {this.state.p521 === "Todas" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p521.bind(this)}><span style={{color:"green"}}>T</span>odas</button>
-        }
-
-        {this.state.p522 === " " &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p522 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p522 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p522 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p522 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p522 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p522 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p522 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p522 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p522 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p522.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p522 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p522 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p522 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p522 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p522 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p522 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p522 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p522 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p522 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p522.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p523 === "las" &&
-                <button id="txtBut" onClick={this.p523.bind(this)}>las</button>
-        }
-        {this.state.p523 === "Las" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p523.bind(this)}>Las</button>
-        }
-        {this.state.p523 === "Las" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p523.bind(this)}><span style={{color:"red"}}>L</span>as</button>
-        }
-
-        {this.state.p524 === " " &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p524 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p524 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p524 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p524 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p524 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p524 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p524 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p524 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p524 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p524.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p524 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p524 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p524 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p524 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p524 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p524 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p524 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p524 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p524 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p524.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p525 === "noches" &&
-                <button id="txtBut" onClick={this.p525.bind(this)}>noches</button>
-        }
-        {this.state.p525 === "Noches" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p525.bind(this)}>Noches</button>
-        }
-        {this.state.p525 === "Noches" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p525.bind(this)}><span style={{color:"red"}}>N</span>oches</button>
-        }
-
-        {this.state.p526 === " " &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p526 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p526 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p526 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p526 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p526 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p526 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p526 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p526 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p526 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p526.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p526 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p526 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p526 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p526 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p526 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p526 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p526 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p526 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p526 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p526.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p527 === "tiemblo" &&
-                <button id="txtBut" onClick={this.p527.bind(this)}>tiemblo</button>
-        }
-        {this.state.p527 === "Tiemblo" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p527.bind(this)}>Tiemblo</button>
-        }
-        {this.state.p527 === "Tiemblo" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p527.bind(this)}><span style={{color:"red"}}>T</span>iemblo</button>
-        }
-
-        {this.state.p528 === " " &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p528 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p528 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p528 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p528 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p528 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p528 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p528 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p528 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p528 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p528.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p528 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p528 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p528 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p528 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p528 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p528 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p528 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p528 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p528 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p528.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p529 === "en" &&
-                <button id="txtBut" onClick={this.p529.bind(this)}>en</button>
-        }
-        {this.state.p529 === "En" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p529.bind(this)}>En</button>
-        }
-        {this.state.p529 === "En" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p529.bind(this)}><span style={{color:"red"}}>E</span>n</button>
-        }
-
-        {this.state.p530 === " " &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p530 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p530 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p530 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p530 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p530 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p530 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p530 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p530 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p530 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p530.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p530 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p530 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p530 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p530 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p530 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p530 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p530 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p530 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p530 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p530.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p531 === "espera" &&
-                <button id="txtBut" onClick={this.p531.bind(this)}>espera</button>
-        }
-        {this.state.p531 === "Espera" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p531.bind(this)}>Espera</button>
-        }
-        {this.state.p531 === "Espera" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p531.bind(this)}><span style={{color:"red"}}>E</span>spera</button>
-        }
-
-        {this.state.p532 === " " &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p532 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p532 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p532 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p532 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p532 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p532 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p532 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p532 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p532 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p532.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p532 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p532 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p532 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p532 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p532 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p532 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p532 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p532 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p532 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p532.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p533 === "de" &&
-                <button id="txtBut" onClick={this.p533.bind(this)}>de</button>
-        }
-        {this.state.p533 === "De" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p533.bind(this)}>De</button>
-        }
-        {this.state.p533 === "De" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p533.bind(this)}><span style={{color:"red"}}>D</span>e</button>
-        }
-
-        {this.state.p534 === " " &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p534 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p534 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p534 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p534 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p534 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p534 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p534 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p534 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p534 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p534.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p534 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p534 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p534 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p534 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p534 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p534 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p534 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p534 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p534 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p534.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p535 === "la" &&
-                <button id="txtBut" onClick={this.p535.bind(this)}>la</button>
-        }
-        {this.state.p535 === "La" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p535.bind(this)}>La</button>
-        }
-        {this.state.p535 === "La" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p535.bind(this)}><span style={{color:"red"}}>L</span>a</button>
-        }
-
-        {this.state.p536 === " " &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p536 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p536 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p536 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p536 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p536 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p536 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p536 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p536 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p536 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p536.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p536 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p536 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p536 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p536 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p536 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p536 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p536 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p536 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p536 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p536.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p537 === "picadura" &&
-                <button id="txtBut" onClick={this.p537.bind(this)}>picadura</button>
-        }
-        {this.state.p537 === "Picadura" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p537.bind(this)}>Picadura</button>
-        }
-        {this.state.p537 === "Picadura" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p537.bind(this)}><span style={{color:"red"}}>P</span>icadura</button>
-        }
-
-        {this.state.p538 === " " &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p538 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p538 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p538 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p538 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p538 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p538 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p538 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p538 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p538 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p538.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p538 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p538 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p538 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p538 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p538 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p538 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p538 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p538 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p538 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p538.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p539 === "mortal" &&
-                <button id="txtBut" onClick={this.p539.bind(this)}>mortal</button>
-        }
-        {this.state.p539 === "Mortal" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p539.bind(this)}>Mortal</button>
-        }
-        {this.state.p539 === "Mortal" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p539.bind(this)}><span style={{color:"red"}}>M</span>ortal</button>
-        }
-
-        {this.state.p540 === " " &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p540 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p540 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p540 === ". " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>.&nbsp;</button>
-        }
-        {this.state.p540 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p540 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p540 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p540 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p540 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p540 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p540 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p540 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p540 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p540 === ". " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}>.&nbsp;</button>
-        }
-        {this.state.p540 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p540 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p540 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p540 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p540 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p540 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p540.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p541 === "muchas" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p541.bind(this)}>muchas</button>
-        }
-        {this.state.p541 === "muchas" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p541.bind(this)}><span style={{color:"red"}}>m</span>uchas</button>
-        }
-        {this.state.p541 === "Muchas" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p541.bind(this)}>Muchas</button>
-        }
-        {this.state.p541 === "Muchas" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p541.bind(this)}><span style={{color:"green"}}>M</span>uchas</button>
-        }
-
-        {this.state.p542 === " " &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p542 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p542 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p542 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p542 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p542 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p542 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p542 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p542 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p542 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p542.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p542 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p542 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p542 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p542 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p542 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p542 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p542 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p542 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p542 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p542.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p543 === "veces" &&
-                <button id="txtBut" onClick={this.p543.bind(this)}>veces</button>
-        }
-        {this.state.p543 === "Veces" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p543.bind(this)}>Veces</button>
-        }
-        {this.state.p543 === "Veces" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p543.bind(this)}><span style={{color:"red"}}>V</span>eces</button>
-        }
-
-        {this.state.p544 === " " &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p544 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p544 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p544 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p544 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p544 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p544 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p544 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p544 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p544 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p544.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p544 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p544 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p544 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p544 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p544 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p544 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p544 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p544 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p544 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p544.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p545 === "despierto" &&
-                <button id="txtBut" onClick={this.p545.bind(this)}>despierto</button>
-        }
-        {this.state.p545 === "Despierto" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p545.bind(this)}>Despierto</button>
-        }
-        {this.state.p545 === "Despierto" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p545.bind(this)}><span style={{color:"red"}}>D</span>espierto</button>
-        }
-
-        {this.state.p546 === " " &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p546 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p546 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p546 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p546 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p546 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p546 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p546 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p546 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p546 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p546.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p546 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p546 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p546 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p546 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p546 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p546 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p546 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p546 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p546 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p546.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p547 === "con" &&
-                <button id="txtBut" onClick={this.p547.bind(this)}>con</button>
-        }
-        {this.state.p547 === "Con" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p547.bind(this)}>Con</button>
-        }
-        {this.state.p547 === "Con" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p547.bind(this)}><span style={{color:"red"}}>C</span>on</button>
-        }
-
-        {this.state.p548 === " " &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p548 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p548 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p548 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p548 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p548 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p548 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p548 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p548 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p548 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p548.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p548 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p548 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p548 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p548 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p548 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p548 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p548 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p548 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p548 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p548.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p549 === "el" &&
-                <button id="txtBut" onClick={this.p549.bind(this)}>el</button>
-        }
-        {this.state.p549 === "El" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p549.bind(this)}>El</button>
-        }
-        {this.state.p549 === "El" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p549.bind(this)}><span style={{color:"red"}}>E</span>l</button>
-        }
-
-        {this.state.p550 === " " &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p550 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p550 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p550 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p550 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p550 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p550 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p550 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p550 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p550 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p550.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p550 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p550 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p550 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p550 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p550 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p550 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p550 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p550 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p550 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p550.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p551 === "cuerpo" &&
-                <button id="txtBut" onClick={this.p551.bind(this)}>cuerpo</button>
-        }
-        {this.state.p551 === "Cuerpo" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p551.bind(this)}>Cuerpo</button>
-        }
-        {this.state.p551 === "Cuerpo" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p551.bind(this)}><span style={{color:"red"}}>C</span>uerpo</button>
-        }
-
-        {this.state.p552 === " " &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p552 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p552 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p552 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p552 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p552 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p552 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p552 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p552 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p552 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p552.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p552 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p552 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p552 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p552 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p552 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p552 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p552 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p552 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p552 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p552.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p553 === "helado" &&
-                <button id="txtBut" onClick={this.p553.bind(this)}>helado</button>
-        }
-        {this.state.p553 === "Helado" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p553.bind(this)}>Helado</button>
-        }
-        {this.state.p553 === "Helado" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p553.bind(this)}><span style={{color:"red"}}>H</span>elado</button>
-        }
-
-        {this.state.p554 === " " &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p554 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p554 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p554 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p554 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p554 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p554 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p554 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p554 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p554 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p554 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p554 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p554 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p554 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p554 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p554 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p554 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p554 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p554 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p554 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p554.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p555 === "tenso" &&
-                <button id="txtBut" onClick={this.p555.bind(this)}>tenso</button>
-        }
-        {this.state.p555 === "Tenso" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p555.bind(this)}>Tenso</button>
-        }
-        {this.state.p555 === "Tenso" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p555.bind(this)}><span style={{color:"red"}}>T</span>enso</button>
-        }
-
-        {this.state.p556 === " " &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p556 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p556 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p556 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p556 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p556 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p556 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p556 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p556 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p556 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p556 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p556 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p556 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p556 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p556 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p556 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p556 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p556 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p556 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p556 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p556.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p557 === "inmóvil" &&
-                <button id="txtBut" onClick={this.p557.bind(this)}>inmóvil</button>
-        }
-        {this.state.p557 === "Inmóvil" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p557.bind(this)}>Inmóvil</button>
-        }
-        {this.state.p557 === "Inmóvil" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p557.bind(this)}><span style={{color:"red"}}>I</span>nmóvil</button>
-        }
-
-        {this.state.p558 === " " &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p558 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p558 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p558 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p558 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p558 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p558 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p558 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p558 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p558 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p558 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p558 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p558 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p558 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p558 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p558 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p558 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p558 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p558 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p558 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p558.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p559 === "porque" &&
-                <button id="txtBut" onClick={this.p559.bind(this)}>porque</button>
-        }
-        {this.state.p559 === "Porque" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p559.bind(this)}>Porque</button>
-        }
-        {this.state.p559 === "Porque" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p559.bind(this)}><span style={{color:"red"}}>P</span>orque</button>
-        }
-
-        {this.state.p560 === " " &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p560 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p560 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p560 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p560 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p560 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p560 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p560 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p560 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p560 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p560.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p560 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p560 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p560 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p560 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p560 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p560 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p560 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p560 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p560 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p560.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p561 === "el" &&
-                <button id="txtBut" onClick={this.p561.bind(this)}>el</button>
-        }
-        {this.state.p561 === "El" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p561.bind(this)}>El</button>
-        }
-        {this.state.p561 === "El" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p561.bind(this)}><span style={{color:"red"}}>E</span>l</button>
-        }
-
-        {this.state.p562 === " " &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p562 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p562 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p562 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p562 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p562 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p562 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p562 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p562 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p562 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p562.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p562 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p562 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p562 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p562 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p562 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p562 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p562 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p562 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p562 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p562.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p563 === "sueño" &&
-                <button id="txtBut" onClick={this.p563.bind(this)}>sueño</button>
-        }
-        {this.state.p563 === "Sueño" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p563.bind(this)}>Sueño</button>
-        }
-        {this.state.p563 === "Sueño" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p563.bind(this)}><span style={{color:"red"}}>S</span>ueño</button>
-        }
-
-        {this.state.p564 === " " &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p564 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p564 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p564 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p564 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p564 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p564 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p564 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p564 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p564 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p564.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p564 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p564 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p564 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p564 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p564 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p564 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p564 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p564 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p564 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p564.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p565 === "ha" &&
-                <button id="txtBut" onClick={this.p565.bind(this)}>ha</button>
-        }
-        {this.state.p565 === "Ha" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p565.bind(this)}>Ha</button>
-        }
-        {this.state.p565 === "Ha" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p565.bind(this)}><span style={{color:"red"}}>H</span>a</button>
-        }
-
-        {this.state.p566 === " " &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p566 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p566 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p566 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p566 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p566 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p566 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p566 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p566 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p566 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p566.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p566 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p566 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p566 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p566 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p566 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p566 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p566 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p566 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p566 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p566.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p567 === "creado" &&
-                <button id="txtBut" onClick={this.p567.bind(this)}>creado</button>
-        }
-        {this.state.p567 === "Creado" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p567.bind(this)}>Creado</button>
-        }
-        {this.state.p567 === "Creado" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p567.bind(this)}><span style={{color:"red"}}>C</span>reado</button>
-        }
-
-        {this.state.p568 === " " &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p568 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p568 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p568 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p568 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p568 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p568 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p568 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p568 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p568 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p568.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p568 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p568 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p568 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p568 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p568 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p568 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p568 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p568 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p568 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p568.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p569 === "para" &&
-                <button id="txtBut" onClick={this.p569.bind(this)}>para</button>
-        }
-        {this.state.p569 === "Para" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p569.bind(this)}>Para</button>
-        }
-        {this.state.p569 === "Para" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p569.bind(this)}><span style={{color:"red"}}>P</span>ara</button>
-        }
-
-        {this.state.p570 === " " &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p570 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p570 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p570 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p570 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p570 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p570 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p570 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p570 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p570 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p570.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p570 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p570 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p570 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p570 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p570 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p570 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p570 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p570 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p570 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p570.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p571 === "mí" &&
-                <button id="txtBut" onClick={this.p571.bind(this)}>mí</button>
-        }
-        {this.state.p571 === "Mí" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p571.bind(this)}>Mí</button>
-        }
-        {this.state.p571 === "Mí" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p571.bind(this)}><span style={{color:"red"}}>M</span>í</button>
-        }
-
-        {this.state.p572 === " " &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p572 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p572 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p572 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p572 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p572 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p572 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p572 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p572 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p572 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p572 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p572 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p572 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p572 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p572 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p572 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p572 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p572 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p572 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p572 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p572.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p573 === "con" &&
-                <button id="txtBut" onClick={this.p573.bind(this)}>con</button>
-        }
-        {this.state.p573 === "Con" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p573.bind(this)}>Con</button>
-        }
-        {this.state.p573 === "Con" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p573.bind(this)}><span style={{color:"red"}}>C</span>on</button>
-        }
-
-        {this.state.p574 === " " &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p574 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p574 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p574 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p574 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p574 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p574 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p574 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p574 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p574 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p574.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p574 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p574 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p574 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p574 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p574 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p574 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p574 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p574 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p574 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p574.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p575 === "precisión" &&
-                <button id="txtBut" onClick={this.p575.bind(this)}>precisión</button>
-        }
-        {this.state.p575 === "Precisión" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p575.bind(this)}>Precisión</button>
-        }
-        {this.state.p575 === "Precisión" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p575.bind(this)}><span style={{color:"red"}}>P</span>recisión</button>
-        }
-
-        {this.state.p576 === " " &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p576 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p576 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p576 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p576 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p576 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p576 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p576 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p576 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p576 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p576 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p576 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p576 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p576 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p576 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p576 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p576 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p576 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p576 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p576 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p576.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p577 === "el" &&
-                <button id="txtBut" onClick={this.p577.bind(this)}>el</button>
-        }
-        {this.state.p577 === "El" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p577.bind(this)}>El</button>
-        }
-        {this.state.p577 === "El" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p577.bind(this)}><span style={{color:"red"}}>E</span>l</button>
-        }
-
-        {this.state.p578 === " " &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p578 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p578 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p578 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p578 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p578 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p578 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p578 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p578 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p578 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p578.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p578 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p578 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p578 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p578 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p578 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p578 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p578 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p578 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p578 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p578.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p579 === "paso" &&
-                <button id="txtBut" onClick={this.p579.bind(this)}>paso</button>
-        }
-        {this.state.p579 === "Paso" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p579.bind(this)}>Paso</button>
-        }
-        {this.state.p579 === "Paso" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p579.bind(this)}><span style={{color:"red"}}>P</span>aso</button>
-        }
-
-        {this.state.p580 === " " &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p580 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p580 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p580 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p580 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p580 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p580 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p580 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p580 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p580 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p580.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p580 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p580 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p580 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p580 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p580 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p580 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p580 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p580 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p580 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p580.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p581 === "cosquilleante" &&
-                <button id="txtBut" onClick={this.p581.bind(this)}>cosquilleante</button>
-        }
-        {this.state.p581 === "Cosquilleante" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p581.bind(this)}>Cosquilleante</button>
-        }
-        {this.state.p581 === "Cosquilleante" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p581.bind(this)}><span style={{color:"red"}}>C</span>osquilleante</button>
-        }
-
-        {this.state.p582 === " " &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p582 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p582 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p582 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p582 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p582 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p582 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p582 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p582 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p582 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p582.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p582 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p582 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p582 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p582 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p582 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p582 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p582 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p582 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p582 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p582.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p583 === "de" &&
-                <button id="txtBut" onClick={this.p583.bind(this)}>de</button>
-        }
-        {this.state.p583 === "De" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p583.bind(this)}>De</button>
-        }
-        {this.state.p583 === "De" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p583.bind(this)}><span style={{color:"red"}}>D</span>e</button>
-        }
-
-        {this.state.p584 === " " &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p584 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p584 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p584 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p584 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p584 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p584 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p584 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p584 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p584 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p584.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p584 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p584 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p584 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p584 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p584 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p584 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p584 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p584 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p584 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p584.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p585 === "la" &&
-                <button id="txtBut" onClick={this.p585.bind(this)}>la</button>
-        }
-        {this.state.p585 === "La" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p585.bind(this)}>La</button>
-        }
-        {this.state.p585 === "La" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p585.bind(this)}><span style={{color:"red"}}>L</span>a</button>
-        }
-
-        {this.state.p586 === " " &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p586 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p586 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p586 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p586 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p586 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p586 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p586 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p586 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p586 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p586.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p586 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p586 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p586 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p586 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p586 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p586 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p586 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p586 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p586 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p586.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p587 === "aralia" &&
-                <button id="txtBut" onClick={this.p587.bind(this)}>aralia</button>
-        }
-        {this.state.p587 === "Aralia" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p587.bind(this)}>Aralia</button>
-        }
-        {this.state.p587 === "Aralia" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p587.bind(this)}><span style={{color:"red"}}>A</span>ralia</button>
-        }
-
-        {this.state.p588 === " " &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p588 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p588 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p588 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p588 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p588 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p588 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p588 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p588 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p588 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p588.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p588 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p588 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p588 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p588 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p588 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p588 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p588 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p588 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p588 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p588.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p589 === "sobre" &&
-                <button id="txtBut" onClick={this.p589.bind(this)}>sobre</button>
-        }
-        {this.state.p589 === "Sobre" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p589.bind(this)}>Sobre</button>
-        }
-        {this.state.p589 === "Sobre" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p589.bind(this)}><span style={{color:"red"}}>S</span>obre</button>
-        }
-
-        {this.state.p590 === " " &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p590 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p590 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p590 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p590 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p590 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p590 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p590 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p590 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p590 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p590.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p590 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p590 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p590 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p590 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p590 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p590 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p590 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p590 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p590 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p590.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p591 === "mi" &&
-                <button id="txtBut" onClick={this.p591.bind(this)}>mi</button>
-        }
-        {this.state.p591 === "Mi" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p591.bind(this)}>Mi</button>
-        }
-        {this.state.p591 === "Mi" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p591.bind(this)}><span style={{color:"red"}}>M</span>i</button>
-        }
-
-        {this.state.p592 === " " &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p592 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p592 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p592 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p592 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p592 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p592 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p592 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p592 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p592 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p592.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p592 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p592 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p592 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p592 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p592 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p592 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p592 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p592 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p592 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p592.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p593 === "piel" &&
-                <button id="txtBut" onClick={this.p593.bind(this)}>piel</button>
-        }
-        {this.state.p593 === "Piel" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p593.bind(this)}>Piel</button>
-        }
-        {this.state.p593 === "Piel" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p593.bind(this)}><span style={{color:"red"}}>P</span>iel</button>
-        }
-
-        {this.state.p594 === " " &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p594 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p594 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p594 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p594 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p594 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p594 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p594 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p594 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p594 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p594 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{background:"red"}}>&nbsp;</span>&nbsp;</button>
-        }
-        {this.state.p594 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p594 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p594 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p594 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p594 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p594 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p594 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p594 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p594 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p594.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p595 === "su" &&
-                <button id="txtBut" onClick={this.p595.bind(this)}>su</button>
-        }
-        {this.state.p595 === "Su" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p595.bind(this)}>Su</button>
-        }
-        {this.state.p595 === "Su" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p595.bind(this)}><span style={{color:"red"}}>S</span>u</button>
-        }
-
-        {this.state.p596 === " " &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p596 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p596 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p596 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p596 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p596 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p596 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p596 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p596 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p596 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p596.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p596 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p596 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p596 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p596 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p596 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p596 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p596 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p596 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p596 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p596.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p597 === "peso" &&
-                <button id="txtBut" onClick={this.p597.bind(this)}>peso</button>
-        }
-        {this.state.p597 === "Peso" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p597.bind(this)}>Peso</button>
-        }
-        {this.state.p597 === "Peso" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p597.bind(this)}><span style={{color:"red"}}>P</span>eso</button>
-        }
-
-        {this.state.p598 === " " &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p598 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p598 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p598 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p598 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p598 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p598 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p598 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p598 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p598 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p598.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p598 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p598 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p598 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p598 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p598 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p598 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p598 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p598 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p598 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p598.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p599 === "indefinible" &&
-                <button id="txtBut" onClick={this.p599.bind(this)}>indefinible</button>
-        }
-        {this.state.p599 === "Indefinible" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p599.bind(this)}>Indefinible</button>
-        }
-        {this.state.p599 === "Indefinible" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p599.bind(this)}><span style={{color:"red"}}>I</span>ndefinible</button>
-        }
-
-        {this.state.p600 === " " &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p600 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p600 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p600 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p600 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p600 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p600 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p600 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p600 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p600 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p600 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p600 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p600 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p600 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p600 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p600 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p600 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p600 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p600 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p600 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p600.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p601 === "su" &&
-                <button id="txtBut" onClick={this.p601.bind(this)}>su</button>
-        }
-        {this.state.p601 === "Su" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p601.bind(this)}>Su</button>
-        }
-        {this.state.p601 === "Su" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p601.bind(this)}><span style={{color:"red"}}>S</span>u</button>
-        }
-
-        {this.state.p602 === " " &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p602 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p602 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p602 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p602 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p602 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p602 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p602 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p602 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p602 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p602.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p602 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p602 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p602 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p602 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p602 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p602 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p602 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p602 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p602 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p602.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p603 === "consistencia" &&
-                <button id="txtBut" onClick={this.p603.bind(this)}>consistencia</button>
-        }
-        {this.state.p603 === "Consistencia" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p603.bind(this)}>Consistencia</button>
-        }
-        {this.state.p603 === "Consistencia" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p603.bind(this)}><span style={{color:"red"}}>C</span>onsistencia</button>
-        }
-
-        {this.state.p604 === " " &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p604 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p604 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p604 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p604 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p604 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p604 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p604 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p604 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p604 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p604.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p604 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p604 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p604 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p604 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p604 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p604 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p604 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p604 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p604 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p604.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p605 === "de" &&
-                <button id="txtBut" onClick={this.p605.bind(this)}>de</button>
-        }
-        {this.state.p605 === "De" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p605.bind(this)}>De</button>
-        }
-        {this.state.p605 === "De" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p605.bind(this)}><span style={{color:"red"}}>D</span>e</button>
-        }
-
-        {this.state.p606 === " " &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p606 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p606 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p606 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p606 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p606 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p606 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p606 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p606 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p606 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p606.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p606 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p606 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p606 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p606 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p606 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p606 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p606 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p606 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p606 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p606.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p607 === "entraña" &&
-                <button id="txtBut" onClick={this.p607.bind(this)}>entraña</button>
-        }
-        {this.state.p607 === "Entraña" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p607.bind(this)}>Entraña</button>
-        }
-        {this.state.p607 === "Entraña" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p607.bind(this)}><span style={{color:"red"}}>E</span>ntraña</button>
-        }
-
-        {this.state.p608 === " " &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p608 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p608 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p608 === ". " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>.&nbsp;</button>
-        }
-        {this.state.p608 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p608 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p608 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p608 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p608 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p608 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p608 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p608 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p608 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p608 === ". " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}>.&nbsp;</button>
-        }
-        {this.state.p608 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p608 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p608 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p608 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p608 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p608 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p608.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p609 === "sin" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p609.bind(this)}>sin</button>
-        }
-        {this.state.p609 === "sin" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p609.bind(this)}><span style={{color:"red"}}>s</span>in</button>
-        }
-        {this.state.p609 === "Sin" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p609.bind(this)}>Sin</button>
-        }
-        {this.state.p609 === "Sin" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p609.bind(this)}>Sin</button>
-        }
-
-        {this.state.p610 === " " &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p610 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p610 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p610 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p610 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p610 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p610 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p610 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p610 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p610 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p610.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p610 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p610 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p610 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p610 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p610 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p610 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p610 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p610 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p610 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p610.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p611 === "embargo" &&
-                <button id="txtBut" onClick={this.p611.bind(this)}>embargo</button>
-        }
-        {this.state.p611 === "Embargo" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p611.bind(this)}>Embargo</button>
-        }
-        {this.state.p611 === "Embargo" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p611.bind(this)}><span style={{color:"red"}}>E</span>mbargo</button>
-        }
-
-        {this.state.p612 === " " &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p612 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p612 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p612 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p612 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p612 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p612 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p612 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p612 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p612 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p612.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p612 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p612 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p612 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p612 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p612 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p612 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p612 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p612 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p612 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p612.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p613 === "siempre" &&
-                <button id="txtBut" onClick={this.p613.bind(this)}>siempre</button>
-        }
-        {this.state.p613 === "Siempre" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p613.bind(this)}>Siempre</button>
-        }
-        {this.state.p613 === "Siempre" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p613.bind(this)}><span style={{color:"red"}}>S</span>iempre</button>
-        }
-
-        {this.state.p614 === " " &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p614 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p614 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p614 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p614 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p614 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p614 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p614 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p614 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p614 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p614.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p614 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p614 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p614 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p614 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p614 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p614 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p614 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p614 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p614 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p614.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p615 === "amanece" &&
-                <button id="txtBut" onClick={this.p615.bind(this)}>amanece</button>
-        }
-        {this.state.p615 === "Amanece" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p615.bind(this)}>Amanece</button>
-        }
-        {this.state.p615 === "Amanece" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p615.bind(this)}><span style={{color:"red"}}>A</span>manece</button>
-        }
-
-        {this.state.p616 === " " &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p616 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p616 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p616 === ". " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>.&nbsp;</button>
-        }
-        {this.state.p616 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p616 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p616 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p616 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p616 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p616 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p616 === " " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{background:"red"}}>&nbsp;</span></button>
-        }
-        {this.state.p616 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p616 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p616 === ". " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}>.&nbsp;</button>
-        }
-        {this.state.p616 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p616 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p616 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p616 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p616 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p616 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p616.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p617 === "estoy" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p617.bind(this)}>estoy</button>
-        }
-        {this.state.p617 === "estoy" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p617.bind(this)}><span style={{color:"red"}}>e</span>stoy</button>
-        }
-        {this.state.p617 === "Estoy" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p617.bind(this)}>Estoy</button>
-        }
-        {this.state.p617 === "Estoy" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p617.bind(this)}><span style={{color:"green"}}>E</span>stoy</button>
-        }
-
-        {this.state.p618 === " " &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p618 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p618 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p618 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p618 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p618 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p618 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p618 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p618 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p618 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p618.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p618 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p618 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p618 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p618 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p618 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p618 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p618 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p618 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p618 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p618.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p619 === "vivo" &&
-                <button id="txtBut" onClick={this.p619.bind(this)}>vivo</button>
-        }
-        {this.state.p619 === "Vivo" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p619.bind(this)}>Vivo</button>
-        }
-        {this.state.p619 === "Vivo" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p619.bind(this)}><span style={{color:"red"}}>V</span>ivo</button>
-        }
-
-        {this.state.p620 === " " &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p620 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p620 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p620 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p620 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p620 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p620 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p620 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p620 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p620 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p620.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p620 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p620 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p620 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p620 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p620 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p620 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p620 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p620 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p620 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p620.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p621 === "y" &&
-                <button id="txtBut" onClick={this.p621.bind(this)}>y</button>
-        }
-        {this.state.p621 === "Y" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p621.bind(this)}>Y</button>
-        }
-        {this.state.p621 === "Y" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p621.bind(this)}><span style={{color:"red"}}>Y</span></button>
-        }
-
-        {this.state.p622 === " " &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p622 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p622 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p622 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p622 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p622 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p622 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p622 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p622 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p622 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p622.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p622 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p622 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p622 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p622 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p622 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p622 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p622 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p622 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p622 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p622.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p623 === "mi" &&
-                <button id="txtBut" onClick={this.p623.bind(this)}>mi</button>
-        }
-        {this.state.p623 === "Mi" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p623.bind(this)}>Mi</button>
-        }
-        {this.state.p623 === "Mi" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p623.bind(this)}><span style={{color:"red"}}>M</span>i</button>
-        }
-
-        {this.state.p624 === " " &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p624 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p624 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p624 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p624 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p624 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p624 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p624 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p624 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p624 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p624.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p624 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p624 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p624 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p624 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p624 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p624 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p624 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p624 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p624 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p624.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p625 === "alma" &&
-                <button id="txtBut" onClick={this.p625.bind(this)}>alma</button>
-        }
-        {this.state.p625 === "Alma" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p625.bind(this)}>Alma</button>
-        }
-        {this.state.p625 === "Alma" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p625.bind(this)}><span style={{color:"red"}}>A</span>lma</button>
-        }
-
-        {this.state.p626 === " " &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p626 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p626 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p626 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p626 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p626 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p626 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p626 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p626 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p626 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p626.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p626 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p626 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p626 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p626 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p626 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p626 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p626 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p626 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p626 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p626.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p627 === "inútilmente" &&
-                <button id="txtBut" onClick={this.p627.bind(this)}>inútilmente</button>
-        }
-        {this.state.p627 === "Inútilmente" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p627.bind(this)}>Inútilmente</button>
-        }
-        {this.state.p627 === "Inútilmente" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p627.bind(this)}><span style={{color:"red"}}>I</span>nútilmente</button>
-        }
-
-        {this.state.p628 === " " &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p628 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p628 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p628 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p628 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p628 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p628 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p628 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p628 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p628 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p628.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p628 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p628 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p628 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p628 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p628 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p628 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p628 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p628 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p628 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p628.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p629 === "se" &&
-                <button id="txtBut" onClick={this.p629.bind(this)}>se</button>
-        }
-        {this.state.p629 === "Se" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p629.bind(this)}>Se</button>
-        }
-        {this.state.p629 === "Se" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p629.bind(this)}><span style={{color:"red"}}>S</span>e</button>
-        }
-
-        {this.state.p630 === " " &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p630 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p630 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p630 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p630 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p630 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p630 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p630 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p630 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p630 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p630.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p630 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p630 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p630 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p630 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p630 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p630 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p630 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p630 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p630 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p630.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p631 === "apresta" &&
-                <button id="txtBut" onClick={this.p631.bind(this)}>apresta</button>
-        }
-        {this.state.p631 === "Apresta" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p631.bind(this)}>Apresta</button>
-        }
-        {this.state.p631 === "Apresta" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p631.bind(this)}><span style={{color:"red"}}>A</span>presta</button>
-        }
-
-        {this.state.p632 === " " &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p632 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p632 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p632 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p632 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p632 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p632 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p632 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p632 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p632 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p632.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p632 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p632 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p632 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p632 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p632 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p632 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p632 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p632 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p632 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p632.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p633 === "y" &&
-                <button id="txtBut" onClick={this.p633.bind(this)}>y</button>
-        }
-        {this.state.p633 === "Y" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p633.bind(this)}>Y</button>
-        }
-        {this.state.p633 === "Y" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p633.bind(this)}><span style={{color:"red"}}>Y</span></button>
-        }
-
-        {this.state.p634 === " " &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p634 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p634 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p634 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p634 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p634 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p634 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p634 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p634 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p634 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p634.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p634 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p634 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p634 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p634 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p634 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p634 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p634 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p634 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p634 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p634.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
-
-        {this.state.p635 === "se" &&
-                <button id="txtBut" onClick={this.p635.bind(this)}>se</button>
-        }
-        {this.state.p635 === "Se" && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p635.bind(this)}>Se</button>
-        }
-        {this.state.p635 === "Se" && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p635.bind(this)}><span style={{color:"red"}}>S</span>e</button>
-        }
-
-        {this.state.p636 === " " &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>&nbsp;</button>
-        }
-        {this.state.p636 === ", " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>,&nbsp;</button>
-        }
-        {this.state.p636 === "; " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>;&nbsp;</button>
-        }
-        {this.state.p636 === ": " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>:&nbsp;</button>
-        }
-        {this.state.p636 === "( " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>(&nbsp;</button>
-        }
-        {this.state.p636 === ") " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>)&nbsp;</button>
-        }
-        {this.state.p636 === "¡ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>¡&nbsp;</button>
-        }
-        {this.state.p636 === "! " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>!&nbsp;</button>
-        }
-        {this.state.p636 === "¿ " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>¿&nbsp;</button>
-        }
-        {this.state.p636 === "? " && this.state.compare === false &&
-                <button id="txtBut" onClick={this.p636.bind(this)}>?&nbsp;</button>
-        }
-        {this.state.p636 === ", " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>,</span>&nbsp;</button>
-        }
-        {this.state.p636 === "; " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>;</span>&nbsp;</button>
-        }
-        {this.state.p636 === ": " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>:</span>&nbsp;</button>
-        }
-        {this.state.p636 === "( " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>(</span>&nbsp;</button>
-        }
-        {this.state.p636 === ") " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>)</span>&nbsp;</button>
-        }
-        {this.state.p636 === "¡ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>¡</span>&nbsp;</button>
-        }
-        {this.state.p636 === "! " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>!</span>&nbsp;</button>
-        }
-        {this.state.p636 === "¿ " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>¿</span>&nbsp;</button>
-        }
-        {this.state.p636 === "? " && this.state.compare === true &&
-                <button id="txtBut" onClick={this.p636.bind(this)}><span style={{color:"red"}}>?</span>&nbsp;</button>
-        }
 
         {this.state.p637 === "perfecciona" &&
                 <button id="txtBut" onClick={this.p637.bind(this)}>perfecciona</button>

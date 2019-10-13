@@ -1,23 +1,22 @@
 public class MyClass {
     public static void main(String args[]) {
-        int i=1001;
+        /*int i=1001;
 
         while (i<1201) {
             System.out.println("p"+i+": \"\",");
             i++;
-        }
+        }*/
 
         //
 
         /*
-        todas las noches tiemblo en espera de la picadura mortal. muchas veces despierto con el cuerpo helado, tenso, inmóvil,
-        porque el sueño ha creado para mí, con precisión, el paso cosquilleante de la aralia sobre mi piel, su peso indefinible,
-        su consistencia de entraña. Sin embargo, siempre amanece. estoy vivo y mi alma inútilmente se apresta y se perfecciona.
+        Entonces, estremecido en mi soledad, acorralado por el pequeño monstruo,
+        recuerdo que en otro tiempo yo soñaba en Beatriz y en su compañía imposible.
         */
 
-        /*int cont = 616;
+        /*int cont = 1098;
 
-        String s = "estoy vivo y mi alma inútilmente se apresta y se perfecciona";
+        String s = "soñaba en beatriz y en su compañía imposible x";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
@@ -48,14 +47,15 @@ public class MyClass {
         }*/
 
         /*
-        todas las noches tiemblo en espera de la picadura mortal. muchas veces despierto con el cuerpo helado, tenso, inmóvil,
-        porque el sueño ha creado para mí, con precisión, el paso cosquilleante de la aralia sobre mi piel, su peso indefinible,
-        su consistencia de entraña. Sin embargo, siempre amanece. estoy vivo y mi alma inútilmente se apresta y se perfecciona.
+        hay días en que pienso que la migala ha desaparecido, que se ha extraviado o que ha muerto.
+        Pero no hago nada para comprobarlo. Dejo siempre que el azar me vuelva a poner frente a ella,
+        al salir del baño, o mientras me desvisto para echarme en la cama. a veces el silencio de la
+        noche me trae el eco de sus pasos, que he aprendido a oír, aunque sé que son imperceptibles.
         */
 
-        /*int cont = 636;
+        int cont = 638;
 
-        String s = "perfecciona remove";
+        String s = "hay días en";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
@@ -132,6 +132,6 @@ public class MyClass {
             System.out.println("}");
             System.out.println("");
             cont++;
-        }*/
+        }
     }
 }
