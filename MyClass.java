@@ -47,15 +47,13 @@ public class MyClass {
         }*/
 
         /*
-        hay días en que pienso que la migala ha desaparecido, que se ha extraviado o que ha muerto.
-        Pero no hago nada para comprobarlo. Dejo siempre que el azar me vuelva a poner frente a ella,
-        al salir del baño, o mientras me desvisto para echarme en la cama. a veces el silencio de la
-        noche me trae el eco de sus pasos, que he aprendido a oír, aunque sé que son imperceptibles.
+        Entonces, estremecido en mi soledad, acorralado por el pequeño
+        monstruo, recuerdo que en otro tiempo yo soñaba en Beatriz y en su compañía imposible.
         */
 
-        int cont = 638;
+        int cont = 1108;
 
-        String s = "hay días en";
+        String s = "su compañía imposible";
         String[] arr = s.split(" ");
 
         for ( String ss : arr) {
