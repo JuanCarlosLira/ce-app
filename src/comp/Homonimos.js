@@ -1,6 +1,6 @@
 import React from "react";
 import Header from './Header'
-//import "./Drag.css";
+import "../css/Homonimos.css";
 
 class Homonimos extends React.Component {
   state = {
@@ -83,6 +83,18 @@ class Homonimos extends React.Component {
     return (
       <div>
         <Header exerciseHeader="Homónimos" instructions="Observa con atención el banco de imágenes y arrástralas con el mouse hasta la casilla que le corresponda. Presta atención en la escritura correcta de cada palabra."/>
+
+        <div className="container-drag">
+          <div
+            className="bank"
+            //onDragOver={e => this.onDragOver(e)}
+            //onDrop={e => this.onDrop(e, "bank")}
+            id="container"
+          >
+            {imgs.bank}
+          </div>
+          <br />
+        </div>
       </div>
     );
   }

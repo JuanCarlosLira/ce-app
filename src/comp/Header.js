@@ -11,7 +11,7 @@ class Header extends React.Component {
           </div>
           <img alt="Oops, algo salió mal" style={{width: 330, height: 155, marginTop: 'auto', marginBottom: 'auto', marginRight: '10%'}} src="./img/logo.PNG"/>
         </div>
-        <div style={{width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 100}}>
+        <div style={{width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20}}>
           <div className="instruction-box" style={{height: 120}}>
             <p style={{width: '70%', textAlign: 'center'}}>
               {this.props.instructions}
