@@ -14,7 +14,7 @@ import Homonimos from './comp/Homonimos'
   );
 }*/
 
-class HelloWorld extends React.Component {
+/*class HelloWorld extends React.Component {
   state = {
     show: true
   }
@@ -41,7 +41,7 @@ class HelloWorld extends React.Component {
       );
     }
   }
-}
+}*/
 
 function App() {
   return (

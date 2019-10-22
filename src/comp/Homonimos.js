@@ -6,28 +6,100 @@ class Homonimos extends React.Component {
   state = {
     imgs: [
       {
-        name: "a1",
+        name: "maya",
         category: "bank",
         dir:
-          "https://cdn0.iconfinder.com/data/icons/education-70/512/Examtest-512.png"
+          "../img/homonimos/maya.jpg"
       },
       {
-        name: "a2",
+        name: "reusar",
         category: "bank",
         dir:
-          "https://cdn0.iconfinder.com/data/icons/education-70/512/Examtest-512.png"
+          "../img/homonimos/reusar.jpg"
       },
       {
-        name: "b1",
+        name: "vaso",
         category: "bank",
         dir:
-          "https://cdn0.iconfinder.com/data/icons/education-70/512/Examtest-512.png"
+          "../img/homonimos/vaso.jpg"
       },
       {
-        name: "b2",
+        name: "malla",
         category: "bank",
         dir:
-          "https://cdn0.iconfinder.com/data/icons/education-70/512/Examtest-512.png"
+          "../img/homonimos/malla.jpg"
+      },
+      {
+        name: "cocer",
+        category: "bank",
+        dir:
+          "../img/homonimos/cocer.jpg"
+      },
+      {
+        name: "rehusar",
+        category: "bank",
+        dir:
+          "../img/homonimos/rehusar.jpg"
+      },
+      {
+        name: "valla",
+        category: "bank",
+        dir:
+          "../img/homonimos/valla.jpg"
+      },
+      {
+        name: "casa",
+        category: "bank",
+        dir:
+          "../img/homonimos/casa.jpg"
+      },
+      {
+        name: "baya",
+        category: "bank",
+        dir:
+          "../img/homonimos/baya.jpg"
+      },
+      {
+        name: "bazo",
+        category: "bank",
+        dir:
+          "../img/homonimos/bazo.jpg"
+      },
+      {
+        name: "cegar",
+        category: "bank",
+        dir:
+          "../img/homonimos/cegar.jpg"
+      },
+      {
+        name: "errar",
+        category: "bank",
+        dir:
+          "../img/homonimos/errar.jpg"
+      },
+      {
+        name: "herrar",
+        category: "bank",
+        dir:
+          "../img/homonimos/herrar.jpg"
+      },
+      {
+        name: "coser",
+        category: "bank",
+        dir:
+          "../img/homonimos/coser.jpg"
+      },
+      {
+        name: "caza",
+        category: "bank",
+        dir:
+          "../img/homonimos/caza.jpg"
+      },
+      {
+        name: "segar",
+        category: "bank",
+        dir:
+          "../img/homonimos/segar.jpg"
       }
     ]
   };
@@ -55,8 +127,8 @@ class Homonimos extends React.Component {
   render() {
     var imgs = {
       bank: [],
-      a1: [],
-      a2: [],
+      maya: [],
+      malla: [],
       b1: [],
       b2: []
     };
@@ -70,11 +142,12 @@ class Homonimos extends React.Component {
           className="draggable"
           style={{
             backgroundImage: "url(" + i.dir + ")",
-            margin: "0px 5px",
-            height: "50px",
-            width: "50px",
+            margin: "5px 5px",
+            height: "100px",
+            width: "100px",
+            borderRadius: "5px",
             backgroundRepeat: "no-repeat",
-            backgroundSize: "50px 50px"
+            backgroundSize: "100px 100px"
           }}
         />
       );
@@ -84,16 +157,42 @@ class Homonimos extends React.Component {
       <div>
         <Header exerciseHeader="Homónimos" instructions="Observa con atención el banco de imágenes y arrástralas con el mouse hasta la casilla que le corresponda. Presta atención en la escritura correcta de cada palabra."/>
 
-        <div className="container-drag">
+        <div className="container-drag" style={{textAlign: "center"}}>
           <div
             className="bank"
-            //onDragOver={e => this.onDragOver(e)}
-            //onDrop={e => this.onDrop(e, "bank")}
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => this.onDrop(e, "bank")}
             id="container"
+            style={{display: "inline-block", width: "70%"}}
           >
             {imgs.bank}
           </div>
           <br />
+
+          <table style={{ width: "100%" }}>
+            <tr>
+              <td>
+                <div
+                  className="maya"
+                  id="container"
+                  onDragOver={e => this.onDragOver(e)}
+                  onDrop={e => this.onDrop(e, "maya")}
+                >
+                  {" "}
+                  <span className="task-header">MAYA</span><br/> {imgs.maya}{" "}
+                </div>{" "}
+              </td>
+              <td>
+                Y
+              </td>
+              <td>
+                Z
+              </td>
+              <td>
+                W
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     );
