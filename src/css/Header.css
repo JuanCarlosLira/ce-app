@@ -1,0 +1,26 @@
+.title-box{
+  background: url(../img/title-box.PNG) no-repeat;
+  transform: translateY(-5px);
+  background-size: 100% 100%;
+  width: 38%;
+  height: 180px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 25px;
+}
+
+.instruction-box{
+  background: url(../img/instruction-box.PNG) no-repeat;
+  background-size: 100% 100%;
+  width: 80%;
+  height: 120px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 20px;
+}

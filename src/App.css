@@ -1,7 +1,7 @@
 /* Check: https://divtable.com/table-styler/ */
 
 .title-box{
-  background: url(img/titlebox.PNG) no-repeat;
+  /*background: url(img/titlebox.PNG) no-repeat;*/
   transform: translateY(-5px);
   background-size: cover;
   width: 38%;
@@ -15,7 +15,7 @@
 }
 
 .instruction-box{
-  background: url(img/instructionbox.PNG) no-repeat;
+  /*background: url(img/instructionbox.PNG) no-repeat;*/
   background-size: cover;
   width: 50%;
   height: 120px;
