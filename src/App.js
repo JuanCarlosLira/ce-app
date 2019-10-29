@@ -3,7 +3,8 @@ import './App.css';
 //import Migala from './Migala'
 //import Crucigrama2 from './Crucigrama2'
 //import Drag from './Drag'
-import Homonimos from './comp/Homonimos'
+//import Homonimos from './comp/Homonimos'
+import Conectores from './comp/Conectores'
 
 /*function HelloWorld(props) {
   return (
@@ -46,7 +47,7 @@ import Homonimos from './comp/Homonimos'
 function App() {
   return (
     <div>
-      <Homonimos/>
+      <Conectores/>
     </div>
   );
 }

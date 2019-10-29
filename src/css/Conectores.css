@@ -1,0 +1,33 @@
+#container {
+  text-align: center;
+}
+#container > div {
+  width: 100px; /* Declare your value. Can be in relative units. */
+  display: inline-block;
+  vertical-align: top;
+
+  /* IE fix. */
+  *display: inline;
+  zoom: 1;
+}
+#container:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
+.task-header {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.orden,
+.idea {
+  width: 20%;
+  float: left;
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  min-height: 150px;
+}
