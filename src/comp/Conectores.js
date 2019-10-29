@@ -1,4 +1,5 @@
 import React from "react";
+import Header from './Header'
 import "../css/Conectores.css";
 
 class Conectores extends React.Component {
@@ -117,9 +118,9 @@ class Conectores extends React.Component {
     });
 
     return (
-      <div className="container-drag">
-        {" "}
-        <p>Conectores</p>
+      <div>
+        <Header exerciseHeader="Conectores" instructions="Observa con atención el banco de palabras y arrástralas con el mouse hasta la casilla que le corresponda."/>
+
         <div
           className="origin"
           onDragOver={e => this.onDragOver(e)}
@@ -156,6 +157,7 @@ class Conectores extends React.Component {
           {tasks.idea}{" "}
         </div>{" "}
       </div>
+
     );
   }
 }
