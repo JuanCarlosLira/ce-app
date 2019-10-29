@@ -4,6 +4,7 @@ import "../css/Conectores.css";
 
 class Conectores extends React.Component {
   state = {
+    compare: false,
     tasks: [
       {
         name: "A continuación",
@@ -173,6 +174,11 @@ class Conectores extends React.Component {
     ]
   };
 
+  updateComparar() {
+    this.setState({compare: !this.state.compare});
+    //console.log(this.state.compare);
+  }
+
   onDragOver = ev => {
     ev.preventDefault();
   };
@@ -217,7 +223,7 @@ class Conectores extends React.Component {
           draggable
           className="draggable"
           style={{
-            backgroundColor: t.category === t.category2 ? "#66ff66" : "#99ccff",
+            backgroundColor: this.state.compare ? (t.category === t.category2 ? "#66ff66" : "#ff6666") : "#99ccff", //t.category === t.category2 ? "#66ff66" : "#99ccff",
             margin: "5px 5px",
             padding: "5px",
             borderRadius: "10px"
@@ -240,35 +246,164 @@ class Conectores extends React.Component {
         >
           {tasks.origin}
         </div>
-        <div
-          className="orden"
-          onDragOver={e => this.onDragOver(e)}
-          onDrop={e => {
-            this.onDrop(e, "orden");
-          }}
-        >
-          {" "}
-          <span className="task-header">
-            Orden cronológico y orden de importancia
-          </span>{" "}
-          {tasks.orden}{" "}
-        </div>{" "}
-        <br />
-        <div
-          className="idea"
-          onDragOver={e => this.onDragOver(e)}
-          onDrop={e => {
-            this.onDrop(e, "idea");
-          }}
-        >
-          {" "}
-          <span className="task-header">
-            Para introducir una idea adicional
-          </span>{" "}
-          {tasks.idea}{" "}
-        </div>{" "}
-      </div>
+        <div id="container">
+          <div
+            className="orden"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "orden");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Orden cronológico y orden de importancia
+            </span>{" "}
+            {tasks.orden}{" "}
+          </div>{" "}
 
+          <div
+            className="idea"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "idea");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir una idea adicional
+            </span>{" "}
+            {tasks.idea}{" "}
+          </div>{" "}
+
+          <div
+            className="contraste"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "contraste");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir un contraste
+            </span>{" "}
+            {tasks.contraste}{" "}
+          </div>{" "}
+
+          <div
+            className="ejemplo"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "ejemplo");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir un ejemplo
+            </span>{" "}
+            {tasks.ejemplo}{" "}
+          </div>{" "}
+
+          <div
+            className="explicacion"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "explicacion");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir una explicación
+            </span>{" "}
+            {tasks.explicacion}{" "}
+          </div>{" "}
+
+          <div
+            className="causa"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "causa");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir causa
+            </span>{" "}
+            {tasks.causa}{" "}
+          </div>{" "}
+
+          <div
+            className="efecto"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "efecto");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir un efecto
+            </span>{" "}
+            {tasks.efecto}{" "}
+          </div>{" "}
+
+          <div
+            className="condicion"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "condicion");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir una condición
+            </span>{" "}
+            {tasks.condicion}{" "}
+          </div>{" "}
+
+          <div
+            className="finalidad"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "finalidad");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir la finalidad
+            </span>{" "}
+            {tasks.finalidad}{" "}
+          </div>{" "}
+
+          <div
+            className="comparacion"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "comparacion");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir una comparación
+            </span>{" "}
+            {tasks.comparacion}{" "}
+          </div>{" "}
+
+          <div
+            className="conclusion"
+            onDragOver={e => this.onDragOver(e)}
+            onDrop={e => {
+              this.onDrop(e, "conclusion");
+            }}
+          >
+            {" "}
+            <span className="task-header">
+              Para introducir una conclusión
+            </span>{" "}
+            {tasks.conclusion}{" "}
+          </div>{" "}
+        </div>
+        <button onClick={this.updateComparar.bind(this)}>Comparar</button>
+        <button>Salir</button>
+      </div>
     );
   }
 }

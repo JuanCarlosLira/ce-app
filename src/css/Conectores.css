@@ -5,6 +5,7 @@
   min-width: 8%; /* Declare your value. Can be in relative units. */
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 
   /* IE fix. */
   *display: inline;
@@ -21,10 +22,12 @@
   font-size: 14pt;
 }
 
-.orden,
+.orden, .contraste, .ejemplo,
+.explicacion, .causa, .efecto,
+.condicion, .finalidad, .comparacion,
+.conclusion,
 .idea {
   width: 20%;
-  float: left;
   padding: 3px;
   margin: 10px;
   border: 1px solid black;
