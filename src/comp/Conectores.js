@@ -34,31 +34,142 @@ class Conectores extends React.Component {
         name: "Asimismo",
         category: "origin",
         category2: "idea"
-      }
-      /*{ name: "Lo más importante", category: "origin", bgcolor: "#99ccff" },
-      { name: "En último término", category: "origin", bgcolor: "#99ccff" },
-      { name: "Por último", category: "origin", bgcolor: "#99ccff" },
-      { name: "Por fin", category: "origin", bgcolor: "#99ccff" },
-      { name: "Primero,", category: "origin", bgcolor: "#99ccff" },
-      { name: "En primer lugar", category: "origin", bgcolor: "#99ccff" },
-      { name: "Antes que nada", category: "origin", bgcolor: "#99ccff" },
-      { name: "Ante todo", category: "origin", bgcolor: "#99ccff" },
-      { name: "Mientras", category: "origin", bgcolor: "#99ccff" },
-      { name: "Después", category: "origin", bgcolor: "#99ccff" },
-      { name: "Y", category: "origin", bgcolor: "#99ccff" },
-      { name: "Además", category: "origin", bgcolor: "#99ccff" },
-      { name: "Asimismo", category: "origin", bgcolor: "#99ccff" },
-      {
-        name: "Algo semejante ocurre con",
-        category: "origin",
-        bgcolor: "#99ccff"
       },
-      { name: "Al mismo tiempo", category: "origin", bgcolor: "#99ccff" },
-      { name: "También", category: "origin", bgcolor: "#99ccff" },
-      { name: "Pero", category: "origin", bgcolor: "#99ccff" },
-      { name: "Sin embargo", category: "origin", bgcolor: "#99ccff" },
-      { name: "Ahora bien", category: "origin", bgcolor: "#99ccff" },
-      { name: "Aunque", category: "origin", bgcolor: "#99ccff" }*/
+      {
+        name: "Sin Embargo",
+        category: "origin",
+        category2: "contraste"
+      },
+      {
+        name: "Ahora bien",
+        category: "origin",
+        category2: "contraste"
+      },
+      {
+        name: "No Obstante",
+        category: "origin",
+        category2: "contraste"
+      },
+      {
+        name: "Por ejemplo",
+        category: "origin",
+        category2: "ejemplo"
+      },
+      {
+        name: "Tal como",
+        category: "origin",
+        category2: "ejemplo"
+      },
+      {
+        name: "Un ejemplo de",
+        category: "origin",
+        category2: "ejemplo"
+      },
+      {
+        name: "Es decir",
+        category: "origin",
+        category2: "explicacion"
+      },
+      {
+        name: "En otras palabras",
+        category: "origin",
+        category2: "explicacion"
+      },
+      {
+        name: "Esto es",
+        category: "origin",
+        category2: "explicacion"
+      },
+      {
+        name: "Puesto que",
+        category: "origin",
+        category2: "causa"
+      },
+      {
+        name: "Debido a",
+        category: "origin",
+        category2: "causa"
+      },
+      {
+        name: "Ya que",
+        category: "origin",
+        category2: "causa"
+      },
+      {
+        name: "Por consiguiente",
+        category: "origin",
+        category2: "efecto"
+      },
+      {
+        name: "Por lo tanto",
+        category: "origin",
+        category2: "efecto"
+      },
+      {
+        name: "De ahí que",
+        category: "origin",
+        category2: "efecto"
+      },
+      {
+        name: "Siempre que",
+        category: "origin",
+        category2: "condicion"
+      },
+      {
+        name: "Si",
+        category: "origin",
+        category2: "condicion"
+      },
+      {
+        name: "Supongamos",
+        category: "origin",
+        category2: "condicion"
+      },
+      {
+        name: "Con objeto de",
+        category: "origin",
+        category2: "finalidad"
+      },
+      {
+        name: "A fin de que",
+        category: "origin",
+        category2: "finalidad"
+      },
+      {
+        name: "Con la intención de",
+        category: "origin",
+        category2: "finalidad"
+      },
+      {
+        name: "Al igual que",
+        category: "origin",
+        category2: "comparacion"
+      },
+      {
+        name: "Del mismo modo",
+        category: "origin",
+        category2: "comparacion"
+      },
+      {
+        name: "De modo similar",
+        category: "origin",
+        category2: "comparacion"
+      },
+      {
+        name: "En resumen",
+        category: "origin",
+        category2: "conclusion"
+      },
+      {
+        name: "En síntesis",
+        category: "origin",
+        category2: "conclusion"
+      },
+      {
+        name: "Para concluir",
+        category: "origin",
+        category2: "conclusion"
+      }
     ]
   };
 
