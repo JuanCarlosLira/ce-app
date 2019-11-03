@@ -5,7 +5,6 @@ import './App.css';
 //import Drag from './Drag'
 //import Homonimos from './comp/Homonimos'
 import Conectores from './comp/Conectores'
-import Scores from './comp/Scores'
 
 /*function HelloWorld(props) {
   return (
@@ -48,7 +47,6 @@ import Scores from './comp/Scores'
 function App() {
   return (
     <div>
-      <Scores score="7" maxScore="10"/>
       <Conectores/>
     </div>
   );

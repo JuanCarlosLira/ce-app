@@ -7,7 +7,7 @@ class Scores extends React.Component {
   render() {
     var my_ret = <Score1 score={this.props.score} maxScore={this.props.maxScore}/>
 
-    if (this.props.score === this.props.maxScore) {
+    if (this.props.score >= this.props.maxScore) {
        my_ret = <Score0 score={this.props.score} maxScore={this.props.maxScore}/>
     }
     else if (this.props.score/this.props.maxScore <= 0.4) {

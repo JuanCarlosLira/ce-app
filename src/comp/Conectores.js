@@ -1,8 +1,10 @@
 import React from "react";
 import Header from './Header'
 import "../css/Conectores.css";
+import Scores from './Scores'
 
 class Conectores extends React.Component {
+  score = 0;
   state = {
     compare: false,
     tasks: [
@@ -234,6 +236,13 @@ class Conectores extends React.Component {
       );
     });
 
+    this.score = 0;
+    this.state.tasks.forEach(t =>{
+      if (t.category === t.category2) {
+        this.score++;
+      }
+    })
+
     return (
       <div>
         <Header exerciseHeader="Conectores" instructions="Observa con atención el banco de palabras y arrástralas con el mouse hasta la casilla que le corresponda."/>
@@ -401,6 +410,9 @@ class Conectores extends React.Component {
             {tasks.conclusion}{" "}
           </div>{" "}
         </div>
+        {this.state.compare &&
+          <Scores score={this.score} maxScore="33"/>
+        }
         <button onClick={this.updateComparar.bind(this)}>Comparar</button>
         <button>Salir</button>
       </div>
