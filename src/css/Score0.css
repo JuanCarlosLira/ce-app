@@ -1,0 +1,28 @@
+.imageCard0{
+  background: url(../img/good_one.PNG) no-repeat;
+  background-size: 200% 160%;
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+  background-position: center;
+}
+.imageCard1{
+  background: url(../img/medium_one.PNG) no-repeat;
+  background-size: 200% 160%;
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+  background-position: center;
+}
+.imageCard2{
+  background: url(../img/bad_one.PNG) no-repeat;
+  background-size: 200% 160%;
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+  background-position: center;
+}
+
+.textCard{
+  transform: translate(36%, 150px);
+}
