@@ -245,7 +245,7 @@ class Conectores extends React.Component {
 
     return (
       <div>
-        <Header exerciseHeader="Conectores" instructions="Observa con atención el banco de palabras y arrástralas con el mouse hasta la casilla que le corresponda."/>
+        <Header exerciseHeader="Conectores" instructions="Observa con atención el banco de palabras y arrástralas con el mouse hasta la casilla que le corresponda. (3 respuestas por recuadro)"/>
 
         <div
           className="origin"

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 //import Migala from './Migala'
-//import Crucigrama2 from './Crucigrama2'
+import Crucigrama2 from './Crucigrama2'
 //import Drag from './Drag'
-//import Homonimos from './comp/Homonimos'
+import Homonimos from './comp/Homonimos'
 import Conectores from './comp/Conectores'
 import ViciosLen from './comp/ViciosLen'
 
@@ -48,8 +48,10 @@ import ViciosLen from './comp/ViciosLen'
 function App() {
   return (
     <div>
-      <ViciosLen/>
+      <Homonimos/>
       <Conectores/>
+      <ViciosLen/>
+      <Crucigrama2/>
     </div>
   );
 }
