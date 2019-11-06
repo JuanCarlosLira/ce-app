@@ -5,6 +5,7 @@ import './App.css';
 //import Drag from './Drag'
 //import Homonimos from './comp/Homonimos'
 import Conectores from './comp/Conectores'
+import ViciosLen from './comp/ViciosLen'
 
 /*function HelloWorld(props) {
   return (
@@ -47,6 +48,7 @@ import Conectores from './comp/Conectores'
 function App() {
   return (
     <div>
+      <ViciosLen/>
       <Conectores/>
     </div>
   );
