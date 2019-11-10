@@ -8,6 +8,7 @@ class ViciosLen extends React.Component {
   score1 = 0;
   state = {
     compare: false,
+    compare2: false,
     f0: false,
     f1: false,
     f2: false,
@@ -15,11 +16,28 @@ class ViciosLen extends React.Component {
     f4: false,
     f5: false,
     f6: false,
-    f7: false
+    f7: false,
+    g0: 0
   }
 
   updateComparar() {
     this.setState({compare: !this.state.compare});
+  }
+  updateComparar2() {
+    this.setState({compare2: !this.state.compare2});
+  }
+
+  g00 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g0: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g0: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g0: 3});
+    }
+    //console.log(this.state.g0);
   }
 
   _handleChange0 = (event) => {
@@ -260,6 +278,147 @@ class ViciosLen extends React.Component {
             <Scores score={this.score1} maxScore="8"/>
           }
           <button onClick={this.updateComparar.bind(this)}>Comparar</button>
+          <button>Salir</button>
+        </div>
+
+        <br/>
+
+        <div style={{width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20}}>
+          <div className="instruction-box" style={{height: 120}}>
+            <p style={{width: '70%', textAlign: 'center'}}>
+              Lee cuidadosamente cada ejemplo e identifica el VICIO DE LA LENGUA. Identifica de qué tipo de error se trata; ilumina con el mouse la casilla correspondiente. Se marcará con rojo, si la respuesta es incorrecta y con verde cuando tu respuesta sea la correcta (15 aciertos).
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <table cellPadding="10px" style={{tableLayout: "fixed", textAlign: "left", width: '70%', borderCollapse: "collapse", display: "inline-block"}}>
+            <tr class="lightBlueBg">
+              <td style={{width: '45%'}}>Se venden bolsas para damas de cuero.</td>
+              <td>
+                <button class='selButLeft' value="1" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? "salmon":(this.state.g0 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? "salmon":(this.state.g0 === 2 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButRight' value="3" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? "salmon":(this.state.g0 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
+              </td>
+            </tr>
+            <tr class="lightWhiteBg">
+              <td>El vestido de Regina estaba muy <i>nice</i>.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+              </td>
+            </tr>
+            <tr class="lightBlueBg">
+              <td>El hijo de la vecina <ins>se recibió</ins> de doctor hace un año.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Solecismo</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+              </td>
+            </tr>
+            <tr class="lightWhiteBg">
+              <td>¡Ay, tu amigo estaba <ins>bien</ins> guapo!</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+              </td>
+            </tr>
+            <tr class="lightBlueBg">
+              <td>Ojalá que no <ins>haiga</ins> problemas a la hora de la entrada.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+              </td>
+            </tr>
+            <tr class="lightWhiteBg">
+              <td><ins>Habemos</ins> muchos interesados en el torneo de fútbol rápido.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Solecismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+              </td>
+            </tr>
+            <tr class="lightBlueBg">
+              <td>¡<ins>Dizque</ins> me estaban guardando un lugar! Nadie les cree, ¡eh!</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+              </td>
+            </tr>
+            <tr class="lightWhiteBg">
+              <td>Aquí armamos paquetes de niños útiles.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+              </td>
+            </tr>
+            <tr class="lightBlueBg">
+              <td>Estuvimos asando la carne y ¡se hizo una <ins>humadera</ins>!</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Pleonasmo</button>
+              </td>
+            </tr>
+            <tr class="lightWhiteBg">
+              <td>¡Ay ya, <i>my sweetest heart</i>, no te enojes conmigo!</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+              </td>
+            </tr>
+            <tr class="lightBlueBg">
+              <td>Espero que llegue hasta acá la luz iluminada, para que podamos ver el camino.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Pleonasmo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
+              </td>
+            </tr>
+            <tr class="lightWhiteBg">
+              <td>Híjole, es que después de que fuiste se puso <ins>bien</ins> triste.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+              </td>
+            </tr>
+            <tr class="lightBlueBg">
+              <td>La mera verdad es que <ins>naiden</ins> me avisó del paseo.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Pleonasmo </button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+              </td>
+            </tr>
+            <tr class="lightWhiteBg">
+              <td>La<ins>s</ins> gente<ins>s</ins> andaban bien extraviadas.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Concordancia</button>
+              </td>
+            </tr>
+            <tr class="lightBlueBg">
+              <td>¡Ya deja de <ins>influenciar</ins> a tus amigos! Que ellos solitos tomen sus decisiones.</td>
+              <td>
+                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
+              </td>
+            </tr>
+          </table>
+          <br/>
+          {this.state.compare2 &&
+            <Scores score={this.score1} maxScore="15"/>
+          }
+          <button onClick={this.updateComparar2.bind(this)}>Comparar</button>
           <button>Salir</button>
         </div>
       </div>
