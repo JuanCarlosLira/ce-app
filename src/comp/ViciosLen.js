@@ -26,10 +26,8 @@ class ViciosLen extends React.Component {
     //this.setState({ value: event.target.value })
     if (event.target.value === "4"){
       this.setState({f0: true});
-      this.score1++;
     } else {
       this.setState({f0: false});
-      this.score1--;
     }
     //console.log(event.target.value);
     //console.log(this.state.f0);
@@ -37,68 +35,63 @@ class ViciosLen extends React.Component {
   _handleChange1 = (event) => {
     if (event.target.value === "6"){
       this.setState({f1: true});
-      this.score1++;
     } else {
       this.setState({f1: false});
-      this.score1--;
     }
   }
   _handleChange2 = (event) => {
     if (event.target.value === "7"){
       this.setState({f2: true});
-      this.score1++;
     } else {
       this.setState({f2: false});
-      this.score1--;
     }
   }
   _handleChange3 = (event) => {
     if (event.target.value === "1"){
       this.setState({f3: true});
-      this.score1++;
     } else {
       this.setState({f3: false});
-      this.score1--;
     }
   }
   _handleChange4 = (event) => {
     if (event.target.value === "8"){
       this.setState({f4: true});
-      this.score1++;
     } else {
       this.setState({f4: false});
-      this.score1--;
     }
   }
   _handleChange5 = (event) => {
     if (event.target.value === "2"){
       this.setState({f5: true});
-      this.score1++;
     } else {
       this.setState({f5: false});
-      this.score1--;
     }
   }
   _handleChange6 = (event) => {
     if (event.target.value === "5"){
       this.setState({f6: true});
-      this.score1++;
     } else {
       this.setState({f6: false});
-      this.score1--;
     }
   }
   _handleChange7 = (event) => {
     if (event.target.value === "3"){
       this.setState({f7: true});
-      this.score1++;
     } else {
       this.setState({f7: false});
-      this.score1--;
     }
   }
 
   render() {
+    this.score1 = 0;
+    if (this.state.f0) {this.score1++;}
+    if (this.state.f1) {this.score1++;}
+    if (this.state.f2) {this.score1++;}
+    if (this.state.f3) {this.score1++;}
+    if (this.state.f4) {this.score1++;}
+    if (this.state.f5) {this.score1++;}
+    if (this.state.f6) {this.score1++;}
+    if (this.state.f7) {this.score1++;}
     return(
       <div style={{width: '100%', textAlign: 'center'}}>
         <Header exerciseHeader="Vicios de la Lengua" instructions="Relaciona correctamente las columnas, a partir de la definición y el ejemplo del vicio correspondiente. Debes anotar el número de respuesta dentro del recuadro."/>

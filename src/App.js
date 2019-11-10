@@ -48,10 +48,10 @@ import ViciosLen from './comp/ViciosLen'
 function App() {
   return (
     <div>
-      <Homonimos/>
+      {/*<Homonimos/>
       <Conectores/>
+      <Crucigrama2/>*/}
       <ViciosLen/>
-      <Crucigrama2/>
     </div>
   );
 }
