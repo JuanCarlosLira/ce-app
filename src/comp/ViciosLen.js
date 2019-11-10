@@ -6,6 +6,7 @@ import "../css/ViciosLen.css";
 
 class ViciosLen extends React.Component {
   score1 = 0;
+  score2 = 0;
   state = {
     compare: false,
     compare2: false,
@@ -17,7 +18,21 @@ class ViciosLen extends React.Component {
     f5: false,
     f6: false,
     f7: false,
-    g0: 0
+    g0: 0,
+    g1: 0,
+    g2: 0,
+    g3: 0,
+    g4: 0,
+    g5: 0,
+    g6: 0,
+    g7: 0,
+    g8: 0,
+    g9: 0,
+    g10: 0,
+    g11: 0,
+    g12: 0,
+    g13: 0,
+    g14: 0,
   }
 
   updateComparar() {
@@ -38,6 +53,160 @@ class ViciosLen extends React.Component {
       this.setState({g0: 3});
     }
     //console.log(this.state.g0);
+  }
+  g01 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g1: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g1: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g1: 3});
+    }
+  }
+  g02 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g2: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g2: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g2: 3});
+    }
+  }
+  g03 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g3: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g3: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g3: 3});
+    }
+  }
+  g04 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g4: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g4: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g4: 3});
+    }
+  }
+  g05 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g5: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g5: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g5: 3});
+    }
+  }
+  g06 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g6: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g6: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g6: 3});
+    }
+  }
+  g07 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g7: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g7: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g7: 3});
+    }
+  }
+  g08 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g8: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g8: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g8: 3});
+    }
+  }
+  g09 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g9: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g9: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g9: 3});
+    }
+  }
+  g10 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g10: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g10: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g10: 3});
+    }
+  }
+  g11 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g11: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g11: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g11: 3});
+    }
+  }
+  g12 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g12: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g12: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g12: 3});
+    }
+  }
+  g13 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g13: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g13: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g13: 3});
+    }
+  }
+  g14 = (event) => {
+    if (event.target.value === "1") {
+      this.setState({g14: 1});
+    }
+    if (event.target.value === "2") {
+      this.setState({g14: 2});
+    }
+    if (event.target.value === "3") {
+      this.setState({g14: 3});
+    }
   }
 
   _handleChange0 = (event) => {
@@ -110,6 +279,23 @@ class ViciosLen extends React.Component {
     if (this.state.f5) {this.score1++;}
     if (this.state.f6) {this.score1++;}
     if (this.state.f7) {this.score1++;}
+
+    this.score2 = 0;
+    if (this.state.g0  === 1 ) {this.score2++;}
+    if (this.state.g1  === 3 ) {this.score2++;}
+    if (this.state.g2  === 2 ) {this.score2++;}
+    if (this.state.g3  === 3 ) {this.score2++;}
+    if (this.state.g4  === 1 ) {this.score2++;}
+    if (this.state.g5  === 2 ) {this.score2++;}
+    if (this.state.g6  === 2 ) {this.score2++;}
+    if (this.state.g7  === 1 ) {this.score2++;}
+    if (this.state.g8  === 2 ) {this.score2++;}
+    if (this.state.g9  === 3 ) {this.score2++;}
+    if (this.state.g10 === 2 ) {this.score2++;}
+    if (this.state.g11 === 3 ) {this.score2++;}
+    if (this.state.g12 === 3 ) {this.score2++;}
+    if (this.state.g13 === 3 ) {this.score2++;}
+    if (this.state.g14 === 1 ) {this.score2++;}
     return(
       <div style={{width: '100%', textAlign: 'center'}}>
         <Header exerciseHeader="Vicios de la Lengua" instructions="Relaciona correctamente las columnas, a partir de la definición y el ejemplo del vicio correspondiente. Debes anotar el número de respuesta dentro del recuadro."/>
@@ -296,127 +482,127 @@ class ViciosLen extends React.Component {
             <tr class="lightBlueBg">
               <td style={{width: '45%'}}>Se venden bolsas para damas de cuero.</td>
               <td>
-                <button class='selButLeft' value="1" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? "salmon":(this.state.g0 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
-                <button class='selButCenter' value="2" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? "salmon":(this.state.g0 === 2 ? "Gray":"LightGray")}}>Barbarismo</button>
-                <button class='selButRight' value="3" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? "salmon":(this.state.g0 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
+                <button class='selButLeft' value="1" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g0 === 1 ? "lightgreen":"LightGray"):(this.state.g0 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g0 === 2 ? "salmon":"LightGray"):(this.state.g0 === 2 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButRight' value="3" onClick={this.g00.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g0 === 3 ? "salmon":"LightGray"):(this.state.g0 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
               </td>
             </tr>
             <tr class="lightWhiteBg">
               <td>El vestido de Regina estaba muy <i>nice</i>.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButLeft' value="1" onClick={this.g01.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g1 === 1 ? "salmon":"LightGray"):(this.state.g1 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g01.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g1 === 2 ? "salmon":"LightGray"):(this.state.g1 === 2 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButRight' value="3" onClick={this.g01.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g1 === 3 ? "lightgreen":"LightGray"):(this.state.g1 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
               </td>
             </tr>
             <tr class="lightBlueBg">
               <td>El hijo de la vecina <ins>se recibió</ins> de doctor hace un año.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Solecismo</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButLeft' value="1" onClick={this.g02.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g2 === 1 ? "salmon":"LightGray"):(this.state.g2 === 1 ? "Gray":"LightGray")}}>Solecismo</button>
+                <button class='selButCenter' value="2" onClick={this.g02.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g2 === 2 ? "lightgreen":"LightGray"):(this.state.g2 === 2 ? "Gray":"LightGray")}}>Arcaísmo</button>
+                <button class='selButRight' value="3" onClick={this.g02.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g2 === 3 ? "salmon":"LightGray"):(this.state.g2 === 3 ? "Gray":"LightGray")}}>Barbarismo</button>
               </td>
             </tr>
             <tr class="lightWhiteBg">
               <td>¡Ay, tu amigo estaba <ins>bien</ins> guapo!</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+                <button class='selButLeft' value="1" onClick={this.g03.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g3 === 1 ? "salmon":"LightGray"):(this.state.g3 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g03.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g3 === 2 ? "salmon":"LightGray"):(this.state.g3 === 2 ? "Gray":"LightGray")}}>Extranjerismo</button>
+                <button class='selButRight' value="3" onClick={this.g03.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g3 === 3 ? "lightgreen":"LightGray"):(this.state.g3 === 3 ? "Gray":"LightGray")}}>Impropiedad</button>
               </td>
             </tr>
             <tr class="lightBlueBg">
               <td>Ojalá que no <ins>haiga</ins> problemas a la hora de la entrada.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+                <button class='selButLeft' value="1" onClick={this.g04.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g4 === 1 ? "lightgreen":"LightGray"):(this.state.g4 === 1 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButCenter' value="2" onClick={this.g04.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g4 === 2 ? "salmon":"LightGray"):(this.state.g4 === 2 ? "Gray":"LightGray")}}>Extranjerismo</button>
+                <button class='selButRight' value="3" onClick={this.g04.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g4 === 3 ? "salmon":"LightGray"):(this.state.g4 === 3 ? "Gray":"LightGray")}}>Impropiedad</button>
               </td>
             </tr>
             <tr class="lightWhiteBg">
               <td><ins>Habemos</ins> muchos interesados en el torneo de fútbol rápido.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Solecismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButLeft' value="1" onClick={this.g05.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g5 === 1 ? "salmon":"LightGray"):(this.state.g5 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g05.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g5 === 2 ? "lightgreen":"LightGray"):(this.state.g5 === 2 ? "Gray":"LightGray")}}>Solecismo</button>
+                <button class='selButRight' value="3" onClick={this.g05.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g5 === 3 ? "salmon":"LightGray"):(this.state.g5 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
               </td>
             </tr>
             <tr class="lightBlueBg">
               <td>¡<ins>Dizque</ins> me estaban guardando un lugar! Nadie les cree, ¡eh!</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButLeft' value="1" onClick={this.g06.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g6 === 1 ? "salmon":"LightGray"):(this.state.g6 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g06.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g6 === 2 ? "lightgreen":"LightGray"):(this.state.g6 === 2 ? "Gray":"LightGray")}}>Arcaísmo</button>
+                <button class='selButRight' value="3" onClick={this.g06.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g6 === 3 ? "salmon":"LightGray"):(this.state.g6 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
               </td>
             </tr>
             <tr class="lightWhiteBg">
               <td>Aquí armamos paquetes de niños útiles.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButLeft' value="1" onClick={this.g07.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g7 === 1 ? "lightgreen":"LightGray"):(this.state.g7 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g07.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g7 === 2 ? "salmon":"LightGray"):(this.state.g7 === 2 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButRight' value="3" onClick={this.g07.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g7 === 3 ? "salmon":"LightGray"):(this.state.g7 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
               </td>
             </tr>
             <tr class="lightBlueBg">
               <td>Estuvimos asando la carne y ¡se hizo una <ins>humadera</ins>!</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Pleonasmo</button>
+                <button class='selButLeft' value="1" onClick={this.g08.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g8 === 1 ? "salmon":"LightGray"):(this.state.g8 === 1 ? "Gray":"LightGray")}}>Arcaísmo</button>
+                <button class='selButCenter' value="2" onClick={this.g08.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g8 === 2 ? "lightgreen":"LightGray"):(this.state.g8 === 2 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButRight' value="3" onClick={this.g08.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g8 === 3 ? "salmon":"LightGray"):(this.state.g8 === 3 ? "Gray":"LightGray")}}>Pleonasmo</button>
               </td>
             </tr>
             <tr class="lightWhiteBg">
               <td>¡Ay ya, <i>my sweetest heart</i>, no te enojes conmigo!</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
+                <button class='selButLeft' value="1" onClick={this.g09.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g9 === 1 ? "salmon":"LightGray"):(this.state.g9 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g09.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g9 === 2 ? "salmon":"LightGray"):(this.state.g9 === 2 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButRight' value="3" onClick={this.g09.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g9 === 3 ? "lightgreen":"LightGray"):(this.state.g9 === 3 ? "Gray":"LightGray")}}>Extranjerismo</button>
               </td>
             </tr>
             <tr class="lightBlueBg">
               <td>Espero que llegue hasta acá la luz iluminada, para que podamos ver el camino.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Pleonasmo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
+                <button class='selButLeft' value="1" onClick={this.g10.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g10 === 1 ? "salmon":"LightGray"):(this.state.g10 === 1 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButCenter' value="2" onClick={this.g10.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g10 === 2 ? "lightgreen":"LightGray"):(this.state.g10 === 2 ? "Gray":"LightGray")}}>Pleonasmo</button>
+                <button class='selButRight' value="3" onClick={this.g10.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g10 === 3 ? "salmon":"LightGray"):(this.state.g10 === 3 ? "Gray":"LightGray")}}>Arcaísmo</button>
               </td>
             </tr>
             <tr class="lightWhiteBg">
               <td>Híjole, es que después de que fuiste se puso <ins>bien</ins> triste.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Extranjerismo</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
+                <button class='selButLeft' value="1" onClick={this.g11.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g11 === 1 ? "salmon":"LightGray"):(this.state.g11 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g11.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g11 === 2 ? "salmon":"LightGray"):(this.state.g11 === 2 ? "Gray":"LightGray")}}>Extranjerismo</button>
+                <button class='selButRight' value="3" onClick={this.g11.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g11 === 3 ? "lightgreen":"LightGray"):(this.state.g11 === 3 ? "Gray":"LightGray")}}>Impropiedad</button>
               </td>
             </tr>
             <tr class="lightBlueBg">
               <td>La mera verdad es que <ins>naiden</ins> me avisó del paseo.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Pleonasmo </button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
+                <button class='selButLeft' value="1" onClick={this.g12.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g12 === 1 ? "salmon":"LightGray"):(this.state.g12 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g12.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g12 === 2 ? "salmon":"LightGray"):(this.state.g12 === 2 ? "Gray":"LightGray")}}>Pleonasmo </button>
+                <button class='selButRight' value="3" onClick={this.g12.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g12 === 3 ? "lightgreen":"LightGray"):(this.state.g12 === 3 ? "Gray":"LightGray")}}>Barbarismo</button>
               </td>
             </tr>
             <tr class="lightWhiteBg">
               <td>La<ins>s</ins> gente<ins>s</ins> andaban bien extraviadas.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Anfibología</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Concordancia</button>
+                <button class='selButLeft' value="1" onClick={this.g13.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g13 === 1 ? "salmon":"LightGray"):(this.state.g13 === 1 ? "Gray":"LightGray")}}>Anfibología</button>
+                <button class='selButCenter' value="2" onClick={this.g13.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g13 === 2 ? "salmon":"LightGray"):(this.state.g13 === 2 ? "Gray":"LightGray")}}>Impropiedad</button>
+                <button class='selButRight' value="3" onClick={this.g13.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g13 === 3 ? "lightgreen":"LightGray"):(this.state.g13 === 3 ? "Gray":"LightGray")}}>Concordancia</button>
               </td>
             </tr>
             <tr class="lightBlueBg">
               <td>¡Ya deja de <ins>influenciar</ins> a tus amigos! Que ellos solitos tomen sus decisiones.</td>
               <td>
-                <button class='selButLeft' onClick={this.updateComparar.bind(this)}>Barbarismo</button>
-                <button class='selButCenter' onClick={this.updateComparar.bind(this)}>Impropiedad</button>
-                <button class='selButRight' onClick={this.updateComparar.bind(this)}>Arcaísmo</button>
+                <button class='selButLeft' value="1" onClick={this.g14.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g14 === 1 ? "lightgreen":"LightGray"):(this.state.g14 === 1 ? "Gray":"LightGray")}}>Barbarismo</button>
+                <button class='selButCenter' value="2" onClick={this.g14.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g14 === 2 ? "salmon":"LightGray"):(this.state.g14 === 2 ? "Gray":"LightGray")}}>Impropiedad</button>
+                <button class='selButRight' value="3" onClick={this.g14.bind(this)} style={{backgroundColor: this.state.compare2 ? (this.state.g14 === 3 ? "salmon":"LightGray"):(this.state.g14 === 3 ? "Gray":"LightGray")}}>Arcaísmo</button>
               </td>
             </tr>
           </table>
           <br/>
           {this.state.compare2 &&
-            <Scores score={this.score1} maxScore="15"/>
+            <Scores score={this.score2} maxScore="15"/>
           }
           <button onClick={this.updateComparar2.bind(this)}>Comparar</button>
           <button>Salir</button>
