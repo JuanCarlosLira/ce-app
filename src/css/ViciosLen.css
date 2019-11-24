@@ -4,6 +4,13 @@
 .lightWhiteBg {
   background: seashell;
 }
+.darkBlueBg {
+  background: cornflowerblue;
+}
+
+.bT {
+  font-size: 18pt;
+}
 
 .selButLeft {
   border-top-left-radius: 10px;
