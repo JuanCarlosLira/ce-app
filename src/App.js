@@ -7,6 +7,7 @@ import Homonimos from './comp/Homonimos'
 import Conectores from './comp/Conectores'
 import ViciosLen from './comp/ViciosLen'
 import ViciosLen2 from './comp/ViciosLen2'
+import Punt from './comp/Punt'
 
 /*function HelloWorld(props) {
   return (
@@ -52,7 +53,9 @@ function App() {
       {/*<Homonimos/>
       <Conectores/>
       <Crucigrama2/>
-      <ViciosLen/>*/}
+      <ViciosLen/>
+      <ViciosLen2/>
+      <Punt/>*/}
       <ViciosLen2/>
     </div>
   );

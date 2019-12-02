@@ -1,9 +1,10 @@
 import React from "react";
 import Header from './Header'
-//import Scores from './Scores'
+import Scores from './Scores'
 import "../css/ViciosLen.css";
 
 class ViciosLen2 extends React.Component {
+  score = 0;
   state = {
     compare: false,
     b000: false,
@@ -409,7 +410,69 @@ class ViciosLen2 extends React.Component {
   }
 
   updateComparar() {
+    this.calculateScore()
     this.setState({compare: !this.state.compare});
+  }
+  calculateScore() {
+    this.score = 0;
+    if(this.state.b027 && this.state.b048 && this.state.b069
+       && this.state.b090 && this.state.b111 && this.state.b132
+       && this.state.b153 && this.state.b174 && this.state.b195
+       && this.state.b216 && this.state.b237) {
+      this.score++;   // REDUNDANCIA
+    }
+    if(this.state.b044 && this.state.b065  && this.state.b086
+       && this.state.b107 && this.state.b128 && this.state.b149
+       && this.state.b170) {
+      this.score++;   // QUEÍSMO
+    }
+    if(this.state.b171 && this.state.b192  && this.state.b213
+       && this.state.b234 && this.state.b255 && this.state.b276
+       && this.state.b297 && this.state.b318 && this.state.b339
+       && this.state.b360 && this.state.b381) {
+      this.score++;   // ANFIBOLOGÍA
+    }
+    if(this.state.b106 && this.state.b107  && this.state.b108
+       && this.state.b109 && this.state.b110 && this.state.b111
+       && this.state.b112 && this.state.b113 && this.state.b114
+       && this.state.b115 && this.state.b116 && this.state.b117) {
+      this.score++;   // CIRCUNLOQUIO
+    }
+    if(this.state.b152 && this.state.b153  && this.state.b154
+       && this.state.b155 && this.state.b156 && this.state.b157
+       && this.state.b158 && this.state.b159 && this.state.b160
+       && this.state.b161) {
+      this.score++;   // BARBARISMO
+    }
+    if(this.state.b195 && this.state.b196  && this.state.b197
+       && this.state.b198 && this.state.b199 && this.state.b200
+       && this.state.b201 && this.state.b202 && this.state.b203) {
+      this.score++;   // CACOFONÍA
+    }
+    if(this.state.b205 && this.state.b226  && this.state.b247
+       && this.state.b268 && this.state.b289 && this.state.b310
+       && this.state.b331 && this.state.b352 && this.state.b373) {
+      this.score++;   // SOLECISMO
+    }
+    if(this.state.b247 && this.state.b246  && this.state.b245
+       && this.state.b244 && this.state.b243 && this.state.b242
+       && this.state.b241 && this.state.b240 && this.state.b239
+       && this.state.b238 && this.state.b237 && this.state.b236
+       && this.state.b235 && this.state.b234 && this.state.b233
+       && this.state.b232 && this.state.b231) {
+      this.score++;   // PERÍFRASIS VERBAL
+    }
+    if(this.state.b304 && this.state.b305  && this.state.b306
+       && this.state.b307 && this.state.b308 && this.state.b309
+       && this.state.b310 && this.state.b311 && this.state.b312
+       && this.state.b313 && this.state.b314) {
+      this.score++;   // IMPROPIEDAD
+    }
+    if(this.state.b315 && this.state.b316  && this.state.b317
+       && this.state.b318 && this.state.b319 && this.state.b320
+       && this.state.b321 && this.state.b322 && this.state.b323) {
+      this.score++;   // PLEONASMO
+    }
   }
 
   he000 = (event) => {this.setState({ b000: !this.state.b000})}
@@ -2118,7 +2181,7 @@ class ViciosLen2 extends React.Component {
               <td>
               	<button className="bT" style={{backgroundColor: this.state.compare ? (this.state.b398 ? "salmon":"LightGray"):(this.state.b398 ? "Gray":"LightGray")}} onClick={ this.he398 }>S</button>
               </td>
-              
+
             </tr>
             <tr>
             </tr>
@@ -2126,6 +2189,9 @@ class ViciosLen2 extends React.Component {
         </table>
 
         <br/><br/>
+        {this.state.compare &&
+          <Scores score={this.score} maxScore="10"/>
+        }
         <button onClick={this.updateComparar.bind(this)}>Comparar</button>
         <button>Salir</button>
       </div>
