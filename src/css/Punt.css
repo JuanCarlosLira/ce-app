@@ -1,3 +1,9 @@
+.bubble-title {
+	background: #eee0b1;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 10px;
+}
 .speech-bubbleLeft {
 	position: relative;
 	background: PaleTurquoise;
@@ -92,4 +98,18 @@
 	border-top: 0;
 	margin-top: -10px;
 	margin-left: -20px;
+}
+
+select {
+	background-color: #eee0b1;
+  color: black;
+  padding: 12px;
+  width: 20%;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+	border-radius: 8px;
 }

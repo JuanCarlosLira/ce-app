@@ -57,6 +57,7 @@ function App() {
       <ViciosLen2/>
       <Punt/>*/}
       <ViciosLen2/>
+      <Punt/>
     </div>
   );
 }
